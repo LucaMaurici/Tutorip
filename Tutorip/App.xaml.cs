@@ -1,4 +1,5 @@
 ﻿using System;
+using Tutorip.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace Tutorip
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new SearchPage();
         }
 
         protected override void OnStart()

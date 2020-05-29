@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Tutorip.Views.SearchPage"
+             Title="{Binding Title}"
+             x:Name="BrowseItemsPage">
+    <!--BackgroundImageSource="sfondoConLineeObliqueS2"-->
+
+    <StackLayout Padding="10">
+
+        <StackLayout Orientation="Horizontal">
+            <Entry
+                x:Name="en_materia"
+                HorizontalOptions="FillAndExpand"
+                Margin="0,0,0,0">
+            </Entry>
+
+            <Button 
+                x:Name="search_btn"
+                Text="Cerca"
+                Margin="0,0,0,0"
+                CornerRadius="30"
+                BackgroundColor="White"
+                Clicked="search_btn_Clicked">
+            </Button>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label
+                x:Name="lb_posizione"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Margin="15,0,0,0">
+            </Label>
+
+            <Button 
+                x:Name="bt_filtri"
+                Text="Filtri"
+                Margin="0,0,0,0"
+                CornerRadius="30"
+                BackgroundColor="White"
+                Clicked="bt_filtri_Clicked">
+            </Button>
+        </StackLayout>
+
+        <ListView x:Name="insegnanti_list" RowHeight="360" SeparatorVisibility="None" IsVisible="False" ItemTapped="insegnanti_list_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame CornerRadius="30" BackgroundColor="White" Margin="10, 5, 10, 5">
+                            <Grid Padding="20, 10, 20, 20">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="2*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="4*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0"
+                                       Grid.Column="1"
+                                       Text ="5Km"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="End"
+                                       VerticalOptions="Start"
+                                       FontSize="Small">
+                                </Label>
+                                <Label Grid.Row="1"
+                                       Grid.Column="1"
+                                       Text="{Binding email}"
+                                       FontSize="Large"
+                                       FontAttributes="Bold"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+                                <Label Grid.Row="2"
+                                       Grid.Column="1"
+                                       Text="ITIS Faraday, Roma"
+                                       FontSize="Small"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+                                <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center">
+                                    <!--<Image Source="stellina"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center">
+                                    </Image>-->
+                                    <Label Text="4,7 Bravura"
+                                           FontSize="Small"
+                                           FontAttributes="Italic"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center">
+                                    </Label>
+                                </StackLayout>
+                                <Label Grid.Row="4"
+                                       Grid.Column="1"
+                                       Text="4,8 Empatia"
+                                       FontSize="Small"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+                                <Label Grid.Row="5"
+                                       Grid.Column="1"
+                                       Text="4,9 organizzazione"
+                                       FontSize="Small"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+                                <Label Grid.Row="6"
+                                       Grid.Column="1"
+                                       Text="ITIS Faraday, Roma"
+                                       FontSize="Small"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+                                <Label Grid.Row="7"
+                                       Grid.Column="1"
+                                       Text="{Binding tariffa}"
+                                       FontSize="Large"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="End"
+                                       VerticalOptions="End"
+                                       TextColor="Red">
+                                </Label>
+                                <Label Grid.Row="8"
+                                       Grid.Column="0"
+                                       Text="4,8"
+                                       FontSize="Medium"
+                                       FontAttributes="Bold"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                </Label>
+                                <Image Grid.RowSpan="7"
+                                       Source="IconaLogo5"
+                                       Grid.Column="0"
+                                       Grid.Row="0"
+                                       HorizontalOptions="CenterAndExpand"
+                                       VerticalOptions="CenterAndExpand">
+                                </Image>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
