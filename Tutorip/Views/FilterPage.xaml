@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Tutorip.Views.FilterPage"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             CloseWhenBackgroundIsClicked="True"
+             BackgroundColor ="Transparent">
+    <ContentPage.Content>
+        <!--<pages:PopupPage.Animation>
+            <animations:ScaleAnimation 
+                PositionIn="Center"
+                PositionOut="Center"
+                ScaleIn="1.2"
+                ScaleOut="0.8"
+                DurationIn="400"
+                DurationOut="300"
+                EasingIn="SinOut"
+                EasingOut="SinIn"
+                HasBackgroundAnimation="True"/>
+        </pages:PopupPage.Animation>   -->
+        <StackLayout
+            Padding="20" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent">
+            <Label 
+                Text="Personalizza la ricerca"
+                FontSize="Large"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                Margin="0,0,0,0" />
+            <StackLayout 
+                Orientation="Horizontal"
+                Padding="5">
+                <Label 
+                    Text="Tariffa"
+                    FontSize="Medium"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="StartAndExpand" />
+                <StackLayout
+                    Orientation="Horizontal"
+                    HorizontalOptions="EndAndExpand">
+                    <Slider
+                        x:Name="sl_tariffa"
+                        Maximum="80"
+                        WidthRequest="150"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand"
+                        ValueChanged="sl_tariffa_ValueChanged">
+                    </Slider>
+                    <Entry
+                        x:Name="en_tariffa"
+                        Keyboard="Numeric"
+                        WidthRequest="40"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand"
+                        TextChanged="en_tariffa_TextChanged"
+                        >
+                    </Entry>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout 
+                Orientation="Horizontal"
+                Padding="5">
+                <Label 
+                    Text="Valutazione"
+                    FontSize="Medium"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="StartAndExpand" />
+                <StackLayout
+                    Orientation="Horizontal"
+                    HorizontalOptions="EndAndExpand">
+                    <Slider
+                        Maximum="10"
+                        WidthRequest="150"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand">
+                    </Slider>
+                    <Entry
+                        x:Name="en_valutazione"
+                        Keyboard="Numeric"
+                        WidthRequest="40"
+                        Text="8"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand">
+                    </Entry>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout
+                Orientation="Horizontal"
+                >
+                <Button
+                    x:Name="bt_annulla"
+                    Text="Annulla"
+                    WidthRequest="120"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="bt_annulla_Clicked">
+
+                </Button>
+                <Button
+                    x:Name="bt_applica"
+                    Text="Applica"
+                    WidthRequest="120"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="bt_applica_Clicked">
+
+                </Button>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</pages:PopupPage>
