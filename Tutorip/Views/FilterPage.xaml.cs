@@ -33,30 +33,9 @@ namespace Tutorip.Views
 
         private void bt_annulla_Clicked(object sender, EventArgs e)
         {
-            //Navigation.PopAsync();
             parent.Opacity = 1;
             PopupNavigation.Instance.PopAsync(true);
         }
-
-        /*
-        private async void bt_applica_ClickedAsync(object sender, EventArgs e)
-        {
-            filtri.tariffaMassima = float.Parse(en_tariffa.Text);
-            filtri.valutazioneMinima = float.Parse(en_valutazione.Text);
-            
-            ElencoInsegnanti elenco = await RestService.GetInsegnantiDataAsync(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
-            if (elenco != null)
-            {
-                insegnanti_list.IsVisible = true;
-                insegnanti_list.ItemsSource = elenco.Insegnanti;
-            }
-            else
-            {
-                insegnanti_list.IsVisible = false;
-                Console.WriteLine("Nessun insegnante");
-            }
-            await Navigation.PopAsync();
-        }*/
 
         private async void bt_applica_Clicked(object sender, EventArgs e)
         {
