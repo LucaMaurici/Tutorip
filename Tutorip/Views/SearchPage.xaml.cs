@@ -80,9 +80,9 @@ namespace Tutorip.Views
         private async void bt_filtri_Clicked(object sender, EventArgs e)
         {
             filtri.nomeMateria = en_materia.Text;
-            //var page = new FilterPage(this.filtri, this.insegnanti_list, this);
+            var page = new FilterPage(this.filtri, this.insegnanti_list, this);
             Opacity = 0.2;
-            //await PopupNavigation.Instance.PushAsync(page);
+            await PopupNavigation.Instance.PushAsync(page);
         }
     }
 }
