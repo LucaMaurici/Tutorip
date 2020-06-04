@@ -114,12 +114,12 @@
     <AndroidResource Include="Resources\drawable\PlusImage.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Login.axml">
+    <AndroidResource Include="Resources\values\strings.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values\Strings.xml">
+    <AndroidResource Include="Resources\layout\Login.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

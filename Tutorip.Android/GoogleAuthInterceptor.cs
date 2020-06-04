@@ -18,7 +18,7 @@ namespace Tutorip.Droid
             DataSchemes = new[]
             {
                 // First part of the redirect url (Package name)
-                "com.woodenmoose.xamarin.googleauth"
+                "com.mvm.tutorip"
             },
             DataPaths = new[]
             {
@@ -39,7 +39,7 @@ namespace Tutorip.Droid
             Uri uri_netfx = new Uri(uri_android.ToString());
 
             // Send the URI to the Authenticator for continuation
-            MainActivity.Auth?.OnPageLoading(uri_netfx);
+            LoginActivity.Auth?.OnPageLoading(uri_netfx);
 
             Finish();
         }

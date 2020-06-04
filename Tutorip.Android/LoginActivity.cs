@@ -14,7 +14,7 @@ using Tutorip.Services.GoogleServices;
 
 namespace Tutorip.Droid
 {
-    [Activity(Label = "Login", MainLauncher = false)]
+    [Activity(Label = "Login", MainLauncher = false, Theme = "@style/MainTheme", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class LoginActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity, IGoogleAuthenticationDelegate
     {
         public static GoogleAuthenticator Auth;
@@ -22,9 +22,9 @@ namespace Tutorip.Droid
         {
 
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.login);
+            SetContentView(Resource.Layout.Login);
             Auth = new GoogleAuthenticator(Configuration.ClientId, Configuration.Scope, Configuration.RedirectUrl, this);
-            var googleLoginButton = FindViewById<Button>(Resource.Id.googleLoginButton);
+            Button googleLoginButton = FindViewById<Button>(Resource.Id.googleLoginButton);
             googleLoginButton.Click += OnGoogleLoginButtonClicked;
         }
 
