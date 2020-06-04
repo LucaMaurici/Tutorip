@@ -85,7 +85,9 @@ namespace Tutorip.Views
             await PopupNavigation.Instance.PushAsync(page);
         }
 
-        private void googleLoginButton_Clicked(object sender, EventArgs e)
-        { }
+        private void login_btn_Clicked(object sender, EventArgs e)
+        {
+            DependencyService.Get<INativePages>().StartPage();
+        }
     }
 }
