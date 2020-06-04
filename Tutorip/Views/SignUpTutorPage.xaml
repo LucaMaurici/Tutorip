@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Tutorip.Views.SignUpTutorPage"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <Grid Margin="20,0,20,0"
+                      VerticalOptions="CenterAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Row="0">
+                        <Label Text="REGISTRATI COME INSEGNANTE"
+                               HorizontalOptions="CenterAndExpand"
+                               Margin="0,20,0,20"
+                               TextColor="LightCoral"
+                               FontSize="Medium">
+
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="1" Grid.Column="0">
+                        <controls:CircleImage x:Name="ProfileImage"
+                                              HorizontalOptions="StartAndExpand"
+                                              VerticalOptions="StartAndExpand"
+                                              Aspect="AspectFill"
+                                              Source="selectImage"
+                                              Margin="10,20,10,20">
+                        </controls:CircleImage>
+                        <Label Text="Inserisci immagine del profilo"
+                               TextColor="Black"
+                               HorizontalOptions="Center">
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="1" Grid.Column="0">
+                        <ImageButton Source="PlusImage"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     Clicked="aggiungiImage_Clicked">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <VisualState.Setters>
+                                            <Setter Property="Scale"
+                                                 Value="1" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <VisualState.Setters>
+                                            <Setter Property="Scale"
+                                                 Value="0.8" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </ImageButton>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2">
+                        <Entry x:Name="EntryNome"
+                               Placeholder="Nome"
+                               PlaceholderColor="Black"
+                               FontSize="16"
+                               FontAttributes="Italic">
+                        </Entry>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="3">
+                        <Entry x:Name="EntryZona"
+                               Placeholder="Zona"
+                               PlaceholderColor="Black"
+                               FontSize="16"
+                               FontAttributes="Italic">
+                        </Entry>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="5">
+                        <Entry x:Name="EntryEmail"
+                               Placeholder="E-mail"
+                               PlaceholderColor="Black"
+                               FontSize="16"
+                               FontAttributes="Italic">
+                        </Entry>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="4">
+                        <Editor Grid.Row="4"
+                            HorizontalOptions="StartAndExpand"
+                            VerticalOptions="StartAndExpand"
+                            AutoSize="TextChanges"
+                            Placeholder="Titoli                                                                                                   "
+                            PlaceholderColor="Black"
+                            FontAttributes="Italic">
+                        </Editor>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="6">
+                        <Entry x:Name="EntryPassword"
+                               Placeholder="Password"
+                               PlaceholderColor="Black"
+                               IsPassword="True"
+                               FontSize="16"
+                               FontAttributes="Italic">
+                        </Entry>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="7">
+                        <Button Text="SIGN UP"
+                                BackgroundColor="Coral"
+                                Margin="30,40,30,20"
+                                FontSize="Medium"
+                                CornerRadius="30">
+                        </Button>
+                    </StackLayout>
+
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
