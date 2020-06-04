@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Content.Res;
+using System;
 using Xamarin.Auth;
 
 namespace Tutorip.GoogleAuthentication.Services
@@ -15,15 +16,16 @@ namespace Tutorip.GoogleAuthentication.Services
         public GoogleAuthenticator(string clientId, string scope, string redirectUrl, IGoogleAuthenticationDelegate authenticationDelegate)
         {
             _authenticationDelegate = authenticationDelegate;
-
+            Console.WriteLine("GoogleAuthenticator.constructor1");
             _auth = new OAuth2Authenticator(clientId, string.Empty, scope,
                                             new Uri(AuthorizeUrl),
                                             new Uri(redirectUrl),
                                             new Uri(AccessTokenUrl),
                                             null, IsUsingNativeUI);
-
+            Console.WriteLine("GoogleAuthenticator.constructor1");
             _auth.Completed += OnAuthenticationCompleted;
             _auth.Error += OnAuthenticationFailed;
+            Console.WriteLine("GoogleAuthenticator.constructor1");
         }
 
         public OAuth2Authenticator GetAuthenticator()
@@ -51,6 +53,8 @@ namespace Tutorip.GoogleAuthentication.Services
             {
                 _authenticationDelegate.OnAuthenticationCanceled();
             }
+            
+            
         }
 
         private void OnAuthenticationFailed(object sender, AuthenticatorErrorEventArgs e)
