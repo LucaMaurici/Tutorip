@@ -84,5 +84,8 @@ namespace Tutorip.Views
             Opacity = 0.2;
             await PopupNavigation.Instance.PushAsync(page);
         }
+
+        private void googleLoginButton_Clicked(object sender, EventArgs e)
+        { }
     }
 }

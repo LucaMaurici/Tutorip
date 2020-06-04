@@ -26,6 +26,7 @@
                 BackgroundColor="White"
                 Clicked="search_btn_Clicked">
             </Button>
+            
         </StackLayout>
 
         <StackLayout Orientation="Horizontal">
@@ -43,6 +44,11 @@
                 CornerRadius="30"
                 BackgroundColor="White"
                 Clicked="bt_filtri_Clicked">
+            </Button>
+            <Button
+                x:Name="googleLoginButton"
+                Text="Login"
+                Clicked="googleLoginButton_Clicked">
             </Button>
         </StackLayout>
 
