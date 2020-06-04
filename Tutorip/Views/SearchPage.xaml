@@ -26,6 +26,7 @@
                 BackgroundColor="White"
                 Clicked="search_btn_Clicked">
             </Button>
+            
         </StackLayout>
 
         <StackLayout Orientation="Horizontal">
@@ -44,8 +45,6 @@
                 BackgroundColor="White"
                 Clicked="bt_filtri_Clicked">
             </Button>
-
-            
         </StackLayout>
 
         <Button
