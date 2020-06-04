@@ -31,7 +31,7 @@ namespace Tutorip.Views
             en_tariffa.Text = f.tariffaMassima.ToString();
         }
 
-        private void bt_annulla_Clicked(object sender, EventArgs e)
+        private void torna_indietro(object sender, EventArgs e)
         {
             parent.Opacity = 1;
             PopupNavigation.Instance.PopAsync(true);

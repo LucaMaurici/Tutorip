@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Tutorip.Views.SignUpPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <Grid Margin="20,0,20,0"    
+                      VerticalOptions="CenterAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Row="0">
+                        <Label Text="REGISTRATI COME UTENTE"
+                               HorizontalOptions="CenterAndExpand"
+                               Margin="0,20,0,20"
+                               TextColor="LightCoral"
+                               FontSize="Medium">
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="1">
+                        <Entry x:Name="EntryEmail"
+                               Placeholder="Email"
+                               PlaceholderColor="Black" 
+                               FontSize="16"
+                               FontAttributes="Italic">
+                        </Entry>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2">
+                        <Entry x:Name="EntryPassword"
+                               Placeholder="Password"
+                               PlaceholderColor="Black" 
+                               FontSize="16"
+                               FontAttributes="Italic">
+                        </Entry>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="3">
+                        <Entry x:Name="EntryRepetPassword"
+                               Placeholder="Reinserisci Password"
+                               PlaceholderColor="Black"
+                               FontSize="16"
+                               FontAttributes="Italic">
+                        </Entry>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="4">
+                        <Button Text="SIGN UP"  
+                                BackgroundColor="Coral"
+                                Margin="30,40,30,20"
+                                FontSize="Medium"
+                                CornerRadius="30">
+                        </Button>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="5">
+                        <Button Text="DIVENTA INSEGNANTE"  
+                                BackgroundColor="Coral"
+                                Margin="30,10,30,10"
+                                FontSize="Medium"
+                                CornerRadius="30"
+                                Clicked="Button_Clicked">
+                        </Button>
+                    </StackLayout>
+
+
+
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
