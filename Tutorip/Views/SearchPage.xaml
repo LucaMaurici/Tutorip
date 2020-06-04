@@ -44,7 +44,15 @@
                 BackgroundColor="White"
                 Clicked="bt_filtri_Clicked">
             </Button>
+
+            
         </StackLayout>
+
+        <Button
+                x:Name="login_btn"
+                Text="Login"
+                Clicked="login_btn_Clicked">
+        </Button>
 
         <ListView x:Name="insegnanti_list" RowHeight="360" SeparatorVisibility="None" IsVisible="False" ItemTapped="insegnanti_list_ItemTapped">
             <ListView.ItemTemplate>
