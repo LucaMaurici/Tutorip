@@ -15,11 +15,7 @@ namespace Tutorip.Services.GoogleServices
             var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(tokenType, accessToken);
             var json = await httpClient.GetStringAsync("https://www.googleapis.com/oauth2/v2/userinfo?access_token=" + accessToken);
-            System.Console.WriteLine("QUESTO E' IL JSON");
-            System.Console.WriteLine(json);
             var email = JsonConvert.DeserializeObject<GoogleEmail>(json);
-            System.Console.WriteLine("ciao" + email);
-            System.Console.WriteLine("ciao" + email.email);
             return email.email;
         }
     }

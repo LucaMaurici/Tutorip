@@ -53,7 +53,6 @@ namespace Tutorip.Views
         private async void search_btn_Clicked(object sender, EventArgs e)
         {
             filtri.nomeMateria = en_materia.Text;
-            Console.WriteLine("prova1");
 
             Posizione p = new Posizione
             {
@@ -63,12 +62,10 @@ namespace Tutorip.Views
             };
 
             filtri.posizione = p;
-            Console.WriteLine("prova2");
 
             ElencoInsegnanti elenco = await RestService.GetInsegnantiDataAsync(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
             if (elenco != null)
             {
-                Console.WriteLine("prova3");
                 insegnanti_list.IsVisible = true;
                 insegnanti_list.ItemsSource = elenco.Insegnanti;
             }

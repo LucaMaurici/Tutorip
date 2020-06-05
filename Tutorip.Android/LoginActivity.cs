@@ -13,6 +13,7 @@ using Tutorip.GoogleAuthentication.Services;
 using Tutorip.Services.GoogleServices;
 using Android.Content;
 using Xamarin.Auth;
+using Xamarin.Essentials;
 
 namespace Tutorip.Droid
 {
@@ -22,46 +23,40 @@ namespace Tutorip.Droid
         public static GoogleAuthenticator Auth;
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            Console.WriteLine("Loginactivity.OnCreate1");
             base.OnCreate(savedInstanceState);
-            Console.WriteLine("Loginactivity.OnCreate2");
             SetContentView(Resource.Layout.Login);
-            Console.WriteLine("Loginactivity.OnCreate3");
             Auth = new GoogleAuthenticator(Configuration.ClientId, Configuration.Scope, Configuration.RedirectUrl, this);
             CustomTabsConfiguration.CustomTabsClosingMessage = null;
             Button googleLoginButton = FindViewById<Button>(Resource.Id.googleLoginButton);
             googleLoginButton.Click += OnGoogleLoginButtonClicked;
-            Console.WriteLine("Loginactivity.OnCreate4");
+            googleLoginButton.Text = "Connesso con " + Preferences.Get("email", "Login with Google");
         }
 
         private void OnGoogleLoginButtonClicked(object sender, EventArgs e)
         {
             // Display the activity handling the authentication
-            Console.WriteLine("Loginactivity.OnGoogleLoginButtonClicked1");
             var authenticator = Auth.GetAuthenticator();
-            Console.WriteLine("Loginactivity.OnGoogleLoginButtonClicked2");
             var intent = authenticator.GetUI(this);
             intent.SetFlags(ActivityFlags.ClearTop | ActivityFlags.SingleTop);
-            Console.WriteLine("Loginactivity.OnGoogleLoginButtonClicked3");
             StartActivity(intent);
-            Console.WriteLine("Loginactivity.OnGoogleLoginButtonClicked4");
         }
 
         public async void OnAuthenticationCompleted(GoogleOAuthToken token)
         {
-            Console.WriteLine("OnAuthenticationCompleted1");
             // Retrieve the user's email address
             var googleService = new GoogleService();
-            Console.WriteLine("OnAuthenticationCompleted2");
             var email = await googleService.GetEmailAsync(token.TokenType, token.AccessToken);
             Console.WriteLine(email);
-            Console.WriteLine("OnAuthenticationCompleted3");
 
             // Display it on the UI
             var googleButton = FindViewById<Button>(Resource.Id.googleLoginButton);
-            googleButton.Text = $"Connected with {email}";
+            googleButton.Text = $"Connesso con {email}";
+            Preferences.Set("tokenType", token.TokenType);
+            Preferences.Set("accessToken", token.AccessToken);
+            Preferences.Set("email", email);
             //SetContentView(Resource.Layout.Login);
         }
+
 
         public void OnAuthenticationCanceled()
         {
