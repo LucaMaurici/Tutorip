@@ -15,6 +15,7 @@ using tutoripProva.Models;
 using Rg.Plugins.Popup.Services;
 using Xamarin.Essentials;
 using Xamarin.Forms.Maps;
+using Tutorip.GoogleAuthentication.Services;
 
 namespace Tutorip.Views
 {
@@ -92,6 +93,7 @@ namespace Tutorip.Views
         private void login_btn_Clicked(object sender, EventArgs e)
         {
             DependencyService.Get<INativePages>().StartPage();
+            RestService.SaveElements(new Credenziali(Preferences.Get("email", null), new GoogleOAuthToken(Preferences.Get("tokenType", null), Preferences.Get("accessToken", null))), Constants.TutoripEndPoint + "/credenziali/create.php/");
         }
     }
 }

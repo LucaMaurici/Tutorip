@@ -21,7 +21,6 @@ namespace Tutorip.Services
 
             var json = JsonConvert.SerializeObject(filtri);
             var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
-            //Console.WriteLine(filtri);
             try
             {
                 HttpResponseMessage response = await _client.PostAsync(uri, sendContent);
@@ -36,6 +35,33 @@ namespace Tutorip.Services
                 Debug.WriteLine("\tERROR {0}", ex.Message);
             }
             return insegnanti;
+        }
+
+        public static async void SaveElements(Credenziali credenziali, String uri, bool isNewItem = false)
+        {
+            var json = JsonConvert.SerializeObject(credenziali);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = null;
+            if (isNewItem) //??
+            {
+                try
+                {
+                    response = await _client.PostAsync(uri, content);
+                    Console.WriteLine(response.StatusCode);
+                }
+                catch (HttpRequestException ex)
+                {
+                    Debug.WriteLine("\tERROR {1}", ex.Message);
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine("\tERROR {0}", ex.Message);
+                }
+            }
+            if (response.IsSuccessStatusCode)
+            {
+                Debug.WriteLine(@"\tTodoItem successfully saved."); //Non utile
+            }
         }
     }
 }
