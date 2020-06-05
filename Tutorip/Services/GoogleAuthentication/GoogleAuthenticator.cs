@@ -42,11 +42,12 @@ namespace Tutorip.GoogleAuthentication.Services
         {
             if (e.IsAuthenticated)
             {
-                var token = new GoogleOAuthToken
+                var token = new GoogleOAuthToken(e.Account.Properties["token_type"], e.Account.Properties["access_token"]);
+                /*
                 {
                     TokenType = e.Account.Properties["token_type"],
                     AccessToken = e.Account.Properties["access_token"]
-                };
+                };*/
                 _authenticationDelegate.OnAuthenticationCompleted(token);
             }
             else

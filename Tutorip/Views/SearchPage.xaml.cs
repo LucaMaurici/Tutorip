@@ -93,7 +93,16 @@ namespace Tutorip.Views
         private void login_btn_Clicked(object sender, EventArgs e)
         {
             DependencyService.Get<INativePages>().StartPage();
-            RestService.SaveElements(new Credenziali(Preferences.Get("email", null), new GoogleOAuthToken(Preferences.Get("tokenType", null), Preferences.Get("accessToken", null))), Constants.TutoripEndPoint + "/credenziali/create.php/");
+            RestService.SaveElements(
+                new Credenziali(
+                    Preferences.Get("email", "DEFAULT"), 
+                    new GoogleOAuthToken(
+                        Preferences.Get("tokenType", "DEFAULT"), 
+                        Preferences.Get("accessToken", "DEFAULT")
+                    )
+                ), 
+                Constants.TutoripEndPoint + "/credenziali/create.php/"
+            );
         }
     }
 }

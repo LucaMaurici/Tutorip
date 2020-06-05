@@ -7,11 +7,13 @@ namespace Tutorip.Models
 {
     class Credenziali
     {
-        public Credenziali(String email, GoogleOAuthToken token){
-            this.email = email;
-            this.token = token;
+        public string Email { get; set; }
+        public GoogleOAuthToken Token { get; set; }
+
+        public Credenziali(string email, GoogleOAuthToken token){
+            this.Email = email;
+            this.Token = token;
         }
-        String email { get; set; }
-        GoogleOAuthToken token { get; set; }
+        
     }
 }
