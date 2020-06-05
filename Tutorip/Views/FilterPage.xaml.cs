@@ -68,12 +68,19 @@ namespace Tutorip.Views
         {
             try
             {
-                sl_tariffa.Value = double.Parse(en_tariffa.Text);
+                
+                var tariffa = double.Parse(en_tariffa.Text);
+                if (tariffa > 80)
+                {
+                    en_tariffa.Text = "80";
+                }
+                
+                sl_tariffa.Value = tariffa;
             }
-
             catch
             {
                 sl_tariffa.Value = 0;
+                en_tariffa.Text = "0";
             }
         }
 
@@ -86,12 +93,17 @@ namespace Tutorip.Views
         {
             try
             {
-                sl_valutazione.Value = double.Parse(en_valutazione.Text);
+                var valutazione = double.Parse(en_valutazione.Text);
+                if (valutazione > 10)
+                {
+                    en_valutazione.Text = "10";
+                }
+                sl_valutazione.Value = valutazione;
             }
-
             catch
             {
                 sl_valutazione.Value = 0;
+                en_valutazione.Text = "0";
             }
         }
 

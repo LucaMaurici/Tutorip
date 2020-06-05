@@ -13,7 +13,7 @@ namespace Tutorip.Models
 
         internal void setDefault()
         {
-            tariffaMassima = 1000000;
+            tariffaMassima = 80;
             valutazioneMinima = 0;
         }
     }
