@@ -12,6 +12,7 @@ using Tutorip.GoogleAuthentication.Services;
 //using Android.Content.Res;
 using Tutorip.Services.GoogleServices;
 using Android.Content;
+using Xamarin.Auth;
 
 namespace Tutorip.Droid
 {
@@ -27,6 +28,7 @@ namespace Tutorip.Droid
             SetContentView(Resource.Layout.Login);
             Console.WriteLine("Loginactivity.OnCreate3");
             Auth = new GoogleAuthenticator(Configuration.ClientId, Configuration.Scope, Configuration.RedirectUrl, this);
+            CustomTabsConfiguration.CustomTabsClosingMessage = null;
             Button googleLoginButton = FindViewById<Button>(Resource.Id.googleLoginButton);
             googleLoginButton.Click += OnGoogleLoginButtonClicked;
             Console.WriteLine("Loginactivity.OnCreate4");

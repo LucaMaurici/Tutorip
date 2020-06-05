@@ -53,8 +53,8 @@ namespace Tutorip.GoogleAuthentication.Services
             {
                 _authenticationDelegate.OnAuthenticationCanceled();
             }
-            
-            
+
+
         }
 
         private void OnAuthenticationFailed(object sender, AuthenticatorErrorEventArgs e)

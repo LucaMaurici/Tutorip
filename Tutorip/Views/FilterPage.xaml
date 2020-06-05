@@ -75,10 +75,12 @@
                     Orientation="Horizontal"
                     HorizontalOptions="EndAndExpand">
                     <Slider
+                        x:Name="sl_valutazione"
                         Maximum="10"
                         WidthRequest="150"
                         VerticalOptions="CenterAndExpand" 
-                        HorizontalOptions="CenterAndExpand">
+                        HorizontalOptions="CenterAndExpand"
+                        ValueChanged="sl_valutazione_ValueChanged">
                     </Slider>
                     <Entry
                         x:Name="en_valutazione"
@@ -86,7 +88,8 @@
                         WidthRequest="40"
                         Text="8"
                         VerticalOptions="CenterAndExpand" 
-                        HorizontalOptions="CenterAndExpand">
+                        HorizontalOptions="CenterAndExpand"
+                        TextChanged="en_valutazione_TextChanged">
                     </Entry>
                 </StackLayout>
 

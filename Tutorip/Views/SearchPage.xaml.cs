@@ -34,13 +34,20 @@ namespace Tutorip.Views
 
         public async void calculatePosition()
         {
-            location = await Geolocation.GetLocationAsync(new GeolocationRequest(GeolocationAccuracy.Medium));
-            Geocoder geoCoder = new Geocoder();
+            try
+            {
+                location = await Geolocation.GetLocationAsync(new GeolocationRequest(GeolocationAccuracy.Medium));
+                Geocoder geoCoder = new Geocoder();
 
-            Position position = new Position(location.Latitude, location.Longitude);
-            IEnumerable<string> possibleAddresses = await geoCoder.GetAddressesForPositionAsync(position);
-            string address = possibleAddresses.FirstOrDefault();
-            lb_posizione.Text = address;
+                Position position = new Position(location.Latitude, location.Longitude);
+                IEnumerable<string> possibleAddresses = await geoCoder.GetAddressesForPositionAsync(position);
+                string address = possibleAddresses.FirstOrDefault();
+                lb_posizione.Text = address;
+            }
+            catch
+            {
+                lb_posizione.Text = "Impossibile trovare la tua posizione corrente";
+            }
         }
 
         private async void search_btn_Clicked(object sender, EventArgs e)

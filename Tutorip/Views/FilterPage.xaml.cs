@@ -29,6 +29,8 @@ namespace Tutorip.Views
             this.parent = parent;
             sl_tariffa.Value = f.tariffaMassima;
             en_tariffa.Text = f.tariffaMassima.ToString();
+            sl_valutazione.Value = f.valutazioneMinima;
+            en_valutazione.Text = f.valutazioneMinima.ToString();
         }
 
         private void torna_indietro(object sender, EventArgs e)
@@ -59,19 +61,38 @@ namespace Tutorip.Views
 
         private void sl_tariffa_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-            //sl_tariffa.Value = Math.Round(sl_tariffa.Value);
             en_tariffa.Text = sl_tariffa.Value.ToString();
         }
 
         private void en_tariffa_TextChanged(object sender, TextChangedEventArgs e)
         {
-            //en_tariffa.Text = Math.Round(double.Parse(en_tariffa.Text)).ToString();
-            /*
-            if(en_tariffa.Text.Contains(","))
+            try
             {
-                en_tariffa.Text = en_tariffa.Text.Substring(0, en_tariffa.Text.IndexOf(","));
-            }*/
-            sl_tariffa.Value = double.Parse(en_tariffa.Text);
+                sl_tariffa.Value = double.Parse(en_tariffa.Text);
+            }
+
+            catch
+            {
+                sl_tariffa.Value = 0;
+            }
+        }
+
+        private void sl_valutazione_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            en_valutazione.Text = sl_valutazione.Value.ToString();
+        }
+
+        private void en_valutazione_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+                sl_valutazione.Value = double.Parse(en_valutazione.Text);
+            }
+
+            catch
+            {
+                sl_valutazione.Value = 0;
+            }
         }
 
 

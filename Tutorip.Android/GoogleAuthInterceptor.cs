@@ -44,6 +44,9 @@ namespace Tutorip.Droid
             // Send the URI to the Authenticator for continuation
             LoginActivity.Auth?.OnPageLoading(uri_netfx);
             Console.WriteLine("GoogleAuthInterceptor.OnCreate4");
+            var intent = new Intent(this, typeof(LoginActivity));
+            intent.SetFlags(ActivityFlags.ClearTop | ActivityFlags.SingleTop);
+            StartActivity(intent);
             Finish();
         }
     }
