@@ -6,10 +6,11 @@
              mc:Ignorable="d"
              x:Class="Tutorip.Views.SearchPage"
              Title="{Binding Title}"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             Padding="10">
     <!--BackgroundImageSource="sfondoConLineeObliqueS2"-->
 
-    <StackLayout Padding="10">
+    <StackLayout>
 
         <StackLayout Orientation="Horizontal">
             <ImageButton

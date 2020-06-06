@@ -22,5 +22,15 @@ namespace Tutorip.Views
         {
             Navigation.PopAsync();
         }
+
+        private void vc_profiloInsegnante_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vc_preferiti_Tapped(object sender, EventArgs e)
+        {
+
+        }
     }
 }
