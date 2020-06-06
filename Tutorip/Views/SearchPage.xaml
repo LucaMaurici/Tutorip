@@ -12,6 +12,35 @@
     <StackLayout Padding="10">
 
         <StackLayout Orientation="Horizontal">
+            <ImageButton
+                x:Name="bt_menu"
+                Source="menu1"
+                Margin="0,0,0,0"
+                BackgroundColor="Transparent"
+                Clicked="bt_menu_Clicked"
+                HeightRequest="35"
+                WidthRequest="35">
+            </ImageButton>
+            
+            <Label
+                x:Name="lb_posizione"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Margin="15,0,0,0">
+            </Label>
+
+            <ImageButton
+                x:Name="bt_filtri"
+                Source="funnel"
+                Margin="0,0,0,0"
+                BackgroundColor="Transparent"
+                Clicked="bt_filtri_Clicked"
+                HeightRequest="30"
+                WidthRequest="30">
+            </ImageButton>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
             <Entry
                 x:Name="en_materia"
                 HorizontalOptions="FillAndExpand"
@@ -29,23 +58,7 @@
             
         </StackLayout>
 
-        <StackLayout Orientation="Horizontal">
-            <Label
-                x:Name="lb_posizione"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="CenterAndExpand"
-                Margin="15,0,0,0">
-            </Label>
-
-            <Button 
-                x:Name="bt_filtri"
-                Text="Filtri"
-                Margin="0,0,0,0"
-                CornerRadius="30"
-                BackgroundColor="White"
-                Clicked="bt_filtri_Clicked">
-            </Button>
-        </StackLayout>
+        
 
         <Button
                 x:Name="login_btn"

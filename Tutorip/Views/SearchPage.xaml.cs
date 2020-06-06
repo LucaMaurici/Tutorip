@@ -112,5 +112,10 @@ namespace Tutorip.Views
                 Constants.TutoripEndPoint + "/credenziali/create.php/"
             );*/
         }
+
+        private void bt_menu_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
