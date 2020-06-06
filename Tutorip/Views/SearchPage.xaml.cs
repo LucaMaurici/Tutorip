@@ -26,11 +26,12 @@ namespace Tutorip.Views
         PositionAdapter p;
         public SearchPage()
         {
-            InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
             p = new PositionAdapter();
             this.filtri = new Filtri();
             filtri.setDefault();
             setLabelValue();
+            InitializeComponent();
         }
 
         public async void setLabelValue()
@@ -101,7 +102,8 @@ namespace Tutorip.Views
 
         private void bt_menu_Clicked(object sender, EventArgs e)
         {
-
+            var page = new MenuPage();
+            Navigation.PushAsync(page);
         }
     }
 }
