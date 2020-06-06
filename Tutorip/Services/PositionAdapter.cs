@@ -11,7 +11,6 @@ namespace Tutorip.Services
 {
     class PositionAdapter
     {
-        private Location location;
         private Geocoder geoCoder;
         public PositionAdapter() 
         {
@@ -42,14 +41,14 @@ namespace Tutorip.Services
             return p;
         }
 
-        private async Task<string> Posizione2IndirizzoAsync(Position position)
+        public async Task<string> Posizione2IndirizzoAsync(Position position)
         {
             IEnumerable<string> possibleAddresses = await geoCoder.GetAddressesForPositionAsync(position);
             string address = possibleAddresses.FirstOrDefault();
             return address;
         }
 
-        private async Task<Posizione> Indirizzo2Posizione(String indirizzo)
+        public async Task<Posizione> Indirizzo2Posizione(String indirizzo)
         {
             Posizione p = null;
             var locations = await Geocoding.GetLocationsAsync(indirizzo);
