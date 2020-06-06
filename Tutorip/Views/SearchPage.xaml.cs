@@ -23,17 +23,18 @@ namespace Tutorip.Views
     {
 
         Filtri filtri;
-        Location location;
-
+        //Location location;
+        PositionAdapter p;
         public SearchPage()
         {
             InitializeComponent();
+            p = new PositionAdapter();
             this.filtri = new Filtri();
             filtri.setDefault();
-            calculatePosition();
+            setLabelValue();
         }
 
-        public async void calculatePosition()
+        /*public async void calculatePosition()
         {
             try
             {
@@ -49,20 +50,27 @@ namespace Tutorip.Views
             {
                 lb_posizione.Text = "Impossibile trovare la tua posizione corrente";
             }
+        }*/
+
+        public async void setLabelValue()
+        {
+            Posizione pos = (Posizione) await p.calcolaPosizione();
+
+            if (pos != null)
+            {
+                lb_posizione.Text = pos.indirizzo;
+            }
+            else
+            {
+                lb_posizione.Text = "Impossibile accedere alla posizione del dispositivo";
+            }
         }
 
         private async void search_btn_Clicked(object sender, EventArgs e)
         {
             filtri.nomeMateria = en_materia.Text;
 
-            Posizione p = new Posizione
-            {
-                latitudine = location.Latitude,
-                longitudine = location.Longitude,
-                indirizzo = "via dei cabibbi 18"
-            };
-
-            filtri.posizione = p;
+            filtri.posizione = (Posizione) await p.calcolaPosizione();
 
             ElencoInsegnanti elenco = await RestService.GetInsegnantiDataAsync(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
             if (elenco != null)
@@ -93,7 +101,7 @@ namespace Tutorip.Views
         private void login_btn_Clicked(object sender, EventArgs e)
         {
             DependencyService.Get<INativePages>().StartPage();
-            RestService.SaveElements(
+            /*RestService.SaveElements(
                 new Credenziali(
                     Preferences.Get("email", "DEFAULT"), 
                     new GoogleOAuthToken(
@@ -102,7 +110,7 @@ namespace Tutorip.Views
                     )
                 ), 
                 Constants.TutoripEndPoint + "/credenziali/create.php/"
-            );
+            );*/
         }
     }
 }

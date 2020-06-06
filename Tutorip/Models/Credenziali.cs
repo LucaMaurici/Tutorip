@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Tutorip.Data;
 using Tutorip.GoogleAuthentication.Services;
+using Tutorip.Services;
+using Xamarin.Essentials;
 
 namespace Tutorip.Models
 {
-    class Credenziali
+    public class Credenziali
     {
         public string Email { get; set; }
         public GoogleOAuthToken Token { get; set; }
@@ -15,5 +18,9 @@ namespace Tutorip.Models
             this.Token = token;
         }
         
+        public void salva()
+        {
+            RestService.SaveElements(this, Constants.TutoripEndPoint + "/credenziali/create.php/");
+        }
     }
 }

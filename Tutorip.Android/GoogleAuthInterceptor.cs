@@ -32,18 +32,13 @@ namespace Tutorip.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            Console.WriteLine("GoogleAuthInterceptor.OnCreate1");
             base.OnCreate(savedInstanceState);
-            Console.WriteLine("GoogleAuthInterceptor.OnCreate2");
             Android.Net.Uri uri_android = Intent.Data;
 
             // Convert iOS NSUrl to C#/netxf/BCL System.Uri - common API
             Uri uri_netfx = new Uri(uri_android.ToString());
-            Console.WriteLine("GoogleAuthInterceptor.OnCreate3");
-            Console.WriteLine(uri_netfx);
             // Send the URI to the Authenticator for continuation
             LoginActivity.Auth?.OnPageLoading(uri_netfx);
-            Console.WriteLine("GoogleAuthInterceptor.OnCreate4");
             var intent = new Intent(this, typeof(LoginActivity));
             intent.SetFlags(ActivityFlags.ClearTop | ActivityFlags.SingleTop);
             StartActivity(intent);
