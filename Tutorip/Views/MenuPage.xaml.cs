@@ -10,11 +10,17 @@ using Xamarin.Forms.Xaml;
 namespace Tutorip.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Menu : ContentPage
+    public partial class MenuPage : ContentPage
     {
-        public Menu()
+        public MenuPage()
         {
+            NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
+        }
+
+        private void bt_indietro_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
         }
     }
 }

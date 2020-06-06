@@ -6,10 +6,12 @@
              mc:Ignorable="d"
              x:Class="Tutorip.Views.SearchPage"
              Title="{Binding Title}"
-             x:Name="BrowseItemsPage">
+             >
     <!--BackgroundImageSource="sfondoConLineeObliqueS2"-->
+    
+    
 
-    <StackLayout Padding="10">
+    <StackLayout Padding="15">
 
         <StackLayout Orientation="Horizontal">
             <ImageButton
