@@ -95,6 +95,37 @@
 
             </StackLayout>
 
+            <StackLayout 
+                Orientation="Horizontal"
+                Padding="5">
+                <Label 
+                    Text="Distanza (Km)"
+                    FontSize="Medium"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="StartAndExpand" />
+                <StackLayout
+                    Orientation="Horizontal"
+                    HorizontalOptions="EndAndExpand">
+                    <Slider
+                        x:Name="sl_distanzaMax"
+                        Maximum="50"
+                        WidthRequest="150"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand"
+                        ValueChanged="sl_distanzaMax_ValueChanged">
+                    </Slider>
+                    <Entry
+                        x:Name="en_distanzaMax"
+                        Keyboard="Numeric"
+                        WidthRequest="40"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand"
+                        TextChanged="en_distanzaMax_TextChanged">
+                    </Entry>
+                </StackLayout>
+
+            </StackLayout>
+
             <StackLayout
                 Orientation="Horizontal"
                 >
@@ -112,7 +143,6 @@
                     WidthRequest="120"
                     HorizontalOptions="CenterAndExpand"
                     Clicked="bt_applica_Clicked">
-
                 </Button>
             </StackLayout>
 

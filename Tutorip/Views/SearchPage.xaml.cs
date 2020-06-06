@@ -98,5 +98,10 @@ namespace Tutorip.Views
         {
             Navigation.PushAsync(new ProfilePage(new Insegnante()));
         }
+
+        private void bt_menu_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
