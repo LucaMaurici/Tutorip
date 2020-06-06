@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="Tutorip.Views.SearchPage"
              Title="{Binding Title}"
-             x:Name="BrowseItemsPage">
+             x:Name="BrowseItemsPage"
+             NavigationPage.HasNavigationBar="False">
     <!--BackgroundImageSource="sfondoConLineeObliqueS2"-->
 
     <StackLayout Padding="10">
@@ -51,6 +52,12 @@
                 x:Name="login_btn"
                 Text="Login"
                 Clicked="login_btn_Clicked">
+        </Button>
+
+        <Button
+                x:Name="profile_btn"
+                Text="profile"
+                Clicked="profile_btn_Clicked">
         </Button>
 
         <ListView x:Name="insegnanti_list" RowHeight="360" SeparatorVisibility="None" IsVisible="False" ItemTapped="insegnanti_list_ItemTapped">

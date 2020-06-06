@@ -23,7 +23,6 @@ namespace Tutorip.Views
     {
 
         Filtri filtri;
-        //Location location;
         PositionAdapter p;
         public SearchPage()
         {
@@ -33,24 +32,6 @@ namespace Tutorip.Views
             filtri.setDefault();
             setLabelValue();
         }
-
-        /*public async void calculatePosition()
-        {
-            try
-            {
-                location = await Geolocation.GetLocationAsync(new GeolocationRequest(GeolocationAccuracy.Medium));
-                Geocoder geoCoder = new Geocoder();
-
-                Position position = new Position(location.Latitude, location.Longitude);
-                IEnumerable<string> possibleAddresses = await geoCoder.GetAddressesForPositionAsync(position);
-                string address = possibleAddresses.FirstOrDefault();
-                lb_posizione.Text = address;
-            }
-            catch
-            {
-                lb_posizione.Text = "Impossibile trovare la tua posizione corrente";
-            }
-        }*/
 
         public async void setLabelValue()
         {
@@ -111,6 +92,11 @@ namespace Tutorip.Views
                 ), 
                 Constants.TutoripEndPoint + "/credenziali/create.php/"
             );*/
+        }
+
+        private void profile_btn_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ProfilePage(new Insegnante()));
         }
     }
 }

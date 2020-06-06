@@ -11,7 +11,7 @@ namespace Tutorip
         {
             InitializeComponent();
 
-            MainPage = new SearchPage();
+            MainPage = new NavigationPage(new SearchPage());
         }
 
         protected override void OnStart()
