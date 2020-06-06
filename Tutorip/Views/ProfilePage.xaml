@@ -13,7 +13,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Image Source="IconaLogo5" VerticalOptions="Start"></Image>-->
-    <StackLayout Grid.Row="0" BackgroundColor="Accent" VerticalOptions="Center">
+    <StackLayout Grid.Row="0" BackgroundColor="White" VerticalOptions="Center">
         <Frame CornerRadius="40" Style="{StaticResource stlMainFrame}">
             <Grid Padding="25,10,25,0" RowSpacing="0">
                 <Grid.ColumnDefinitions>
@@ -22,16 +22,19 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="45"/>
                 </Grid.RowDefinitions>
                 <!--<Button Grid.Row="0" Grid.Column="1" Style="{StaticResource stlContactBtn}" HorizontalOptions="End"/>
                     <Button Grid.Row="0" Grid.Column="2" Style="{StaticResource stlContactBtn}" HorizontalOptions="Start"/>-->
-                <Label x:Name="name_lbl" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" FontAttributes="Bold" FontSize="30"/>
-                <Label Grid.Row="1" Grid.Column="0" Text="Roma, 5Km" TextColor="#a5a2a2" FontSize="16"/>
+                <Frame Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" HasShadow="False">
+                    <Image Source="IconaLogo5" Aspect="AspectFill"></Image>
+                </Frame>
+                <Label x:Name="name_lbl" Text="Alessandro Vitale" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" FontAttributes="Bold" FontSize="Large"/>
+                <Label Grid.Row="1" Grid.Column="1" Text="Roma, 5Km" TextColor="#a5a2a2" FontSize="16"/>
                 <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Padding="0,10,0,0" FontSize="16">
                     <Label.FormattedText>
                         <FormattedString>
@@ -40,17 +43,14 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Frame Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" HasShadow="False">
-                    <Image Source="IconaLogo5" Aspect="AspectFit"></Image>
-                </Frame>
-                <Label Grid.Row="3" Grid.Column="0" Text="Scuola" Style="{StaticResource stlBoardTitle}" />
-                <Label Grid.Row="4" Grid.Column="0" Text="Faraday" Style="{StaticResource stlBoardDesc}"/>
+                <Label Padding="0,22,0,0" Grid.Row="3" Grid.Column="0" Text="Scuola" Style="{StaticResource stlBoardTitle}" />
+                <Label Padding="0,20,0,0" Grid.Row="4" Grid.Column="0" Text="Faraday" Style="{StaticResource stlBoardDesc}"/>
 
-                <Label Grid.Row="3" Grid.Column="1" Text="Materia" Style="{StaticResource stlBoardTitle}"/>
-                <Label Grid.Row="4" Grid.Column="1" Text="APS" Style="{StaticResource stlBoardDesc}"/>
+                <Label Padding="0,22,0,0" Grid.Row="3" Grid.Column="1" Text="Materia" Style="{StaticResource stlBoardTitle}"/>
+                <Label Padding="0,20,0,0" Grid.Row="4" Grid.Column="1" Text="APS" Style="{StaticResource stlBoardDesc}"/>
 
-                <Label Grid.Row="3" Grid.Column="2" Text="Tariffa" Style="{StaticResource stlBoardTitle}"/>
-                <Label Grid.Row="4" Grid.Column="2" Text="15" Style="{StaticResource stlBoardDesc}"/>
+                <Label Padding="0,22,0,0" Grid.Row="3" Grid.Column="2" Text="Tariffa" Style="{StaticResource stlBoardTitle}"/>
+                <Label Padding="0,20,0,0" Grid.Row="4" Grid.Column="2" Text="15" Style="{StaticResource stlBoardDesc}"/>
 
                 <!--
                     <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" TextColor="White" BackgroundColor="#2193f3" Text="Follow" Margin="0,20,0,2" FontAttributes="Bold" FontSize="17" HeightRequest="45"/>-->
