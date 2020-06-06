@@ -14,6 +14,7 @@ using Tutorip.Services.GoogleServices;
 using Android.Content;
 using Xamarin.Auth;
 using Xamarin.Essentials;
+using Tutorip.Models;
 
 namespace Tutorip.Droid
 {
@@ -47,14 +48,14 @@ namespace Tutorip.Droid
             var googleService = new GoogleService();
             var email = await googleService.GetEmailAsync(token.TokenType, token.AccessToken);
             Console.WriteLine(email);
-
             // Display it on the UI
             var googleButton = FindViewById<Button>(Resource.Id.googleLoginButton);
             googleButton.Text = $"Connesso con {email}";
             Preferences.Set("tokenType", token.TokenType);
             Preferences.Set("accessToken", token.AccessToken);
             Preferences.Set("email", email);
-            //SetContentView(Resource.Layout.Login);
+            var credenziali = new Credenziali(email, token);
+            credenziali.salva();
         }
 
 
