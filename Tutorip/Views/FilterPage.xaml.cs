@@ -107,6 +107,29 @@ namespace Tutorip.Views
             }
         }
 
+        private void sl_distanzaMax_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            en_distanzaMax.Text = sl_distanzaMax.Value.ToString();
+        }
 
+        private void en_distanzaMax_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+
+                var distanzaMax = double.Parse(en_distanzaMax.Text);
+                if (distanzaMax > 50)
+                {
+                    en_distanzaMax.Text = "50";
+                }
+                
+                sl_distanzaMax.Value = distanzaMax;
+            }
+            catch
+            {
+                sl_distanzaMax.Value = 0;
+                en_distanzaMax.Text = "0";
+            }
+        }
     }
 }
