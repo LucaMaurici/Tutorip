@@ -6,7 +6,6 @@
              mc:Ignorable="d"
              x:Class="Tutorip.Views.SearchPage"
              Title="{Binding Title}"
-             x:Name="BrowseItemsPage"
              NavigationPage.HasNavigationBar="False">
     <!--BackgroundImageSource="sfondoConLineeObliqueS2"-->
 
