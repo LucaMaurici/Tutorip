@@ -15,6 +15,7 @@ using Android.Content;
 using Xamarin.Auth;
 using Xamarin.Essentials;
 using Tutorip.Models;
+using Tutorip.Services;
 
 namespace Tutorip.Droid
 {
@@ -55,7 +56,7 @@ namespace Tutorip.Droid
             Preferences.Set("accessToken", token.AccessToken);
             Preferences.Set("email", email);
             var credenziali = new Credenziali(email, token);
-            credenziali.salva();
+            CredenzialiService.Salva(credenziali);
         }
 
 

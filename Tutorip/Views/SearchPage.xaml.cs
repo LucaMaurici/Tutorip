@@ -54,11 +54,12 @@ namespace Tutorip.Views
 
             filtri.posizione = (Posizione) await p.calcolaPosizione();
 
-            ElencoInsegnanti elenco = await RestService.GetInsegnantiDataAsync(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
-            if (elenco != null)
+            //ElencoInsegnanti elenco = await InsegnantiService.GetInsegnanti(filtri);
+            Insegnante[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
+            if(insegnanti.Length != 0)
             {
                 insegnanti_list.IsVisible = true;
-                insegnanti_list.ItemsSource = elenco.Insegnanti;
+                insegnanti_list.ItemsSource = insegnanti;
             }
             else
             {
