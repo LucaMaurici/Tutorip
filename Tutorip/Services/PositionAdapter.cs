@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Tutorip.Models;
 using Xamarin.Essentials;
@@ -24,7 +23,6 @@ namespace Tutorip.Services
             {
                 var request = new GeolocationRequest(GeolocationAccuracy.Medium);
                 var location = await Geolocation.GetLocationAsync(request);
-
                 if (location != null)
                 {
                     p = new Posizione();

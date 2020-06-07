@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tutorip.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -50,7 +47,7 @@ namespace Tutorip.Views
             ElementoMenu em = (ElementoMenu)e.Item;
             if(em.testo == "Diventa insegnante")
             {
-                Navigation.PushAsync(new ProfilePage(new Insegnante()));
+                Navigation.PushAsync(new SignUpTutorPage());
             }
             else if (em.testo == "Insegnanti preferiti")
             {

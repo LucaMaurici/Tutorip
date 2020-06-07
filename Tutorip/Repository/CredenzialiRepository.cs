@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
 using Tutorip.Models;
 
 namespace Tutorip.Repository
@@ -17,15 +17,11 @@ namespace Tutorip.Repository
             var json = JsonConvert.SerializeObject(credenziali);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             HttpResponseMessage response = null;
-            if (isNewItem) //??
+            if (isNewItem)
             {
                 try
                 {
                     response = await _client.PostAsync(uri, content);
-                    Console.WriteLine("=====================================================");
-                    //Console.WriteLine(response.StatusCode);
-                    //Console.WriteLine(response);
-                    Console.WriteLine("JSON : " + json);
                 }
                 catch (HttpRequestException ex)
                 {
@@ -42,9 +38,39 @@ namespace Tutorip.Repository
             }
         }
 
-        internal static void Esiste(Credenziali c, string v)
+        public static async Task<bool> Esiste(Credenziali c, string v)
         {
-            throw new NotImplementedException();
+            bool esito = false;
+            var json = "{\"Email\": " + JsonConvert.SerializeObject(c.Email) +"}";
+            Console.WriteLine(json);
+            var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = null;
+            try
+            {
+                response = await _client.PostAsync(v, sendContent);
+                Console.WriteLine(response.StatusCode);
+                if(response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    temp result = JsonConvert.DeserializeObject<temp>(content);
+                    
+                    Console.WriteLine("ESITO: " + result);
+                    if (result.n==0)
+                    {
+                        esito = true;
+                    }
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine("ERRORE");
+                Debug.WriteLine("\tERROR {1}", ex.Message);
+            }
+            return esito;
+        }
+        internal class temp
+        {
+            public int n;
         }
     }
 }

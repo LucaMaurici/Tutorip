@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Tutorip.Data;
-using Tutorip.GoogleAuthentication.Services;
-using Tutorip.Services;
-using Xamarin.Essentials;
+﻿using Tutorip.GoogleAuthentication.Services;
 
 namespace Tutorip.Models
 {

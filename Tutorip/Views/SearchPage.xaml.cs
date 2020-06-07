@@ -1,20 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-
 using Tutorip.Models;
-using Tutorip.Views;
 using Tutorip.Services;
-using Tutorip.Data;
 using Rg.Plugins.Popup.Services;
-using Xamarin.Essentials;
-using Xamarin.Forms.Maps;
-using Tutorip.GoogleAuthentication.Services;
 
 namespace Tutorip.Views
 {
@@ -25,18 +13,18 @@ namespace Tutorip.Views
         PositionAdapter p;
         public SearchPage()
         {
+            InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
             p = new PositionAdapter();
             this.filtri = new Filtri();
             filtri.setDefault();
             setLabelValue();
-            InitializeComponent();
+            
         }
 
         public async void setLabelValue()
         {
             Posizione pos = (Posizione) await p.calcolaPosizione();
-
             if (pos != null)
             {
                 lb_posizione.Text = pos.indirizzo;
@@ -83,16 +71,6 @@ namespace Tutorip.Views
         private void login_btn_Clicked(object sender, EventArgs e)
         {
             DependencyService.Get<INativePages>().StartPage();
-            /*RestService.SaveElements(
-                new Credenziali(
-                    Preferences.Get("email", "DEFAULT"), 
-                    new GoogleOAuthToken(
-                        Preferences.Get("tokenType", "DEFAULT"), 
-                        Preferences.Get("accessToken", "DEFAULT")
-                    )
-                ), 
-                Constants.TutoripEndPoint + "/credenziali/create.php/"
-            );*/
         }
 
         private void profile_btn_Clicked(object sender, EventArgs e)
