@@ -44,7 +44,7 @@ namespace Tutorip.Views
             filtri.tariffaMassima = float.Parse(en_tariffa.Text);
             filtri.valutazioneMinima = float.Parse(en_valutazione.Text);
 
-            ElencoInsegnanti elenco = await RestService.GetInsegnantiDataAsync(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
+            ElencoInsegnanti elenco = await RestService.GetInsegnanti(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
             if (elenco != null)
             {
                 insegnanti_list.IsVisible = true;
