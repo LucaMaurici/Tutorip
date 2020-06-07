@@ -6,60 +6,85 @@
              mc:Ignorable="d"
              x:Class="Tutorip.Views.ProfilePage2"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="White">
+             BackgroundColor="#FFFDF7"
+             xmlns:f9p="clr-namespace:Forms9Patch;assembly=Forms9Patch">
 
     <StackLayout>
-        
-        <StackLayout Orientation="Horizontal">
-            <!--IMMAGINE-->
-            <Image Source="user6" HeightRequest="100" WidthRequest="100"></Image>
+        <Frame Padding="20,20,5,20">
+            <StackLayout Orientation="Horizontal">
+                <!--IMMAGINE e DISTANZA-->
+                <StackLayout Margin="0,0,0,0">
+                    <!--IMMAGINE-->
+                    <Image Source="user6" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center"></Image>
+                    <!--DISTANZA-->
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="5" TranslationX="-3">
+                        <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
+                        <Label x:Name="distanza_lbl" Text="2 Km" TextColor="#888" FontAttributes="Bold" FontSize="18"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <!--NOME-->
+                    <f9p:Label x:Name="name_lbl" Text="Alessandro V." FontAttributes="Bold" FontSize="50" Margin="5,0,5,0" TranslationX="-3" TranslationY="10" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" Lines="1" AutoFit="Width"></f9p:Label>
+                    <!--TARIFFA e VALUTAZIONE MEDIA-->
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        <Label x:Name="tariffa_lbl" Text="15€" FontSize="50" TextColor="#2D8E80" FontAttributes="Bold" Margin="0,0,20,0"></Label>
+                        <Image Source="star1" WidthRequest="28" HeightRequest="28"></Image>
+                        <Label x:Name="eval_lbl" FontSize="50" Text="8" FontAttributes="Bold" HorizontalOptions="StartAndExpand"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+        <Frame>
             <StackLayout>
-                <!--NOME e DISTANZA-->
-                <Label x:Name="name_lbl" Text="Alessandro Vitale" FontAttributes="Bold" FontSize="25" Margin="10,0,0,0"/>
-                <Label x:Name="location_lbl" Text="Roma, 5Km" TextColor="#a5a2a2" FontSize="Subtitle" Margin="10,0,0,0"/>
-                <!--TARIFFA e VALUTAZIONE MEDIA-->
+                <!--MODALITA'-->
                 <StackLayout Orientation="Horizontal">
-                    <Label x:Name="tariffa_lbl" Text="15$" FontSize="35" TextColor="#2D8A2D" FontAttributes="Bold"></Label>
-                    <Label x:Name="eval_lbl" FontSize="Large" Text="7,5" Margin="10,0,0,0"></Label>
+                    <Label Text="In presenza e a distanza" FontAttributes="Bold" FontSize="18" Margin="15,0,0,0"></Label>
+                    <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                        <Image Source="users" WidthRequest="21" HeightRequest="21" VerticalOptions="Center"></Image>
+                        <Image Source="television1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
+                    </StackLayout>
+                </StackLayout>
+                <!--GRUPPI-->
+                <StackLayout Orientation="Horizontal" Margin="15,0,0,0">
+                    <Label Text="Lezione di gruppo" FontAttributes="Bold" FontSize="18"></Label>
+                    <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                        <Image Source="success" IsVisible="True" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
+                        <Image Source="error" IsVisible="False" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
+                    </StackLayout>
                 </StackLayout>
                 <!--EMAIL-->
-                <Label x:Name="email_lbl" Margin="0,0,0,0">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Email: " FontAttributes="Bold" FontSize="Medium"/>
-                            <Span Text=" avitale@gmail.com" FontSize="17"/>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <Image Source="paperplane1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
+                    <Label x:Name="email_lbl" Text="alessandro.vitale@gmail.com" FontSize="18" TextColor="#358" FontAttributes="Bold" Margin="2,0,0,0"></Label>
+                </StackLayout>
             </StackLayout>
-        </StackLayout>
+        </Frame>
         <!--VALUTAZIONI-->
-        <StackLayout Orientation="Horizontal">
-            <Label x:Name="eval_brv_lbl" Margin="10,0,0,0">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="Bravura a spiegare: " FontAttributes="Bold" FontSize="Medium"></Span>
-                        <Span Text="7,5"></Span>
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
-            <Label x:Name="eval_emp_lbl" Margin="10,0,0,0">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="Empatia: " FontAttributes="Bold" FontSize="Medium"></Span>
-                        <Span Text="7,5"></Span>
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
-            <Label x:Name="eval_org_lbl" Margin="10,0,0,0">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="Organizzazione: " FontAttributes="Bold" FontSize="Medium"></Span>
-                        <Span Text="7,5"></Span>
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
-        </StackLayout>
+        <Frame>
+            <StackLayout Orientation="Horizontal" Margin="0,-15,0,0">
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                        <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                        <Label x:Name="num_spg_lbl" FontSize="30" Text="7.7" FontAttributes="None"></Label>
+                    </StackLayout>
+                    <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="Bold" FontSize="17"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                        <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                        <Label x:Name="num_emp_lbl" FontSize="30" Text="9" FontAttributes="None"></Label>
+                    </StackLayout>
+                    <Label x:Name="eval_emp_lbl" Text="Empatia" FontAttributes="Bold" FontSize="17" TranslationX="5"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                        <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                        <Label x:Name="num_org_lbl" FontSize="30" Text="7" FontAttributes="None"></Label>
+                    </StackLayout>
+                    <Label x:Name="eval_org_lbl" Text="Organizzazione" TranslationX="6" FontAttributes="Bold" FontSize="17"/>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
     </StackLayout>
 
 </ContentPage>

@@ -15,7 +15,7 @@ namespace Tutorip.Views
         public ProfilePage2(Insegnante item)
         {
             InitializeComponent();
-            name_lbl.Text = item.email;
+            //name_lbl.Text = item.email;
 
         }
     }

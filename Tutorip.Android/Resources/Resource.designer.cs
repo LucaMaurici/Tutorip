@@ -26,6 +26,5157 @@ namespace Tutorip.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Forms9Patch.Droid.Resource.Animation.abc_fade_in = global::Tutorip.Droid.Resource.Animation.abc_fade_in;
+			global::Forms9Patch.Droid.Resource.Animation.abc_fade_out = global::Tutorip.Droid.Resource.Animation.abc_fade_out;
+			global::Forms9Patch.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::Tutorip.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Forms9Patch.Droid.Resource.Animation.abc_popup_enter = global::Tutorip.Droid.Resource.Animation.abc_popup_enter;
+			global::Forms9Patch.Droid.Resource.Animation.abc_popup_exit = global::Tutorip.Droid.Resource.Animation.abc_popup_exit;
+			global::Forms9Patch.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Tutorip.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Forms9Patch.Droid.Resource.Animation.abc_slide_in_bottom = global::Tutorip.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Forms9Patch.Droid.Resource.Animation.abc_slide_in_top = global::Tutorip.Droid.Resource.Animation.abc_slide_in_top;
+			global::Forms9Patch.Droid.Resource.Animation.abc_slide_out_bottom = global::Tutorip.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Forms9Patch.Droid.Resource.Animation.abc_slide_out_top = global::Tutorip.Droid.Resource.Animation.abc_slide_out_top;
+			global::Forms9Patch.Droid.Resource.Animation.abc_tooltip_enter = global::Tutorip.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Forms9Patch.Droid.Resource.Animation.abc_tooltip_exit = global::Tutorip.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Forms9Patch.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::Tutorip.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Forms9Patch.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Tutorip.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Forms9Patch.Droid.Resource.Animation.design_snackbar_in = global::Tutorip.Droid.Resource.Animation.design_snackbar_in;
+			global::Forms9Patch.Droid.Resource.Animation.design_snackbar_out = global::Tutorip.Droid.Resource.Animation.design_snackbar_out;
+			global::Forms9Patch.Droid.Resource.Animation.EnterFromLeft = global::Tutorip.Droid.Resource.Animation.EnterFromLeft;
+			global::Forms9Patch.Droid.Resource.Animation.EnterFromRight = global::Tutorip.Droid.Resource.Animation.EnterFromRight;
+			global::Forms9Patch.Droid.Resource.Animation.ExitToLeft = global::Tutorip.Droid.Resource.Animation.ExitToLeft;
+			global::Forms9Patch.Droid.Resource.Animation.ExitToRight = global::Tutorip.Droid.Resource.Animation.ExitToRight;
+			global::Forms9Patch.Droid.Resource.Animator.design_appbar_state_list_animator = global::Tutorip.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Forms9Patch.Droid.Resource.Animator.design_fab_hide_motion_spec = global::Tutorip.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Forms9Patch.Droid.Resource.Animator.design_fab_show_motion_spec = global::Tutorip.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Forms9Patch.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::Tutorip.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Forms9Patch.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Tutorip.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Forms9Patch.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::Tutorip.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Forms9Patch.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::Tutorip.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Forms9Patch.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::Tutorip.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Forms9Patch.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Tutorip.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Forms9Patch.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Tutorip.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarDivider = global::Tutorip.Droid.Resource.Attribute.actionBarDivider;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarItemBackground = global::Tutorip.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarPopupTheme = global::Tutorip.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarSize = global::Tutorip.Droid.Resource.Attribute.actionBarSize;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarSplitStyle = global::Tutorip.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarStyle = global::Tutorip.Droid.Resource.Attribute.actionBarStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarTabBarStyle = global::Tutorip.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarTabStyle = global::Tutorip.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarTabTextStyle = global::Tutorip.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarTheme = global::Tutorip.Droid.Resource.Attribute.actionBarTheme;
+			global::Forms9Patch.Droid.Resource.Attribute.actionBarWidgetTheme = global::Tutorip.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Forms9Patch.Droid.Resource.Attribute.actionButtonStyle = global::Tutorip.Droid.Resource.Attribute.actionButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionDropDownStyle = global::Tutorip.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionLayout = global::Tutorip.Droid.Resource.Attribute.actionLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.actionMenuTextAppearance = global::Tutorip.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.actionMenuTextColor = global::Tutorip.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeBackground = global::Tutorip.Droid.Resource.Attribute.actionModeBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::Tutorip.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeCloseDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeCopyDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeCutDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeFindDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModePasteDrawable = global::Tutorip.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModePopupWindowStyle = global::Tutorip.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeShareDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeSplitBackground = global::Tutorip.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeStyle = global::Tutorip.Droid.Resource.Attribute.actionModeStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.actionOverflowButtonStyle = global::Tutorip.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionOverflowMenuStyle = global::Tutorip.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.actionProviderClass = global::Tutorip.Droid.Resource.Attribute.actionProviderClass;
+			global::Forms9Patch.Droid.Resource.Attribute.actionViewClass = global::Tutorip.Droid.Resource.Attribute.actionViewClass;
+			global::Forms9Patch.Droid.Resource.Attribute.activityChooserViewStyle = global::Tutorip.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::Tutorip.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.alertDialogCenterButtons = global::Tutorip.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Forms9Patch.Droid.Resource.Attribute.alertDialogStyle = global::Tutorip.Droid.Resource.Attribute.alertDialogStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.alertDialogTheme = global::Tutorip.Droid.Resource.Attribute.alertDialogTheme;
+			global::Forms9Patch.Droid.Resource.Attribute.allowStacking = global::Tutorip.Droid.Resource.Attribute.allowStacking;
+			global::Forms9Patch.Droid.Resource.Attribute.alpha = global::Tutorip.Droid.Resource.Attribute.alpha;
+			global::Forms9Patch.Droid.Resource.Attribute.alphabeticModifiers = global::Tutorip.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Forms9Patch.Droid.Resource.Attribute.arrowHeadLength = global::Tutorip.Droid.Resource.Attribute.arrowHeadLength;
+			global::Forms9Patch.Droid.Resource.Attribute.arrowShaftLength = global::Tutorip.Droid.Resource.Attribute.arrowShaftLength;
+			global::Forms9Patch.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::Tutorip.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.autoSizeMaxTextSize = global::Tutorip.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Forms9Patch.Droid.Resource.Attribute.autoSizeMinTextSize = global::Tutorip.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Forms9Patch.Droid.Resource.Attribute.autoSizePresetSizes = global::Tutorip.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Forms9Patch.Droid.Resource.Attribute.autoSizeStepGranularity = global::Tutorip.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Forms9Patch.Droid.Resource.Attribute.autoSizeTextType = global::Tutorip.Droid.Resource.Attribute.autoSizeTextType;
+			global::Forms9Patch.Droid.Resource.Attribute.background = global::Tutorip.Droid.Resource.Attribute.background;
+			global::Forms9Patch.Droid.Resource.Attribute.backgroundSplit = global::Tutorip.Droid.Resource.Attribute.backgroundSplit;
+			global::Forms9Patch.Droid.Resource.Attribute.backgroundStacked = global::Tutorip.Droid.Resource.Attribute.backgroundStacked;
+			global::Forms9Patch.Droid.Resource.Attribute.backgroundTint = global::Tutorip.Droid.Resource.Attribute.backgroundTint;
+			global::Forms9Patch.Droid.Resource.Attribute.backgroundTintMode = global::Tutorip.Droid.Resource.Attribute.backgroundTintMode;
+			global::Forms9Patch.Droid.Resource.Attribute.barLength = global::Tutorip.Droid.Resource.Attribute.barLength;
+			global::Forms9Patch.Droid.Resource.Attribute.behavior_autoHide = global::Tutorip.Droid.Resource.Attribute.behavior_autoHide;
+			global::Forms9Patch.Droid.Resource.Attribute.behavior_fitToContents = global::Tutorip.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Forms9Patch.Droid.Resource.Attribute.behavior_hideable = global::Tutorip.Droid.Resource.Attribute.behavior_hideable;
+			global::Forms9Patch.Droid.Resource.Attribute.behavior_overlapTop = global::Tutorip.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Forms9Patch.Droid.Resource.Attribute.behavior_peekHeight = global::Tutorip.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Forms9Patch.Droid.Resource.Attribute.behavior_skipCollapsed = global::Tutorip.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Forms9Patch.Droid.Resource.Attribute.borderlessButtonStyle = global::Tutorip.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.borderWidth = global::Tutorip.Droid.Resource.Attribute.borderWidth;
+			global::Forms9Patch.Droid.Resource.Attribute.bottomAppBarStyle = global::Tutorip.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.bottomNavigationStyle = global::Tutorip.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.bottomSheetDialogTheme = global::Tutorip.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Forms9Patch.Droid.Resource.Attribute.bottomSheetStyle = global::Tutorip.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.boxBackgroundColor = global::Tutorip.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Forms9Patch.Droid.Resource.Attribute.boxBackgroundMode = global::Tutorip.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Forms9Patch.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::Tutorip.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Forms9Patch.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::Tutorip.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Forms9Patch.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::Tutorip.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Forms9Patch.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::Tutorip.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Forms9Patch.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::Tutorip.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Forms9Patch.Droid.Resource.Attribute.boxStrokeColor = global::Tutorip.Droid.Resource.Attribute.boxStrokeColor;
+			global::Forms9Patch.Droid.Resource.Attribute.boxStrokeWidth = global::Tutorip.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonBarButtonStyle = global::Tutorip.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Tutorip.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Tutorip.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::Tutorip.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonBarStyle = global::Tutorip.Droid.Resource.Attribute.buttonBarStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonGravity = global::Tutorip.Droid.Resource.Attribute.buttonGravity;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonIconDimen = global::Tutorip.Droid.Resource.Attribute.buttonIconDimen;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonPanelSideLayout = global::Tutorip.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonStyle = global::Tutorip.Droid.Resource.Attribute.buttonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonStyleSmall = global::Tutorip.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonTint = global::Tutorip.Droid.Resource.Attribute.buttonTint;
+			global::Forms9Patch.Droid.Resource.Attribute.buttonTintMode = global::Tutorip.Droid.Resource.Attribute.buttonTintMode;
+			global::Forms9Patch.Droid.Resource.Attribute.cardBackgroundColor = global::Tutorip.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Forms9Patch.Droid.Resource.Attribute.cardCornerRadius = global::Tutorip.Droid.Resource.Attribute.cardCornerRadius;
+			global::Forms9Patch.Droid.Resource.Attribute.cardElevation = global::Tutorip.Droid.Resource.Attribute.cardElevation;
+			global::Forms9Patch.Droid.Resource.Attribute.cardMaxElevation = global::Tutorip.Droid.Resource.Attribute.cardMaxElevation;
+			global::Forms9Patch.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Tutorip.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Forms9Patch.Droid.Resource.Attribute.cardUseCompatPadding = global::Tutorip.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.cardViewStyle = global::Tutorip.Droid.Resource.Attribute.cardViewStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.checkboxStyle = global::Tutorip.Droid.Resource.Attribute.checkboxStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.checkedChip = global::Tutorip.Droid.Resource.Attribute.checkedChip;
+			global::Forms9Patch.Droid.Resource.Attribute.checkedIcon = global::Tutorip.Droid.Resource.Attribute.checkedIcon;
+			global::Forms9Patch.Droid.Resource.Attribute.checkedIconEnabled = global::Tutorip.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.checkedIconVisible = global::Tutorip.Droid.Resource.Attribute.checkedIconVisible;
+			global::Forms9Patch.Droid.Resource.Attribute.checkedTextViewStyle = global::Tutorip.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.chipBackgroundColor = global::Tutorip.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Forms9Patch.Droid.Resource.Attribute.chipCornerRadius = global::Tutorip.Droid.Resource.Attribute.chipCornerRadius;
+			global::Forms9Patch.Droid.Resource.Attribute.chipEndPadding = global::Tutorip.Droid.Resource.Attribute.chipEndPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.chipGroupStyle = global::Tutorip.Droid.Resource.Attribute.chipGroupStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.chipIcon = global::Tutorip.Droid.Resource.Attribute.chipIcon;
+			global::Forms9Patch.Droid.Resource.Attribute.chipIconEnabled = global::Tutorip.Droid.Resource.Attribute.chipIconEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.chipIconSize = global::Tutorip.Droid.Resource.Attribute.chipIconSize;
+			global::Forms9Patch.Droid.Resource.Attribute.chipIconTint = global::Tutorip.Droid.Resource.Attribute.chipIconTint;
+			global::Forms9Patch.Droid.Resource.Attribute.chipIconVisible = global::Tutorip.Droid.Resource.Attribute.chipIconVisible;
+			global::Forms9Patch.Droid.Resource.Attribute.chipMinHeight = global::Tutorip.Droid.Resource.Attribute.chipMinHeight;
+			global::Forms9Patch.Droid.Resource.Attribute.chipSpacing = global::Tutorip.Droid.Resource.Attribute.chipSpacing;
+			global::Forms9Patch.Droid.Resource.Attribute.chipSpacingHorizontal = global::Tutorip.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Forms9Patch.Droid.Resource.Attribute.chipSpacingVertical = global::Tutorip.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Forms9Patch.Droid.Resource.Attribute.chipStandaloneStyle = global::Tutorip.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.chipStartPadding = global::Tutorip.Droid.Resource.Attribute.chipStartPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.chipStrokeColor = global::Tutorip.Droid.Resource.Attribute.chipStrokeColor;
+			global::Forms9Patch.Droid.Resource.Attribute.chipStrokeWidth = global::Tutorip.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Forms9Patch.Droid.Resource.Attribute.chipStyle = global::Tutorip.Droid.Resource.Attribute.chipStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.closeIcon = global::Tutorip.Droid.Resource.Attribute.closeIcon;
+			global::Forms9Patch.Droid.Resource.Attribute.closeIconEnabled = global::Tutorip.Droid.Resource.Attribute.closeIconEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.closeIconEndPadding = global::Tutorip.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.closeIconSize = global::Tutorip.Droid.Resource.Attribute.closeIconSize;
+			global::Forms9Patch.Droid.Resource.Attribute.closeIconStartPadding = global::Tutorip.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.closeIconTint = global::Tutorip.Droid.Resource.Attribute.closeIconTint;
+			global::Forms9Patch.Droid.Resource.Attribute.closeIconVisible = global::Tutorip.Droid.Resource.Attribute.closeIconVisible;
+			global::Forms9Patch.Droid.Resource.Attribute.closeItemLayout = global::Tutorip.Droid.Resource.Attribute.closeItemLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.collapseContentDescription = global::Tutorip.Droid.Resource.Attribute.collapseContentDescription;
+			global::Forms9Patch.Droid.Resource.Attribute.collapsedTitleGravity = global::Tutorip.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Forms9Patch.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::Tutorip.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.collapseIcon = global::Tutorip.Droid.Resource.Attribute.collapseIcon;
+			global::Forms9Patch.Droid.Resource.Attribute.color = global::Tutorip.Droid.Resource.Attribute.color;
+			global::Forms9Patch.Droid.Resource.Attribute.colorAccent = global::Tutorip.Droid.Resource.Attribute.colorAccent;
+			global::Forms9Patch.Droid.Resource.Attribute.colorBackgroundFloating = global::Tutorip.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Forms9Patch.Droid.Resource.Attribute.colorButtonNormal = global::Tutorip.Droid.Resource.Attribute.colorButtonNormal;
+			global::Forms9Patch.Droid.Resource.Attribute.colorControlActivated = global::Tutorip.Droid.Resource.Attribute.colorControlActivated;
+			global::Forms9Patch.Droid.Resource.Attribute.colorControlHighlight = global::Tutorip.Droid.Resource.Attribute.colorControlHighlight;
+			global::Forms9Patch.Droid.Resource.Attribute.colorControlNormal = global::Tutorip.Droid.Resource.Attribute.colorControlNormal;
+			global::Forms9Patch.Droid.Resource.Attribute.colorError = global::Tutorip.Droid.Resource.Attribute.colorError;
+			global::Forms9Patch.Droid.Resource.Attribute.colorPrimary = global::Tutorip.Droid.Resource.Attribute.colorPrimary;
+			global::Forms9Patch.Droid.Resource.Attribute.colorPrimaryDark = global::Tutorip.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Forms9Patch.Droid.Resource.Attribute.colorSecondary = global::Tutorip.Droid.Resource.Attribute.colorSecondary;
+			global::Forms9Patch.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Tutorip.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Forms9Patch.Droid.Resource.Attribute.commitIcon = global::Tutorip.Droid.Resource.Attribute.commitIcon;
+			global::Forms9Patch.Droid.Resource.Attribute.contentDescription = global::Tutorip.Droid.Resource.Attribute.contentDescription;
+			global::Forms9Patch.Droid.Resource.Attribute.contentInsetEnd = global::Tutorip.Droid.Resource.Attribute.contentInsetEnd;
+			global::Forms9Patch.Droid.Resource.Attribute.contentInsetEndWithActions = global::Tutorip.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Forms9Patch.Droid.Resource.Attribute.contentInsetLeft = global::Tutorip.Droid.Resource.Attribute.contentInsetLeft;
+			global::Forms9Patch.Droid.Resource.Attribute.contentInsetRight = global::Tutorip.Droid.Resource.Attribute.contentInsetRight;
+			global::Forms9Patch.Droid.Resource.Attribute.contentInsetStart = global::Tutorip.Droid.Resource.Attribute.contentInsetStart;
+			global::Forms9Patch.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::Tutorip.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Forms9Patch.Droid.Resource.Attribute.contentPadding = global::Tutorip.Droid.Resource.Attribute.contentPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.contentPaddingBottom = global::Tutorip.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Forms9Patch.Droid.Resource.Attribute.contentPaddingLeft = global::Tutorip.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Forms9Patch.Droid.Resource.Attribute.contentPaddingRight = global::Tutorip.Droid.Resource.Attribute.contentPaddingRight;
+			global::Forms9Patch.Droid.Resource.Attribute.contentPaddingTop = global::Tutorip.Droid.Resource.Attribute.contentPaddingTop;
+			global::Forms9Patch.Droid.Resource.Attribute.contentScrim = global::Tutorip.Droid.Resource.Attribute.contentScrim;
+			global::Forms9Patch.Droid.Resource.Attribute.controlBackground = global::Tutorip.Droid.Resource.Attribute.controlBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.coordinatorLayoutStyle = global::Tutorip.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.cornerRadius = global::Tutorip.Droid.Resource.Attribute.cornerRadius;
+			global::Forms9Patch.Droid.Resource.Attribute.counterEnabled = global::Tutorip.Droid.Resource.Attribute.counterEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.counterMaxLength = global::Tutorip.Droid.Resource.Attribute.counterMaxLength;
+			global::Forms9Patch.Droid.Resource.Attribute.counterOverflowTextAppearance = global::Tutorip.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.counterTextAppearance = global::Tutorip.Droid.Resource.Attribute.counterTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.customNavigationLayout = global::Tutorip.Droid.Resource.Attribute.customNavigationLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.defaultQueryHint = global::Tutorip.Droid.Resource.Attribute.defaultQueryHint;
+			global::Forms9Patch.Droid.Resource.Attribute.dialogCornerRadius = global::Tutorip.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Forms9Patch.Droid.Resource.Attribute.dialogPreferredPadding = global::Tutorip.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.dialogTheme = global::Tutorip.Droid.Resource.Attribute.dialogTheme;
+			global::Forms9Patch.Droid.Resource.Attribute.displayOptions = global::Tutorip.Droid.Resource.Attribute.displayOptions;
+			global::Forms9Patch.Droid.Resource.Attribute.divider = global::Tutorip.Droid.Resource.Attribute.divider;
+			global::Forms9Patch.Droid.Resource.Attribute.dividerHorizontal = global::Tutorip.Droid.Resource.Attribute.dividerHorizontal;
+			global::Forms9Patch.Droid.Resource.Attribute.dividerPadding = global::Tutorip.Droid.Resource.Attribute.dividerPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.dividerVertical = global::Tutorip.Droid.Resource.Attribute.dividerVertical;
+			global::Forms9Patch.Droid.Resource.Attribute.drawableSize = global::Tutorip.Droid.Resource.Attribute.drawableSize;
+			global::Forms9Patch.Droid.Resource.Attribute.drawerArrowStyle = global::Tutorip.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::Tutorip.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Forms9Patch.Droid.Resource.Attribute.dropDownListViewStyle = global::Tutorip.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.editTextBackground = global::Tutorip.Droid.Resource.Attribute.editTextBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.editTextColor = global::Tutorip.Droid.Resource.Attribute.editTextColor;
+			global::Forms9Patch.Droid.Resource.Attribute.editTextStyle = global::Tutorip.Droid.Resource.Attribute.editTextStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.elevation = global::Tutorip.Droid.Resource.Attribute.elevation;
+			global::Forms9Patch.Droid.Resource.Attribute.enforceMaterialTheme = global::Tutorip.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Forms9Patch.Droid.Resource.Attribute.enforceTextAppearance = global::Tutorip.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.errorEnabled = global::Tutorip.Droid.Resource.Attribute.errorEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.errorTextAppearance = global::Tutorip.Droid.Resource.Attribute.errorTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Tutorip.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.expanded = global::Tutorip.Droid.Resource.Attribute.expanded;
+			global::Forms9Patch.Droid.Resource.Attribute.expandedTitleGravity = global::Tutorip.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Forms9Patch.Droid.Resource.Attribute.expandedTitleMargin = global::Tutorip.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Forms9Patch.Droid.Resource.Attribute.expandedTitleMarginBottom = global::Tutorip.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Forms9Patch.Droid.Resource.Attribute.expandedTitleMarginEnd = global::Tutorip.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Forms9Patch.Droid.Resource.Attribute.expandedTitleMarginStart = global::Tutorip.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Forms9Patch.Droid.Resource.Attribute.expandedTitleMarginTop = global::Tutorip.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Forms9Patch.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Tutorip.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.fabAlignmentMode = global::Tutorip.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Forms9Patch.Droid.Resource.Attribute.fabCradleMargin = global::Tutorip.Droid.Resource.Attribute.fabCradleMargin;
+			global::Forms9Patch.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::Tutorip.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Forms9Patch.Droid.Resource.Attribute.fabCradleVerticalOffset = global::Tutorip.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Forms9Patch.Droid.Resource.Attribute.fabCustomSize = global::Tutorip.Droid.Resource.Attribute.fabCustomSize;
+			global::Forms9Patch.Droid.Resource.Attribute.fabSize = global::Tutorip.Droid.Resource.Attribute.fabSize;
+			global::Forms9Patch.Droid.Resource.Attribute.fastScrollEnabled = global::Tutorip.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Tutorip.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Tutorip.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Tutorip.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Tutorip.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.firstBaselineToTopHeight = global::Tutorip.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Forms9Patch.Droid.Resource.Attribute.floatingActionButtonStyle = global::Tutorip.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.font = global::Tutorip.Droid.Resource.Attribute.font;
+			global::Forms9Patch.Droid.Resource.Attribute.fontFamily = global::Tutorip.Droid.Resource.Attribute.fontFamily;
+			global::Forms9Patch.Droid.Resource.Attribute.fontProviderAuthority = global::Tutorip.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Forms9Patch.Droid.Resource.Attribute.fontProviderCerts = global::Tutorip.Droid.Resource.Attribute.fontProviderCerts;
+			global::Forms9Patch.Droid.Resource.Attribute.fontProviderFetchStrategy = global::Tutorip.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Forms9Patch.Droid.Resource.Attribute.fontProviderFetchTimeout = global::Tutorip.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Forms9Patch.Droid.Resource.Attribute.fontProviderPackage = global::Tutorip.Droid.Resource.Attribute.fontProviderPackage;
+			global::Forms9Patch.Droid.Resource.Attribute.fontProviderQuery = global::Tutorip.Droid.Resource.Attribute.fontProviderQuery;
+			global::Forms9Patch.Droid.Resource.Attribute.fontStyle = global::Tutorip.Droid.Resource.Attribute.fontStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.fontVariationSettings = global::Tutorip.Droid.Resource.Attribute.fontVariationSettings;
+			global::Forms9Patch.Droid.Resource.Attribute.fontWeight = global::Tutorip.Droid.Resource.Attribute.fontWeight;
+			global::Forms9Patch.Droid.Resource.Attribute.foregroundInsidePadding = global::Tutorip.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Forms9Patch.Droid.Resource.Attribute.gapBetweenBars = global::Tutorip.Droid.Resource.Attribute.gapBetweenBars;
+			global::Forms9Patch.Droid.Resource.Attribute.goIcon = global::Tutorip.Droid.Resource.Attribute.goIcon;
+			global::Forms9Patch.Droid.Resource.Attribute.headerLayout = global::Tutorip.Droid.Resource.Attribute.headerLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.height = global::Tutorip.Droid.Resource.Attribute.height;
+			global::Forms9Patch.Droid.Resource.Attribute.helperText = global::Tutorip.Droid.Resource.Attribute.helperText;
+			global::Forms9Patch.Droid.Resource.Attribute.helperTextEnabled = global::Tutorip.Droid.Resource.Attribute.helperTextEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.helperTextTextAppearance = global::Tutorip.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.hideMotionSpec = global::Tutorip.Droid.Resource.Attribute.hideMotionSpec;
+			global::Forms9Patch.Droid.Resource.Attribute.hideOnContentScroll = global::Tutorip.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Forms9Patch.Droid.Resource.Attribute.hideOnScroll = global::Tutorip.Droid.Resource.Attribute.hideOnScroll;
+			global::Forms9Patch.Droid.Resource.Attribute.hintAnimationEnabled = global::Tutorip.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.hintEnabled = global::Tutorip.Droid.Resource.Attribute.hintEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.hintTextAppearance = global::Tutorip.Droid.Resource.Attribute.hintTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.homeAsUpIndicator = global::Tutorip.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Forms9Patch.Droid.Resource.Attribute.homeLayout = global::Tutorip.Droid.Resource.Attribute.homeLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::Tutorip.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Forms9Patch.Droid.Resource.Attribute.icon = global::Tutorip.Droid.Resource.Attribute.icon;
+			global::Forms9Patch.Droid.Resource.Attribute.iconEndPadding = global::Tutorip.Droid.Resource.Attribute.iconEndPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.iconGravity = global::Tutorip.Droid.Resource.Attribute.iconGravity;
+			global::Forms9Patch.Droid.Resource.Attribute.iconifiedByDefault = global::Tutorip.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Forms9Patch.Droid.Resource.Attribute.iconPadding = global::Tutorip.Droid.Resource.Attribute.iconPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.iconSize = global::Tutorip.Droid.Resource.Attribute.iconSize;
+			global::Forms9Patch.Droid.Resource.Attribute.iconStartPadding = global::Tutorip.Droid.Resource.Attribute.iconStartPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.iconTint = global::Tutorip.Droid.Resource.Attribute.iconTint;
+			global::Forms9Patch.Droid.Resource.Attribute.iconTintMode = global::Tutorip.Droid.Resource.Attribute.iconTintMode;
+			global::Forms9Patch.Droid.Resource.Attribute.imageButtonStyle = global::Tutorip.Droid.Resource.Attribute.imageButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.indeterminateProgressStyle = global::Tutorip.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.initialActivityCount = global::Tutorip.Droid.Resource.Attribute.initialActivityCount;
+			global::Forms9Patch.Droid.Resource.Attribute.insetForeground = global::Tutorip.Droid.Resource.Attribute.insetForeground;
+			global::Forms9Patch.Droid.Resource.Attribute.isLightTheme = global::Tutorip.Droid.Resource.Attribute.isLightTheme;
+			global::Forms9Patch.Droid.Resource.Attribute.itemBackground = global::Tutorip.Droid.Resource.Attribute.itemBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.itemHorizontalPadding = global::Tutorip.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::Tutorip.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.itemIconPadding = global::Tutorip.Droid.Resource.Attribute.itemIconPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.itemIconSize = global::Tutorip.Droid.Resource.Attribute.itemIconSize;
+			global::Forms9Patch.Droid.Resource.Attribute.itemIconTint = global::Tutorip.Droid.Resource.Attribute.itemIconTint;
+			global::Forms9Patch.Droid.Resource.Attribute.itemPadding = global::Tutorip.Droid.Resource.Attribute.itemPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.itemSpacing = global::Tutorip.Droid.Resource.Attribute.itemSpacing;
+			global::Forms9Patch.Droid.Resource.Attribute.itemTextAppearance = global::Tutorip.Droid.Resource.Attribute.itemTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.itemTextAppearanceActive = global::Tutorip.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Forms9Patch.Droid.Resource.Attribute.itemTextAppearanceInactive = global::Tutorip.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Forms9Patch.Droid.Resource.Attribute.itemTextColor = global::Tutorip.Droid.Resource.Attribute.itemTextColor;
+			global::Forms9Patch.Droid.Resource.Attribute.keylines = global::Tutorip.Droid.Resource.Attribute.keylines;
+			global::Forms9Patch.Droid.Resource.Attribute.labelVisibilityMode = global::Tutorip.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Forms9Patch.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::Tutorip.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Forms9Patch.Droid.Resource.Attribute.layout = global::Tutorip.Droid.Resource.Attribute.layout;
+			global::Forms9Patch.Droid.Resource.Attribute.layoutManager = global::Tutorip.Droid.Resource.Attribute.layoutManager;
+			global::Forms9Patch.Droid.Resource.Attribute.layout_anchor = global::Tutorip.Droid.Resource.Attribute.layout_anchor;
+			global::Forms9Patch.Droid.Resource.Attribute.layout_anchorGravity = global::Tutorip.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Forms9Patch.Droid.Resource.Attribute.layout_behavior = global::Tutorip.Droid.Resource.Attribute.layout_behavior;
+			global::Forms9Patch.Droid.Resource.Attribute.layout_collapseMode = global::Tutorip.Droid.Resource.Attribute.layout_collapseMode;
+			global::Forms9Patch.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::Tutorip.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Forms9Patch.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::Tutorip.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Forms9Patch.Droid.Resource.Attribute.layout_insetEdge = global::Tutorip.Droid.Resource.Attribute.layout_insetEdge;
+			global::Forms9Patch.Droid.Resource.Attribute.layout_keyline = global::Tutorip.Droid.Resource.Attribute.layout_keyline;
+			global::Forms9Patch.Droid.Resource.Attribute.layout_scrollFlags = global::Tutorip.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Forms9Patch.Droid.Resource.Attribute.layout_scrollInterpolator = global::Tutorip.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Forms9Patch.Droid.Resource.Attribute.liftOnScroll = global::Tutorip.Droid.Resource.Attribute.liftOnScroll;
+			global::Forms9Patch.Droid.Resource.Attribute.lineHeight = global::Tutorip.Droid.Resource.Attribute.lineHeight;
+			global::Forms9Patch.Droid.Resource.Attribute.lineSpacing = global::Tutorip.Droid.Resource.Attribute.lineSpacing;
+			global::Forms9Patch.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Tutorip.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Forms9Patch.Droid.Resource.Attribute.listDividerAlertDialog = global::Tutorip.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Forms9Patch.Droid.Resource.Attribute.listItemLayout = global::Tutorip.Droid.Resource.Attribute.listItemLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.listLayout = global::Tutorip.Droid.Resource.Attribute.listLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.listMenuViewStyle = global::Tutorip.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.listPopupWindowStyle = global::Tutorip.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.listPreferredItemHeight = global::Tutorip.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Forms9Patch.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::Tutorip.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Forms9Patch.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::Tutorip.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Forms9Patch.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::Tutorip.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Forms9Patch.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::Tutorip.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Forms9Patch.Droid.Resource.Attribute.logo = global::Tutorip.Droid.Resource.Attribute.logo;
+			global::Forms9Patch.Droid.Resource.Attribute.logoDescription = global::Tutorip.Droid.Resource.Attribute.logoDescription;
+			global::Forms9Patch.Droid.Resource.Attribute.materialButtonStyle = global::Tutorip.Droid.Resource.Attribute.materialButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.materialCardViewStyle = global::Tutorip.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.maxActionInlineWidth = global::Tutorip.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Forms9Patch.Droid.Resource.Attribute.maxButtonHeight = global::Tutorip.Droid.Resource.Attribute.maxButtonHeight;
+			global::Forms9Patch.Droid.Resource.Attribute.maxImageSize = global::Tutorip.Droid.Resource.Attribute.maxImageSize;
+			global::Forms9Patch.Droid.Resource.Attribute.measureWithLargestChild = global::Tutorip.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Forms9Patch.Droid.Resource.Attribute.menu = global::Tutorip.Droid.Resource.Attribute.menu;
+			global::Forms9Patch.Droid.Resource.Attribute.multiChoiceItemLayout = global::Tutorip.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.navigationContentDescription = global::Tutorip.Droid.Resource.Attribute.navigationContentDescription;
+			global::Forms9Patch.Droid.Resource.Attribute.navigationIcon = global::Tutorip.Droid.Resource.Attribute.navigationIcon;
+			global::Forms9Patch.Droid.Resource.Attribute.navigationMode = global::Tutorip.Droid.Resource.Attribute.navigationMode;
+			global::Forms9Patch.Droid.Resource.Attribute.navigationViewStyle = global::Tutorip.Droid.Resource.Attribute.navigationViewStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.numericModifiers = global::Tutorip.Droid.Resource.Attribute.numericModifiers;
+			global::Forms9Patch.Droid.Resource.Attribute.overlapAnchor = global::Tutorip.Droid.Resource.Attribute.overlapAnchor;
+			global::Forms9Patch.Droid.Resource.Attribute.paddingBottomNoButtons = global::Tutorip.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Forms9Patch.Droid.Resource.Attribute.paddingEnd = global::Tutorip.Droid.Resource.Attribute.paddingEnd;
+			global::Forms9Patch.Droid.Resource.Attribute.paddingStart = global::Tutorip.Droid.Resource.Attribute.paddingStart;
+			global::Forms9Patch.Droid.Resource.Attribute.paddingTopNoTitle = global::Tutorip.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Forms9Patch.Droid.Resource.Attribute.panelBackground = global::Tutorip.Droid.Resource.Attribute.panelBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.panelMenuListTheme = global::Tutorip.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Forms9Patch.Droid.Resource.Attribute.panelMenuListWidth = global::Tutorip.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Forms9Patch.Droid.Resource.Attribute.passwordToggleContentDescription = global::Tutorip.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Forms9Patch.Droid.Resource.Attribute.passwordToggleDrawable = global::Tutorip.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Forms9Patch.Droid.Resource.Attribute.passwordToggleEnabled = global::Tutorip.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.passwordToggleTint = global::Tutorip.Droid.Resource.Attribute.passwordToggleTint;
+			global::Forms9Patch.Droid.Resource.Attribute.passwordToggleTintMode = global::Tutorip.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Forms9Patch.Droid.Resource.Attribute.popupMenuStyle = global::Tutorip.Droid.Resource.Attribute.popupMenuStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.popupTheme = global::Tutorip.Droid.Resource.Attribute.popupTheme;
+			global::Forms9Patch.Droid.Resource.Attribute.popupWindowStyle = global::Tutorip.Droid.Resource.Attribute.popupWindowStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.preserveIconSpacing = global::Tutorip.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Forms9Patch.Droid.Resource.Attribute.pressedTranslationZ = global::Tutorip.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Forms9Patch.Droid.Resource.Attribute.progressBarPadding = global::Tutorip.Droid.Resource.Attribute.progressBarPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.progressBarStyle = global::Tutorip.Droid.Resource.Attribute.progressBarStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.queryBackground = global::Tutorip.Droid.Resource.Attribute.queryBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.queryHint = global::Tutorip.Droid.Resource.Attribute.queryHint;
+			global::Forms9Patch.Droid.Resource.Attribute.radioButtonStyle = global::Tutorip.Droid.Resource.Attribute.radioButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.ratingBarStyle = global::Tutorip.Droid.Resource.Attribute.ratingBarStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.ratingBarStyleIndicator = global::Tutorip.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Forms9Patch.Droid.Resource.Attribute.ratingBarStyleSmall = global::Tutorip.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Forms9Patch.Droid.Resource.Attribute.reverseLayout = global::Tutorip.Droid.Resource.Attribute.reverseLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.rippleColor = global::Tutorip.Droid.Resource.Attribute.rippleColor;
+			global::Forms9Patch.Droid.Resource.Attribute.scrimAnimationDuration = global::Tutorip.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Forms9Patch.Droid.Resource.Attribute.scrimBackground = global::Tutorip.Droid.Resource.Attribute.scrimBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::Tutorip.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Forms9Patch.Droid.Resource.Attribute.searchHintIcon = global::Tutorip.Droid.Resource.Attribute.searchHintIcon;
+			global::Forms9Patch.Droid.Resource.Attribute.searchIcon = global::Tutorip.Droid.Resource.Attribute.searchIcon;
+			global::Forms9Patch.Droid.Resource.Attribute.searchViewStyle = global::Tutorip.Droid.Resource.Attribute.searchViewStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.seekBarStyle = global::Tutorip.Droid.Resource.Attribute.seekBarStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.selectableItemBackground = global::Tutorip.Droid.Resource.Attribute.selectableItemBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Tutorip.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Forms9Patch.Droid.Resource.Attribute.showAsAction = global::Tutorip.Droid.Resource.Attribute.showAsAction;
+			global::Forms9Patch.Droid.Resource.Attribute.showDividers = global::Tutorip.Droid.Resource.Attribute.showDividers;
+			global::Forms9Patch.Droid.Resource.Attribute.showMotionSpec = global::Tutorip.Droid.Resource.Attribute.showMotionSpec;
+			global::Forms9Patch.Droid.Resource.Attribute.showText = global::Tutorip.Droid.Resource.Attribute.showText;
+			global::Forms9Patch.Droid.Resource.Attribute.showTitle = global::Tutorip.Droid.Resource.Attribute.showTitle;
+			global::Forms9Patch.Droid.Resource.Attribute.singleChoiceItemLayout = global::Tutorip.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.singleLine = global::Tutorip.Droid.Resource.Attribute.singleLine;
+			global::Forms9Patch.Droid.Resource.Attribute.singleSelection = global::Tutorip.Droid.Resource.Attribute.singleSelection;
+			global::Forms9Patch.Droid.Resource.Attribute.snackbarButtonStyle = global::Tutorip.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.snackbarStyle = global::Tutorip.Droid.Resource.Attribute.snackbarStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.spanCount = global::Tutorip.Droid.Resource.Attribute.spanCount;
+			global::Forms9Patch.Droid.Resource.Attribute.spinBars = global::Tutorip.Droid.Resource.Attribute.spinBars;
+			global::Forms9Patch.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Tutorip.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.spinnerStyle = global::Tutorip.Droid.Resource.Attribute.spinnerStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.splitTrack = global::Tutorip.Droid.Resource.Attribute.splitTrack;
+			global::Forms9Patch.Droid.Resource.Attribute.srcCompat = global::Tutorip.Droid.Resource.Attribute.srcCompat;
+			global::Forms9Patch.Droid.Resource.Attribute.stackFromEnd = global::Tutorip.Droid.Resource.Attribute.stackFromEnd;
+			global::Forms9Patch.Droid.Resource.Attribute.state_above_anchor = global::Tutorip.Droid.Resource.Attribute.state_above_anchor;
+			global::Forms9Patch.Droid.Resource.Attribute.state_collapsed = global::Tutorip.Droid.Resource.Attribute.state_collapsed;
+			global::Forms9Patch.Droid.Resource.Attribute.state_collapsible = global::Tutorip.Droid.Resource.Attribute.state_collapsible;
+			global::Forms9Patch.Droid.Resource.Attribute.state_liftable = global::Tutorip.Droid.Resource.Attribute.state_liftable;
+			global::Forms9Patch.Droid.Resource.Attribute.state_lifted = global::Tutorip.Droid.Resource.Attribute.state_lifted;
+			global::Forms9Patch.Droid.Resource.Attribute.statusBarBackground = global::Tutorip.Droid.Resource.Attribute.statusBarBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.statusBarScrim = global::Tutorip.Droid.Resource.Attribute.statusBarScrim;
+			global::Forms9Patch.Droid.Resource.Attribute.strokeColor = global::Tutorip.Droid.Resource.Attribute.strokeColor;
+			global::Forms9Patch.Droid.Resource.Attribute.strokeWidth = global::Tutorip.Droid.Resource.Attribute.strokeWidth;
+			global::Forms9Patch.Droid.Resource.Attribute.subMenuArrow = global::Tutorip.Droid.Resource.Attribute.subMenuArrow;
+			global::Forms9Patch.Droid.Resource.Attribute.submitBackground = global::Tutorip.Droid.Resource.Attribute.submitBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.subtitle = global::Tutorip.Droid.Resource.Attribute.subtitle;
+			global::Forms9Patch.Droid.Resource.Attribute.subtitleTextAppearance = global::Tutorip.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.subtitleTextColor = global::Tutorip.Droid.Resource.Attribute.subtitleTextColor;
+			global::Forms9Patch.Droid.Resource.Attribute.subtitleTextStyle = global::Tutorip.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.suggestionRowLayout = global::Tutorip.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Forms9Patch.Droid.Resource.Attribute.switchMinWidth = global::Tutorip.Droid.Resource.Attribute.switchMinWidth;
+			global::Forms9Patch.Droid.Resource.Attribute.switchPadding = global::Tutorip.Droid.Resource.Attribute.switchPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.switchStyle = global::Tutorip.Droid.Resource.Attribute.switchStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.switchTextAppearance = global::Tutorip.Droid.Resource.Attribute.switchTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.tabBackground = global::Tutorip.Droid.Resource.Attribute.tabBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.tabContentStart = global::Tutorip.Droid.Resource.Attribute.tabContentStart;
+			global::Forms9Patch.Droid.Resource.Attribute.tabGravity = global::Tutorip.Droid.Resource.Attribute.tabGravity;
+			global::Forms9Patch.Droid.Resource.Attribute.tabIconTint = global::Tutorip.Droid.Resource.Attribute.tabIconTint;
+			global::Forms9Patch.Droid.Resource.Attribute.tabIconTintMode = global::Tutorip.Droid.Resource.Attribute.tabIconTintMode;
+			global::Forms9Patch.Droid.Resource.Attribute.tabIndicator = global::Tutorip.Droid.Resource.Attribute.tabIndicator;
+			global::Forms9Patch.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::Tutorip.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Forms9Patch.Droid.Resource.Attribute.tabIndicatorColor = global::Tutorip.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Forms9Patch.Droid.Resource.Attribute.tabIndicatorFullWidth = global::Tutorip.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Forms9Patch.Droid.Resource.Attribute.tabIndicatorGravity = global::Tutorip.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Forms9Patch.Droid.Resource.Attribute.tabIndicatorHeight = global::Tutorip.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Forms9Patch.Droid.Resource.Attribute.tabInlineLabel = global::Tutorip.Droid.Resource.Attribute.tabInlineLabel;
+			global::Forms9Patch.Droid.Resource.Attribute.tabMaxWidth = global::Tutorip.Droid.Resource.Attribute.tabMaxWidth;
+			global::Forms9Patch.Droid.Resource.Attribute.tabMinWidth = global::Tutorip.Droid.Resource.Attribute.tabMinWidth;
+			global::Forms9Patch.Droid.Resource.Attribute.tabMode = global::Tutorip.Droid.Resource.Attribute.tabMode;
+			global::Forms9Patch.Droid.Resource.Attribute.tabPadding = global::Tutorip.Droid.Resource.Attribute.tabPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.tabPaddingBottom = global::Tutorip.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Forms9Patch.Droid.Resource.Attribute.tabPaddingEnd = global::Tutorip.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Forms9Patch.Droid.Resource.Attribute.tabPaddingStart = global::Tutorip.Droid.Resource.Attribute.tabPaddingStart;
+			global::Forms9Patch.Droid.Resource.Attribute.tabPaddingTop = global::Tutorip.Droid.Resource.Attribute.tabPaddingTop;
+			global::Forms9Patch.Droid.Resource.Attribute.tabRippleColor = global::Tutorip.Droid.Resource.Attribute.tabRippleColor;
+			global::Forms9Patch.Droid.Resource.Attribute.tabSelectedTextColor = global::Tutorip.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Forms9Patch.Droid.Resource.Attribute.tabStyle = global::Tutorip.Droid.Resource.Attribute.tabStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.tabTextAppearance = global::Tutorip.Droid.Resource.Attribute.tabTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.tabTextColor = global::Tutorip.Droid.Resource.Attribute.tabTextColor;
+			global::Forms9Patch.Droid.Resource.Attribute.tabUnboundedRipple = global::Tutorip.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Forms9Patch.Droid.Resource.Attribute.textAllCaps = global::Tutorip.Droid.Resource.Attribute.textAllCaps;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceBody1 = global::Tutorip.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceBody2 = global::Tutorip.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceButton = global::Tutorip.Droid.Resource.Attribute.textAppearanceButton;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceCaption = global::Tutorip.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceHeadline1 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceHeadline2 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceHeadline3 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceHeadline4 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceHeadline5 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceHeadline6 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::Tutorip.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceListItem = global::Tutorip.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::Tutorip.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceListItemSmall = global::Tutorip.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceOverline = global::Tutorip.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::Tutorip.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Tutorip.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::Tutorip.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Tutorip.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::Tutorip.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Forms9Patch.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::Tutorip.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Forms9Patch.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Tutorip.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Forms9Patch.Droid.Resource.Attribute.textColorSearchUrl = global::Tutorip.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Forms9Patch.Droid.Resource.Attribute.textEndPadding = global::Tutorip.Droid.Resource.Attribute.textEndPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.textInputStyle = global::Tutorip.Droid.Resource.Attribute.textInputStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.textStartPadding = global::Tutorip.Droid.Resource.Attribute.textStartPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.theme = global::Tutorip.Droid.Resource.Attribute.theme;
+			global::Forms9Patch.Droid.Resource.Attribute.thickness = global::Tutorip.Droid.Resource.Attribute.thickness;
+			global::Forms9Patch.Droid.Resource.Attribute.thumbTextPadding = global::Tutorip.Droid.Resource.Attribute.thumbTextPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.thumbTint = global::Tutorip.Droid.Resource.Attribute.thumbTint;
+			global::Forms9Patch.Droid.Resource.Attribute.thumbTintMode = global::Tutorip.Droid.Resource.Attribute.thumbTintMode;
+			global::Forms9Patch.Droid.Resource.Attribute.tickMark = global::Tutorip.Droid.Resource.Attribute.tickMark;
+			global::Forms9Patch.Droid.Resource.Attribute.tickMarkTint = global::Tutorip.Droid.Resource.Attribute.tickMarkTint;
+			global::Forms9Patch.Droid.Resource.Attribute.tickMarkTintMode = global::Tutorip.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Forms9Patch.Droid.Resource.Attribute.tint = global::Tutorip.Droid.Resource.Attribute.tint;
+			global::Forms9Patch.Droid.Resource.Attribute.tintMode = global::Tutorip.Droid.Resource.Attribute.tintMode;
+			global::Forms9Patch.Droid.Resource.Attribute.title = global::Tutorip.Droid.Resource.Attribute.title;
+			global::Forms9Patch.Droid.Resource.Attribute.titleEnabled = global::Tutorip.Droid.Resource.Attribute.titleEnabled;
+			global::Forms9Patch.Droid.Resource.Attribute.titleMargin = global::Tutorip.Droid.Resource.Attribute.titleMargin;
+			global::Forms9Patch.Droid.Resource.Attribute.titleMarginBottom = global::Tutorip.Droid.Resource.Attribute.titleMarginBottom;
+			global::Forms9Patch.Droid.Resource.Attribute.titleMarginEnd = global::Tutorip.Droid.Resource.Attribute.titleMarginEnd;
+			global::Forms9Patch.Droid.Resource.Attribute.titleMargins = global::Tutorip.Droid.Resource.Attribute.titleMargins;
+			global::Forms9Patch.Droid.Resource.Attribute.titleMarginStart = global::Tutorip.Droid.Resource.Attribute.titleMarginStart;
+			global::Forms9Patch.Droid.Resource.Attribute.titleMarginTop = global::Tutorip.Droid.Resource.Attribute.titleMarginTop;
+			global::Forms9Patch.Droid.Resource.Attribute.titleTextAppearance = global::Tutorip.Droid.Resource.Attribute.titleTextAppearance;
+			global::Forms9Patch.Droid.Resource.Attribute.titleTextColor = global::Tutorip.Droid.Resource.Attribute.titleTextColor;
+			global::Forms9Patch.Droid.Resource.Attribute.titleTextStyle = global::Tutorip.Droid.Resource.Attribute.titleTextStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.toolbarId = global::Tutorip.Droid.Resource.Attribute.toolbarId;
+			global::Forms9Patch.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::Tutorip.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.toolbarStyle = global::Tutorip.Droid.Resource.Attribute.toolbarStyle;
+			global::Forms9Patch.Droid.Resource.Attribute.tooltipForegroundColor = global::Tutorip.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Forms9Patch.Droid.Resource.Attribute.tooltipFrameBackground = global::Tutorip.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Forms9Patch.Droid.Resource.Attribute.tooltipText = global::Tutorip.Droid.Resource.Attribute.tooltipText;
+			global::Forms9Patch.Droid.Resource.Attribute.track = global::Tutorip.Droid.Resource.Attribute.track;
+			global::Forms9Patch.Droid.Resource.Attribute.trackTint = global::Tutorip.Droid.Resource.Attribute.trackTint;
+			global::Forms9Patch.Droid.Resource.Attribute.trackTintMode = global::Tutorip.Droid.Resource.Attribute.trackTintMode;
+			global::Forms9Patch.Droid.Resource.Attribute.ttcIndex = global::Tutorip.Droid.Resource.Attribute.ttcIndex;
+			global::Forms9Patch.Droid.Resource.Attribute.useCompatPadding = global::Tutorip.Droid.Resource.Attribute.useCompatPadding;
+			global::Forms9Patch.Droid.Resource.Attribute.viewInflaterClass = global::Tutorip.Droid.Resource.Attribute.viewInflaterClass;
+			global::Forms9Patch.Droid.Resource.Attribute.voiceIcon = global::Tutorip.Droid.Resource.Attribute.voiceIcon;
+			global::Forms9Patch.Droid.Resource.Attribute.windowActionBar = global::Tutorip.Droid.Resource.Attribute.windowActionBar;
+			global::Forms9Patch.Droid.Resource.Attribute.windowActionBarOverlay = global::Tutorip.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Forms9Patch.Droid.Resource.Attribute.windowActionModeOverlay = global::Tutorip.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Forms9Patch.Droid.Resource.Attribute.windowFixedHeightMajor = global::Tutorip.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Forms9Patch.Droid.Resource.Attribute.windowFixedHeightMinor = global::Tutorip.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Forms9Patch.Droid.Resource.Attribute.windowFixedWidthMajor = global::Tutorip.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Forms9Patch.Droid.Resource.Attribute.windowFixedWidthMinor = global::Tutorip.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Forms9Patch.Droid.Resource.Attribute.windowMinWidthMajor = global::Tutorip.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Forms9Patch.Droid.Resource.Attribute.windowMinWidthMinor = global::Tutorip.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Forms9Patch.Droid.Resource.Attribute.windowNoTitle = global::Tutorip.Droid.Resource.Attribute.windowNoTitle;
+			global::Forms9Patch.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Tutorip.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Forms9Patch.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::Tutorip.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Forms9Patch.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Tutorip.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Forms9Patch.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Tutorip.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Forms9Patch.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Tutorip.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Tutorip.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Forms9Patch.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::Tutorip.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Forms9Patch.Droid.Resource.Color.abc_btn_colored_text_material = global::Tutorip.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Forms9Patch.Droid.Resource.Color.abc_color_highlight_material = global::Tutorip.Droid.Resource.Color.abc_color_highlight_material;
+			global::Forms9Patch.Droid.Resource.Color.abc_hint_foreground_material_dark = global::Tutorip.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.abc_hint_foreground_material_light = global::Tutorip.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Forms9Patch.Droid.Resource.Color.abc_input_method_navigation_guard = global::Tutorip.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Forms9Patch.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::Tutorip.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::Tutorip.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Forms9Patch.Droid.Resource.Color.abc_primary_text_material_dark = global::Tutorip.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.abc_primary_text_material_light = global::Tutorip.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Forms9Patch.Droid.Resource.Color.abc_search_url_text = global::Tutorip.Droid.Resource.Color.abc_search_url_text;
+			global::Forms9Patch.Droid.Resource.Color.abc_search_url_text_normal = global::Tutorip.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Forms9Patch.Droid.Resource.Color.abc_search_url_text_pressed = global::Tutorip.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Forms9Patch.Droid.Resource.Color.abc_search_url_text_selected = global::Tutorip.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Forms9Patch.Droid.Resource.Color.abc_secondary_text_material_dark = global::Tutorip.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.abc_secondary_text_material_light = global::Tutorip.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Forms9Patch.Droid.Resource.Color.abc_tint_btn_checkable = global::Tutorip.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Forms9Patch.Droid.Resource.Color.abc_tint_default = global::Tutorip.Droid.Resource.Color.abc_tint_default;
+			global::Forms9Patch.Droid.Resource.Color.abc_tint_edittext = global::Tutorip.Droid.Resource.Color.abc_tint_edittext;
+			global::Forms9Patch.Droid.Resource.Color.abc_tint_seek_thumb = global::Tutorip.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Forms9Patch.Droid.Resource.Color.abc_tint_spinner = global::Tutorip.Droid.Resource.Color.abc_tint_spinner;
+			global::Forms9Patch.Droid.Resource.Color.abc_tint_switch_track = global::Tutorip.Droid.Resource.Color.abc_tint_switch_track;
+			global::Forms9Patch.Droid.Resource.Color.accent_material_dark = global::Tutorip.Droid.Resource.Color.accent_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.accent_material_light = global::Tutorip.Droid.Resource.Color.accent_material_light;
+			global::Forms9Patch.Droid.Resource.Color.background_floating_material_dark = global::Tutorip.Droid.Resource.Color.background_floating_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.background_floating_material_light = global::Tutorip.Droid.Resource.Color.background_floating_material_light;
+			global::Forms9Patch.Droid.Resource.Color.background_material_dark = global::Tutorip.Droid.Resource.Color.background_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.background_material_light = global::Tutorip.Droid.Resource.Color.background_material_light;
+			global::Forms9Patch.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::Tutorip.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.bright_foreground_disabled_material_light = global::Tutorip.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Forms9Patch.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::Tutorip.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.bright_foreground_inverse_material_light = global::Tutorip.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Forms9Patch.Droid.Resource.Color.bright_foreground_material_dark = global::Tutorip.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.bright_foreground_material_light = global::Tutorip.Droid.Resource.Color.bright_foreground_material_light;
+			global::Forms9Patch.Droid.Resource.Color.browser_actions_bg_grey = global::Tutorip.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Forms9Patch.Droid.Resource.Color.browser_actions_divider_color = global::Tutorip.Droid.Resource.Color.browser_actions_divider_color;
+			global::Forms9Patch.Droid.Resource.Color.browser_actions_text_color = global::Tutorip.Droid.Resource.Color.browser_actions_text_color;
+			global::Forms9Patch.Droid.Resource.Color.browser_actions_title_color = global::Tutorip.Droid.Resource.Color.browser_actions_title_color;
+			global::Forms9Patch.Droid.Resource.Color.button_material_dark = global::Tutorip.Droid.Resource.Color.button_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.button_material_light = global::Tutorip.Droid.Resource.Color.button_material_light;
+			global::Forms9Patch.Droid.Resource.Color.cardview_dark_background = global::Tutorip.Droid.Resource.Color.cardview_dark_background;
+			global::Forms9Patch.Droid.Resource.Color.cardview_light_background = global::Tutorip.Droid.Resource.Color.cardview_light_background;
+			global::Forms9Patch.Droid.Resource.Color.cardview_shadow_end_color = global::Tutorip.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Forms9Patch.Droid.Resource.Color.cardview_shadow_start_color = global::Tutorip.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Forms9Patch.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::Tutorip.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Forms9Patch.Droid.Resource.Color.design_default_color_primary = global::Tutorip.Droid.Resource.Color.design_default_color_primary;
+			global::Forms9Patch.Droid.Resource.Color.design_default_color_primary_dark = global::Tutorip.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Forms9Patch.Droid.Resource.Color.design_error = global::Tutorip.Droid.Resource.Color.design_error;
+			global::Forms9Patch.Droid.Resource.Color.design_fab_shadow_end_color = global::Tutorip.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Forms9Patch.Droid.Resource.Color.design_fab_shadow_mid_color = global::Tutorip.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Forms9Patch.Droid.Resource.Color.design_fab_shadow_start_color = global::Tutorip.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Forms9Patch.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::Tutorip.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Forms9Patch.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::Tutorip.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Forms9Patch.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::Tutorip.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Forms9Patch.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::Tutorip.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Forms9Patch.Droid.Resource.Color.design_snackbar_background_color = global::Tutorip.Droid.Resource.Color.design_snackbar_background_color;
+			global::Forms9Patch.Droid.Resource.Color.design_tint_password_toggle = global::Tutorip.Droid.Resource.Color.design_tint_password_toggle;
+			global::Forms9Patch.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::Tutorip.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.dim_foreground_disabled_material_light = global::Tutorip.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Forms9Patch.Droid.Resource.Color.dim_foreground_material_dark = global::Tutorip.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.dim_foreground_material_light = global::Tutorip.Droid.Resource.Color.dim_foreground_material_light;
+			global::Forms9Patch.Droid.Resource.Color.error_color_material_dark = global::Tutorip.Droid.Resource.Color.error_color_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.error_color_material_light = global::Tutorip.Droid.Resource.Color.error_color_material_light;
+			global::Forms9Patch.Droid.Resource.Color.foreground_material_dark = global::Tutorip.Droid.Resource.Color.foreground_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.foreground_material_light = global::Tutorip.Droid.Resource.Color.foreground_material_light;
+			global::Forms9Patch.Droid.Resource.Color.highlighted_text_material_dark = global::Tutorip.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.highlighted_text_material_light = global::Tutorip.Droid.Resource.Color.highlighted_text_material_light;
+			global::Forms9Patch.Droid.Resource.Color.material_blue_grey_800 = global::Tutorip.Droid.Resource.Color.material_blue_grey_800;
+			global::Forms9Patch.Droid.Resource.Color.material_blue_grey_900 = global::Tutorip.Droid.Resource.Color.material_blue_grey_900;
+			global::Forms9Patch.Droid.Resource.Color.material_blue_grey_950 = global::Tutorip.Droid.Resource.Color.material_blue_grey_950;
+			global::Forms9Patch.Droid.Resource.Color.material_deep_teal_200 = global::Tutorip.Droid.Resource.Color.material_deep_teal_200;
+			global::Forms9Patch.Droid.Resource.Color.material_deep_teal_500 = global::Tutorip.Droid.Resource.Color.material_deep_teal_500;
+			global::Forms9Patch.Droid.Resource.Color.material_grey_100 = global::Tutorip.Droid.Resource.Color.material_grey_100;
+			global::Forms9Patch.Droid.Resource.Color.material_grey_300 = global::Tutorip.Droid.Resource.Color.material_grey_300;
+			global::Forms9Patch.Droid.Resource.Color.material_grey_50 = global::Tutorip.Droid.Resource.Color.material_grey_50;
+			global::Forms9Patch.Droid.Resource.Color.material_grey_600 = global::Tutorip.Droid.Resource.Color.material_grey_600;
+			global::Forms9Patch.Droid.Resource.Color.material_grey_800 = global::Tutorip.Droid.Resource.Color.material_grey_800;
+			global::Forms9Patch.Droid.Resource.Color.material_grey_850 = global::Tutorip.Droid.Resource.Color.material_grey_850;
+			global::Forms9Patch.Droid.Resource.Color.material_grey_900 = global::Tutorip.Droid.Resource.Color.material_grey_900;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::Tutorip.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::Tutorip.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::Tutorip.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_btn_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::Tutorip.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_btn_text_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::Tutorip.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_chip_background_color = global::Tutorip.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::Tutorip.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_chip_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_chip_text_color = global::Tutorip.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_fab_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_scrim_color = global::Tutorip.Droid.Resource.Color.mtrl_scrim_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Tutorip.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_tabs_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Tutorip.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_textinput_disabled_color = global::Tutorip.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Tutorip.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Tutorip.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Forms9Patch.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Forms9Patch.Droid.Resource.Color.notification_action_color_filter = global::Tutorip.Droid.Resource.Color.notification_action_color_filter;
+			global::Forms9Patch.Droid.Resource.Color.notification_icon_bg_color = global::Tutorip.Droid.Resource.Color.notification_icon_bg_color;
+			global::Forms9Patch.Droid.Resource.Color.notification_material_background_media_default_color = global::Tutorip.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Forms9Patch.Droid.Resource.Color.primary_dark_material_dark = global::Tutorip.Droid.Resource.Color.primary_dark_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.primary_dark_material_light = global::Tutorip.Droid.Resource.Color.primary_dark_material_light;
+			global::Forms9Patch.Droid.Resource.Color.primary_material_dark = global::Tutorip.Droid.Resource.Color.primary_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.primary_material_light = global::Tutorip.Droid.Resource.Color.primary_material_light;
+			global::Forms9Patch.Droid.Resource.Color.primary_text_default_material_dark = global::Tutorip.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.primary_text_default_material_light = global::Tutorip.Droid.Resource.Color.primary_text_default_material_light;
+			global::Forms9Patch.Droid.Resource.Color.primary_text_disabled_material_dark = global::Tutorip.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.primary_text_disabled_material_light = global::Tutorip.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Forms9Patch.Droid.Resource.Color.ripple_material_dark = global::Tutorip.Droid.Resource.Color.ripple_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.ripple_material_light = global::Tutorip.Droid.Resource.Color.ripple_material_light;
+			global::Forms9Patch.Droid.Resource.Color.secondary_text_default_material_dark = global::Tutorip.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.secondary_text_default_material_light = global::Tutorip.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Forms9Patch.Droid.Resource.Color.secondary_text_disabled_material_dark = global::Tutorip.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.secondary_text_disabled_material_light = global::Tutorip.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Forms9Patch.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::Tutorip.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.switch_thumb_disabled_material_light = global::Tutorip.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Forms9Patch.Droid.Resource.Color.switch_thumb_material_dark = global::Tutorip.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.switch_thumb_material_light = global::Tutorip.Droid.Resource.Color.switch_thumb_material_light;
+			global::Forms9Patch.Droid.Resource.Color.switch_thumb_normal_material_dark = global::Tutorip.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Forms9Patch.Droid.Resource.Color.switch_thumb_normal_material_light = global::Tutorip.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Forms9Patch.Droid.Resource.Color.tooltip_background_dark = global::Tutorip.Droid.Resource.Color.tooltip_background_dark;
+			global::Forms9Patch.Droid.Resource.Color.tooltip_background_light = global::Tutorip.Droid.Resource.Color.tooltip_background_light;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_button_min_height_material = global::Tutorip.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_button_min_width_material = global::Tutorip.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Tutorip.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Tutorip.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::Tutorip.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::Tutorip.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::Tutorip.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::Tutorip.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::Tutorip.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Tutorip.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::Tutorip.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_control_corner_material = global::Tutorip.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_control_inset_material = global::Tutorip.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_control_padding_material = global::Tutorip.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::Tutorip.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::Tutorip.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::Tutorip.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::Tutorip.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::Tutorip.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Tutorip.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Tutorip.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_min_width_major = global::Tutorip.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::Tutorip.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_padding_material = global::Tutorip.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::Tutorip.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::Tutorip.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::Tutorip.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::Tutorip.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::Tutorip.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Tutorip.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Tutorip.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Tutorip.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Tutorip.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::Tutorip.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_floating_window_z = global::Tutorip.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Tutorip.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_panel_menu_list_width = global::Tutorip.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_progress_bar_height_material = global::Tutorip.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_search_view_preferred_height = global::Tutorip.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_search_view_preferred_width = global::Tutorip.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::Tutorip.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Tutorip.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::Tutorip.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_switch_padding = global::Tutorip.Droid.Resource.Dimension.abc_switch_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_body_1_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_body_2_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_button_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_caption_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_display_1_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_display_2_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_display_3_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_display_4_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_headline_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_large_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_medium_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_menu_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_small_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_subhead_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Tutorip.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_title_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Forms9Patch.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::Tutorip.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Forms9Patch.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::Tutorip.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Forms9Patch.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::Tutorip.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Tutorip.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Forms9Patch.Droid.Resource.Dimension.cardview_default_elevation = global::Tutorip.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.cardview_default_radius = global::Tutorip.Droid.Resource.Dimension.cardview_default_radius;
+			global::Forms9Patch.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::Tutorip.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Forms9Patch.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::Tutorip.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Forms9Patch.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::Tutorip.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Forms9Patch.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::Tutorip.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Forms9Patch.Droid.Resource.Dimension.compat_control_corner_material = global::Tutorip.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Forms9Patch.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::Tutorip.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Forms9Patch.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::Tutorip.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_appbar_elevation = global::Tutorip.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_height = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_margin = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Tutorip.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Tutorip.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Forms9Patch.Droid.Resource.Dimension.design_fab_border_width = global::Tutorip.Droid.Resource.Dimension.design_fab_border_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_fab_elevation = global::Tutorip.Droid.Resource.Dimension.design_fab_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.design_fab_image_size = global::Tutorip.Droid.Resource.Dimension.design_fab_image_size;
+			global::Forms9Patch.Droid.Resource.Dimension.design_fab_size_mini = global::Tutorip.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Forms9Patch.Droid.Resource.Dimension.design_fab_size_normal = global::Tutorip.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Forms9Patch.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Tutorip.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Forms9Patch.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::Tutorip.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Forms9Patch.Droid.Resource.Dimension.design_navigation_elevation = global::Tutorip.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.design_navigation_icon_padding = global::Tutorip.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.design_navigation_icon_size = global::Tutorip.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Forms9Patch.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::Tutorip.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::Tutorip.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.design_navigation_max_width = global::Tutorip.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_navigation_padding_bottom = global::Tutorip.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Forms9Patch.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::Tutorip.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::Tutorip.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::Tutorip.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Forms9Patch.Droid.Resource.Dimension.design_snackbar_elevation = global::Tutorip.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Tutorip.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Forms9Patch.Droid.Resource.Dimension.design_snackbar_max_width = global::Tutorip.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_snackbar_min_width = global::Tutorip.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::Tutorip.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Forms9Patch.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::Tutorip.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Forms9Patch.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Tutorip.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Forms9Patch.Droid.Resource.Dimension.design_snackbar_text_size = global::Tutorip.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Forms9Patch.Droid.Resource.Dimension.design_tab_max_width = global::Tutorip.Droid.Resource.Dimension.design_tab_max_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::Tutorip.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Forms9Patch.Droid.Resource.Dimension.design_tab_text_size = global::Tutorip.Droid.Resource.Dimension.design_tab_text_size;
+			global::Forms9Patch.Droid.Resource.Dimension.design_tab_text_size_2line = global::Tutorip.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Forms9Patch.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::Tutorip.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Forms9Patch.Droid.Resource.Dimension.disabled_alpha_material_dark = global::Tutorip.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Forms9Patch.Droid.Resource.Dimension.disabled_alpha_material_light = global::Tutorip.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Forms9Patch.Droid.Resource.Dimension.fastscroll_default_thickness = global::Tutorip.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Forms9Patch.Droid.Resource.Dimension.fastscroll_margin = global::Tutorip.Droid.Resource.Dimension.fastscroll_margin;
+			global::Forms9Patch.Droid.Resource.Dimension.fastscroll_minimum_range = global::Tutorip.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Forms9Patch.Droid.Resource.Dimension.highlight_alpha_material_colored = global::Tutorip.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Forms9Patch.Droid.Resource.Dimension.highlight_alpha_material_dark = global::Tutorip.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Forms9Patch.Droid.Resource.Dimension.highlight_alpha_material_light = global::Tutorip.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Forms9Patch.Droid.Resource.Dimension.hint_alpha_material_dark = global::Tutorip.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Forms9Patch.Droid.Resource.Dimension.hint_alpha_material_light = global::Tutorip.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Forms9Patch.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::Tutorip.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Forms9Patch.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::Tutorip.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Forms9Patch.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Tutorip.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Forms9Patch.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Tutorip.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Forms9Patch.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Tutorip.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Tutorip.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Tutorip.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Tutorip.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Tutorip.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::Tutorip.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_elevation = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_focused_z = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_inset = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_padding_left = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_padding_right = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_padding_top = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_text_size = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_btn_z = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_card_elevation = global::Tutorip.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_card_spacing = global::Tutorip.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Tutorip.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_chip_text_size = global::Tutorip.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_fab_elevation = global::Tutorip.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Tutorip.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Tutorip.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_navigation_elevation = global::Tutorip.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Tutorip.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_snackbar_margin = global::Tutorip.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::Tutorip.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_action_icon_size = global::Tutorip.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_action_text_size = global::Tutorip.Droid.Resource.Dimension.notification_action_text_size;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_big_circle_margin = global::Tutorip.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_content_margin_start = global::Tutorip.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_large_icon_height = global::Tutorip.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_large_icon_width = global::Tutorip.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_main_column_padding_top = global::Tutorip.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_media_narrow_margin = global::Tutorip.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_right_icon_size = global::Tutorip.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_right_side_padding_top = global::Tutorip.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_small_icon_background_padding = global::Tutorip.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::Tutorip.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_subtext_size = global::Tutorip.Droid.Resource.Dimension.notification_subtext_size;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_top_pad = global::Tutorip.Droid.Resource.Dimension.notification_top_pad;
+			global::Forms9Patch.Droid.Resource.Dimension.notification_top_pad_large_text = global::Tutorip.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Forms9Patch.Droid.Resource.Dimension.subtitle_corner_radius = global::Tutorip.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Forms9Patch.Droid.Resource.Dimension.subtitle_outline_width = global::Tutorip.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Forms9Patch.Droid.Resource.Dimension.subtitle_shadow_offset = global::Tutorip.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Forms9Patch.Droid.Resource.Dimension.subtitle_shadow_radius = global::Tutorip.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Forms9Patch.Droid.Resource.Dimension.tooltip_corner_radius = global::Tutorip.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Forms9Patch.Droid.Resource.Dimension.tooltip_horizontal_padding = global::Tutorip.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.tooltip_margin = global::Tutorip.Droid.Resource.Dimension.tooltip_margin;
+			global::Forms9Patch.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Tutorip.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Forms9Patch.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::Tutorip.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Forms9Patch.Droid.Resource.Dimension.tooltip_vertical_padding = global::Tutorip.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Forms9Patch.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::Tutorip.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Forms9Patch.Droid.Resource.Dimension.tooltip_y_offset_touch = global::Tutorip.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::Tutorip.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_borderless_material = global::Tutorip.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_check_material = global::Tutorip.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Tutorip.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Tutorip.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_colored_material = global::Tutorip.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::Tutorip.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_radio_material = global::Tutorip.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Tutorip.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Tutorip.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Tutorip.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Tutorip.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::Tutorip.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_cab_background_top_material = global::Tutorip.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_control_background_material = global::Tutorip.Droid.Resource.Drawable.abc_control_background_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_dialog_material_background = global::Tutorip.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_edit_text_material = global::Tutorip.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_ab_back_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_clear_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_search_api_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_item_background_holo_dark = global::Tutorip.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_item_background_holo_light = global::Tutorip.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_divider_material = global::Tutorip.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_focused_holo = global::Tutorip.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_longpressed_holo = global::Tutorip.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::Tutorip.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::Tutorip.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_list_selector_holo_light = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Tutorip.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::Tutorip.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::Tutorip.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ratingbar_material = global::Tutorip.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_ratingbar_small_material = global::Tutorip.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Tutorip.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Tutorip.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::Tutorip.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::Tutorip.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_seekbar_track_material = global::Tutorip.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Tutorip.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::Tutorip.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_switch_thumb_material = global::Tutorip.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_tab_indicator_material = global::Tutorip.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_textfield_search_material = global::Tutorip.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_text_cursor_material = global::Tutorip.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Forms9Patch.Droid.Resource.Drawable.abc_vector_test = global::Tutorip.Droid.Resource.Drawable.abc_vector_test;
+			global::Forms9Patch.Droid.Resource.Drawable.avd_hide_password = global::Tutorip.Droid.Resource.Drawable.avd_hide_password;
+			global::Forms9Patch.Droid.Resource.Drawable.avd_show_password = global::Tutorip.Droid.Resource.Drawable.avd_show_password;
+			global::Forms9Patch.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::Tutorip.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Forms9Patch.Droid.Resource.Drawable.design_fab_background = global::Tutorip.Droid.Resource.Drawable.design_fab_background;
+			global::Forms9Patch.Droid.Resource.Drawable.design_ic_visibility = global::Tutorip.Droid.Resource.Drawable.design_ic_visibility;
+			global::Forms9Patch.Droid.Resource.Drawable.design_ic_visibility_off = global::Tutorip.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Forms9Patch.Droid.Resource.Drawable.design_password_eye = global::Tutorip.Droid.Resource.Drawable.design_password_eye;
+			global::Forms9Patch.Droid.Resource.Drawable.design_snackbar_background = global::Tutorip.Droid.Resource.Drawable.design_snackbar_background;
+			global::Forms9Patch.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::Tutorip.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Forms9Patch.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Tutorip.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Forms9Patch.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::Tutorip.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Forms9Patch.Droid.Resource.Drawable.mtrl_snackbar_background = global::Tutorip.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Forms9Patch.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::Tutorip.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Forms9Patch.Droid.Resource.Drawable.navigation_empty_icon = global::Tutorip.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_action_background = global::Tutorip.Droid.Resource.Drawable.notification_action_background;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_bg = global::Tutorip.Droid.Resource.Drawable.notification_bg;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_bg_low = global::Tutorip.Droid.Resource.Drawable.notification_bg_low;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_bg_low_normal = global::Tutorip.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_bg_low_pressed = global::Tutorip.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_bg_normal = global::Tutorip.Droid.Resource.Drawable.notification_bg_normal;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_bg_normal_pressed = global::Tutorip.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_icon_background = global::Tutorip.Droid.Resource.Drawable.notification_icon_background;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_template_icon_bg = global::Tutorip.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_template_icon_low_bg = global::Tutorip.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Forms9Patch.Droid.Resource.Drawable.notification_tile_bg = global::Tutorip.Droid.Resource.Drawable.notification_tile_bg;
+			global::Forms9Patch.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::Tutorip.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Forms9Patch.Droid.Resource.Drawable.tooltip_frame_dark = global::Tutorip.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Forms9Patch.Droid.Resource.Drawable.tooltip_frame_light = global::Tutorip.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Forms9Patch.Droid.Resource.Id.action0 = global::Tutorip.Droid.Resource.Id.action0;
+			global::Forms9Patch.Droid.Resource.Id.actions = global::Tutorip.Droid.Resource.Id.actions;
+			global::Forms9Patch.Droid.Resource.Id.action_bar = global::Tutorip.Droid.Resource.Id.action_bar;
+			global::Forms9Patch.Droid.Resource.Id.action_bar_activity_content = global::Tutorip.Droid.Resource.Id.action_bar_activity_content;
+			global::Forms9Patch.Droid.Resource.Id.action_bar_container = global::Tutorip.Droid.Resource.Id.action_bar_container;
+			global::Forms9Patch.Droid.Resource.Id.action_bar_root = global::Tutorip.Droid.Resource.Id.action_bar_root;
+			global::Forms9Patch.Droid.Resource.Id.action_bar_spinner = global::Tutorip.Droid.Resource.Id.action_bar_spinner;
+			global::Forms9Patch.Droid.Resource.Id.action_bar_subtitle = global::Tutorip.Droid.Resource.Id.action_bar_subtitle;
+			global::Forms9Patch.Droid.Resource.Id.action_bar_title = global::Tutorip.Droid.Resource.Id.action_bar_title;
+			global::Forms9Patch.Droid.Resource.Id.action_container = global::Tutorip.Droid.Resource.Id.action_container;
+			global::Forms9Patch.Droid.Resource.Id.action_context_bar = global::Tutorip.Droid.Resource.Id.action_context_bar;
+			global::Forms9Patch.Droid.Resource.Id.action_divider = global::Tutorip.Droid.Resource.Id.action_divider;
+			global::Forms9Patch.Droid.Resource.Id.action_image = global::Tutorip.Droid.Resource.Id.action_image;
+			global::Forms9Patch.Droid.Resource.Id.action_menu_divider = global::Tutorip.Droid.Resource.Id.action_menu_divider;
+			global::Forms9Patch.Droid.Resource.Id.action_menu_presenter = global::Tutorip.Droid.Resource.Id.action_menu_presenter;
+			global::Forms9Patch.Droid.Resource.Id.action_mode_bar = global::Tutorip.Droid.Resource.Id.action_mode_bar;
+			global::Forms9Patch.Droid.Resource.Id.action_mode_bar_stub = global::Tutorip.Droid.Resource.Id.action_mode_bar_stub;
+			global::Forms9Patch.Droid.Resource.Id.action_mode_close_button = global::Tutorip.Droid.Resource.Id.action_mode_close_button;
+			global::Forms9Patch.Droid.Resource.Id.action_text = global::Tutorip.Droid.Resource.Id.action_text;
+			global::Forms9Patch.Droid.Resource.Id.activity_chooser_view_content = global::Tutorip.Droid.Resource.Id.activity_chooser_view_content;
+			global::Forms9Patch.Droid.Resource.Id.add = global::Tutorip.Droid.Resource.Id.add;
+			global::Forms9Patch.Droid.Resource.Id.alertTitle = global::Tutorip.Droid.Resource.Id.alertTitle;
+			global::Forms9Patch.Droid.Resource.Id.all = global::Tutorip.Droid.Resource.Id.all;
+			global::Forms9Patch.Droid.Resource.Id.ALT = global::Tutorip.Droid.Resource.Id.ALT;
+			global::Forms9Patch.Droid.Resource.Id.always = global::Tutorip.Droid.Resource.Id.always;
+			global::Forms9Patch.Droid.Resource.Id.async = global::Tutorip.Droid.Resource.Id.async;
+			global::Forms9Patch.Droid.Resource.Id.auto = global::Tutorip.Droid.Resource.Id.auto;
+			global::Forms9Patch.Droid.Resource.Id.beginning = global::Tutorip.Droid.Resource.Id.beginning;
+			global::Forms9Patch.Droid.Resource.Id.blocking = global::Tutorip.Droid.Resource.Id.blocking;
+			global::Forms9Patch.Droid.Resource.Id.bottom = global::Tutorip.Droid.Resource.Id.bottom;
+			global::Forms9Patch.Droid.Resource.Id.bottomtab_navarea = global::Tutorip.Droid.Resource.Id.bottomtab_navarea;
+			global::Forms9Patch.Droid.Resource.Id.bottomtab_tabbar = global::Tutorip.Droid.Resource.Id.bottomtab_tabbar;
+			global::Forms9Patch.Droid.Resource.Id.browser_actions_header_text = global::Tutorip.Droid.Resource.Id.browser_actions_header_text;
+			global::Forms9Patch.Droid.Resource.Id.browser_actions_menu_items = global::Tutorip.Droid.Resource.Id.browser_actions_menu_items;
+			global::Forms9Patch.Droid.Resource.Id.browser_actions_menu_item_icon = global::Tutorip.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Forms9Patch.Droid.Resource.Id.browser_actions_menu_item_text = global::Tutorip.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Forms9Patch.Droid.Resource.Id.browser_actions_menu_view = global::Tutorip.Droid.Resource.Id.browser_actions_menu_view;
+			global::Forms9Patch.Droid.Resource.Id.buttonPanel = global::Tutorip.Droid.Resource.Id.buttonPanel;
+			global::Forms9Patch.Droid.Resource.Id.cancel_action = global::Tutorip.Droid.Resource.Id.cancel_action;
+			global::Forms9Patch.Droid.Resource.Id.center = global::Tutorip.Droid.Resource.Id.center;
+			global::Forms9Patch.Droid.Resource.Id.center_horizontal = global::Tutorip.Droid.Resource.Id.center_horizontal;
+			global::Forms9Patch.Droid.Resource.Id.center_vertical = global::Tutorip.Droid.Resource.Id.center_vertical;
+			global::Forms9Patch.Droid.Resource.Id.checkbox = global::Tutorip.Droid.Resource.Id.checkbox;
+			global::Forms9Patch.Droid.Resource.Id.chronometer = global::Tutorip.Droid.Resource.Id.chronometer;
+			global::Forms9Patch.Droid.Resource.Id.clip_horizontal = global::Tutorip.Droid.Resource.Id.clip_horizontal;
+			global::Forms9Patch.Droid.Resource.Id.clip_vertical = global::Tutorip.Droid.Resource.Id.clip_vertical;
+			global::Forms9Patch.Droid.Resource.Id.collapseActionView = global::Tutorip.Droid.Resource.Id.collapseActionView;
+			global::Forms9Patch.Droid.Resource.Id.container = global::Tutorip.Droid.Resource.Id.container;
+			global::Forms9Patch.Droid.Resource.Id.content = global::Tutorip.Droid.Resource.Id.content;
+			global::Forms9Patch.Droid.Resource.Id.contentPanel = global::Tutorip.Droid.Resource.Id.contentPanel;
+			global::Forms9Patch.Droid.Resource.Id.coordinator = global::Tutorip.Droid.Resource.Id.coordinator;
+			global::Forms9Patch.Droid.Resource.Id.CTRL = global::Tutorip.Droid.Resource.Id.CTRL;
+			global::Forms9Patch.Droid.Resource.Id.custom = global::Tutorip.Droid.Resource.Id.custom;
+			global::Forms9Patch.Droid.Resource.Id.customPanel = global::Tutorip.Droid.Resource.Id.customPanel;
+			global::Forms9Patch.Droid.Resource.Id.decor_content_parent = global::Tutorip.Droid.Resource.Id.decor_content_parent;
+			global::Forms9Patch.Droid.Resource.Id.default_activity_button = global::Tutorip.Droid.Resource.Id.default_activity_button;
+			global::Forms9Patch.Droid.Resource.Id.design_bottom_sheet = global::Tutorip.Droid.Resource.Id.design_bottom_sheet;
+			global::Forms9Patch.Droid.Resource.Id.design_menu_item_action_area = global::Tutorip.Droid.Resource.Id.design_menu_item_action_area;
+			global::Forms9Patch.Droid.Resource.Id.design_menu_item_action_area_stub = global::Tutorip.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Forms9Patch.Droid.Resource.Id.design_menu_item_text = global::Tutorip.Droid.Resource.Id.design_menu_item_text;
+			global::Forms9Patch.Droid.Resource.Id.design_navigation_view = global::Tutorip.Droid.Resource.Id.design_navigation_view;
+			global::Forms9Patch.Droid.Resource.Id.disableHome = global::Tutorip.Droid.Resource.Id.disableHome;
+			global::Forms9Patch.Droid.Resource.Id.edit_query = global::Tutorip.Droid.Resource.Id.edit_query;
+			global::Forms9Patch.Droid.Resource.Id.end = global::Tutorip.Droid.Resource.Id.end;
+			global::Forms9Patch.Droid.Resource.Id.end_padder = global::Tutorip.Droid.Resource.Id.end_padder;
+			global::Forms9Patch.Droid.Resource.Id.enterAlways = global::Tutorip.Droid.Resource.Id.enterAlways;
+			global::Forms9Patch.Droid.Resource.Id.enterAlwaysCollapsed = global::Tutorip.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Forms9Patch.Droid.Resource.Id.exitUntilCollapsed = global::Tutorip.Droid.Resource.Id.exitUntilCollapsed;
+			global::Forms9Patch.Droid.Resource.Id.expanded_menu = global::Tutorip.Droid.Resource.Id.expanded_menu;
+			global::Forms9Patch.Droid.Resource.Id.expand_activities_button = global::Tutorip.Droid.Resource.Id.expand_activities_button;
+			global::Forms9Patch.Droid.Resource.Id.fill = global::Tutorip.Droid.Resource.Id.fill;
+			global::Forms9Patch.Droid.Resource.Id.filled = global::Tutorip.Droid.Resource.Id.filled;
+			global::Forms9Patch.Droid.Resource.Id.fill_horizontal = global::Tutorip.Droid.Resource.Id.fill_horizontal;
+			global::Forms9Patch.Droid.Resource.Id.fill_vertical = global::Tutorip.Droid.Resource.Id.fill_vertical;
+			global::Forms9Patch.Droid.Resource.Id.@fixed = global::Tutorip.Droid.Resource.Id.@fixed;
+			global::Forms9Patch.Droid.Resource.Id.flyoutcontent_appbar = global::Tutorip.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Forms9Patch.Droid.Resource.Id.flyoutcontent_recycler = global::Tutorip.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Forms9Patch.Droid.Resource.Id.forever = global::Tutorip.Droid.Resource.Id.forever;
+			global::Forms9Patch.Droid.Resource.Id.FUNCTION = global::Tutorip.Droid.Resource.Id.FUNCTION;
+			global::Forms9Patch.Droid.Resource.Id.ghost_view = global::Tutorip.Droid.Resource.Id.ghost_view;
+			global::Forms9Patch.Droid.Resource.Id.group_divider = global::Tutorip.Droid.Resource.Id.group_divider;
+			global::Forms9Patch.Droid.Resource.Id.home = global::Tutorip.Droid.Resource.Id.home;
+			global::Forms9Patch.Droid.Resource.Id.homeAsUp = global::Tutorip.Droid.Resource.Id.homeAsUp;
+			global::Forms9Patch.Droid.Resource.Id.icon = global::Tutorip.Droid.Resource.Id.icon;
+			global::Forms9Patch.Droid.Resource.Id.icon_group = global::Tutorip.Droid.Resource.Id.icon_group;
+			global::Forms9Patch.Droid.Resource.Id.ifRoom = global::Tutorip.Droid.Resource.Id.ifRoom;
+			global::Forms9Patch.Droid.Resource.Id.image = global::Tutorip.Droid.Resource.Id.image;
+			global::Forms9Patch.Droid.Resource.Id.info = global::Tutorip.Droid.Resource.Id.info;
+			global::Forms9Patch.Droid.Resource.Id.italic = global::Tutorip.Droid.Resource.Id.italic;
+			global::Forms9Patch.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Tutorip.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Forms9Patch.Droid.Resource.Id.labeled = global::Tutorip.Droid.Resource.Id.labeled;
+			global::Forms9Patch.Droid.Resource.Id.largeLabel = global::Tutorip.Droid.Resource.Id.largeLabel;
+			global::Forms9Patch.Droid.Resource.Id.left = global::Tutorip.Droid.Resource.Id.left;
+			global::Forms9Patch.Droid.Resource.Id.line1 = global::Tutorip.Droid.Resource.Id.line1;
+			global::Forms9Patch.Droid.Resource.Id.line3 = global::Tutorip.Droid.Resource.Id.line3;
+			global::Forms9Patch.Droid.Resource.Id.listMode = global::Tutorip.Droid.Resource.Id.listMode;
+			global::Forms9Patch.Droid.Resource.Id.list_item = global::Tutorip.Droid.Resource.Id.list_item;
+			global::Forms9Patch.Droid.Resource.Id.main_appbar = global::Tutorip.Droid.Resource.Id.main_appbar;
+			global::Forms9Patch.Droid.Resource.Id.main_tablayout = global::Tutorip.Droid.Resource.Id.main_tablayout;
+			global::Forms9Patch.Droid.Resource.Id.main_toolbar = global::Tutorip.Droid.Resource.Id.main_toolbar;
+			global::Forms9Patch.Droid.Resource.Id.main_viewpager = global::Tutorip.Droid.Resource.Id.main_viewpager;
+			global::Forms9Patch.Droid.Resource.Id.masked = global::Tutorip.Droid.Resource.Id.masked;
+			global::Forms9Patch.Droid.Resource.Id.media_actions = global::Tutorip.Droid.Resource.Id.media_actions;
+			global::Forms9Patch.Droid.Resource.Id.message = global::Tutorip.Droid.Resource.Id.message;
+			global::Forms9Patch.Droid.Resource.Id.META = global::Tutorip.Droid.Resource.Id.META;
+			global::Forms9Patch.Droid.Resource.Id.middle = global::Tutorip.Droid.Resource.Id.middle;
+			global::Forms9Patch.Droid.Resource.Id.mini = global::Tutorip.Droid.Resource.Id.mini;
+			global::Forms9Patch.Droid.Resource.Id.mtrl_child_content_container = global::Tutorip.Droid.Resource.Id.mtrl_child_content_container;
+			global::Forms9Patch.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::Tutorip.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Forms9Patch.Droid.Resource.Id.multiply = global::Tutorip.Droid.Resource.Id.multiply;
+			global::Forms9Patch.Droid.Resource.Id.navigation_header_container = global::Tutorip.Droid.Resource.Id.navigation_header_container;
+			global::Forms9Patch.Droid.Resource.Id.never = global::Tutorip.Droid.Resource.Id.never;
+			global::Forms9Patch.Droid.Resource.Id.none = global::Tutorip.Droid.Resource.Id.none;
+			global::Forms9Patch.Droid.Resource.Id.normal = global::Tutorip.Droid.Resource.Id.normal;
+			global::Forms9Patch.Droid.Resource.Id.notification_background = global::Tutorip.Droid.Resource.Id.notification_background;
+			global::Forms9Patch.Droid.Resource.Id.notification_main_column = global::Tutorip.Droid.Resource.Id.notification_main_column;
+			global::Forms9Patch.Droid.Resource.Id.notification_main_column_container = global::Tutorip.Droid.Resource.Id.notification_main_column_container;
+			global::Forms9Patch.Droid.Resource.Id.outline = global::Tutorip.Droid.Resource.Id.outline;
+			global::Forms9Patch.Droid.Resource.Id.parallax = global::Tutorip.Droid.Resource.Id.parallax;
+			global::Forms9Patch.Droid.Resource.Id.parentPanel = global::Tutorip.Droid.Resource.Id.parentPanel;
+			global::Forms9Patch.Droid.Resource.Id.parent_matrix = global::Tutorip.Droid.Resource.Id.parent_matrix;
+			global::Forms9Patch.Droid.Resource.Id.pin = global::Tutorip.Droid.Resource.Id.pin;
+			global::Forms9Patch.Droid.Resource.Id.progress_circular = global::Tutorip.Droid.Resource.Id.progress_circular;
+			global::Forms9Patch.Droid.Resource.Id.progress_horizontal = global::Tutorip.Droid.Resource.Id.progress_horizontal;
+			global::Forms9Patch.Droid.Resource.Id.radio = global::Tutorip.Droid.Resource.Id.radio;
+			global::Forms9Patch.Droid.Resource.Id.right = global::Tutorip.Droid.Resource.Id.right;
+			global::Forms9Patch.Droid.Resource.Id.right_icon = global::Tutorip.Droid.Resource.Id.right_icon;
+			global::Forms9Patch.Droid.Resource.Id.right_side = global::Tutorip.Droid.Resource.Id.right_side;
+			global::Forms9Patch.Droid.Resource.Id.save_image_matrix = global::Tutorip.Droid.Resource.Id.save_image_matrix;
+			global::Forms9Patch.Droid.Resource.Id.save_non_transition_alpha = global::Tutorip.Droid.Resource.Id.save_non_transition_alpha;
+			global::Forms9Patch.Droid.Resource.Id.save_scale_type = global::Tutorip.Droid.Resource.Id.save_scale_type;
+			global::Forms9Patch.Droid.Resource.Id.screen = global::Tutorip.Droid.Resource.Id.screen;
+			global::Forms9Patch.Droid.Resource.Id.scroll = global::Tutorip.Droid.Resource.Id.scroll;
+			global::Forms9Patch.Droid.Resource.Id.scrollable = global::Tutorip.Droid.Resource.Id.scrollable;
+			global::Forms9Patch.Droid.Resource.Id.scrollIndicatorDown = global::Tutorip.Droid.Resource.Id.scrollIndicatorDown;
+			global::Forms9Patch.Droid.Resource.Id.scrollIndicatorUp = global::Tutorip.Droid.Resource.Id.scrollIndicatorUp;
+			global::Forms9Patch.Droid.Resource.Id.scrollView = global::Tutorip.Droid.Resource.Id.scrollView;
+			global::Forms9Patch.Droid.Resource.Id.search_badge = global::Tutorip.Droid.Resource.Id.search_badge;
+			global::Forms9Patch.Droid.Resource.Id.search_bar = global::Tutorip.Droid.Resource.Id.search_bar;
+			global::Forms9Patch.Droid.Resource.Id.search_button = global::Tutorip.Droid.Resource.Id.search_button;
+			global::Forms9Patch.Droid.Resource.Id.search_close_btn = global::Tutorip.Droid.Resource.Id.search_close_btn;
+			global::Forms9Patch.Droid.Resource.Id.search_edit_frame = global::Tutorip.Droid.Resource.Id.search_edit_frame;
+			global::Forms9Patch.Droid.Resource.Id.search_go_btn = global::Tutorip.Droid.Resource.Id.search_go_btn;
+			global::Forms9Patch.Droid.Resource.Id.search_mag_icon = global::Tutorip.Droid.Resource.Id.search_mag_icon;
+			global::Forms9Patch.Droid.Resource.Id.search_plate = global::Tutorip.Droid.Resource.Id.search_plate;
+			global::Forms9Patch.Droid.Resource.Id.search_src_text = global::Tutorip.Droid.Resource.Id.search_src_text;
+			global::Forms9Patch.Droid.Resource.Id.search_voice_btn = global::Tutorip.Droid.Resource.Id.search_voice_btn;
+			global::Forms9Patch.Droid.Resource.Id.selected = global::Tutorip.Droid.Resource.Id.selected;
+			global::Forms9Patch.Droid.Resource.Id.select_dialog_listview = global::Tutorip.Droid.Resource.Id.select_dialog_listview;
+			global::Forms9Patch.Droid.Resource.Id.shellcontent_appbar = global::Tutorip.Droid.Resource.Id.shellcontent_appbar;
+			global::Forms9Patch.Droid.Resource.Id.shellcontent_toolbar = global::Tutorip.Droid.Resource.Id.shellcontent_toolbar;
+			global::Forms9Patch.Droid.Resource.Id.SHIFT = global::Tutorip.Droid.Resource.Id.SHIFT;
+			global::Forms9Patch.Droid.Resource.Id.shortcut = global::Tutorip.Droid.Resource.Id.shortcut;
+			global::Forms9Patch.Droid.Resource.Id.showCustom = global::Tutorip.Droid.Resource.Id.showCustom;
+			global::Forms9Patch.Droid.Resource.Id.showHome = global::Tutorip.Droid.Resource.Id.showHome;
+			global::Forms9Patch.Droid.Resource.Id.showTitle = global::Tutorip.Droid.Resource.Id.showTitle;
+			global::Forms9Patch.Droid.Resource.Id.smallLabel = global::Tutorip.Droid.Resource.Id.smallLabel;
+			global::Forms9Patch.Droid.Resource.Id.snackbar_action = global::Tutorip.Droid.Resource.Id.snackbar_action;
+			global::Forms9Patch.Droid.Resource.Id.snackbar_text = global::Tutorip.Droid.Resource.Id.snackbar_text;
+			global::Forms9Patch.Droid.Resource.Id.snap = global::Tutorip.Droid.Resource.Id.snap;
+			global::Forms9Patch.Droid.Resource.Id.snapMargins = global::Tutorip.Droid.Resource.Id.snapMargins;
+			global::Forms9Patch.Droid.Resource.Id.spacer = global::Tutorip.Droid.Resource.Id.spacer;
+			global::Forms9Patch.Droid.Resource.Id.split_action_bar = global::Tutorip.Droid.Resource.Id.split_action_bar;
+			global::Forms9Patch.Droid.Resource.Id.src_atop = global::Tutorip.Droid.Resource.Id.src_atop;
+			global::Forms9Patch.Droid.Resource.Id.src_in = global::Tutorip.Droid.Resource.Id.src_in;
+			global::Forms9Patch.Droid.Resource.Id.src_over = global::Tutorip.Droid.Resource.Id.src_over;
+			global::Forms9Patch.Droid.Resource.Id.start = global::Tutorip.Droid.Resource.Id.start;
+			global::Forms9Patch.Droid.Resource.Id.status_bar_latest_event_content = global::Tutorip.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Forms9Patch.Droid.Resource.Id.stretch = global::Tutorip.Droid.Resource.Id.stretch;
+			global::Forms9Patch.Droid.Resource.Id.submenuarrow = global::Tutorip.Droid.Resource.Id.submenuarrow;
+			global::Forms9Patch.Droid.Resource.Id.submit_area = global::Tutorip.Droid.Resource.Id.submit_area;
+			global::Forms9Patch.Droid.Resource.Id.SYM = global::Tutorip.Droid.Resource.Id.SYM;
+			global::Forms9Patch.Droid.Resource.Id.tabMode = global::Tutorip.Droid.Resource.Id.tabMode;
+			global::Forms9Patch.Droid.Resource.Id.tag_transition_group = global::Tutorip.Droid.Resource.Id.tag_transition_group;
+			global::Forms9Patch.Droid.Resource.Id.tag_unhandled_key_event_manager = global::Tutorip.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Forms9Patch.Droid.Resource.Id.tag_unhandled_key_listeners = global::Tutorip.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Forms9Patch.Droid.Resource.Id.text = global::Tutorip.Droid.Resource.Id.text;
+			global::Forms9Patch.Droid.Resource.Id.text2 = global::Tutorip.Droid.Resource.Id.text2;
+			global::Forms9Patch.Droid.Resource.Id.textinput_counter = global::Tutorip.Droid.Resource.Id.textinput_counter;
+			global::Forms9Patch.Droid.Resource.Id.textinput_error = global::Tutorip.Droid.Resource.Id.textinput_error;
+			global::Forms9Patch.Droid.Resource.Id.textinput_helper_text = global::Tutorip.Droid.Resource.Id.textinput_helper_text;
+			global::Forms9Patch.Droid.Resource.Id.textSpacerNoButtons = global::Tutorip.Droid.Resource.Id.textSpacerNoButtons;
+			global::Forms9Patch.Droid.Resource.Id.textSpacerNoTitle = global::Tutorip.Droid.Resource.Id.textSpacerNoTitle;
+			global::Forms9Patch.Droid.Resource.Id.textStart = global::Tutorip.Droid.Resource.Id.textStart;
+			global::Forms9Patch.Droid.Resource.Id.text_input_password_toggle = global::Tutorip.Droid.Resource.Id.text_input_password_toggle;
+			global::Forms9Patch.Droid.Resource.Id.time = global::Tutorip.Droid.Resource.Id.time;
+			global::Forms9Patch.Droid.Resource.Id.title = global::Tutorip.Droid.Resource.Id.title;
+			global::Forms9Patch.Droid.Resource.Id.titleDividerNoCustom = global::Tutorip.Droid.Resource.Id.titleDividerNoCustom;
+			global::Forms9Patch.Droid.Resource.Id.title_template = global::Tutorip.Droid.Resource.Id.title_template;
+			global::Forms9Patch.Droid.Resource.Id.top = global::Tutorip.Droid.Resource.Id.top;
+			global::Forms9Patch.Droid.Resource.Id.topPanel = global::Tutorip.Droid.Resource.Id.topPanel;
+			global::Forms9Patch.Droid.Resource.Id.touch_outside = global::Tutorip.Droid.Resource.Id.touch_outside;
+			global::Forms9Patch.Droid.Resource.Id.transition_current_scene = global::Tutorip.Droid.Resource.Id.transition_current_scene;
+			global::Forms9Patch.Droid.Resource.Id.transition_layout_save = global::Tutorip.Droid.Resource.Id.transition_layout_save;
+			global::Forms9Patch.Droid.Resource.Id.transition_position = global::Tutorip.Droid.Resource.Id.transition_position;
+			global::Forms9Patch.Droid.Resource.Id.transition_scene_layoutid_cache = global::Tutorip.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Forms9Patch.Droid.Resource.Id.transition_transform = global::Tutorip.Droid.Resource.Id.transition_transform;
+			global::Forms9Patch.Droid.Resource.Id.uniform = global::Tutorip.Droid.Resource.Id.uniform;
+			global::Forms9Patch.Droid.Resource.Id.unlabeled = global::Tutorip.Droid.Resource.Id.unlabeled;
+			global::Forms9Patch.Droid.Resource.Id.up = global::Tutorip.Droid.Resource.Id.up;
+			global::Forms9Patch.Droid.Resource.Id.useLogo = global::Tutorip.Droid.Resource.Id.useLogo;
+			global::Forms9Patch.Droid.Resource.Id.view_offset_helper = global::Tutorip.Droid.Resource.Id.view_offset_helper;
+			global::Forms9Patch.Droid.Resource.Id.visible = global::Tutorip.Droid.Resource.Id.visible;
+			global::Forms9Patch.Droid.Resource.Id.withText = global::Tutorip.Droid.Resource.Id.withText;
+			global::Forms9Patch.Droid.Resource.Id.wrap_content = global::Tutorip.Droid.Resource.Id.wrap_content;
+			global::Forms9Patch.Droid.Resource.Integer.abc_config_activityDefaultDur = global::Tutorip.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Forms9Patch.Droid.Resource.Integer.abc_config_activityShortDur = global::Tutorip.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Forms9Patch.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::Tutorip.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Forms9Patch.Droid.Resource.Integer.bottom_sheet_slide_duration = global::Tutorip.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Forms9Patch.Droid.Resource.Integer.cancel_button_image_alpha = global::Tutorip.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Forms9Patch.Droid.Resource.Integer.config_tooltipAnimTime = global::Tutorip.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Forms9Patch.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Tutorip.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Forms9Patch.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Tutorip.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Forms9Patch.Droid.Resource.Integer.hide_password_duration = global::Tutorip.Droid.Resource.Integer.hide_password_duration;
+			global::Forms9Patch.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::Tutorip.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Forms9Patch.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::Tutorip.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Forms9Patch.Droid.Resource.Integer.mtrl_chip_anim_duration = global::Tutorip.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Forms9Patch.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Tutorip.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Forms9Patch.Droid.Resource.Integer.show_password_duration = global::Tutorip.Droid.Resource.Integer.show_password_duration;
+			global::Forms9Patch.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::Tutorip.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Forms9Patch.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::Tutorip.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Forms9Patch.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::Tutorip.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Forms9Patch.Droid.Resource.Interpolator.mtrl_linear = global::Tutorip.Droid.Resource.Interpolator.mtrl_linear;
+			global::Forms9Patch.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::Tutorip.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Forms9Patch.Droid.Resource.Layout.abc_action_bar_title_item = global::Tutorip.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Forms9Patch.Droid.Resource.Layout.abc_action_bar_up_container = global::Tutorip.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Forms9Patch.Droid.Resource.Layout.abc_action_menu_item_layout = global::Tutorip.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Forms9Patch.Droid.Resource.Layout.abc_action_menu_layout = global::Tutorip.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Forms9Patch.Droid.Resource.Layout.abc_action_mode_bar = global::Tutorip.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Forms9Patch.Droid.Resource.Layout.abc_action_mode_close_item_material = global::Tutorip.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Forms9Patch.Droid.Resource.Layout.abc_activity_chooser_view = global::Tutorip.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Forms9Patch.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::Tutorip.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Forms9Patch.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::Tutorip.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Forms9Patch.Droid.Resource.Layout.abc_alert_dialog_material = global::Tutorip.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Forms9Patch.Droid.Resource.Layout.abc_alert_dialog_title_material = global::Tutorip.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Forms9Patch.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::Tutorip.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Forms9Patch.Droid.Resource.Layout.abc_dialog_title_material = global::Tutorip.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Forms9Patch.Droid.Resource.Layout.abc_expanded_menu_layout = global::Tutorip.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Forms9Patch.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::Tutorip.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Forms9Patch.Droid.Resource.Layout.abc_list_menu_item_icon = global::Tutorip.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Forms9Patch.Droid.Resource.Layout.abc_list_menu_item_layout = global::Tutorip.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Forms9Patch.Droid.Resource.Layout.abc_list_menu_item_radio = global::Tutorip.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Forms9Patch.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::Tutorip.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Forms9Patch.Droid.Resource.Layout.abc_popup_menu_item_layout = global::Tutorip.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Forms9Patch.Droid.Resource.Layout.abc_screen_content_include = global::Tutorip.Droid.Resource.Layout.abc_screen_content_include;
+			global::Forms9Patch.Droid.Resource.Layout.abc_screen_simple = global::Tutorip.Droid.Resource.Layout.abc_screen_simple;
+			global::Forms9Patch.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Tutorip.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Forms9Patch.Droid.Resource.Layout.abc_screen_toolbar = global::Tutorip.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Forms9Patch.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Tutorip.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Forms9Patch.Droid.Resource.Layout.abc_search_view = global::Tutorip.Droid.Resource.Layout.abc_search_view;
+			global::Forms9Patch.Droid.Resource.Layout.abc_select_dialog_material = global::Tutorip.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Forms9Patch.Droid.Resource.Layout.abc_tooltip = global::Tutorip.Droid.Resource.Layout.abc_tooltip;
+			global::Forms9Patch.Droid.Resource.Layout.BottomTabLayout = global::Tutorip.Droid.Resource.Layout.BottomTabLayout;
+			global::Forms9Patch.Droid.Resource.Layout.browser_actions_context_menu_page = global::Tutorip.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Forms9Patch.Droid.Resource.Layout.browser_actions_context_menu_row = global::Tutorip.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Forms9Patch.Droid.Resource.Layout.design_bottom_navigation_item = global::Tutorip.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Forms9Patch.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Tutorip.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Forms9Patch.Droid.Resource.Layout.design_layout_snackbar = global::Tutorip.Droid.Resource.Layout.design_layout_snackbar;
+			global::Forms9Patch.Droid.Resource.Layout.design_layout_snackbar_include = global::Tutorip.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Forms9Patch.Droid.Resource.Layout.design_layout_tab_icon = global::Tutorip.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Forms9Patch.Droid.Resource.Layout.design_layout_tab_text = global::Tutorip.Droid.Resource.Layout.design_layout_tab_text;
+			global::Forms9Patch.Droid.Resource.Layout.design_menu_item_action_area = global::Tutorip.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Forms9Patch.Droid.Resource.Layout.design_navigation_item = global::Tutorip.Droid.Resource.Layout.design_navigation_item;
+			global::Forms9Patch.Droid.Resource.Layout.design_navigation_item_header = global::Tutorip.Droid.Resource.Layout.design_navigation_item_header;
+			global::Forms9Patch.Droid.Resource.Layout.design_navigation_item_separator = global::Tutorip.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Forms9Patch.Droid.Resource.Layout.design_navigation_item_subheader = global::Tutorip.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Forms9Patch.Droid.Resource.Layout.design_navigation_menu = global::Tutorip.Droid.Resource.Layout.design_navigation_menu;
+			global::Forms9Patch.Droid.Resource.Layout.design_navigation_menu_item = global::Tutorip.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Forms9Patch.Droid.Resource.Layout.design_text_input_password_icon = global::Tutorip.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Forms9Patch.Droid.Resource.Layout.FlyoutContent = global::Tutorip.Droid.Resource.Layout.FlyoutContent;
+			global::Forms9Patch.Droid.Resource.Layout.mtrl_layout_snackbar = global::Tutorip.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Forms9Patch.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::Tutorip.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Forms9Patch.Droid.Resource.Layout.notification_action = global::Tutorip.Droid.Resource.Layout.notification_action;
+			global::Forms9Patch.Droid.Resource.Layout.notification_action_tombstone = global::Tutorip.Droid.Resource.Layout.notification_action_tombstone;
+			global::Forms9Patch.Droid.Resource.Layout.notification_media_action = global::Tutorip.Droid.Resource.Layout.notification_media_action;
+			global::Forms9Patch.Droid.Resource.Layout.notification_media_cancel_action = global::Tutorip.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_big_media = global::Tutorip.Droid.Resource.Layout.notification_template_big_media;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_big_media_custom = global::Tutorip.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_big_media_narrow = global::Tutorip.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::Tutorip.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_custom_big = global::Tutorip.Droid.Resource.Layout.notification_template_custom_big;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_icon_group = global::Tutorip.Droid.Resource.Layout.notification_template_icon_group;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_lines_media = global::Tutorip.Droid.Resource.Layout.notification_template_lines_media;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_media = global::Tutorip.Droid.Resource.Layout.notification_template_media;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_media_custom = global::Tutorip.Droid.Resource.Layout.notification_template_media_custom;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_part_chronometer = global::Tutorip.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Forms9Patch.Droid.Resource.Layout.notification_template_part_time = global::Tutorip.Droid.Resource.Layout.notification_template_part_time;
+			global::Forms9Patch.Droid.Resource.Layout.RootLayout = global::Tutorip.Droid.Resource.Layout.RootLayout;
+			global::Forms9Patch.Droid.Resource.Layout.select_dialog_item_material = global::Tutorip.Droid.Resource.Layout.select_dialog_item_material;
+			global::Forms9Patch.Droid.Resource.Layout.select_dialog_multichoice_material = global::Tutorip.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Forms9Patch.Droid.Resource.Layout.select_dialog_singlechoice_material = global::Tutorip.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Forms9Patch.Droid.Resource.Layout.ShellContent = global::Tutorip.Droid.Resource.Layout.ShellContent;
+			global::Forms9Patch.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::Tutorip.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Forms9Patch.Droid.Resource.String.abc_action_bar_home_description = global::Tutorip.Droid.Resource.String.abc_action_bar_home_description;
+			global::Forms9Patch.Droid.Resource.String.abc_action_bar_up_description = global::Tutorip.Droid.Resource.String.abc_action_bar_up_description;
+			global::Forms9Patch.Droid.Resource.String.abc_action_menu_overflow_description = global::Tutorip.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Forms9Patch.Droid.Resource.String.abc_action_mode_done = global::Tutorip.Droid.Resource.String.abc_action_mode_done;
+			global::Forms9Patch.Droid.Resource.String.abc_activitychooserview_choose_application = global::Tutorip.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Forms9Patch.Droid.Resource.String.abc_activity_chooser_view_see_all = global::Tutorip.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Forms9Patch.Droid.Resource.String.abc_capital_off = global::Tutorip.Droid.Resource.String.abc_capital_off;
+			global::Forms9Patch.Droid.Resource.String.abc_capital_on = global::Tutorip.Droid.Resource.String.abc_capital_on;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_body_1_material = global::Tutorip.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_body_2_material = global::Tutorip.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_button_material = global::Tutorip.Droid.Resource.String.abc_font_family_button_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_caption_material = global::Tutorip.Droid.Resource.String.abc_font_family_caption_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_display_1_material = global::Tutorip.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_display_2_material = global::Tutorip.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_display_3_material = global::Tutorip.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_display_4_material = global::Tutorip.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_headline_material = global::Tutorip.Droid.Resource.String.abc_font_family_headline_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_menu_material = global::Tutorip.Droid.Resource.String.abc_font_family_menu_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_subhead_material = global::Tutorip.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Forms9Patch.Droid.Resource.String.abc_font_family_title_material = global::Tutorip.Droid.Resource.String.abc_font_family_title_material;
+			global::Forms9Patch.Droid.Resource.String.abc_menu_alt_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Forms9Patch.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Forms9Patch.Droid.Resource.String.abc_menu_delete_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Forms9Patch.Droid.Resource.String.abc_menu_enter_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Forms9Patch.Droid.Resource.String.abc_menu_function_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Forms9Patch.Droid.Resource.String.abc_menu_meta_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Forms9Patch.Droid.Resource.String.abc_menu_shift_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Forms9Patch.Droid.Resource.String.abc_menu_space_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Forms9Patch.Droid.Resource.String.abc_menu_sym_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Forms9Patch.Droid.Resource.String.abc_prepend_shortcut_label = global::Tutorip.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Forms9Patch.Droid.Resource.String.abc_searchview_description_clear = global::Tutorip.Droid.Resource.String.abc_searchview_description_clear;
+			global::Forms9Patch.Droid.Resource.String.abc_searchview_description_query = global::Tutorip.Droid.Resource.String.abc_searchview_description_query;
+			global::Forms9Patch.Droid.Resource.String.abc_searchview_description_search = global::Tutorip.Droid.Resource.String.abc_searchview_description_search;
+			global::Forms9Patch.Droid.Resource.String.abc_searchview_description_submit = global::Tutorip.Droid.Resource.String.abc_searchview_description_submit;
+			global::Forms9Patch.Droid.Resource.String.abc_searchview_description_voice = global::Tutorip.Droid.Resource.String.abc_searchview_description_voice;
+			global::Forms9Patch.Droid.Resource.String.abc_search_hint = global::Tutorip.Droid.Resource.String.abc_search_hint;
+			global::Forms9Patch.Droid.Resource.String.abc_shareactionprovider_share_with = global::Tutorip.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Forms9Patch.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Tutorip.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Forms9Patch.Droid.Resource.String.abc_toolbar_collapse_description = global::Tutorip.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Forms9Patch.Droid.Resource.String.appbar_scrolling_view_behavior = global::Tutorip.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Forms9Patch.Droid.Resource.String.bottom_sheet_behavior = global::Tutorip.Droid.Resource.String.bottom_sheet_behavior;
+			global::Forms9Patch.Droid.Resource.String.character_counter_content_description = global::Tutorip.Droid.Resource.String.character_counter_content_description;
+			global::Forms9Patch.Droid.Resource.String.character_counter_pattern = global::Tutorip.Droid.Resource.String.character_counter_pattern;
+			global::Forms9Patch.Droid.Resource.String.fab_transformation_scrim_behavior = global::Tutorip.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Forms9Patch.Droid.Resource.String.fab_transformation_sheet_behavior = global::Tutorip.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Forms9Patch.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::Tutorip.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Forms9Patch.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::Tutorip.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Forms9Patch.Droid.Resource.String.password_toggle_content_description = global::Tutorip.Droid.Resource.String.password_toggle_content_description;
+			global::Forms9Patch.Droid.Resource.String.path_password_eye = global::Tutorip.Droid.Resource.String.path_password_eye;
+			global::Forms9Patch.Droid.Resource.String.path_password_eye_mask_strike_through = global::Tutorip.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Forms9Patch.Droid.Resource.String.path_password_eye_mask_visible = global::Tutorip.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Forms9Patch.Droid.Resource.String.path_password_strike_through = global::Tutorip.Droid.Resource.String.path_password_strike_through;
+			global::Forms9Patch.Droid.Resource.String.search_menu_title = global::Tutorip.Droid.Resource.String.search_menu_title;
+			global::Forms9Patch.Droid.Resource.String.status_bar_notification_info_overflow = global::Tutorip.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Forms9Patch.Droid.Resource.Style.AlertDialog_AppCompat = global::Tutorip.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::Tutorip.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Animation_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::Tutorip.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Forms9Patch.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::Tutorip.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Forms9Patch.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::Tutorip.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::Tutorip.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Tutorip.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Forms9Patch.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Tutorip.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Forms9Patch.Droid.Resource.Style.Base_CardView = global::Tutorip.Droid.Resource.Style.Base_CardView;
+			global::Forms9Patch.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Tutorip.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Tutorip.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Forms9Patch.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Forms9Patch.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Forms9Patch.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Forms9Patch.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Forms9Patch.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Forms9Patch.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Tutorip.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Tutorip.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Forms9Patch.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Tutorip.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Tutorip.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Forms9Patch.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Tutorip.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Forms9Patch.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Tutorip.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::Tutorip.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Tutorip.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Tutorip.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Forms9Patch.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Tutorip.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Forms9Patch.Droid.Resource.Style.CardView = global::Tutorip.Droid.Resource.Style.CardView;
+			global::Forms9Patch.Droid.Resource.Style.CardView_Dark = global::Tutorip.Droid.Resource.Style.CardView_Dark;
+			global::Forms9Patch.Droid.Resource.Style.CardView_Light = global::Tutorip.Droid.Resource.Style.CardView_Light;
+			global::Forms9Patch.Droid.Resource.Style.collectionViewStyle = global::Tutorip.Droid.Resource.Style.collectionViewStyle;
+			global::Forms9Patch.Droid.Resource.Style.Platform_AppCompat = global::Tutorip.Droid.Resource.Style.Platform_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Platform_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Platform_MaterialComponents = global::Tutorip.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Forms9Patch.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Platform_MaterialComponents_Light = global::Tutorip.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Forms9Patch.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Tutorip.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Tutorip.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Tutorip.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Forms9Patch.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Platform_V21_AppCompat = global::Tutorip.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Platform_V25_AppCompat = global::Tutorip.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Tutorip.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Tutorip.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Forms9Patch.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Forms9Patch.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Tutorip.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Forms9Patch.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Tutorip.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Compat_Notification = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Design_Counter = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Design_Error = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Design_HelperText = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Design_Hint = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Design_Tab = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Tutorip.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Tutorip.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Forms9Patch.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_AppCompat = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Forms9Patch.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Theme_AppCompat;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_DayNight = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Theme_Design = global::Tutorip.Droid.Resource.Style.Theme_Design;
+			global::Forms9Patch.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::Tutorip.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Forms9Patch.Droid.Resource.Style.Theme_Design_Light = global::Tutorip.Droid.Resource.Style.Theme_Design_Light;
+			global::Forms9Patch.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Tutorip.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Forms9Patch.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Theme_Design_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Button = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_EditText = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ListView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_SearchView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Spinner = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::Tutorip.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::Tutorip.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Design_AppBarLayout = global::Tutorip.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::Tutorip.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::Tutorip.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::Tutorip.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::Tutorip.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Design_NavigationView = global::Tutorip.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Tutorip.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Design_Snackbar = global::Tutorip.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Design_TabLayout = global::Tutorip.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Design_TextInputLayout = global::Tutorip.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Button = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Forms9Patch.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Forms9Patch.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::Tutorip.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar = global::Tutorip.Droid.Resource.Styleable.ActionBar;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBarLayout = global::Tutorip.Droid.Resource.Styleable.ActionBarLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Tutorip.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_background = global::Tutorip.Droid.Resource.Styleable.ActionBar_background;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::Tutorip.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::Tutorip.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::Tutorip.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_displayOptions = global::Tutorip.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_divider = global::Tutorip.Droid.Resource.Styleable.ActionBar_divider;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_elevation = global::Tutorip.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_height = global::Tutorip.Droid.Resource.Styleable.ActionBar_height;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::Tutorip.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Tutorip.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_homeLayout = global::Tutorip.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_icon = global::Tutorip.Droid.Resource.Styleable.ActionBar_icon;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Tutorip.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_itemPadding = global::Tutorip.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_logo = global::Tutorip.Droid.Resource.Styleable.ActionBar_logo;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_navigationMode = global::Tutorip.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_popupTheme = global::Tutorip.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::Tutorip.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::Tutorip.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_subtitle = global::Tutorip.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::Tutorip.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_title = global::Tutorip.Droid.Resource.Styleable.ActionBar_title;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::Tutorip.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionMenuItemView = global::Tutorip.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Tutorip.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionMenuView = global::Tutorip.Droid.Resource.Styleable.ActionMenuView;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionMode = global::Tutorip.Droid.Resource.Styleable.ActionMode;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionMode_background = global::Tutorip.Droid.Resource.Styleable.ActionMode_background;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::Tutorip.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::Tutorip.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionMode_height = global::Tutorip.Droid.Resource.Styleable.ActionMode_height;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::Tutorip.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::Tutorip.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.ActivityChooserView = global::Tutorip.Droid.Resource.Styleable.ActivityChooserView;
+			global::Forms9Patch.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Tutorip.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Tutorip.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Forms9Patch.Droid.Resource.Styleable.AlertDialog = global::Tutorip.Droid.Resource.Styleable.AlertDialog;
+			global::Forms9Patch.Droid.Resource.Styleable.AlertDialog_android_layout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Forms9Patch.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::Tutorip.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Forms9Patch.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.AlertDialog_listLayout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.AlertDialog_showTitle = global::Tutorip.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Forms9Patch.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Forms9Patch.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayout = global::Tutorip.Droid.Resource.Styleable.AppBarLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayoutStates = global::Tutorip.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Tutorip.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Tutorip.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Tutorip.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Tutorip.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayout_android_background = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayout_elevation = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayout_expanded = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayout_Layout = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Forms9Patch.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatImageView = global::Tutorip.Droid.Resource.Styleable.AppCompatImageView;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatImageView_android_src = global::Tutorip.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::Tutorip.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatImageView_tint = global::Tutorip.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::Tutorip.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatSeekBar = global::Tutorip.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Tutorip.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::Tutorip.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Tutorip.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Tutorip.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextHelper = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_colorError = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Forms9Patch.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomAppBar = global::Tutorip.Droid.Resource.Styleable.BottomAppBar;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView_elevation = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomNavigationView_menu = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::Tutorip.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Tutorip.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Tutorip.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Tutorip.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Tutorip.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Forms9Patch.Droid.Resource.Styleable.ButtonBarLayout = global::Tutorip.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::Tutorip.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView = global::Tutorip.Droid.Resource.Styleable.CardView;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_android_minHeight = global::Tutorip.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_android_minWidth = global::Tutorip.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::Tutorip.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_cardCornerRadius = global::Tutorip.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_cardElevation = global::Tutorip.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_cardMaxElevation = global::Tutorip.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Tutorip.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::Tutorip.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_contentPadding = global::Tutorip.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::Tutorip.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Tutorip.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Tutorip.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Forms9Patch.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Tutorip.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip = global::Tutorip.Droid.Resource.Styleable.Chip;
+			global::Forms9Patch.Droid.Resource.Styleable.ChipGroup = global::Tutorip.Droid.Resource.Styleable.ChipGroup;
+			global::Forms9Patch.Droid.Resource.Styleable.ChipGroup_checkedChip = global::Tutorip.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Forms9Patch.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::Tutorip.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Forms9Patch.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Tutorip.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Forms9Patch.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Tutorip.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Forms9Patch.Droid.Resource.Styleable.ChipGroup_singleLine = global::Tutorip.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Forms9Patch.Droid.Resource.Styleable.ChipGroup_singleSelection = global::Tutorip.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_android_checkable = global::Tutorip.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_android_ellipsize = global::Tutorip.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_android_maxWidth = global::Tutorip.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_android_text = global::Tutorip.Droid.Resource.Styleable.Chip_android_text;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_android_textAppearance = global::Tutorip.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_checkedIcon = global::Tutorip.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::Tutorip.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_checkedIconVisible = global::Tutorip.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::Tutorip.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipCornerRadius = global::Tutorip.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipEndPadding = global::Tutorip.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipIcon = global::Tutorip.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipIconEnabled = global::Tutorip.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipIconSize = global::Tutorip.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipIconTint = global::Tutorip.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipIconVisible = global::Tutorip.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipMinHeight = global::Tutorip.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipStartPadding = global::Tutorip.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipStrokeColor = global::Tutorip.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::Tutorip.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_closeIcon = global::Tutorip.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_closeIconEnabled = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_closeIconSize = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_closeIconTint = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_closeIconVisible = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_hideMotionSpec = global::Tutorip.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_iconEndPadding = global::Tutorip.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_iconStartPadding = global::Tutorip.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_rippleColor = global::Tutorip.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_showMotionSpec = global::Tutorip.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_textEndPadding = global::Tutorip.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.Chip_textStartPadding = global::Tutorip.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Forms9Patch.Droid.Resource.Styleable.ColorStateListItem = global::Tutorip.Droid.Resource.Styleable.ColorStateListItem;
+			global::Forms9Patch.Droid.Resource.Styleable.ColorStateListItem_alpha = global::Tutorip.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Forms9Patch.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::Tutorip.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Forms9Patch.Droid.Resource.Styleable.ColorStateListItem_android_color = global::Tutorip.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Forms9Patch.Droid.Resource.Styleable.CompoundButton = global::Tutorip.Droid.Resource.Styleable.CompoundButton;
+			global::Forms9Patch.Droid.Resource.Styleable.CompoundButton_android_button = global::Tutorip.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Forms9Patch.Droid.Resource.Styleable.CompoundButton_buttonTint = global::Tutorip.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Forms9Patch.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::Tutorip.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Forms9Patch.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.DesignTheme = global::Tutorip.Droid.Resource.Styleable.DesignTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Tutorip.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Tutorip.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.DrawerArrowToggle = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Forms9Patch.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Forms9Patch.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Forms9Patch.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Forms9Patch.Droid.Resource.Styleable.DrawerArrowToggle_color = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Forms9Patch.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Forms9Patch.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Forms9Patch.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Forms9Patch.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_elevation = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Forms9Patch.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.FlowLayout = global::Tutorip.Droid.Resource.Styleable.FlowLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::Tutorip.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Forms9Patch.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::Tutorip.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamily = global::Tutorip.Droid.Resource.Styleable.FontFamily;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont_android_font = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont_font = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Forms9Patch.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Forms9Patch.Droid.Resource.Styleable.ForegroundLinearLayout = global::Tutorip.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Tutorip.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Forms9Patch.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Tutorip.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Forms9Patch.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Tutorip.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor = global::Tutorip.Droid.Resource.Styleable.GradientColor;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColorItem = global::Tutorip.Droid.Resource.Styleable.GradientColorItem;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColorItem_android_color = global::Tutorip.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColorItem_android_offset = global::Tutorip.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_centerColor = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_centerX = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_centerY = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_endColor = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_endX = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_endY = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_startColor = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_startX = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_startY = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_tileMode = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Forms9Patch.Droid.Resource.Styleable.GradientColor_android_type = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Forms9Patch.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Forms9Patch.Droid.Resource.Styleable.ListPopupWindow = global::Tutorip.Droid.Resource.Styleable.ListPopupWindow;
+			global::Forms9Patch.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Tutorip.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Forms9Patch.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Tutorip.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton = global::Tutorip.Droid.Resource.Styleable.MaterialButton;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::Tutorip.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::Tutorip.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::Tutorip.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::Tutorip.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::Tutorip.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::Tutorip.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::Tutorip.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_icon = global::Tutorip.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_iconGravity = global::Tutorip.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_iconPadding = global::Tutorip.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_iconSize = global::Tutorip.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_iconTint = global::Tutorip.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::Tutorip.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_rippleColor = global::Tutorip.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_strokeColor = global::Tutorip.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::Tutorip.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialCardView = global::Tutorip.Droid.Resource.Styleable.MaterialCardView;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::Tutorip.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::Tutorip.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Forms9Patch.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuGroup = global::Tutorip.Droid.Resource.Styleable.MenuGroup;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuGroup_android_enabled = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuGroup_android_id = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuGroup_android_visible = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem = global::Tutorip.Droid.Resource.Styleable.MenuItem;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_actionLayout = global::Tutorip.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::Tutorip.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_actionViewClass = global::Tutorip.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::Tutorip.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_checkable = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_checked = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_enabled = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_icon = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_id = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_onClick = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_title = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_android_visible = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_contentDescription = global::Tutorip.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_iconTint = global::Tutorip.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_iconTintMode = global::Tutorip.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_numericModifiers = global::Tutorip.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_showAsAction = global::Tutorip.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuItem_tooltipText = global::Tutorip.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuView = global::Tutorip.Droid.Resource.Styleable.MenuView;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuView_android_headerBackground = global::Tutorip.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::Tutorip.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuView_android_itemBackground = global::Tutorip.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Tutorip.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::Tutorip.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::Tutorip.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Tutorip.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::Tutorip.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Forms9Patch.Droid.Resource.Styleable.MenuView_subMenuArrow = global::Tutorip.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView = global::Tutorip.Droid.Resource.Styleable.NavigationView;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_android_background = global::Tutorip.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Tutorip.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::Tutorip.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_elevation = global::Tutorip.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_headerLayout = global::Tutorip.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_itemBackground = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_itemIconTint = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Forms9Patch.Droid.Resource.Styleable.NavigationView_menu = global::Tutorip.Droid.Resource.Styleable.NavigationView_menu;
+			global::Forms9Patch.Droid.Resource.Styleable.PopupWindow = global::Tutorip.Droid.Resource.Styleable.PopupWindow;
+			global::Forms9Patch.Droid.Resource.Styleable.PopupWindowBackgroundState = global::Tutorip.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Forms9Patch.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Tutorip.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Forms9Patch.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Tutorip.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::Tutorip.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::Tutorip.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Forms9Patch.Droid.Resource.Styleable.RecycleListView = global::Tutorip.Droid.Resource.Styleable.RecycleListView;
+			global::Forms9Patch.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Tutorip.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Forms9Patch.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Tutorip.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView = global::Tutorip.Droid.Resource.Styleable.RecyclerView;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Tutorip.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_android_orientation = global::Tutorip.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Tutorip.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Tutorip.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Tutorip.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Tutorip.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Tutorip.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_layoutManager = global::Tutorip.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::Tutorip.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_spanCount = global::Tutorip.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Forms9Patch.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::Tutorip.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Forms9Patch.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::Tutorip.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Tutorip.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Forms9Patch.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::Tutorip.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Forms9Patch.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Tutorip.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView = global::Tutorip.Droid.Resource.Styleable.SearchView;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_android_focusable = global::Tutorip.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_android_imeOptions = global::Tutorip.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_android_inputType = global::Tutorip.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_android_maxWidth = global::Tutorip.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_closeIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_commitIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::Tutorip.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_goIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::Tutorip.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_layout = global::Tutorip.Droid.Resource.Styleable.SearchView_layout;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_queryBackground = global::Tutorip.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_queryHint = global::Tutorip.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_searchHintIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_searchIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_submitBackground = global::Tutorip.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Tutorip.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.SearchView_voiceIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.Snackbar = global::Tutorip.Droid.Resource.Styleable.Snackbar;
+			global::Forms9Patch.Droid.Resource.Styleable.SnackbarLayout = global::Tutorip.Droid.Resource.Styleable.SnackbarLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Tutorip.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.SnackbarLayout_elevation = global::Tutorip.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Forms9Patch.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Tutorip.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Tutorip.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::Tutorip.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.Spinner = global::Tutorip.Droid.Resource.Styleable.Spinner;
+			global::Forms9Patch.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::Tutorip.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.Spinner_android_entries = global::Tutorip.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Forms9Patch.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Tutorip.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.Spinner_android_prompt = global::Tutorip.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Forms9Patch.Droid.Resource.Styleable.Spinner_popupTheme = global::Tutorip.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.StateListDrawable = global::Tutorip.Droid.Resource.Styleable.StateListDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.StateListDrawableItem = global::Tutorip.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Forms9Patch.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::Tutorip.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Forms9Patch.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Forms9Patch.Droid.Resource.Styleable.StateListDrawable_android_dither = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Forms9Patch.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Forms9Patch.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Forms9Patch.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Forms9Patch.Droid.Resource.Styleable.StateListDrawable_android_visible = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat = global::Tutorip.Droid.Resource.Styleable.SwitchCompat;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_showText = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_track = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_trackTint = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Forms9Patch.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.TabItem = global::Tutorip.Droid.Resource.Styleable.TabItem;
+			global::Forms9Patch.Droid.Resource.Styleable.TabItem_android_icon = global::Tutorip.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Forms9Patch.Droid.Resource.Styleable.TabItem_android_layout = global::Tutorip.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Forms9Patch.Droid.Resource.Styleable.TabItem_android_text = global::Tutorip.Droid.Resource.Styleable.TabItem_android_text;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout = global::Tutorip.Droid.Resource.Styleable.TabLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabBackground = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabContentStart = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabGravity = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabIconTint = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabIndicator = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabMode = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabPadding = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabTextColor = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Forms9Patch.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance = global::Tutorip.Droid.Resource.Styleable.TextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_textColor = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_textSize = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_android_typeface = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_fontFamily = global::Tutorip.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Forms9Patch.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::Tutorip.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout = global::Tutorip.Droid.Resource.Styleable.TextInputLayout;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_helperText = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Forms9Patch.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.ThemeEnforcement = global::Tutorip.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Forms9Patch.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Tutorip.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Tutorip.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Tutorip.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar = global::Tutorip.Droid.Resource.Styleable.Toolbar;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_android_gravity = global::Tutorip.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_android_minHeight = global::Tutorip.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_buttonGravity = global::Tutorip.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::Tutorip.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_collapseIcon = global::Tutorip.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_logo = global::Tutorip.Droid.Resource.Styleable.Toolbar_logo;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_logoDescription = global::Tutorip.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::Tutorip.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::Tutorip.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_navigationIcon = global::Tutorip.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_popupTheme = global::Tutorip.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_subtitle = global::Tutorip.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Tutorip.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::Tutorip.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_title = global::Tutorip.Droid.Resource.Styleable.Toolbar_title;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_titleMargin = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_titleMargins = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Forms9Patch.Droid.Resource.Styleable.Toolbar_titleTextColor = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Forms9Patch.Droid.Resource.Styleable.View = global::Tutorip.Droid.Resource.Styleable.View;
+			global::Forms9Patch.Droid.Resource.Styleable.ViewBackgroundHelper = global::Tutorip.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Forms9Patch.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::Tutorip.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Forms9Patch.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Tutorip.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Forms9Patch.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Tutorip.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Forms9Patch.Droid.Resource.Styleable.ViewStubCompat = global::Tutorip.Droid.Resource.Styleable.ViewStubCompat;
+			global::Forms9Patch.Droid.Resource.Styleable.ViewStubCompat_android_id = global::Tutorip.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Forms9Patch.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Tutorip.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Forms9Patch.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Tutorip.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Forms9Patch.Droid.Resource.Styleable.View_android_focusable = global::Tutorip.Droid.Resource.Styleable.View_android_focusable;
+			global::Forms9Patch.Droid.Resource.Styleable.View_android_theme = global::Tutorip.Droid.Resource.Styleable.View_android_theme;
+			global::Forms9Patch.Droid.Resource.Styleable.View_paddingEnd = global::Tutorip.Droid.Resource.Styleable.View_paddingEnd;
+			global::Forms9Patch.Droid.Resource.Styleable.View_paddingStart = global::Tutorip.Droid.Resource.Styleable.View_paddingStart;
+			global::Forms9Patch.Droid.Resource.Styleable.View_theme = global::Tutorip.Droid.Resource.Styleable.View_theme;
+			global::Forms9Patch.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::Tutorip.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::FormsGestures.Droid.Resource.Animation.abc_fade_in = global::Tutorip.Droid.Resource.Animation.abc_fade_in;
+			global::FormsGestures.Droid.Resource.Animation.abc_fade_out = global::Tutorip.Droid.Resource.Animation.abc_fade_out;
+			global::FormsGestures.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::Tutorip.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::FormsGestures.Droid.Resource.Animation.abc_popup_enter = global::Tutorip.Droid.Resource.Animation.abc_popup_enter;
+			global::FormsGestures.Droid.Resource.Animation.abc_popup_exit = global::Tutorip.Droid.Resource.Animation.abc_popup_exit;
+			global::FormsGestures.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Tutorip.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::FormsGestures.Droid.Resource.Animation.abc_slide_in_bottom = global::Tutorip.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::FormsGestures.Droid.Resource.Animation.abc_slide_in_top = global::Tutorip.Droid.Resource.Animation.abc_slide_in_top;
+			global::FormsGestures.Droid.Resource.Animation.abc_slide_out_bottom = global::Tutorip.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::FormsGestures.Droid.Resource.Animation.abc_slide_out_top = global::Tutorip.Droid.Resource.Animation.abc_slide_out_top;
+			global::FormsGestures.Droid.Resource.Animation.abc_tooltip_enter = global::Tutorip.Droid.Resource.Animation.abc_tooltip_enter;
+			global::FormsGestures.Droid.Resource.Animation.abc_tooltip_exit = global::Tutorip.Droid.Resource.Animation.abc_tooltip_exit;
+			global::FormsGestures.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::Tutorip.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::FormsGestures.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Tutorip.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::FormsGestures.Droid.Resource.Animation.design_snackbar_in = global::Tutorip.Droid.Resource.Animation.design_snackbar_in;
+			global::FormsGestures.Droid.Resource.Animation.design_snackbar_out = global::Tutorip.Droid.Resource.Animation.design_snackbar_out;
+			global::FormsGestures.Droid.Resource.Animation.EnterFromLeft = global::Tutorip.Droid.Resource.Animation.EnterFromLeft;
+			global::FormsGestures.Droid.Resource.Animation.EnterFromRight = global::Tutorip.Droid.Resource.Animation.EnterFromRight;
+			global::FormsGestures.Droid.Resource.Animation.ExitToLeft = global::Tutorip.Droid.Resource.Animation.ExitToLeft;
+			global::FormsGestures.Droid.Resource.Animation.ExitToRight = global::Tutorip.Droid.Resource.Animation.ExitToRight;
+			global::FormsGestures.Droid.Resource.Animator.design_appbar_state_list_animator = global::Tutorip.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::FormsGestures.Droid.Resource.Animator.design_fab_hide_motion_spec = global::Tutorip.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::FormsGestures.Droid.Resource.Animator.design_fab_show_motion_spec = global::Tutorip.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::FormsGestures.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::Tutorip.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::FormsGestures.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Tutorip.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::FormsGestures.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::Tutorip.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::FormsGestures.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::Tutorip.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::FormsGestures.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::Tutorip.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::FormsGestures.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Tutorip.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::FormsGestures.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Tutorip.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarDivider = global::Tutorip.Droid.Resource.Attribute.actionBarDivider;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarItemBackground = global::Tutorip.Droid.Resource.Attribute.actionBarItemBackground;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarPopupTheme = global::Tutorip.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarSize = global::Tutorip.Droid.Resource.Attribute.actionBarSize;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarSplitStyle = global::Tutorip.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarStyle = global::Tutorip.Droid.Resource.Attribute.actionBarStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarTabBarStyle = global::Tutorip.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarTabStyle = global::Tutorip.Droid.Resource.Attribute.actionBarTabStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarTabTextStyle = global::Tutorip.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarTheme = global::Tutorip.Droid.Resource.Attribute.actionBarTheme;
+			global::FormsGestures.Droid.Resource.Attribute.actionBarWidgetTheme = global::Tutorip.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::FormsGestures.Droid.Resource.Attribute.actionButtonStyle = global::Tutorip.Droid.Resource.Attribute.actionButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionDropDownStyle = global::Tutorip.Droid.Resource.Attribute.actionDropDownStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionLayout = global::Tutorip.Droid.Resource.Attribute.actionLayout;
+			global::FormsGestures.Droid.Resource.Attribute.actionMenuTextAppearance = global::Tutorip.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.actionMenuTextColor = global::Tutorip.Droid.Resource.Attribute.actionMenuTextColor;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeBackground = global::Tutorip.Droid.Resource.Attribute.actionModeBackground;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::Tutorip.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeCloseDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeCopyDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeCutDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeFindDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.actionModePasteDrawable = global::Tutorip.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.actionModePopupWindowStyle = global::Tutorip.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeShareDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeSplitBackground = global::Tutorip.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeStyle = global::Tutorip.Droid.Resource.Attribute.actionModeStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::Tutorip.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.actionOverflowButtonStyle = global::Tutorip.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionOverflowMenuStyle = global::Tutorip.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::FormsGestures.Droid.Resource.Attribute.actionProviderClass = global::Tutorip.Droid.Resource.Attribute.actionProviderClass;
+			global::FormsGestures.Droid.Resource.Attribute.actionViewClass = global::Tutorip.Droid.Resource.Attribute.actionViewClass;
+			global::FormsGestures.Droid.Resource.Attribute.activityChooserViewStyle = global::Tutorip.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::FormsGestures.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::Tutorip.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::FormsGestures.Droid.Resource.Attribute.alertDialogCenterButtons = global::Tutorip.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::FormsGestures.Droid.Resource.Attribute.alertDialogStyle = global::Tutorip.Droid.Resource.Attribute.alertDialogStyle;
+			global::FormsGestures.Droid.Resource.Attribute.alertDialogTheme = global::Tutorip.Droid.Resource.Attribute.alertDialogTheme;
+			global::FormsGestures.Droid.Resource.Attribute.allowStacking = global::Tutorip.Droid.Resource.Attribute.allowStacking;
+			global::FormsGestures.Droid.Resource.Attribute.alpha = global::Tutorip.Droid.Resource.Attribute.alpha;
+			global::FormsGestures.Droid.Resource.Attribute.alphabeticModifiers = global::Tutorip.Droid.Resource.Attribute.alphabeticModifiers;
+			global::FormsGestures.Droid.Resource.Attribute.arrowHeadLength = global::Tutorip.Droid.Resource.Attribute.arrowHeadLength;
+			global::FormsGestures.Droid.Resource.Attribute.arrowShaftLength = global::Tutorip.Droid.Resource.Attribute.arrowShaftLength;
+			global::FormsGestures.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::Tutorip.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::FormsGestures.Droid.Resource.Attribute.autoSizeMaxTextSize = global::Tutorip.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::FormsGestures.Droid.Resource.Attribute.autoSizeMinTextSize = global::Tutorip.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::FormsGestures.Droid.Resource.Attribute.autoSizePresetSizes = global::Tutorip.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::FormsGestures.Droid.Resource.Attribute.autoSizeStepGranularity = global::Tutorip.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::FormsGestures.Droid.Resource.Attribute.autoSizeTextType = global::Tutorip.Droid.Resource.Attribute.autoSizeTextType;
+			global::FormsGestures.Droid.Resource.Attribute.background = global::Tutorip.Droid.Resource.Attribute.background;
+			global::FormsGestures.Droid.Resource.Attribute.backgroundSplit = global::Tutorip.Droid.Resource.Attribute.backgroundSplit;
+			global::FormsGestures.Droid.Resource.Attribute.backgroundStacked = global::Tutorip.Droid.Resource.Attribute.backgroundStacked;
+			global::FormsGestures.Droid.Resource.Attribute.backgroundTint = global::Tutorip.Droid.Resource.Attribute.backgroundTint;
+			global::FormsGestures.Droid.Resource.Attribute.backgroundTintMode = global::Tutorip.Droid.Resource.Attribute.backgroundTintMode;
+			global::FormsGestures.Droid.Resource.Attribute.barLength = global::Tutorip.Droid.Resource.Attribute.barLength;
+			global::FormsGestures.Droid.Resource.Attribute.behavior_autoHide = global::Tutorip.Droid.Resource.Attribute.behavior_autoHide;
+			global::FormsGestures.Droid.Resource.Attribute.behavior_fitToContents = global::Tutorip.Droid.Resource.Attribute.behavior_fitToContents;
+			global::FormsGestures.Droid.Resource.Attribute.behavior_hideable = global::Tutorip.Droid.Resource.Attribute.behavior_hideable;
+			global::FormsGestures.Droid.Resource.Attribute.behavior_overlapTop = global::Tutorip.Droid.Resource.Attribute.behavior_overlapTop;
+			global::FormsGestures.Droid.Resource.Attribute.behavior_peekHeight = global::Tutorip.Droid.Resource.Attribute.behavior_peekHeight;
+			global::FormsGestures.Droid.Resource.Attribute.behavior_skipCollapsed = global::Tutorip.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::FormsGestures.Droid.Resource.Attribute.borderlessButtonStyle = global::Tutorip.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.borderWidth = global::Tutorip.Droid.Resource.Attribute.borderWidth;
+			global::FormsGestures.Droid.Resource.Attribute.bottomAppBarStyle = global::Tutorip.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::FormsGestures.Droid.Resource.Attribute.bottomNavigationStyle = global::Tutorip.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::FormsGestures.Droid.Resource.Attribute.bottomSheetDialogTheme = global::Tutorip.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::FormsGestures.Droid.Resource.Attribute.bottomSheetStyle = global::Tutorip.Droid.Resource.Attribute.bottomSheetStyle;
+			global::FormsGestures.Droid.Resource.Attribute.boxBackgroundColor = global::Tutorip.Droid.Resource.Attribute.boxBackgroundColor;
+			global::FormsGestures.Droid.Resource.Attribute.boxBackgroundMode = global::Tutorip.Droid.Resource.Attribute.boxBackgroundMode;
+			global::FormsGestures.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::Tutorip.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::FormsGestures.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::Tutorip.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::FormsGestures.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::Tutorip.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::FormsGestures.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::Tutorip.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::FormsGestures.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::Tutorip.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::FormsGestures.Droid.Resource.Attribute.boxStrokeColor = global::Tutorip.Droid.Resource.Attribute.boxStrokeColor;
+			global::FormsGestures.Droid.Resource.Attribute.boxStrokeWidth = global::Tutorip.Droid.Resource.Attribute.boxStrokeWidth;
+			global::FormsGestures.Droid.Resource.Attribute.buttonBarButtonStyle = global::Tutorip.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Tutorip.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Tutorip.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::Tutorip.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.buttonBarStyle = global::Tutorip.Droid.Resource.Attribute.buttonBarStyle;
+			global::FormsGestures.Droid.Resource.Attribute.buttonGravity = global::Tutorip.Droid.Resource.Attribute.buttonGravity;
+			global::FormsGestures.Droid.Resource.Attribute.buttonIconDimen = global::Tutorip.Droid.Resource.Attribute.buttonIconDimen;
+			global::FormsGestures.Droid.Resource.Attribute.buttonPanelSideLayout = global::Tutorip.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::FormsGestures.Droid.Resource.Attribute.buttonStyle = global::Tutorip.Droid.Resource.Attribute.buttonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.buttonStyleSmall = global::Tutorip.Droid.Resource.Attribute.buttonStyleSmall;
+			global::FormsGestures.Droid.Resource.Attribute.buttonTint = global::Tutorip.Droid.Resource.Attribute.buttonTint;
+			global::FormsGestures.Droid.Resource.Attribute.buttonTintMode = global::Tutorip.Droid.Resource.Attribute.buttonTintMode;
+			global::FormsGestures.Droid.Resource.Attribute.cardBackgroundColor = global::Tutorip.Droid.Resource.Attribute.cardBackgroundColor;
+			global::FormsGestures.Droid.Resource.Attribute.cardCornerRadius = global::Tutorip.Droid.Resource.Attribute.cardCornerRadius;
+			global::FormsGestures.Droid.Resource.Attribute.cardElevation = global::Tutorip.Droid.Resource.Attribute.cardElevation;
+			global::FormsGestures.Droid.Resource.Attribute.cardMaxElevation = global::Tutorip.Droid.Resource.Attribute.cardMaxElevation;
+			global::FormsGestures.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Tutorip.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::FormsGestures.Droid.Resource.Attribute.cardUseCompatPadding = global::Tutorip.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::FormsGestures.Droid.Resource.Attribute.cardViewStyle = global::Tutorip.Droid.Resource.Attribute.cardViewStyle;
+			global::FormsGestures.Droid.Resource.Attribute.checkboxStyle = global::Tutorip.Droid.Resource.Attribute.checkboxStyle;
+			global::FormsGestures.Droid.Resource.Attribute.checkedChip = global::Tutorip.Droid.Resource.Attribute.checkedChip;
+			global::FormsGestures.Droid.Resource.Attribute.checkedIcon = global::Tutorip.Droid.Resource.Attribute.checkedIcon;
+			global::FormsGestures.Droid.Resource.Attribute.checkedIconEnabled = global::Tutorip.Droid.Resource.Attribute.checkedIconEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.checkedIconVisible = global::Tutorip.Droid.Resource.Attribute.checkedIconVisible;
+			global::FormsGestures.Droid.Resource.Attribute.checkedTextViewStyle = global::Tutorip.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::FormsGestures.Droid.Resource.Attribute.chipBackgroundColor = global::Tutorip.Droid.Resource.Attribute.chipBackgroundColor;
+			global::FormsGestures.Droid.Resource.Attribute.chipCornerRadius = global::Tutorip.Droid.Resource.Attribute.chipCornerRadius;
+			global::FormsGestures.Droid.Resource.Attribute.chipEndPadding = global::Tutorip.Droid.Resource.Attribute.chipEndPadding;
+			global::FormsGestures.Droid.Resource.Attribute.chipGroupStyle = global::Tutorip.Droid.Resource.Attribute.chipGroupStyle;
+			global::FormsGestures.Droid.Resource.Attribute.chipIcon = global::Tutorip.Droid.Resource.Attribute.chipIcon;
+			global::FormsGestures.Droid.Resource.Attribute.chipIconEnabled = global::Tutorip.Droid.Resource.Attribute.chipIconEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.chipIconSize = global::Tutorip.Droid.Resource.Attribute.chipIconSize;
+			global::FormsGestures.Droid.Resource.Attribute.chipIconTint = global::Tutorip.Droid.Resource.Attribute.chipIconTint;
+			global::FormsGestures.Droid.Resource.Attribute.chipIconVisible = global::Tutorip.Droid.Resource.Attribute.chipIconVisible;
+			global::FormsGestures.Droid.Resource.Attribute.chipMinHeight = global::Tutorip.Droid.Resource.Attribute.chipMinHeight;
+			global::FormsGestures.Droid.Resource.Attribute.chipSpacing = global::Tutorip.Droid.Resource.Attribute.chipSpacing;
+			global::FormsGestures.Droid.Resource.Attribute.chipSpacingHorizontal = global::Tutorip.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::FormsGestures.Droid.Resource.Attribute.chipSpacingVertical = global::Tutorip.Droid.Resource.Attribute.chipSpacingVertical;
+			global::FormsGestures.Droid.Resource.Attribute.chipStandaloneStyle = global::Tutorip.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::FormsGestures.Droid.Resource.Attribute.chipStartPadding = global::Tutorip.Droid.Resource.Attribute.chipStartPadding;
+			global::FormsGestures.Droid.Resource.Attribute.chipStrokeColor = global::Tutorip.Droid.Resource.Attribute.chipStrokeColor;
+			global::FormsGestures.Droid.Resource.Attribute.chipStrokeWidth = global::Tutorip.Droid.Resource.Attribute.chipStrokeWidth;
+			global::FormsGestures.Droid.Resource.Attribute.chipStyle = global::Tutorip.Droid.Resource.Attribute.chipStyle;
+			global::FormsGestures.Droid.Resource.Attribute.closeIcon = global::Tutorip.Droid.Resource.Attribute.closeIcon;
+			global::FormsGestures.Droid.Resource.Attribute.closeIconEnabled = global::Tutorip.Droid.Resource.Attribute.closeIconEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.closeIconEndPadding = global::Tutorip.Droid.Resource.Attribute.closeIconEndPadding;
+			global::FormsGestures.Droid.Resource.Attribute.closeIconSize = global::Tutorip.Droid.Resource.Attribute.closeIconSize;
+			global::FormsGestures.Droid.Resource.Attribute.closeIconStartPadding = global::Tutorip.Droid.Resource.Attribute.closeIconStartPadding;
+			global::FormsGestures.Droid.Resource.Attribute.closeIconTint = global::Tutorip.Droid.Resource.Attribute.closeIconTint;
+			global::FormsGestures.Droid.Resource.Attribute.closeIconVisible = global::Tutorip.Droid.Resource.Attribute.closeIconVisible;
+			global::FormsGestures.Droid.Resource.Attribute.closeItemLayout = global::Tutorip.Droid.Resource.Attribute.closeItemLayout;
+			global::FormsGestures.Droid.Resource.Attribute.collapseContentDescription = global::Tutorip.Droid.Resource.Attribute.collapseContentDescription;
+			global::FormsGestures.Droid.Resource.Attribute.collapsedTitleGravity = global::Tutorip.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::FormsGestures.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::Tutorip.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.collapseIcon = global::Tutorip.Droid.Resource.Attribute.collapseIcon;
+			global::FormsGestures.Droid.Resource.Attribute.color = global::Tutorip.Droid.Resource.Attribute.color;
+			global::FormsGestures.Droid.Resource.Attribute.colorAccent = global::Tutorip.Droid.Resource.Attribute.colorAccent;
+			global::FormsGestures.Droid.Resource.Attribute.colorBackgroundFloating = global::Tutorip.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::FormsGestures.Droid.Resource.Attribute.colorButtonNormal = global::Tutorip.Droid.Resource.Attribute.colorButtonNormal;
+			global::FormsGestures.Droid.Resource.Attribute.colorControlActivated = global::Tutorip.Droid.Resource.Attribute.colorControlActivated;
+			global::FormsGestures.Droid.Resource.Attribute.colorControlHighlight = global::Tutorip.Droid.Resource.Attribute.colorControlHighlight;
+			global::FormsGestures.Droid.Resource.Attribute.colorControlNormal = global::Tutorip.Droid.Resource.Attribute.colorControlNormal;
+			global::FormsGestures.Droid.Resource.Attribute.colorError = global::Tutorip.Droid.Resource.Attribute.colorError;
+			global::FormsGestures.Droid.Resource.Attribute.colorPrimary = global::Tutorip.Droid.Resource.Attribute.colorPrimary;
+			global::FormsGestures.Droid.Resource.Attribute.colorPrimaryDark = global::Tutorip.Droid.Resource.Attribute.colorPrimaryDark;
+			global::FormsGestures.Droid.Resource.Attribute.colorSecondary = global::Tutorip.Droid.Resource.Attribute.colorSecondary;
+			global::FormsGestures.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Tutorip.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::FormsGestures.Droid.Resource.Attribute.commitIcon = global::Tutorip.Droid.Resource.Attribute.commitIcon;
+			global::FormsGestures.Droid.Resource.Attribute.contentDescription = global::Tutorip.Droid.Resource.Attribute.contentDescription;
+			global::FormsGestures.Droid.Resource.Attribute.contentInsetEnd = global::Tutorip.Droid.Resource.Attribute.contentInsetEnd;
+			global::FormsGestures.Droid.Resource.Attribute.contentInsetEndWithActions = global::Tutorip.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::FormsGestures.Droid.Resource.Attribute.contentInsetLeft = global::Tutorip.Droid.Resource.Attribute.contentInsetLeft;
+			global::FormsGestures.Droid.Resource.Attribute.contentInsetRight = global::Tutorip.Droid.Resource.Attribute.contentInsetRight;
+			global::FormsGestures.Droid.Resource.Attribute.contentInsetStart = global::Tutorip.Droid.Resource.Attribute.contentInsetStart;
+			global::FormsGestures.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::Tutorip.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::FormsGestures.Droid.Resource.Attribute.contentPadding = global::Tutorip.Droid.Resource.Attribute.contentPadding;
+			global::FormsGestures.Droid.Resource.Attribute.contentPaddingBottom = global::Tutorip.Droid.Resource.Attribute.contentPaddingBottom;
+			global::FormsGestures.Droid.Resource.Attribute.contentPaddingLeft = global::Tutorip.Droid.Resource.Attribute.contentPaddingLeft;
+			global::FormsGestures.Droid.Resource.Attribute.contentPaddingRight = global::Tutorip.Droid.Resource.Attribute.contentPaddingRight;
+			global::FormsGestures.Droid.Resource.Attribute.contentPaddingTop = global::Tutorip.Droid.Resource.Attribute.contentPaddingTop;
+			global::FormsGestures.Droid.Resource.Attribute.contentScrim = global::Tutorip.Droid.Resource.Attribute.contentScrim;
+			global::FormsGestures.Droid.Resource.Attribute.controlBackground = global::Tutorip.Droid.Resource.Attribute.controlBackground;
+			global::FormsGestures.Droid.Resource.Attribute.coordinatorLayoutStyle = global::Tutorip.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::FormsGestures.Droid.Resource.Attribute.cornerRadius = global::Tutorip.Droid.Resource.Attribute.cornerRadius;
+			global::FormsGestures.Droid.Resource.Attribute.counterEnabled = global::Tutorip.Droid.Resource.Attribute.counterEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.counterMaxLength = global::Tutorip.Droid.Resource.Attribute.counterMaxLength;
+			global::FormsGestures.Droid.Resource.Attribute.counterOverflowTextAppearance = global::Tutorip.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.counterTextAppearance = global::Tutorip.Droid.Resource.Attribute.counterTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.customNavigationLayout = global::Tutorip.Droid.Resource.Attribute.customNavigationLayout;
+			global::FormsGestures.Droid.Resource.Attribute.defaultQueryHint = global::Tutorip.Droid.Resource.Attribute.defaultQueryHint;
+			global::FormsGestures.Droid.Resource.Attribute.dialogCornerRadius = global::Tutorip.Droid.Resource.Attribute.dialogCornerRadius;
+			global::FormsGestures.Droid.Resource.Attribute.dialogPreferredPadding = global::Tutorip.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::FormsGestures.Droid.Resource.Attribute.dialogTheme = global::Tutorip.Droid.Resource.Attribute.dialogTheme;
+			global::FormsGestures.Droid.Resource.Attribute.displayOptions = global::Tutorip.Droid.Resource.Attribute.displayOptions;
+			global::FormsGestures.Droid.Resource.Attribute.divider = global::Tutorip.Droid.Resource.Attribute.divider;
+			global::FormsGestures.Droid.Resource.Attribute.dividerHorizontal = global::Tutorip.Droid.Resource.Attribute.dividerHorizontal;
+			global::FormsGestures.Droid.Resource.Attribute.dividerPadding = global::Tutorip.Droid.Resource.Attribute.dividerPadding;
+			global::FormsGestures.Droid.Resource.Attribute.dividerVertical = global::Tutorip.Droid.Resource.Attribute.dividerVertical;
+			global::FormsGestures.Droid.Resource.Attribute.drawableSize = global::Tutorip.Droid.Resource.Attribute.drawableSize;
+			global::FormsGestures.Droid.Resource.Attribute.drawerArrowStyle = global::Tutorip.Droid.Resource.Attribute.drawerArrowStyle;
+			global::FormsGestures.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::Tutorip.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::FormsGestures.Droid.Resource.Attribute.dropDownListViewStyle = global::Tutorip.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::FormsGestures.Droid.Resource.Attribute.editTextBackground = global::Tutorip.Droid.Resource.Attribute.editTextBackground;
+			global::FormsGestures.Droid.Resource.Attribute.editTextColor = global::Tutorip.Droid.Resource.Attribute.editTextColor;
+			global::FormsGestures.Droid.Resource.Attribute.editTextStyle = global::Tutorip.Droid.Resource.Attribute.editTextStyle;
+			global::FormsGestures.Droid.Resource.Attribute.elevation = global::Tutorip.Droid.Resource.Attribute.elevation;
+			global::FormsGestures.Droid.Resource.Attribute.enforceMaterialTheme = global::Tutorip.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::FormsGestures.Droid.Resource.Attribute.enforceTextAppearance = global::Tutorip.Droid.Resource.Attribute.enforceTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.errorEnabled = global::Tutorip.Droid.Resource.Attribute.errorEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.errorTextAppearance = global::Tutorip.Droid.Resource.Attribute.errorTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Tutorip.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.expanded = global::Tutorip.Droid.Resource.Attribute.expanded;
+			global::FormsGestures.Droid.Resource.Attribute.expandedTitleGravity = global::Tutorip.Droid.Resource.Attribute.expandedTitleGravity;
+			global::FormsGestures.Droid.Resource.Attribute.expandedTitleMargin = global::Tutorip.Droid.Resource.Attribute.expandedTitleMargin;
+			global::FormsGestures.Droid.Resource.Attribute.expandedTitleMarginBottom = global::Tutorip.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::FormsGestures.Droid.Resource.Attribute.expandedTitleMarginEnd = global::Tutorip.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::FormsGestures.Droid.Resource.Attribute.expandedTitleMarginStart = global::Tutorip.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::FormsGestures.Droid.Resource.Attribute.expandedTitleMarginTop = global::Tutorip.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::FormsGestures.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Tutorip.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.fabAlignmentMode = global::Tutorip.Droid.Resource.Attribute.fabAlignmentMode;
+			global::FormsGestures.Droid.Resource.Attribute.fabCradleMargin = global::Tutorip.Droid.Resource.Attribute.fabCradleMargin;
+			global::FormsGestures.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::Tutorip.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::FormsGestures.Droid.Resource.Attribute.fabCradleVerticalOffset = global::Tutorip.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::FormsGestures.Droid.Resource.Attribute.fabCustomSize = global::Tutorip.Droid.Resource.Attribute.fabCustomSize;
+			global::FormsGestures.Droid.Resource.Attribute.fabSize = global::Tutorip.Droid.Resource.Attribute.fabSize;
+			global::FormsGestures.Droid.Resource.Attribute.fastScrollEnabled = global::Tutorip.Droid.Resource.Attribute.fastScrollEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Tutorip.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Tutorip.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Tutorip.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Tutorip.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.firstBaselineToTopHeight = global::Tutorip.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::FormsGestures.Droid.Resource.Attribute.floatingActionButtonStyle = global::Tutorip.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.font = global::Tutorip.Droid.Resource.Attribute.font;
+			global::FormsGestures.Droid.Resource.Attribute.fontFamily = global::Tutorip.Droid.Resource.Attribute.fontFamily;
+			global::FormsGestures.Droid.Resource.Attribute.fontProviderAuthority = global::Tutorip.Droid.Resource.Attribute.fontProviderAuthority;
+			global::FormsGestures.Droid.Resource.Attribute.fontProviderCerts = global::Tutorip.Droid.Resource.Attribute.fontProviderCerts;
+			global::FormsGestures.Droid.Resource.Attribute.fontProviderFetchStrategy = global::Tutorip.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::FormsGestures.Droid.Resource.Attribute.fontProviderFetchTimeout = global::Tutorip.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::FormsGestures.Droid.Resource.Attribute.fontProviderPackage = global::Tutorip.Droid.Resource.Attribute.fontProviderPackage;
+			global::FormsGestures.Droid.Resource.Attribute.fontProviderQuery = global::Tutorip.Droid.Resource.Attribute.fontProviderQuery;
+			global::FormsGestures.Droid.Resource.Attribute.fontStyle = global::Tutorip.Droid.Resource.Attribute.fontStyle;
+			global::FormsGestures.Droid.Resource.Attribute.fontVariationSettings = global::Tutorip.Droid.Resource.Attribute.fontVariationSettings;
+			global::FormsGestures.Droid.Resource.Attribute.fontWeight = global::Tutorip.Droid.Resource.Attribute.fontWeight;
+			global::FormsGestures.Droid.Resource.Attribute.foregroundInsidePadding = global::Tutorip.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::FormsGestures.Droid.Resource.Attribute.gapBetweenBars = global::Tutorip.Droid.Resource.Attribute.gapBetweenBars;
+			global::FormsGestures.Droid.Resource.Attribute.goIcon = global::Tutorip.Droid.Resource.Attribute.goIcon;
+			global::FormsGestures.Droid.Resource.Attribute.headerLayout = global::Tutorip.Droid.Resource.Attribute.headerLayout;
+			global::FormsGestures.Droid.Resource.Attribute.height = global::Tutorip.Droid.Resource.Attribute.height;
+			global::FormsGestures.Droid.Resource.Attribute.helperText = global::Tutorip.Droid.Resource.Attribute.helperText;
+			global::FormsGestures.Droid.Resource.Attribute.helperTextEnabled = global::Tutorip.Droid.Resource.Attribute.helperTextEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.helperTextTextAppearance = global::Tutorip.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.hideMotionSpec = global::Tutorip.Droid.Resource.Attribute.hideMotionSpec;
+			global::FormsGestures.Droid.Resource.Attribute.hideOnContentScroll = global::Tutorip.Droid.Resource.Attribute.hideOnContentScroll;
+			global::FormsGestures.Droid.Resource.Attribute.hideOnScroll = global::Tutorip.Droid.Resource.Attribute.hideOnScroll;
+			global::FormsGestures.Droid.Resource.Attribute.hintAnimationEnabled = global::Tutorip.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.hintEnabled = global::Tutorip.Droid.Resource.Attribute.hintEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.hintTextAppearance = global::Tutorip.Droid.Resource.Attribute.hintTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.homeAsUpIndicator = global::Tutorip.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::FormsGestures.Droid.Resource.Attribute.homeLayout = global::Tutorip.Droid.Resource.Attribute.homeLayout;
+			global::FormsGestures.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::Tutorip.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::FormsGestures.Droid.Resource.Attribute.icon = global::Tutorip.Droid.Resource.Attribute.icon;
+			global::FormsGestures.Droid.Resource.Attribute.iconEndPadding = global::Tutorip.Droid.Resource.Attribute.iconEndPadding;
+			global::FormsGestures.Droid.Resource.Attribute.iconGravity = global::Tutorip.Droid.Resource.Attribute.iconGravity;
+			global::FormsGestures.Droid.Resource.Attribute.iconifiedByDefault = global::Tutorip.Droid.Resource.Attribute.iconifiedByDefault;
+			global::FormsGestures.Droid.Resource.Attribute.iconPadding = global::Tutorip.Droid.Resource.Attribute.iconPadding;
+			global::FormsGestures.Droid.Resource.Attribute.iconSize = global::Tutorip.Droid.Resource.Attribute.iconSize;
+			global::FormsGestures.Droid.Resource.Attribute.iconStartPadding = global::Tutorip.Droid.Resource.Attribute.iconStartPadding;
+			global::FormsGestures.Droid.Resource.Attribute.iconTint = global::Tutorip.Droid.Resource.Attribute.iconTint;
+			global::FormsGestures.Droid.Resource.Attribute.iconTintMode = global::Tutorip.Droid.Resource.Attribute.iconTintMode;
+			global::FormsGestures.Droid.Resource.Attribute.imageButtonStyle = global::Tutorip.Droid.Resource.Attribute.imageButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.indeterminateProgressStyle = global::Tutorip.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::FormsGestures.Droid.Resource.Attribute.initialActivityCount = global::Tutorip.Droid.Resource.Attribute.initialActivityCount;
+			global::FormsGestures.Droid.Resource.Attribute.insetForeground = global::Tutorip.Droid.Resource.Attribute.insetForeground;
+			global::FormsGestures.Droid.Resource.Attribute.isLightTheme = global::Tutorip.Droid.Resource.Attribute.isLightTheme;
+			global::FormsGestures.Droid.Resource.Attribute.itemBackground = global::Tutorip.Droid.Resource.Attribute.itemBackground;
+			global::FormsGestures.Droid.Resource.Attribute.itemHorizontalPadding = global::Tutorip.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::FormsGestures.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::Tutorip.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.itemIconPadding = global::Tutorip.Droid.Resource.Attribute.itemIconPadding;
+			global::FormsGestures.Droid.Resource.Attribute.itemIconSize = global::Tutorip.Droid.Resource.Attribute.itemIconSize;
+			global::FormsGestures.Droid.Resource.Attribute.itemIconTint = global::Tutorip.Droid.Resource.Attribute.itemIconTint;
+			global::FormsGestures.Droid.Resource.Attribute.itemPadding = global::Tutorip.Droid.Resource.Attribute.itemPadding;
+			global::FormsGestures.Droid.Resource.Attribute.itemSpacing = global::Tutorip.Droid.Resource.Attribute.itemSpacing;
+			global::FormsGestures.Droid.Resource.Attribute.itemTextAppearance = global::Tutorip.Droid.Resource.Attribute.itemTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.itemTextAppearanceActive = global::Tutorip.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::FormsGestures.Droid.Resource.Attribute.itemTextAppearanceInactive = global::Tutorip.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::FormsGestures.Droid.Resource.Attribute.itemTextColor = global::Tutorip.Droid.Resource.Attribute.itemTextColor;
+			global::FormsGestures.Droid.Resource.Attribute.keylines = global::Tutorip.Droid.Resource.Attribute.keylines;
+			global::FormsGestures.Droid.Resource.Attribute.labelVisibilityMode = global::Tutorip.Droid.Resource.Attribute.labelVisibilityMode;
+			global::FormsGestures.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::Tutorip.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::FormsGestures.Droid.Resource.Attribute.layout = global::Tutorip.Droid.Resource.Attribute.layout;
+			global::FormsGestures.Droid.Resource.Attribute.layoutManager = global::Tutorip.Droid.Resource.Attribute.layoutManager;
+			global::FormsGestures.Droid.Resource.Attribute.layout_anchor = global::Tutorip.Droid.Resource.Attribute.layout_anchor;
+			global::FormsGestures.Droid.Resource.Attribute.layout_anchorGravity = global::Tutorip.Droid.Resource.Attribute.layout_anchorGravity;
+			global::FormsGestures.Droid.Resource.Attribute.layout_behavior = global::Tutorip.Droid.Resource.Attribute.layout_behavior;
+			global::FormsGestures.Droid.Resource.Attribute.layout_collapseMode = global::Tutorip.Droid.Resource.Attribute.layout_collapseMode;
+			global::FormsGestures.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::Tutorip.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::FormsGestures.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::Tutorip.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::FormsGestures.Droid.Resource.Attribute.layout_insetEdge = global::Tutorip.Droid.Resource.Attribute.layout_insetEdge;
+			global::FormsGestures.Droid.Resource.Attribute.layout_keyline = global::Tutorip.Droid.Resource.Attribute.layout_keyline;
+			global::FormsGestures.Droid.Resource.Attribute.layout_scrollFlags = global::Tutorip.Droid.Resource.Attribute.layout_scrollFlags;
+			global::FormsGestures.Droid.Resource.Attribute.layout_scrollInterpolator = global::Tutorip.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::FormsGestures.Droid.Resource.Attribute.liftOnScroll = global::Tutorip.Droid.Resource.Attribute.liftOnScroll;
+			global::FormsGestures.Droid.Resource.Attribute.lineHeight = global::Tutorip.Droid.Resource.Attribute.lineHeight;
+			global::FormsGestures.Droid.Resource.Attribute.lineSpacing = global::Tutorip.Droid.Resource.Attribute.lineSpacing;
+			global::FormsGestures.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Tutorip.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::FormsGestures.Droid.Resource.Attribute.listDividerAlertDialog = global::Tutorip.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::FormsGestures.Droid.Resource.Attribute.listItemLayout = global::Tutorip.Droid.Resource.Attribute.listItemLayout;
+			global::FormsGestures.Droid.Resource.Attribute.listLayout = global::Tutorip.Droid.Resource.Attribute.listLayout;
+			global::FormsGestures.Droid.Resource.Attribute.listMenuViewStyle = global::Tutorip.Droid.Resource.Attribute.listMenuViewStyle;
+			global::FormsGestures.Droid.Resource.Attribute.listPopupWindowStyle = global::Tutorip.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::FormsGestures.Droid.Resource.Attribute.listPreferredItemHeight = global::Tutorip.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::FormsGestures.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::Tutorip.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::FormsGestures.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::Tutorip.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::FormsGestures.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::Tutorip.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::FormsGestures.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::Tutorip.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::FormsGestures.Droid.Resource.Attribute.logo = global::Tutorip.Droid.Resource.Attribute.logo;
+			global::FormsGestures.Droid.Resource.Attribute.logoDescription = global::Tutorip.Droid.Resource.Attribute.logoDescription;
+			global::FormsGestures.Droid.Resource.Attribute.materialButtonStyle = global::Tutorip.Droid.Resource.Attribute.materialButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.materialCardViewStyle = global::Tutorip.Droid.Resource.Attribute.materialCardViewStyle;
+			global::FormsGestures.Droid.Resource.Attribute.maxActionInlineWidth = global::Tutorip.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::FormsGestures.Droid.Resource.Attribute.maxButtonHeight = global::Tutorip.Droid.Resource.Attribute.maxButtonHeight;
+			global::FormsGestures.Droid.Resource.Attribute.maxImageSize = global::Tutorip.Droid.Resource.Attribute.maxImageSize;
+			global::FormsGestures.Droid.Resource.Attribute.measureWithLargestChild = global::Tutorip.Droid.Resource.Attribute.measureWithLargestChild;
+			global::FormsGestures.Droid.Resource.Attribute.menu = global::Tutorip.Droid.Resource.Attribute.menu;
+			global::FormsGestures.Droid.Resource.Attribute.multiChoiceItemLayout = global::Tutorip.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::FormsGestures.Droid.Resource.Attribute.navigationContentDescription = global::Tutorip.Droid.Resource.Attribute.navigationContentDescription;
+			global::FormsGestures.Droid.Resource.Attribute.navigationIcon = global::Tutorip.Droid.Resource.Attribute.navigationIcon;
+			global::FormsGestures.Droid.Resource.Attribute.navigationMode = global::Tutorip.Droid.Resource.Attribute.navigationMode;
+			global::FormsGestures.Droid.Resource.Attribute.navigationViewStyle = global::Tutorip.Droid.Resource.Attribute.navigationViewStyle;
+			global::FormsGestures.Droid.Resource.Attribute.numericModifiers = global::Tutorip.Droid.Resource.Attribute.numericModifiers;
+			global::FormsGestures.Droid.Resource.Attribute.overlapAnchor = global::Tutorip.Droid.Resource.Attribute.overlapAnchor;
+			global::FormsGestures.Droid.Resource.Attribute.paddingBottomNoButtons = global::Tutorip.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::FormsGestures.Droid.Resource.Attribute.paddingEnd = global::Tutorip.Droid.Resource.Attribute.paddingEnd;
+			global::FormsGestures.Droid.Resource.Attribute.paddingStart = global::Tutorip.Droid.Resource.Attribute.paddingStart;
+			global::FormsGestures.Droid.Resource.Attribute.paddingTopNoTitle = global::Tutorip.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::FormsGestures.Droid.Resource.Attribute.panelBackground = global::Tutorip.Droid.Resource.Attribute.panelBackground;
+			global::FormsGestures.Droid.Resource.Attribute.panelMenuListTheme = global::Tutorip.Droid.Resource.Attribute.panelMenuListTheme;
+			global::FormsGestures.Droid.Resource.Attribute.panelMenuListWidth = global::Tutorip.Droid.Resource.Attribute.panelMenuListWidth;
+			global::FormsGestures.Droid.Resource.Attribute.passwordToggleContentDescription = global::Tutorip.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::FormsGestures.Droid.Resource.Attribute.passwordToggleDrawable = global::Tutorip.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::FormsGestures.Droid.Resource.Attribute.passwordToggleEnabled = global::Tutorip.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.passwordToggleTint = global::Tutorip.Droid.Resource.Attribute.passwordToggleTint;
+			global::FormsGestures.Droid.Resource.Attribute.passwordToggleTintMode = global::Tutorip.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::FormsGestures.Droid.Resource.Attribute.popupMenuStyle = global::Tutorip.Droid.Resource.Attribute.popupMenuStyle;
+			global::FormsGestures.Droid.Resource.Attribute.popupTheme = global::Tutorip.Droid.Resource.Attribute.popupTheme;
+			global::FormsGestures.Droid.Resource.Attribute.popupWindowStyle = global::Tutorip.Droid.Resource.Attribute.popupWindowStyle;
+			global::FormsGestures.Droid.Resource.Attribute.preserveIconSpacing = global::Tutorip.Droid.Resource.Attribute.preserveIconSpacing;
+			global::FormsGestures.Droid.Resource.Attribute.pressedTranslationZ = global::Tutorip.Droid.Resource.Attribute.pressedTranslationZ;
+			global::FormsGestures.Droid.Resource.Attribute.progressBarPadding = global::Tutorip.Droid.Resource.Attribute.progressBarPadding;
+			global::FormsGestures.Droid.Resource.Attribute.progressBarStyle = global::Tutorip.Droid.Resource.Attribute.progressBarStyle;
+			global::FormsGestures.Droid.Resource.Attribute.queryBackground = global::Tutorip.Droid.Resource.Attribute.queryBackground;
+			global::FormsGestures.Droid.Resource.Attribute.queryHint = global::Tutorip.Droid.Resource.Attribute.queryHint;
+			global::FormsGestures.Droid.Resource.Attribute.radioButtonStyle = global::Tutorip.Droid.Resource.Attribute.radioButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.ratingBarStyle = global::Tutorip.Droid.Resource.Attribute.ratingBarStyle;
+			global::FormsGestures.Droid.Resource.Attribute.ratingBarStyleIndicator = global::Tutorip.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::FormsGestures.Droid.Resource.Attribute.ratingBarStyleSmall = global::Tutorip.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::FormsGestures.Droid.Resource.Attribute.reverseLayout = global::Tutorip.Droid.Resource.Attribute.reverseLayout;
+			global::FormsGestures.Droid.Resource.Attribute.rippleColor = global::Tutorip.Droid.Resource.Attribute.rippleColor;
+			global::FormsGestures.Droid.Resource.Attribute.scrimAnimationDuration = global::Tutorip.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::FormsGestures.Droid.Resource.Attribute.scrimBackground = global::Tutorip.Droid.Resource.Attribute.scrimBackground;
+			global::FormsGestures.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::Tutorip.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::FormsGestures.Droid.Resource.Attribute.searchHintIcon = global::Tutorip.Droid.Resource.Attribute.searchHintIcon;
+			global::FormsGestures.Droid.Resource.Attribute.searchIcon = global::Tutorip.Droid.Resource.Attribute.searchIcon;
+			global::FormsGestures.Droid.Resource.Attribute.searchViewStyle = global::Tutorip.Droid.Resource.Attribute.searchViewStyle;
+			global::FormsGestures.Droid.Resource.Attribute.seekBarStyle = global::Tutorip.Droid.Resource.Attribute.seekBarStyle;
+			global::FormsGestures.Droid.Resource.Attribute.selectableItemBackground = global::Tutorip.Droid.Resource.Attribute.selectableItemBackground;
+			global::FormsGestures.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Tutorip.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::FormsGestures.Droid.Resource.Attribute.showAsAction = global::Tutorip.Droid.Resource.Attribute.showAsAction;
+			global::FormsGestures.Droid.Resource.Attribute.showDividers = global::Tutorip.Droid.Resource.Attribute.showDividers;
+			global::FormsGestures.Droid.Resource.Attribute.showMotionSpec = global::Tutorip.Droid.Resource.Attribute.showMotionSpec;
+			global::FormsGestures.Droid.Resource.Attribute.showText = global::Tutorip.Droid.Resource.Attribute.showText;
+			global::FormsGestures.Droid.Resource.Attribute.showTitle = global::Tutorip.Droid.Resource.Attribute.showTitle;
+			global::FormsGestures.Droid.Resource.Attribute.singleChoiceItemLayout = global::Tutorip.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::FormsGestures.Droid.Resource.Attribute.singleLine = global::Tutorip.Droid.Resource.Attribute.singleLine;
+			global::FormsGestures.Droid.Resource.Attribute.singleSelection = global::Tutorip.Droid.Resource.Attribute.singleSelection;
+			global::FormsGestures.Droid.Resource.Attribute.snackbarButtonStyle = global::Tutorip.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.snackbarStyle = global::Tutorip.Droid.Resource.Attribute.snackbarStyle;
+			global::FormsGestures.Droid.Resource.Attribute.spanCount = global::Tutorip.Droid.Resource.Attribute.spanCount;
+			global::FormsGestures.Droid.Resource.Attribute.spinBars = global::Tutorip.Droid.Resource.Attribute.spinBars;
+			global::FormsGestures.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Tutorip.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::FormsGestures.Droid.Resource.Attribute.spinnerStyle = global::Tutorip.Droid.Resource.Attribute.spinnerStyle;
+			global::FormsGestures.Droid.Resource.Attribute.splitTrack = global::Tutorip.Droid.Resource.Attribute.splitTrack;
+			global::FormsGestures.Droid.Resource.Attribute.srcCompat = global::Tutorip.Droid.Resource.Attribute.srcCompat;
+			global::FormsGestures.Droid.Resource.Attribute.stackFromEnd = global::Tutorip.Droid.Resource.Attribute.stackFromEnd;
+			global::FormsGestures.Droid.Resource.Attribute.state_above_anchor = global::Tutorip.Droid.Resource.Attribute.state_above_anchor;
+			global::FormsGestures.Droid.Resource.Attribute.state_collapsed = global::Tutorip.Droid.Resource.Attribute.state_collapsed;
+			global::FormsGestures.Droid.Resource.Attribute.state_collapsible = global::Tutorip.Droid.Resource.Attribute.state_collapsible;
+			global::FormsGestures.Droid.Resource.Attribute.state_liftable = global::Tutorip.Droid.Resource.Attribute.state_liftable;
+			global::FormsGestures.Droid.Resource.Attribute.state_lifted = global::Tutorip.Droid.Resource.Attribute.state_lifted;
+			global::FormsGestures.Droid.Resource.Attribute.statusBarBackground = global::Tutorip.Droid.Resource.Attribute.statusBarBackground;
+			global::FormsGestures.Droid.Resource.Attribute.statusBarScrim = global::Tutorip.Droid.Resource.Attribute.statusBarScrim;
+			global::FormsGestures.Droid.Resource.Attribute.strokeColor = global::Tutorip.Droid.Resource.Attribute.strokeColor;
+			global::FormsGestures.Droid.Resource.Attribute.strokeWidth = global::Tutorip.Droid.Resource.Attribute.strokeWidth;
+			global::FormsGestures.Droid.Resource.Attribute.subMenuArrow = global::Tutorip.Droid.Resource.Attribute.subMenuArrow;
+			global::FormsGestures.Droid.Resource.Attribute.submitBackground = global::Tutorip.Droid.Resource.Attribute.submitBackground;
+			global::FormsGestures.Droid.Resource.Attribute.subtitle = global::Tutorip.Droid.Resource.Attribute.subtitle;
+			global::FormsGestures.Droid.Resource.Attribute.subtitleTextAppearance = global::Tutorip.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.subtitleTextColor = global::Tutorip.Droid.Resource.Attribute.subtitleTextColor;
+			global::FormsGestures.Droid.Resource.Attribute.subtitleTextStyle = global::Tutorip.Droid.Resource.Attribute.subtitleTextStyle;
+			global::FormsGestures.Droid.Resource.Attribute.suggestionRowLayout = global::Tutorip.Droid.Resource.Attribute.suggestionRowLayout;
+			global::FormsGestures.Droid.Resource.Attribute.switchMinWidth = global::Tutorip.Droid.Resource.Attribute.switchMinWidth;
+			global::FormsGestures.Droid.Resource.Attribute.switchPadding = global::Tutorip.Droid.Resource.Attribute.switchPadding;
+			global::FormsGestures.Droid.Resource.Attribute.switchStyle = global::Tutorip.Droid.Resource.Attribute.switchStyle;
+			global::FormsGestures.Droid.Resource.Attribute.switchTextAppearance = global::Tutorip.Droid.Resource.Attribute.switchTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.tabBackground = global::Tutorip.Droid.Resource.Attribute.tabBackground;
+			global::FormsGestures.Droid.Resource.Attribute.tabContentStart = global::Tutorip.Droid.Resource.Attribute.tabContentStart;
+			global::FormsGestures.Droid.Resource.Attribute.tabGravity = global::Tutorip.Droid.Resource.Attribute.tabGravity;
+			global::FormsGestures.Droid.Resource.Attribute.tabIconTint = global::Tutorip.Droid.Resource.Attribute.tabIconTint;
+			global::FormsGestures.Droid.Resource.Attribute.tabIconTintMode = global::Tutorip.Droid.Resource.Attribute.tabIconTintMode;
+			global::FormsGestures.Droid.Resource.Attribute.tabIndicator = global::Tutorip.Droid.Resource.Attribute.tabIndicator;
+			global::FormsGestures.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::Tutorip.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::FormsGestures.Droid.Resource.Attribute.tabIndicatorColor = global::Tutorip.Droid.Resource.Attribute.tabIndicatorColor;
+			global::FormsGestures.Droid.Resource.Attribute.tabIndicatorFullWidth = global::Tutorip.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::FormsGestures.Droid.Resource.Attribute.tabIndicatorGravity = global::Tutorip.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::FormsGestures.Droid.Resource.Attribute.tabIndicatorHeight = global::Tutorip.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::FormsGestures.Droid.Resource.Attribute.tabInlineLabel = global::Tutorip.Droid.Resource.Attribute.tabInlineLabel;
+			global::FormsGestures.Droid.Resource.Attribute.tabMaxWidth = global::Tutorip.Droid.Resource.Attribute.tabMaxWidth;
+			global::FormsGestures.Droid.Resource.Attribute.tabMinWidth = global::Tutorip.Droid.Resource.Attribute.tabMinWidth;
+			global::FormsGestures.Droid.Resource.Attribute.tabMode = global::Tutorip.Droid.Resource.Attribute.tabMode;
+			global::FormsGestures.Droid.Resource.Attribute.tabPadding = global::Tutorip.Droid.Resource.Attribute.tabPadding;
+			global::FormsGestures.Droid.Resource.Attribute.tabPaddingBottom = global::Tutorip.Droid.Resource.Attribute.tabPaddingBottom;
+			global::FormsGestures.Droid.Resource.Attribute.tabPaddingEnd = global::Tutorip.Droid.Resource.Attribute.tabPaddingEnd;
+			global::FormsGestures.Droid.Resource.Attribute.tabPaddingStart = global::Tutorip.Droid.Resource.Attribute.tabPaddingStart;
+			global::FormsGestures.Droid.Resource.Attribute.tabPaddingTop = global::Tutorip.Droid.Resource.Attribute.tabPaddingTop;
+			global::FormsGestures.Droid.Resource.Attribute.tabRippleColor = global::Tutorip.Droid.Resource.Attribute.tabRippleColor;
+			global::FormsGestures.Droid.Resource.Attribute.tabSelectedTextColor = global::Tutorip.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::FormsGestures.Droid.Resource.Attribute.tabStyle = global::Tutorip.Droid.Resource.Attribute.tabStyle;
+			global::FormsGestures.Droid.Resource.Attribute.tabTextAppearance = global::Tutorip.Droid.Resource.Attribute.tabTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.tabTextColor = global::Tutorip.Droid.Resource.Attribute.tabTextColor;
+			global::FormsGestures.Droid.Resource.Attribute.tabUnboundedRipple = global::Tutorip.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::FormsGestures.Droid.Resource.Attribute.textAllCaps = global::Tutorip.Droid.Resource.Attribute.textAllCaps;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceBody1 = global::Tutorip.Droid.Resource.Attribute.textAppearanceBody1;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceBody2 = global::Tutorip.Droid.Resource.Attribute.textAppearanceBody2;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceButton = global::Tutorip.Droid.Resource.Attribute.textAppearanceButton;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceCaption = global::Tutorip.Droid.Resource.Attribute.textAppearanceCaption;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceHeadline1 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceHeadline2 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceHeadline3 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceHeadline4 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceHeadline5 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceHeadline6 = global::Tutorip.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::Tutorip.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceListItem = global::Tutorip.Droid.Resource.Attribute.textAppearanceListItem;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::Tutorip.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceListItemSmall = global::Tutorip.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceOverline = global::Tutorip.Droid.Resource.Attribute.textAppearanceOverline;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::Tutorip.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Tutorip.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::Tutorip.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Tutorip.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::Tutorip.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::FormsGestures.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::Tutorip.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::FormsGestures.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Tutorip.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::FormsGestures.Droid.Resource.Attribute.textColorSearchUrl = global::Tutorip.Droid.Resource.Attribute.textColorSearchUrl;
+			global::FormsGestures.Droid.Resource.Attribute.textEndPadding = global::Tutorip.Droid.Resource.Attribute.textEndPadding;
+			global::FormsGestures.Droid.Resource.Attribute.textInputStyle = global::Tutorip.Droid.Resource.Attribute.textInputStyle;
+			global::FormsGestures.Droid.Resource.Attribute.textStartPadding = global::Tutorip.Droid.Resource.Attribute.textStartPadding;
+			global::FormsGestures.Droid.Resource.Attribute.theme = global::Tutorip.Droid.Resource.Attribute.theme;
+			global::FormsGestures.Droid.Resource.Attribute.thickness = global::Tutorip.Droid.Resource.Attribute.thickness;
+			global::FormsGestures.Droid.Resource.Attribute.thumbTextPadding = global::Tutorip.Droid.Resource.Attribute.thumbTextPadding;
+			global::FormsGestures.Droid.Resource.Attribute.thumbTint = global::Tutorip.Droid.Resource.Attribute.thumbTint;
+			global::FormsGestures.Droid.Resource.Attribute.thumbTintMode = global::Tutorip.Droid.Resource.Attribute.thumbTintMode;
+			global::FormsGestures.Droid.Resource.Attribute.tickMark = global::Tutorip.Droid.Resource.Attribute.tickMark;
+			global::FormsGestures.Droid.Resource.Attribute.tickMarkTint = global::Tutorip.Droid.Resource.Attribute.tickMarkTint;
+			global::FormsGestures.Droid.Resource.Attribute.tickMarkTintMode = global::Tutorip.Droid.Resource.Attribute.tickMarkTintMode;
+			global::FormsGestures.Droid.Resource.Attribute.tint = global::Tutorip.Droid.Resource.Attribute.tint;
+			global::FormsGestures.Droid.Resource.Attribute.tintMode = global::Tutorip.Droid.Resource.Attribute.tintMode;
+			global::FormsGestures.Droid.Resource.Attribute.title = global::Tutorip.Droid.Resource.Attribute.title;
+			global::FormsGestures.Droid.Resource.Attribute.titleEnabled = global::Tutorip.Droid.Resource.Attribute.titleEnabled;
+			global::FormsGestures.Droid.Resource.Attribute.titleMargin = global::Tutorip.Droid.Resource.Attribute.titleMargin;
+			global::FormsGestures.Droid.Resource.Attribute.titleMarginBottom = global::Tutorip.Droid.Resource.Attribute.titleMarginBottom;
+			global::FormsGestures.Droid.Resource.Attribute.titleMarginEnd = global::Tutorip.Droid.Resource.Attribute.titleMarginEnd;
+			global::FormsGestures.Droid.Resource.Attribute.titleMargins = global::Tutorip.Droid.Resource.Attribute.titleMargins;
+			global::FormsGestures.Droid.Resource.Attribute.titleMarginStart = global::Tutorip.Droid.Resource.Attribute.titleMarginStart;
+			global::FormsGestures.Droid.Resource.Attribute.titleMarginTop = global::Tutorip.Droid.Resource.Attribute.titleMarginTop;
+			global::FormsGestures.Droid.Resource.Attribute.titleTextAppearance = global::Tutorip.Droid.Resource.Attribute.titleTextAppearance;
+			global::FormsGestures.Droid.Resource.Attribute.titleTextColor = global::Tutorip.Droid.Resource.Attribute.titleTextColor;
+			global::FormsGestures.Droid.Resource.Attribute.titleTextStyle = global::Tutorip.Droid.Resource.Attribute.titleTextStyle;
+			global::FormsGestures.Droid.Resource.Attribute.toolbarId = global::Tutorip.Droid.Resource.Attribute.toolbarId;
+			global::FormsGestures.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::Tutorip.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::FormsGestures.Droid.Resource.Attribute.toolbarStyle = global::Tutorip.Droid.Resource.Attribute.toolbarStyle;
+			global::FormsGestures.Droid.Resource.Attribute.tooltipForegroundColor = global::Tutorip.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::FormsGestures.Droid.Resource.Attribute.tooltipFrameBackground = global::Tutorip.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::FormsGestures.Droid.Resource.Attribute.tooltipText = global::Tutorip.Droid.Resource.Attribute.tooltipText;
+			global::FormsGestures.Droid.Resource.Attribute.track = global::Tutorip.Droid.Resource.Attribute.track;
+			global::FormsGestures.Droid.Resource.Attribute.trackTint = global::Tutorip.Droid.Resource.Attribute.trackTint;
+			global::FormsGestures.Droid.Resource.Attribute.trackTintMode = global::Tutorip.Droid.Resource.Attribute.trackTintMode;
+			global::FormsGestures.Droid.Resource.Attribute.ttcIndex = global::Tutorip.Droid.Resource.Attribute.ttcIndex;
+			global::FormsGestures.Droid.Resource.Attribute.useCompatPadding = global::Tutorip.Droid.Resource.Attribute.useCompatPadding;
+			global::FormsGestures.Droid.Resource.Attribute.viewInflaterClass = global::Tutorip.Droid.Resource.Attribute.viewInflaterClass;
+			global::FormsGestures.Droid.Resource.Attribute.voiceIcon = global::Tutorip.Droid.Resource.Attribute.voiceIcon;
+			global::FormsGestures.Droid.Resource.Attribute.windowActionBar = global::Tutorip.Droid.Resource.Attribute.windowActionBar;
+			global::FormsGestures.Droid.Resource.Attribute.windowActionBarOverlay = global::Tutorip.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::FormsGestures.Droid.Resource.Attribute.windowActionModeOverlay = global::Tutorip.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::FormsGestures.Droid.Resource.Attribute.windowFixedHeightMajor = global::Tutorip.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::FormsGestures.Droid.Resource.Attribute.windowFixedHeightMinor = global::Tutorip.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::FormsGestures.Droid.Resource.Attribute.windowFixedWidthMajor = global::Tutorip.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::FormsGestures.Droid.Resource.Attribute.windowFixedWidthMinor = global::Tutorip.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::FormsGestures.Droid.Resource.Attribute.windowMinWidthMajor = global::Tutorip.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::FormsGestures.Droid.Resource.Attribute.windowMinWidthMinor = global::Tutorip.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::FormsGestures.Droid.Resource.Attribute.windowNoTitle = global::Tutorip.Droid.Resource.Attribute.windowNoTitle;
+			global::FormsGestures.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Tutorip.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::FormsGestures.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::Tutorip.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::FormsGestures.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Tutorip.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::FormsGestures.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Tutorip.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::FormsGestures.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Tutorip.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::FormsGestures.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Tutorip.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::FormsGestures.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::Tutorip.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::FormsGestures.Droid.Resource.Color.abc_btn_colored_text_material = global::Tutorip.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::FormsGestures.Droid.Resource.Color.abc_color_highlight_material = global::Tutorip.Droid.Resource.Color.abc_color_highlight_material;
+			global::FormsGestures.Droid.Resource.Color.abc_hint_foreground_material_dark = global::Tutorip.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::FormsGestures.Droid.Resource.Color.abc_hint_foreground_material_light = global::Tutorip.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::FormsGestures.Droid.Resource.Color.abc_input_method_navigation_guard = global::Tutorip.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::FormsGestures.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::Tutorip.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::FormsGestures.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::Tutorip.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::FormsGestures.Droid.Resource.Color.abc_primary_text_material_dark = global::Tutorip.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::FormsGestures.Droid.Resource.Color.abc_primary_text_material_light = global::Tutorip.Droid.Resource.Color.abc_primary_text_material_light;
+			global::FormsGestures.Droid.Resource.Color.abc_search_url_text = global::Tutorip.Droid.Resource.Color.abc_search_url_text;
+			global::FormsGestures.Droid.Resource.Color.abc_search_url_text_normal = global::Tutorip.Droid.Resource.Color.abc_search_url_text_normal;
+			global::FormsGestures.Droid.Resource.Color.abc_search_url_text_pressed = global::Tutorip.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::FormsGestures.Droid.Resource.Color.abc_search_url_text_selected = global::Tutorip.Droid.Resource.Color.abc_search_url_text_selected;
+			global::FormsGestures.Droid.Resource.Color.abc_secondary_text_material_dark = global::Tutorip.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::FormsGestures.Droid.Resource.Color.abc_secondary_text_material_light = global::Tutorip.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::FormsGestures.Droid.Resource.Color.abc_tint_btn_checkable = global::Tutorip.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::FormsGestures.Droid.Resource.Color.abc_tint_default = global::Tutorip.Droid.Resource.Color.abc_tint_default;
+			global::FormsGestures.Droid.Resource.Color.abc_tint_edittext = global::Tutorip.Droid.Resource.Color.abc_tint_edittext;
+			global::FormsGestures.Droid.Resource.Color.abc_tint_seek_thumb = global::Tutorip.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::FormsGestures.Droid.Resource.Color.abc_tint_spinner = global::Tutorip.Droid.Resource.Color.abc_tint_spinner;
+			global::FormsGestures.Droid.Resource.Color.abc_tint_switch_track = global::Tutorip.Droid.Resource.Color.abc_tint_switch_track;
+			global::FormsGestures.Droid.Resource.Color.accent_material_dark = global::Tutorip.Droid.Resource.Color.accent_material_dark;
+			global::FormsGestures.Droid.Resource.Color.accent_material_light = global::Tutorip.Droid.Resource.Color.accent_material_light;
+			global::FormsGestures.Droid.Resource.Color.background_floating_material_dark = global::Tutorip.Droid.Resource.Color.background_floating_material_dark;
+			global::FormsGestures.Droid.Resource.Color.background_floating_material_light = global::Tutorip.Droid.Resource.Color.background_floating_material_light;
+			global::FormsGestures.Droid.Resource.Color.background_material_dark = global::Tutorip.Droid.Resource.Color.background_material_dark;
+			global::FormsGestures.Droid.Resource.Color.background_material_light = global::Tutorip.Droid.Resource.Color.background_material_light;
+			global::FormsGestures.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::Tutorip.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::FormsGestures.Droid.Resource.Color.bright_foreground_disabled_material_light = global::Tutorip.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::FormsGestures.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::Tutorip.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::FormsGestures.Droid.Resource.Color.bright_foreground_inverse_material_light = global::Tutorip.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::FormsGestures.Droid.Resource.Color.bright_foreground_material_dark = global::Tutorip.Droid.Resource.Color.bright_foreground_material_dark;
+			global::FormsGestures.Droid.Resource.Color.bright_foreground_material_light = global::Tutorip.Droid.Resource.Color.bright_foreground_material_light;
+			global::FormsGestures.Droid.Resource.Color.browser_actions_bg_grey = global::Tutorip.Droid.Resource.Color.browser_actions_bg_grey;
+			global::FormsGestures.Droid.Resource.Color.browser_actions_divider_color = global::Tutorip.Droid.Resource.Color.browser_actions_divider_color;
+			global::FormsGestures.Droid.Resource.Color.browser_actions_text_color = global::Tutorip.Droid.Resource.Color.browser_actions_text_color;
+			global::FormsGestures.Droid.Resource.Color.browser_actions_title_color = global::Tutorip.Droid.Resource.Color.browser_actions_title_color;
+			global::FormsGestures.Droid.Resource.Color.button_material_dark = global::Tutorip.Droid.Resource.Color.button_material_dark;
+			global::FormsGestures.Droid.Resource.Color.button_material_light = global::Tutorip.Droid.Resource.Color.button_material_light;
+			global::FormsGestures.Droid.Resource.Color.cardview_dark_background = global::Tutorip.Droid.Resource.Color.cardview_dark_background;
+			global::FormsGestures.Droid.Resource.Color.cardview_light_background = global::Tutorip.Droid.Resource.Color.cardview_light_background;
+			global::FormsGestures.Droid.Resource.Color.cardview_shadow_end_color = global::Tutorip.Droid.Resource.Color.cardview_shadow_end_color;
+			global::FormsGestures.Droid.Resource.Color.cardview_shadow_start_color = global::Tutorip.Droid.Resource.Color.cardview_shadow_start_color;
+			global::FormsGestures.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::Tutorip.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::FormsGestures.Droid.Resource.Color.design_default_color_primary = global::Tutorip.Droid.Resource.Color.design_default_color_primary;
+			global::FormsGestures.Droid.Resource.Color.design_default_color_primary_dark = global::Tutorip.Droid.Resource.Color.design_default_color_primary_dark;
+			global::FormsGestures.Droid.Resource.Color.design_error = global::Tutorip.Droid.Resource.Color.design_error;
+			global::FormsGestures.Droid.Resource.Color.design_fab_shadow_end_color = global::Tutorip.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::FormsGestures.Droid.Resource.Color.design_fab_shadow_mid_color = global::Tutorip.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::FormsGestures.Droid.Resource.Color.design_fab_shadow_start_color = global::Tutorip.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::FormsGestures.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::Tutorip.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::FormsGestures.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::Tutorip.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::FormsGestures.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::Tutorip.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::FormsGestures.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::Tutorip.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::FormsGestures.Droid.Resource.Color.design_snackbar_background_color = global::Tutorip.Droid.Resource.Color.design_snackbar_background_color;
+			global::FormsGestures.Droid.Resource.Color.design_tint_password_toggle = global::Tutorip.Droid.Resource.Color.design_tint_password_toggle;
+			global::FormsGestures.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::Tutorip.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::FormsGestures.Droid.Resource.Color.dim_foreground_disabled_material_light = global::Tutorip.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::FormsGestures.Droid.Resource.Color.dim_foreground_material_dark = global::Tutorip.Droid.Resource.Color.dim_foreground_material_dark;
+			global::FormsGestures.Droid.Resource.Color.dim_foreground_material_light = global::Tutorip.Droid.Resource.Color.dim_foreground_material_light;
+			global::FormsGestures.Droid.Resource.Color.error_color_material_dark = global::Tutorip.Droid.Resource.Color.error_color_material_dark;
+			global::FormsGestures.Droid.Resource.Color.error_color_material_light = global::Tutorip.Droid.Resource.Color.error_color_material_light;
+			global::FormsGestures.Droid.Resource.Color.foreground_material_dark = global::Tutorip.Droid.Resource.Color.foreground_material_dark;
+			global::FormsGestures.Droid.Resource.Color.foreground_material_light = global::Tutorip.Droid.Resource.Color.foreground_material_light;
+			global::FormsGestures.Droid.Resource.Color.highlighted_text_material_dark = global::Tutorip.Droid.Resource.Color.highlighted_text_material_dark;
+			global::FormsGestures.Droid.Resource.Color.highlighted_text_material_light = global::Tutorip.Droid.Resource.Color.highlighted_text_material_light;
+			global::FormsGestures.Droid.Resource.Color.material_blue_grey_800 = global::Tutorip.Droid.Resource.Color.material_blue_grey_800;
+			global::FormsGestures.Droid.Resource.Color.material_blue_grey_900 = global::Tutorip.Droid.Resource.Color.material_blue_grey_900;
+			global::FormsGestures.Droid.Resource.Color.material_blue_grey_950 = global::Tutorip.Droid.Resource.Color.material_blue_grey_950;
+			global::FormsGestures.Droid.Resource.Color.material_deep_teal_200 = global::Tutorip.Droid.Resource.Color.material_deep_teal_200;
+			global::FormsGestures.Droid.Resource.Color.material_deep_teal_500 = global::Tutorip.Droid.Resource.Color.material_deep_teal_500;
+			global::FormsGestures.Droid.Resource.Color.material_grey_100 = global::Tutorip.Droid.Resource.Color.material_grey_100;
+			global::FormsGestures.Droid.Resource.Color.material_grey_300 = global::Tutorip.Droid.Resource.Color.material_grey_300;
+			global::FormsGestures.Droid.Resource.Color.material_grey_50 = global::Tutorip.Droid.Resource.Color.material_grey_50;
+			global::FormsGestures.Droid.Resource.Color.material_grey_600 = global::Tutorip.Droid.Resource.Color.material_grey_600;
+			global::FormsGestures.Droid.Resource.Color.material_grey_800 = global::Tutorip.Droid.Resource.Color.material_grey_800;
+			global::FormsGestures.Droid.Resource.Color.material_grey_850 = global::Tutorip.Droid.Resource.Color.material_grey_850;
+			global::FormsGestures.Droid.Resource.Color.material_grey_900 = global::Tutorip.Droid.Resource.Color.material_grey_900;
+			global::FormsGestures.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::Tutorip.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::FormsGestures.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::Tutorip.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::FormsGestures.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::Tutorip.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::FormsGestures.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::FormsGestures.Droid.Resource.Color.mtrl_btn_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::FormsGestures.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::Tutorip.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::FormsGestures.Droid.Resource.Color.mtrl_btn_text_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::FormsGestures.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::Tutorip.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_chip_background_color = global::Tutorip.Droid.Resource.Color.mtrl_chip_background_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::Tutorip.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::FormsGestures.Droid.Resource.Color.mtrl_chip_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_chip_text_color = global::Tutorip.Droid.Resource.Color.mtrl_chip_text_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_fab_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_scrim_color = global::Tutorip.Droid.Resource.Color.mtrl_scrim_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::FormsGestures.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Tutorip.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::FormsGestures.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::FormsGestures.Droid.Resource.Color.mtrl_tabs_ripple_color = global::Tutorip.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Tutorip.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_textinput_disabled_color = global::Tutorip.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Tutorip.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Tutorip.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::FormsGestures.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::Tutorip.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::FormsGestures.Droid.Resource.Color.notification_action_color_filter = global::Tutorip.Droid.Resource.Color.notification_action_color_filter;
+			global::FormsGestures.Droid.Resource.Color.notification_icon_bg_color = global::Tutorip.Droid.Resource.Color.notification_icon_bg_color;
+			global::FormsGestures.Droid.Resource.Color.notification_material_background_media_default_color = global::Tutorip.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::FormsGestures.Droid.Resource.Color.primary_dark_material_dark = global::Tutorip.Droid.Resource.Color.primary_dark_material_dark;
+			global::FormsGestures.Droid.Resource.Color.primary_dark_material_light = global::Tutorip.Droid.Resource.Color.primary_dark_material_light;
+			global::FormsGestures.Droid.Resource.Color.primary_material_dark = global::Tutorip.Droid.Resource.Color.primary_material_dark;
+			global::FormsGestures.Droid.Resource.Color.primary_material_light = global::Tutorip.Droid.Resource.Color.primary_material_light;
+			global::FormsGestures.Droid.Resource.Color.primary_text_default_material_dark = global::Tutorip.Droid.Resource.Color.primary_text_default_material_dark;
+			global::FormsGestures.Droid.Resource.Color.primary_text_default_material_light = global::Tutorip.Droid.Resource.Color.primary_text_default_material_light;
+			global::FormsGestures.Droid.Resource.Color.primary_text_disabled_material_dark = global::Tutorip.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::FormsGestures.Droid.Resource.Color.primary_text_disabled_material_light = global::Tutorip.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::FormsGestures.Droid.Resource.Color.ripple_material_dark = global::Tutorip.Droid.Resource.Color.ripple_material_dark;
+			global::FormsGestures.Droid.Resource.Color.ripple_material_light = global::Tutorip.Droid.Resource.Color.ripple_material_light;
+			global::FormsGestures.Droid.Resource.Color.secondary_text_default_material_dark = global::Tutorip.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::FormsGestures.Droid.Resource.Color.secondary_text_default_material_light = global::Tutorip.Droid.Resource.Color.secondary_text_default_material_light;
+			global::FormsGestures.Droid.Resource.Color.secondary_text_disabled_material_dark = global::Tutorip.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::FormsGestures.Droid.Resource.Color.secondary_text_disabled_material_light = global::Tutorip.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::FormsGestures.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::Tutorip.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::FormsGestures.Droid.Resource.Color.switch_thumb_disabled_material_light = global::Tutorip.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::FormsGestures.Droid.Resource.Color.switch_thumb_material_dark = global::Tutorip.Droid.Resource.Color.switch_thumb_material_dark;
+			global::FormsGestures.Droid.Resource.Color.switch_thumb_material_light = global::Tutorip.Droid.Resource.Color.switch_thumb_material_light;
+			global::FormsGestures.Droid.Resource.Color.switch_thumb_normal_material_dark = global::Tutorip.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::FormsGestures.Droid.Resource.Color.switch_thumb_normal_material_light = global::Tutorip.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::FormsGestures.Droid.Resource.Color.tooltip_background_dark = global::Tutorip.Droid.Resource.Color.tooltip_background_dark;
+			global::FormsGestures.Droid.Resource.Color.tooltip_background_light = global::Tutorip.Droid.Resource.Color.tooltip_background_light;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Tutorip.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_button_min_height_material = global::Tutorip.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_button_min_width_material = global::Tutorip.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Tutorip.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Tutorip.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::FormsGestures.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::Tutorip.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::FormsGestures.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::Tutorip.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::Tutorip.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::Tutorip.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::Tutorip.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Tutorip.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::FormsGestures.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::Tutorip.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::FormsGestures.Droid.Resource.Dimension.abc_control_corner_material = global::Tutorip.Droid.Resource.Dimension.abc_control_corner_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_control_inset_material = global::Tutorip.Droid.Resource.Dimension.abc_control_inset_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_control_padding_material = global::Tutorip.Droid.Resource.Dimension.abc_control_padding_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::Tutorip.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::Tutorip.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::Tutorip.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::Tutorip.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::Tutorip.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Tutorip.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Tutorip.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_min_width_major = global::Tutorip.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::Tutorip.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_padding_material = global::Tutorip.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::Tutorip.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::Tutorip.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::Tutorip.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::FormsGestures.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::Tutorip.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::Tutorip.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Tutorip.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::FormsGestures.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Tutorip.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::FormsGestures.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Tutorip.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Tutorip.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::Tutorip.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_floating_window_z = global::Tutorip.Droid.Resource.Dimension.abc_floating_window_z;
+			global::FormsGestures.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Tutorip.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_panel_menu_list_width = global::Tutorip.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::FormsGestures.Droid.Resource.Dimension.abc_progress_bar_height_material = global::Tutorip.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_search_view_preferred_height = global::Tutorip.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::FormsGestures.Droid.Resource.Dimension.abc_search_view_preferred_width = global::Tutorip.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::FormsGestures.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::Tutorip.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Tutorip.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::Tutorip.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_switch_padding = global::Tutorip.Droid.Resource.Dimension.abc_switch_padding;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_body_1_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_body_2_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_button_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_caption_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_display_1_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_display_2_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_display_3_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_display_4_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_headline_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_large_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_medium_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_menu_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_small_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_subhead_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Tutorip.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_title_material = global::Tutorip.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::FormsGestures.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::Tutorip.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::FormsGestures.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::Tutorip.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::FormsGestures.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::Tutorip.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::FormsGestures.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Tutorip.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::FormsGestures.Droid.Resource.Dimension.cardview_default_elevation = global::Tutorip.Droid.Resource.Dimension.cardview_default_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.cardview_default_radius = global::Tutorip.Droid.Resource.Dimension.cardview_default_radius;
+			global::FormsGestures.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::Tutorip.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::FormsGestures.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::Tutorip.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::FormsGestures.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::Tutorip.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::FormsGestures.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::Tutorip.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::FormsGestures.Droid.Resource.Dimension.compat_control_corner_material = global::Tutorip.Droid.Resource.Dimension.compat_control_corner_material;
+			global::FormsGestures.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::Tutorip.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::FormsGestures.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::Tutorip.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_appbar_elevation = global::Tutorip.Droid.Resource.Dimension.design_appbar_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_height = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_margin = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::Tutorip.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Tutorip.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Tutorip.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::FormsGestures.Droid.Resource.Dimension.design_fab_border_width = global::Tutorip.Droid.Resource.Dimension.design_fab_border_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_fab_elevation = global::Tutorip.Droid.Resource.Dimension.design_fab_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.design_fab_image_size = global::Tutorip.Droid.Resource.Dimension.design_fab_image_size;
+			global::FormsGestures.Droid.Resource.Dimension.design_fab_size_mini = global::Tutorip.Droid.Resource.Dimension.design_fab_size_mini;
+			global::FormsGestures.Droid.Resource.Dimension.design_fab_size_normal = global::Tutorip.Droid.Resource.Dimension.design_fab_size_normal;
+			global::FormsGestures.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Tutorip.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::FormsGestures.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::Tutorip.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::FormsGestures.Droid.Resource.Dimension.design_navigation_elevation = global::Tutorip.Droid.Resource.Dimension.design_navigation_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.design_navigation_icon_padding = global::Tutorip.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::FormsGestures.Droid.Resource.Dimension.design_navigation_icon_size = global::Tutorip.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::FormsGestures.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::Tutorip.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::FormsGestures.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::Tutorip.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::FormsGestures.Droid.Resource.Dimension.design_navigation_max_width = global::Tutorip.Droid.Resource.Dimension.design_navigation_max_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_navigation_padding_bottom = global::Tutorip.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::FormsGestures.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::Tutorip.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::FormsGestures.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::Tutorip.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::Tutorip.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::FormsGestures.Droid.Resource.Dimension.design_snackbar_elevation = global::Tutorip.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Tutorip.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::FormsGestures.Droid.Resource.Dimension.design_snackbar_max_width = global::Tutorip.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_snackbar_min_width = global::Tutorip.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::Tutorip.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::FormsGestures.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::Tutorip.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::FormsGestures.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Tutorip.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::FormsGestures.Droid.Resource.Dimension.design_snackbar_text_size = global::Tutorip.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::FormsGestures.Droid.Resource.Dimension.design_tab_max_width = global::Tutorip.Droid.Resource.Dimension.design_tab_max_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::Tutorip.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::FormsGestures.Droid.Resource.Dimension.design_tab_text_size = global::Tutorip.Droid.Resource.Dimension.design_tab_text_size;
+			global::FormsGestures.Droid.Resource.Dimension.design_tab_text_size_2line = global::Tutorip.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::FormsGestures.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::Tutorip.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::FormsGestures.Droid.Resource.Dimension.disabled_alpha_material_dark = global::Tutorip.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::FormsGestures.Droid.Resource.Dimension.disabled_alpha_material_light = global::Tutorip.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::FormsGestures.Droid.Resource.Dimension.fastscroll_default_thickness = global::Tutorip.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::FormsGestures.Droid.Resource.Dimension.fastscroll_margin = global::Tutorip.Droid.Resource.Dimension.fastscroll_margin;
+			global::FormsGestures.Droid.Resource.Dimension.fastscroll_minimum_range = global::Tutorip.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::FormsGestures.Droid.Resource.Dimension.highlight_alpha_material_colored = global::Tutorip.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::FormsGestures.Droid.Resource.Dimension.highlight_alpha_material_dark = global::Tutorip.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::FormsGestures.Droid.Resource.Dimension.highlight_alpha_material_light = global::Tutorip.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::FormsGestures.Droid.Resource.Dimension.hint_alpha_material_dark = global::Tutorip.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::FormsGestures.Droid.Resource.Dimension.hint_alpha_material_light = global::Tutorip.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::FormsGestures.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::Tutorip.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::FormsGestures.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::Tutorip.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::FormsGestures.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Tutorip.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::FormsGestures.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Tutorip.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::FormsGestures.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Tutorip.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Tutorip.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Tutorip.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Tutorip.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Tutorip.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::Tutorip.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_elevation = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_focused_z = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_inset = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_padding_left = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_padding_right = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_padding_top = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_text_size = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_btn_z = global::Tutorip.Droid.Resource.Dimension.mtrl_btn_z;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_card_elevation = global::Tutorip.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_card_spacing = global::Tutorip.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Tutorip.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_chip_text_size = global::Tutorip.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_fab_elevation = global::Tutorip.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Tutorip.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Tutorip.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_navigation_elevation = global::Tutorip.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Tutorip.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_snackbar_margin = global::Tutorip.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Tutorip.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::FormsGestures.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::Tutorip.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::FormsGestures.Droid.Resource.Dimension.notification_action_icon_size = global::Tutorip.Droid.Resource.Dimension.notification_action_icon_size;
+			global::FormsGestures.Droid.Resource.Dimension.notification_action_text_size = global::Tutorip.Droid.Resource.Dimension.notification_action_text_size;
+			global::FormsGestures.Droid.Resource.Dimension.notification_big_circle_margin = global::Tutorip.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::FormsGestures.Droid.Resource.Dimension.notification_content_margin_start = global::Tutorip.Droid.Resource.Dimension.notification_content_margin_start;
+			global::FormsGestures.Droid.Resource.Dimension.notification_large_icon_height = global::Tutorip.Droid.Resource.Dimension.notification_large_icon_height;
+			global::FormsGestures.Droid.Resource.Dimension.notification_large_icon_width = global::Tutorip.Droid.Resource.Dimension.notification_large_icon_width;
+			global::FormsGestures.Droid.Resource.Dimension.notification_main_column_padding_top = global::Tutorip.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::FormsGestures.Droid.Resource.Dimension.notification_media_narrow_margin = global::Tutorip.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::FormsGestures.Droid.Resource.Dimension.notification_right_icon_size = global::Tutorip.Droid.Resource.Dimension.notification_right_icon_size;
+			global::FormsGestures.Droid.Resource.Dimension.notification_right_side_padding_top = global::Tutorip.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::FormsGestures.Droid.Resource.Dimension.notification_small_icon_background_padding = global::Tutorip.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::FormsGestures.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::Tutorip.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::FormsGestures.Droid.Resource.Dimension.notification_subtext_size = global::Tutorip.Droid.Resource.Dimension.notification_subtext_size;
+			global::FormsGestures.Droid.Resource.Dimension.notification_top_pad = global::Tutorip.Droid.Resource.Dimension.notification_top_pad;
+			global::FormsGestures.Droid.Resource.Dimension.notification_top_pad_large_text = global::Tutorip.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::FormsGestures.Droid.Resource.Dimension.subtitle_corner_radius = global::Tutorip.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::FormsGestures.Droid.Resource.Dimension.subtitle_outline_width = global::Tutorip.Droid.Resource.Dimension.subtitle_outline_width;
+			global::FormsGestures.Droid.Resource.Dimension.subtitle_shadow_offset = global::Tutorip.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::FormsGestures.Droid.Resource.Dimension.subtitle_shadow_radius = global::Tutorip.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::FormsGestures.Droid.Resource.Dimension.tooltip_corner_radius = global::Tutorip.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::FormsGestures.Droid.Resource.Dimension.tooltip_horizontal_padding = global::Tutorip.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::FormsGestures.Droid.Resource.Dimension.tooltip_margin = global::Tutorip.Droid.Resource.Dimension.tooltip_margin;
+			global::FormsGestures.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Tutorip.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::FormsGestures.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::Tutorip.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::FormsGestures.Droid.Resource.Dimension.tooltip_vertical_padding = global::Tutorip.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::FormsGestures.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::Tutorip.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::FormsGestures.Droid.Resource.Dimension.tooltip_y_offset_touch = global::Tutorip.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::Tutorip.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_borderless_material = global::Tutorip.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_check_material = global::Tutorip.Droid.Resource.Drawable.abc_btn_check_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Tutorip.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Tutorip.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_colored_material = global::Tutorip.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::Tutorip.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_radio_material = global::Tutorip.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Tutorip.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Tutorip.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Tutorip.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::FormsGestures.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Tutorip.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::FormsGestures.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::Tutorip.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::FormsGestures.Droid.Resource.Drawable.abc_cab_background_top_material = global::Tutorip.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_control_background_material = global::Tutorip.Droid.Resource.Drawable.abc_control_background_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_dialog_material_background = global::Tutorip.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::FormsGestures.Droid.Resource.Drawable.abc_edit_text_material = global::Tutorip.Droid.Resource.Drawable.abc_edit_text_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_ab_back_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_clear_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_search_api_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::Tutorip.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::Tutorip.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_item_background_holo_dark = global::Tutorip.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::FormsGestures.Droid.Resource.Drawable.abc_item_background_holo_light = global::Tutorip.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_divider_material = global::Tutorip.Droid.Resource.Drawable.abc_list_divider_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_focused_holo = global::Tutorip.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_longpressed_holo = global::Tutorip.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::Tutorip.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::Tutorip.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::FormsGestures.Droid.Resource.Drawable.abc_list_selector_holo_light = global::Tutorip.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::FormsGestures.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Tutorip.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::FormsGestures.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::Tutorip.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::Tutorip.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ratingbar_material = global::Tutorip.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_ratingbar_small_material = global::Tutorip.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Tutorip.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::FormsGestures.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Tutorip.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::FormsGestures.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::Tutorip.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::Tutorip.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_seekbar_track_material = global::Tutorip.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Tutorip.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::Tutorip.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_switch_thumb_material = global::Tutorip.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_tab_indicator_material = global::Tutorip.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Tutorip.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::FormsGestures.Droid.Resource.Drawable.abc_textfield_search_material = global::Tutorip.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_text_cursor_material = global::Tutorip.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::FormsGestures.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::FormsGestures.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::FormsGestures.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::FormsGestures.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::FormsGestures.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::FormsGestures.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Tutorip.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::FormsGestures.Droid.Resource.Drawable.abc_vector_test = global::Tutorip.Droid.Resource.Drawable.abc_vector_test;
+			global::FormsGestures.Droid.Resource.Drawable.avd_hide_password = global::Tutorip.Droid.Resource.Drawable.avd_hide_password;
+			global::FormsGestures.Droid.Resource.Drawable.avd_show_password = global::Tutorip.Droid.Resource.Drawable.avd_show_password;
+			global::FormsGestures.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::Tutorip.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::FormsGestures.Droid.Resource.Drawable.design_fab_background = global::Tutorip.Droid.Resource.Drawable.design_fab_background;
+			global::FormsGestures.Droid.Resource.Drawable.design_ic_visibility = global::Tutorip.Droid.Resource.Drawable.design_ic_visibility;
+			global::FormsGestures.Droid.Resource.Drawable.design_ic_visibility_off = global::Tutorip.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::FormsGestures.Droid.Resource.Drawable.design_password_eye = global::Tutorip.Droid.Resource.Drawable.design_password_eye;
+			global::FormsGestures.Droid.Resource.Drawable.design_snackbar_background = global::Tutorip.Droid.Resource.Drawable.design_snackbar_background;
+			global::FormsGestures.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::Tutorip.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::FormsGestures.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Tutorip.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::FormsGestures.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::Tutorip.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::FormsGestures.Droid.Resource.Drawable.mtrl_snackbar_background = global::Tutorip.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::FormsGestures.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::Tutorip.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::FormsGestures.Droid.Resource.Drawable.navigation_empty_icon = global::Tutorip.Droid.Resource.Drawable.navigation_empty_icon;
+			global::FormsGestures.Droid.Resource.Drawable.notification_action_background = global::Tutorip.Droid.Resource.Drawable.notification_action_background;
+			global::FormsGestures.Droid.Resource.Drawable.notification_bg = global::Tutorip.Droid.Resource.Drawable.notification_bg;
+			global::FormsGestures.Droid.Resource.Drawable.notification_bg_low = global::Tutorip.Droid.Resource.Drawable.notification_bg_low;
+			global::FormsGestures.Droid.Resource.Drawable.notification_bg_low_normal = global::Tutorip.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::FormsGestures.Droid.Resource.Drawable.notification_bg_low_pressed = global::Tutorip.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::FormsGestures.Droid.Resource.Drawable.notification_bg_normal = global::Tutorip.Droid.Resource.Drawable.notification_bg_normal;
+			global::FormsGestures.Droid.Resource.Drawable.notification_bg_normal_pressed = global::Tutorip.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::FormsGestures.Droid.Resource.Drawable.notification_icon_background = global::Tutorip.Droid.Resource.Drawable.notification_icon_background;
+			global::FormsGestures.Droid.Resource.Drawable.notification_template_icon_bg = global::Tutorip.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::FormsGestures.Droid.Resource.Drawable.notification_template_icon_low_bg = global::Tutorip.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::FormsGestures.Droid.Resource.Drawable.notification_tile_bg = global::Tutorip.Droid.Resource.Drawable.notification_tile_bg;
+			global::FormsGestures.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::Tutorip.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::FormsGestures.Droid.Resource.Drawable.tooltip_frame_dark = global::Tutorip.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::FormsGestures.Droid.Resource.Drawable.tooltip_frame_light = global::Tutorip.Droid.Resource.Drawable.tooltip_frame_light;
+			global::FormsGestures.Droid.Resource.Id.action0 = global::Tutorip.Droid.Resource.Id.action0;
+			global::FormsGestures.Droid.Resource.Id.actions = global::Tutorip.Droid.Resource.Id.actions;
+			global::FormsGestures.Droid.Resource.Id.action_bar = global::Tutorip.Droid.Resource.Id.action_bar;
+			global::FormsGestures.Droid.Resource.Id.action_bar_activity_content = global::Tutorip.Droid.Resource.Id.action_bar_activity_content;
+			global::FormsGestures.Droid.Resource.Id.action_bar_container = global::Tutorip.Droid.Resource.Id.action_bar_container;
+			global::FormsGestures.Droid.Resource.Id.action_bar_root = global::Tutorip.Droid.Resource.Id.action_bar_root;
+			global::FormsGestures.Droid.Resource.Id.action_bar_spinner = global::Tutorip.Droid.Resource.Id.action_bar_spinner;
+			global::FormsGestures.Droid.Resource.Id.action_bar_subtitle = global::Tutorip.Droid.Resource.Id.action_bar_subtitle;
+			global::FormsGestures.Droid.Resource.Id.action_bar_title = global::Tutorip.Droid.Resource.Id.action_bar_title;
+			global::FormsGestures.Droid.Resource.Id.action_container = global::Tutorip.Droid.Resource.Id.action_container;
+			global::FormsGestures.Droid.Resource.Id.action_context_bar = global::Tutorip.Droid.Resource.Id.action_context_bar;
+			global::FormsGestures.Droid.Resource.Id.action_divider = global::Tutorip.Droid.Resource.Id.action_divider;
+			global::FormsGestures.Droid.Resource.Id.action_image = global::Tutorip.Droid.Resource.Id.action_image;
+			global::FormsGestures.Droid.Resource.Id.action_menu_divider = global::Tutorip.Droid.Resource.Id.action_menu_divider;
+			global::FormsGestures.Droid.Resource.Id.action_menu_presenter = global::Tutorip.Droid.Resource.Id.action_menu_presenter;
+			global::FormsGestures.Droid.Resource.Id.action_mode_bar = global::Tutorip.Droid.Resource.Id.action_mode_bar;
+			global::FormsGestures.Droid.Resource.Id.action_mode_bar_stub = global::Tutorip.Droid.Resource.Id.action_mode_bar_stub;
+			global::FormsGestures.Droid.Resource.Id.action_mode_close_button = global::Tutorip.Droid.Resource.Id.action_mode_close_button;
+			global::FormsGestures.Droid.Resource.Id.action_text = global::Tutorip.Droid.Resource.Id.action_text;
+			global::FormsGestures.Droid.Resource.Id.activity_chooser_view_content = global::Tutorip.Droid.Resource.Id.activity_chooser_view_content;
+			global::FormsGestures.Droid.Resource.Id.add = global::Tutorip.Droid.Resource.Id.add;
+			global::FormsGestures.Droid.Resource.Id.alertTitle = global::Tutorip.Droid.Resource.Id.alertTitle;
+			global::FormsGestures.Droid.Resource.Id.all = global::Tutorip.Droid.Resource.Id.all;
+			global::FormsGestures.Droid.Resource.Id.ALT = global::Tutorip.Droid.Resource.Id.ALT;
+			global::FormsGestures.Droid.Resource.Id.always = global::Tutorip.Droid.Resource.Id.always;
+			global::FormsGestures.Droid.Resource.Id.async = global::Tutorip.Droid.Resource.Id.async;
+			global::FormsGestures.Droid.Resource.Id.auto = global::Tutorip.Droid.Resource.Id.auto;
+			global::FormsGestures.Droid.Resource.Id.beginning = global::Tutorip.Droid.Resource.Id.beginning;
+			global::FormsGestures.Droid.Resource.Id.blocking = global::Tutorip.Droid.Resource.Id.blocking;
+			global::FormsGestures.Droid.Resource.Id.bottom = global::Tutorip.Droid.Resource.Id.bottom;
+			global::FormsGestures.Droid.Resource.Id.bottomtab_navarea = global::Tutorip.Droid.Resource.Id.bottomtab_navarea;
+			global::FormsGestures.Droid.Resource.Id.bottomtab_tabbar = global::Tutorip.Droid.Resource.Id.bottomtab_tabbar;
+			global::FormsGestures.Droid.Resource.Id.browser_actions_header_text = global::Tutorip.Droid.Resource.Id.browser_actions_header_text;
+			global::FormsGestures.Droid.Resource.Id.browser_actions_menu_items = global::Tutorip.Droid.Resource.Id.browser_actions_menu_items;
+			global::FormsGestures.Droid.Resource.Id.browser_actions_menu_item_icon = global::Tutorip.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::FormsGestures.Droid.Resource.Id.browser_actions_menu_item_text = global::Tutorip.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::FormsGestures.Droid.Resource.Id.browser_actions_menu_view = global::Tutorip.Droid.Resource.Id.browser_actions_menu_view;
+			global::FormsGestures.Droid.Resource.Id.buttonPanel = global::Tutorip.Droid.Resource.Id.buttonPanel;
+			global::FormsGestures.Droid.Resource.Id.cancel_action = global::Tutorip.Droid.Resource.Id.cancel_action;
+			global::FormsGestures.Droid.Resource.Id.center = global::Tutorip.Droid.Resource.Id.center;
+			global::FormsGestures.Droid.Resource.Id.center_horizontal = global::Tutorip.Droid.Resource.Id.center_horizontal;
+			global::FormsGestures.Droid.Resource.Id.center_vertical = global::Tutorip.Droid.Resource.Id.center_vertical;
+			global::FormsGestures.Droid.Resource.Id.checkbox = global::Tutorip.Droid.Resource.Id.checkbox;
+			global::FormsGestures.Droid.Resource.Id.chronometer = global::Tutorip.Droid.Resource.Id.chronometer;
+			global::FormsGestures.Droid.Resource.Id.clip_horizontal = global::Tutorip.Droid.Resource.Id.clip_horizontal;
+			global::FormsGestures.Droid.Resource.Id.clip_vertical = global::Tutorip.Droid.Resource.Id.clip_vertical;
+			global::FormsGestures.Droid.Resource.Id.collapseActionView = global::Tutorip.Droid.Resource.Id.collapseActionView;
+			global::FormsGestures.Droid.Resource.Id.container = global::Tutorip.Droid.Resource.Id.container;
+			global::FormsGestures.Droid.Resource.Id.content = global::Tutorip.Droid.Resource.Id.content;
+			global::FormsGestures.Droid.Resource.Id.contentPanel = global::Tutorip.Droid.Resource.Id.contentPanel;
+			global::FormsGestures.Droid.Resource.Id.coordinator = global::Tutorip.Droid.Resource.Id.coordinator;
+			global::FormsGestures.Droid.Resource.Id.CTRL = global::Tutorip.Droid.Resource.Id.CTRL;
+			global::FormsGestures.Droid.Resource.Id.custom = global::Tutorip.Droid.Resource.Id.custom;
+			global::FormsGestures.Droid.Resource.Id.customPanel = global::Tutorip.Droid.Resource.Id.customPanel;
+			global::FormsGestures.Droid.Resource.Id.decor_content_parent = global::Tutorip.Droid.Resource.Id.decor_content_parent;
+			global::FormsGestures.Droid.Resource.Id.default_activity_button = global::Tutorip.Droid.Resource.Id.default_activity_button;
+			global::FormsGestures.Droid.Resource.Id.design_bottom_sheet = global::Tutorip.Droid.Resource.Id.design_bottom_sheet;
+			global::FormsGestures.Droid.Resource.Id.design_menu_item_action_area = global::Tutorip.Droid.Resource.Id.design_menu_item_action_area;
+			global::FormsGestures.Droid.Resource.Id.design_menu_item_action_area_stub = global::Tutorip.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::FormsGestures.Droid.Resource.Id.design_menu_item_text = global::Tutorip.Droid.Resource.Id.design_menu_item_text;
+			global::FormsGestures.Droid.Resource.Id.design_navigation_view = global::Tutorip.Droid.Resource.Id.design_navigation_view;
+			global::FormsGestures.Droid.Resource.Id.disableHome = global::Tutorip.Droid.Resource.Id.disableHome;
+			global::FormsGestures.Droid.Resource.Id.edit_query = global::Tutorip.Droid.Resource.Id.edit_query;
+			global::FormsGestures.Droid.Resource.Id.end = global::Tutorip.Droid.Resource.Id.end;
+			global::FormsGestures.Droid.Resource.Id.end_padder = global::Tutorip.Droid.Resource.Id.end_padder;
+			global::FormsGestures.Droid.Resource.Id.enterAlways = global::Tutorip.Droid.Resource.Id.enterAlways;
+			global::FormsGestures.Droid.Resource.Id.enterAlwaysCollapsed = global::Tutorip.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::FormsGestures.Droid.Resource.Id.exitUntilCollapsed = global::Tutorip.Droid.Resource.Id.exitUntilCollapsed;
+			global::FormsGestures.Droid.Resource.Id.expanded_menu = global::Tutorip.Droid.Resource.Id.expanded_menu;
+			global::FormsGestures.Droid.Resource.Id.expand_activities_button = global::Tutorip.Droid.Resource.Id.expand_activities_button;
+			global::FormsGestures.Droid.Resource.Id.fill = global::Tutorip.Droid.Resource.Id.fill;
+			global::FormsGestures.Droid.Resource.Id.filled = global::Tutorip.Droid.Resource.Id.filled;
+			global::FormsGestures.Droid.Resource.Id.fill_horizontal = global::Tutorip.Droid.Resource.Id.fill_horizontal;
+			global::FormsGestures.Droid.Resource.Id.fill_vertical = global::Tutorip.Droid.Resource.Id.fill_vertical;
+			global::FormsGestures.Droid.Resource.Id.@fixed = global::Tutorip.Droid.Resource.Id.@fixed;
+			global::FormsGestures.Droid.Resource.Id.flyoutcontent_appbar = global::Tutorip.Droid.Resource.Id.flyoutcontent_appbar;
+			global::FormsGestures.Droid.Resource.Id.flyoutcontent_recycler = global::Tutorip.Droid.Resource.Id.flyoutcontent_recycler;
+			global::FormsGestures.Droid.Resource.Id.forever = global::Tutorip.Droid.Resource.Id.forever;
+			global::FormsGestures.Droid.Resource.Id.FUNCTION = global::Tutorip.Droid.Resource.Id.FUNCTION;
+			global::FormsGestures.Droid.Resource.Id.ghost_view = global::Tutorip.Droid.Resource.Id.ghost_view;
+			global::FormsGestures.Droid.Resource.Id.group_divider = global::Tutorip.Droid.Resource.Id.group_divider;
+			global::FormsGestures.Droid.Resource.Id.home = global::Tutorip.Droid.Resource.Id.home;
+			global::FormsGestures.Droid.Resource.Id.homeAsUp = global::Tutorip.Droid.Resource.Id.homeAsUp;
+			global::FormsGestures.Droid.Resource.Id.icon = global::Tutorip.Droid.Resource.Id.icon;
+			global::FormsGestures.Droid.Resource.Id.icon_group = global::Tutorip.Droid.Resource.Id.icon_group;
+			global::FormsGestures.Droid.Resource.Id.ifRoom = global::Tutorip.Droid.Resource.Id.ifRoom;
+			global::FormsGestures.Droid.Resource.Id.image = global::Tutorip.Droid.Resource.Id.image;
+			global::FormsGestures.Droid.Resource.Id.info = global::Tutorip.Droid.Resource.Id.info;
+			global::FormsGestures.Droid.Resource.Id.italic = global::Tutorip.Droid.Resource.Id.italic;
+			global::FormsGestures.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Tutorip.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::FormsGestures.Droid.Resource.Id.labeled = global::Tutorip.Droid.Resource.Id.labeled;
+			global::FormsGestures.Droid.Resource.Id.largeLabel = global::Tutorip.Droid.Resource.Id.largeLabel;
+			global::FormsGestures.Droid.Resource.Id.left = global::Tutorip.Droid.Resource.Id.left;
+			global::FormsGestures.Droid.Resource.Id.line1 = global::Tutorip.Droid.Resource.Id.line1;
+			global::FormsGestures.Droid.Resource.Id.line3 = global::Tutorip.Droid.Resource.Id.line3;
+			global::FormsGestures.Droid.Resource.Id.listMode = global::Tutorip.Droid.Resource.Id.listMode;
+			global::FormsGestures.Droid.Resource.Id.list_item = global::Tutorip.Droid.Resource.Id.list_item;
+			global::FormsGestures.Droid.Resource.Id.main_appbar = global::Tutorip.Droid.Resource.Id.main_appbar;
+			global::FormsGestures.Droid.Resource.Id.main_tablayout = global::Tutorip.Droid.Resource.Id.main_tablayout;
+			global::FormsGestures.Droid.Resource.Id.main_toolbar = global::Tutorip.Droid.Resource.Id.main_toolbar;
+			global::FormsGestures.Droid.Resource.Id.main_viewpager = global::Tutorip.Droid.Resource.Id.main_viewpager;
+			global::FormsGestures.Droid.Resource.Id.masked = global::Tutorip.Droid.Resource.Id.masked;
+			global::FormsGestures.Droid.Resource.Id.media_actions = global::Tutorip.Droid.Resource.Id.media_actions;
+			global::FormsGestures.Droid.Resource.Id.message = global::Tutorip.Droid.Resource.Id.message;
+			global::FormsGestures.Droid.Resource.Id.META = global::Tutorip.Droid.Resource.Id.META;
+			global::FormsGestures.Droid.Resource.Id.middle = global::Tutorip.Droid.Resource.Id.middle;
+			global::FormsGestures.Droid.Resource.Id.mini = global::Tutorip.Droid.Resource.Id.mini;
+			global::FormsGestures.Droid.Resource.Id.mtrl_child_content_container = global::Tutorip.Droid.Resource.Id.mtrl_child_content_container;
+			global::FormsGestures.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::Tutorip.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::FormsGestures.Droid.Resource.Id.multiply = global::Tutorip.Droid.Resource.Id.multiply;
+			global::FormsGestures.Droid.Resource.Id.navigation_header_container = global::Tutorip.Droid.Resource.Id.navigation_header_container;
+			global::FormsGestures.Droid.Resource.Id.never = global::Tutorip.Droid.Resource.Id.never;
+			global::FormsGestures.Droid.Resource.Id.none = global::Tutorip.Droid.Resource.Id.none;
+			global::FormsGestures.Droid.Resource.Id.normal = global::Tutorip.Droid.Resource.Id.normal;
+			global::FormsGestures.Droid.Resource.Id.notification_background = global::Tutorip.Droid.Resource.Id.notification_background;
+			global::FormsGestures.Droid.Resource.Id.notification_main_column = global::Tutorip.Droid.Resource.Id.notification_main_column;
+			global::FormsGestures.Droid.Resource.Id.notification_main_column_container = global::Tutorip.Droid.Resource.Id.notification_main_column_container;
+			global::FormsGestures.Droid.Resource.Id.outline = global::Tutorip.Droid.Resource.Id.outline;
+			global::FormsGestures.Droid.Resource.Id.parallax = global::Tutorip.Droid.Resource.Id.parallax;
+			global::FormsGestures.Droid.Resource.Id.parentPanel = global::Tutorip.Droid.Resource.Id.parentPanel;
+			global::FormsGestures.Droid.Resource.Id.parent_matrix = global::Tutorip.Droid.Resource.Id.parent_matrix;
+			global::FormsGestures.Droid.Resource.Id.pin = global::Tutorip.Droid.Resource.Id.pin;
+			global::FormsGestures.Droid.Resource.Id.progress_circular = global::Tutorip.Droid.Resource.Id.progress_circular;
+			global::FormsGestures.Droid.Resource.Id.progress_horizontal = global::Tutorip.Droid.Resource.Id.progress_horizontal;
+			global::FormsGestures.Droid.Resource.Id.radio = global::Tutorip.Droid.Resource.Id.radio;
+			global::FormsGestures.Droid.Resource.Id.right = global::Tutorip.Droid.Resource.Id.right;
+			global::FormsGestures.Droid.Resource.Id.right_icon = global::Tutorip.Droid.Resource.Id.right_icon;
+			global::FormsGestures.Droid.Resource.Id.right_side = global::Tutorip.Droid.Resource.Id.right_side;
+			global::FormsGestures.Droid.Resource.Id.save_image_matrix = global::Tutorip.Droid.Resource.Id.save_image_matrix;
+			global::FormsGestures.Droid.Resource.Id.save_non_transition_alpha = global::Tutorip.Droid.Resource.Id.save_non_transition_alpha;
+			global::FormsGestures.Droid.Resource.Id.save_scale_type = global::Tutorip.Droid.Resource.Id.save_scale_type;
+			global::FormsGestures.Droid.Resource.Id.screen = global::Tutorip.Droid.Resource.Id.screen;
+			global::FormsGestures.Droid.Resource.Id.scroll = global::Tutorip.Droid.Resource.Id.scroll;
+			global::FormsGestures.Droid.Resource.Id.scrollable = global::Tutorip.Droid.Resource.Id.scrollable;
+			global::FormsGestures.Droid.Resource.Id.scrollIndicatorDown = global::Tutorip.Droid.Resource.Id.scrollIndicatorDown;
+			global::FormsGestures.Droid.Resource.Id.scrollIndicatorUp = global::Tutorip.Droid.Resource.Id.scrollIndicatorUp;
+			global::FormsGestures.Droid.Resource.Id.scrollView = global::Tutorip.Droid.Resource.Id.scrollView;
+			global::FormsGestures.Droid.Resource.Id.search_badge = global::Tutorip.Droid.Resource.Id.search_badge;
+			global::FormsGestures.Droid.Resource.Id.search_bar = global::Tutorip.Droid.Resource.Id.search_bar;
+			global::FormsGestures.Droid.Resource.Id.search_button = global::Tutorip.Droid.Resource.Id.search_button;
+			global::FormsGestures.Droid.Resource.Id.search_close_btn = global::Tutorip.Droid.Resource.Id.search_close_btn;
+			global::FormsGestures.Droid.Resource.Id.search_edit_frame = global::Tutorip.Droid.Resource.Id.search_edit_frame;
+			global::FormsGestures.Droid.Resource.Id.search_go_btn = global::Tutorip.Droid.Resource.Id.search_go_btn;
+			global::FormsGestures.Droid.Resource.Id.search_mag_icon = global::Tutorip.Droid.Resource.Id.search_mag_icon;
+			global::FormsGestures.Droid.Resource.Id.search_plate = global::Tutorip.Droid.Resource.Id.search_plate;
+			global::FormsGestures.Droid.Resource.Id.search_src_text = global::Tutorip.Droid.Resource.Id.search_src_text;
+			global::FormsGestures.Droid.Resource.Id.search_voice_btn = global::Tutorip.Droid.Resource.Id.search_voice_btn;
+			global::FormsGestures.Droid.Resource.Id.selected = global::Tutorip.Droid.Resource.Id.selected;
+			global::FormsGestures.Droid.Resource.Id.select_dialog_listview = global::Tutorip.Droid.Resource.Id.select_dialog_listview;
+			global::FormsGestures.Droid.Resource.Id.shellcontent_appbar = global::Tutorip.Droid.Resource.Id.shellcontent_appbar;
+			global::FormsGestures.Droid.Resource.Id.shellcontent_toolbar = global::Tutorip.Droid.Resource.Id.shellcontent_toolbar;
+			global::FormsGestures.Droid.Resource.Id.SHIFT = global::Tutorip.Droid.Resource.Id.SHIFT;
+			global::FormsGestures.Droid.Resource.Id.shortcut = global::Tutorip.Droid.Resource.Id.shortcut;
+			global::FormsGestures.Droid.Resource.Id.showCustom = global::Tutorip.Droid.Resource.Id.showCustom;
+			global::FormsGestures.Droid.Resource.Id.showHome = global::Tutorip.Droid.Resource.Id.showHome;
+			global::FormsGestures.Droid.Resource.Id.showTitle = global::Tutorip.Droid.Resource.Id.showTitle;
+			global::FormsGestures.Droid.Resource.Id.smallLabel = global::Tutorip.Droid.Resource.Id.smallLabel;
+			global::FormsGestures.Droid.Resource.Id.snackbar_action = global::Tutorip.Droid.Resource.Id.snackbar_action;
+			global::FormsGestures.Droid.Resource.Id.snackbar_text = global::Tutorip.Droid.Resource.Id.snackbar_text;
+			global::FormsGestures.Droid.Resource.Id.snap = global::Tutorip.Droid.Resource.Id.snap;
+			global::FormsGestures.Droid.Resource.Id.snapMargins = global::Tutorip.Droid.Resource.Id.snapMargins;
+			global::FormsGestures.Droid.Resource.Id.spacer = global::Tutorip.Droid.Resource.Id.spacer;
+			global::FormsGestures.Droid.Resource.Id.split_action_bar = global::Tutorip.Droid.Resource.Id.split_action_bar;
+			global::FormsGestures.Droid.Resource.Id.src_atop = global::Tutorip.Droid.Resource.Id.src_atop;
+			global::FormsGestures.Droid.Resource.Id.src_in = global::Tutorip.Droid.Resource.Id.src_in;
+			global::FormsGestures.Droid.Resource.Id.src_over = global::Tutorip.Droid.Resource.Id.src_over;
+			global::FormsGestures.Droid.Resource.Id.start = global::Tutorip.Droid.Resource.Id.start;
+			global::FormsGestures.Droid.Resource.Id.status_bar_latest_event_content = global::Tutorip.Droid.Resource.Id.status_bar_latest_event_content;
+			global::FormsGestures.Droid.Resource.Id.stretch = global::Tutorip.Droid.Resource.Id.stretch;
+			global::FormsGestures.Droid.Resource.Id.submenuarrow = global::Tutorip.Droid.Resource.Id.submenuarrow;
+			global::FormsGestures.Droid.Resource.Id.submit_area = global::Tutorip.Droid.Resource.Id.submit_area;
+			global::FormsGestures.Droid.Resource.Id.SYM = global::Tutorip.Droid.Resource.Id.SYM;
+			global::FormsGestures.Droid.Resource.Id.tabMode = global::Tutorip.Droid.Resource.Id.tabMode;
+			global::FormsGestures.Droid.Resource.Id.tag_transition_group = global::Tutorip.Droid.Resource.Id.tag_transition_group;
+			global::FormsGestures.Droid.Resource.Id.tag_unhandled_key_event_manager = global::Tutorip.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::FormsGestures.Droid.Resource.Id.tag_unhandled_key_listeners = global::Tutorip.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::FormsGestures.Droid.Resource.Id.text = global::Tutorip.Droid.Resource.Id.text;
+			global::FormsGestures.Droid.Resource.Id.text2 = global::Tutorip.Droid.Resource.Id.text2;
+			global::FormsGestures.Droid.Resource.Id.textinput_counter = global::Tutorip.Droid.Resource.Id.textinput_counter;
+			global::FormsGestures.Droid.Resource.Id.textinput_error = global::Tutorip.Droid.Resource.Id.textinput_error;
+			global::FormsGestures.Droid.Resource.Id.textinput_helper_text = global::Tutorip.Droid.Resource.Id.textinput_helper_text;
+			global::FormsGestures.Droid.Resource.Id.textSpacerNoButtons = global::Tutorip.Droid.Resource.Id.textSpacerNoButtons;
+			global::FormsGestures.Droid.Resource.Id.textSpacerNoTitle = global::Tutorip.Droid.Resource.Id.textSpacerNoTitle;
+			global::FormsGestures.Droid.Resource.Id.textStart = global::Tutorip.Droid.Resource.Id.textStart;
+			global::FormsGestures.Droid.Resource.Id.text_input_password_toggle = global::Tutorip.Droid.Resource.Id.text_input_password_toggle;
+			global::FormsGestures.Droid.Resource.Id.time = global::Tutorip.Droid.Resource.Id.time;
+			global::FormsGestures.Droid.Resource.Id.title = global::Tutorip.Droid.Resource.Id.title;
+			global::FormsGestures.Droid.Resource.Id.titleDividerNoCustom = global::Tutorip.Droid.Resource.Id.titleDividerNoCustom;
+			global::FormsGestures.Droid.Resource.Id.title_template = global::Tutorip.Droid.Resource.Id.title_template;
+			global::FormsGestures.Droid.Resource.Id.top = global::Tutorip.Droid.Resource.Id.top;
+			global::FormsGestures.Droid.Resource.Id.topPanel = global::Tutorip.Droid.Resource.Id.topPanel;
+			global::FormsGestures.Droid.Resource.Id.touch_outside = global::Tutorip.Droid.Resource.Id.touch_outside;
+			global::FormsGestures.Droid.Resource.Id.transition_current_scene = global::Tutorip.Droid.Resource.Id.transition_current_scene;
+			global::FormsGestures.Droid.Resource.Id.transition_layout_save = global::Tutorip.Droid.Resource.Id.transition_layout_save;
+			global::FormsGestures.Droid.Resource.Id.transition_position = global::Tutorip.Droid.Resource.Id.transition_position;
+			global::FormsGestures.Droid.Resource.Id.transition_scene_layoutid_cache = global::Tutorip.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::FormsGestures.Droid.Resource.Id.transition_transform = global::Tutorip.Droid.Resource.Id.transition_transform;
+			global::FormsGestures.Droid.Resource.Id.uniform = global::Tutorip.Droid.Resource.Id.uniform;
+			global::FormsGestures.Droid.Resource.Id.unlabeled = global::Tutorip.Droid.Resource.Id.unlabeled;
+			global::FormsGestures.Droid.Resource.Id.up = global::Tutorip.Droid.Resource.Id.up;
+			global::FormsGestures.Droid.Resource.Id.useLogo = global::Tutorip.Droid.Resource.Id.useLogo;
+			global::FormsGestures.Droid.Resource.Id.view_offset_helper = global::Tutorip.Droid.Resource.Id.view_offset_helper;
+			global::FormsGestures.Droid.Resource.Id.visible = global::Tutorip.Droid.Resource.Id.visible;
+			global::FormsGestures.Droid.Resource.Id.withText = global::Tutorip.Droid.Resource.Id.withText;
+			global::FormsGestures.Droid.Resource.Id.wrap_content = global::Tutorip.Droid.Resource.Id.wrap_content;
+			global::FormsGestures.Droid.Resource.Integer.abc_config_activityDefaultDur = global::Tutorip.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::FormsGestures.Droid.Resource.Integer.abc_config_activityShortDur = global::Tutorip.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::FormsGestures.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::Tutorip.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::FormsGestures.Droid.Resource.Integer.bottom_sheet_slide_duration = global::Tutorip.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::FormsGestures.Droid.Resource.Integer.cancel_button_image_alpha = global::Tutorip.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::FormsGestures.Droid.Resource.Integer.config_tooltipAnimTime = global::Tutorip.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::FormsGestures.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Tutorip.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::FormsGestures.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Tutorip.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::FormsGestures.Droid.Resource.Integer.hide_password_duration = global::Tutorip.Droid.Resource.Integer.hide_password_duration;
+			global::FormsGestures.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::Tutorip.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::FormsGestures.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::Tutorip.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::FormsGestures.Droid.Resource.Integer.mtrl_chip_anim_duration = global::Tutorip.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::FormsGestures.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Tutorip.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::FormsGestures.Droid.Resource.Integer.show_password_duration = global::Tutorip.Droid.Resource.Integer.show_password_duration;
+			global::FormsGestures.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::Tutorip.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::FormsGestures.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::Tutorip.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::FormsGestures.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::Tutorip.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::FormsGestures.Droid.Resource.Interpolator.mtrl_linear = global::Tutorip.Droid.Resource.Interpolator.mtrl_linear;
+			global::FormsGestures.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::Tutorip.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::FormsGestures.Droid.Resource.Layout.abc_action_bar_title_item = global::Tutorip.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::FormsGestures.Droid.Resource.Layout.abc_action_bar_up_container = global::Tutorip.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::FormsGestures.Droid.Resource.Layout.abc_action_menu_item_layout = global::Tutorip.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::FormsGestures.Droid.Resource.Layout.abc_action_menu_layout = global::Tutorip.Droid.Resource.Layout.abc_action_menu_layout;
+			global::FormsGestures.Droid.Resource.Layout.abc_action_mode_bar = global::Tutorip.Droid.Resource.Layout.abc_action_mode_bar;
+			global::FormsGestures.Droid.Resource.Layout.abc_action_mode_close_item_material = global::Tutorip.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::FormsGestures.Droid.Resource.Layout.abc_activity_chooser_view = global::Tutorip.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::FormsGestures.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::Tutorip.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::FormsGestures.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::Tutorip.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::FormsGestures.Droid.Resource.Layout.abc_alert_dialog_material = global::Tutorip.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::FormsGestures.Droid.Resource.Layout.abc_alert_dialog_title_material = global::Tutorip.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::FormsGestures.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::Tutorip.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::FormsGestures.Droid.Resource.Layout.abc_dialog_title_material = global::Tutorip.Droid.Resource.Layout.abc_dialog_title_material;
+			global::FormsGestures.Droid.Resource.Layout.abc_expanded_menu_layout = global::Tutorip.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::FormsGestures.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::Tutorip.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::FormsGestures.Droid.Resource.Layout.abc_list_menu_item_icon = global::Tutorip.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::FormsGestures.Droid.Resource.Layout.abc_list_menu_item_layout = global::Tutorip.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::FormsGestures.Droid.Resource.Layout.abc_list_menu_item_radio = global::Tutorip.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::FormsGestures.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::Tutorip.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::FormsGestures.Droid.Resource.Layout.abc_popup_menu_item_layout = global::Tutorip.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::FormsGestures.Droid.Resource.Layout.abc_screen_content_include = global::Tutorip.Droid.Resource.Layout.abc_screen_content_include;
+			global::FormsGestures.Droid.Resource.Layout.abc_screen_simple = global::Tutorip.Droid.Resource.Layout.abc_screen_simple;
+			global::FormsGestures.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Tutorip.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::FormsGestures.Droid.Resource.Layout.abc_screen_toolbar = global::Tutorip.Droid.Resource.Layout.abc_screen_toolbar;
+			global::FormsGestures.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Tutorip.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::FormsGestures.Droid.Resource.Layout.abc_search_view = global::Tutorip.Droid.Resource.Layout.abc_search_view;
+			global::FormsGestures.Droid.Resource.Layout.abc_select_dialog_material = global::Tutorip.Droid.Resource.Layout.abc_select_dialog_material;
+			global::FormsGestures.Droid.Resource.Layout.abc_tooltip = global::Tutorip.Droid.Resource.Layout.abc_tooltip;
+			global::FormsGestures.Droid.Resource.Layout.BottomTabLayout = global::Tutorip.Droid.Resource.Layout.BottomTabLayout;
+			global::FormsGestures.Droid.Resource.Layout.browser_actions_context_menu_page = global::Tutorip.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::FormsGestures.Droid.Resource.Layout.browser_actions_context_menu_row = global::Tutorip.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::FormsGestures.Droid.Resource.Layout.design_bottom_navigation_item = global::Tutorip.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::FormsGestures.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Tutorip.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::FormsGestures.Droid.Resource.Layout.design_layout_snackbar = global::Tutorip.Droid.Resource.Layout.design_layout_snackbar;
+			global::FormsGestures.Droid.Resource.Layout.design_layout_snackbar_include = global::Tutorip.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::FormsGestures.Droid.Resource.Layout.design_layout_tab_icon = global::Tutorip.Droid.Resource.Layout.design_layout_tab_icon;
+			global::FormsGestures.Droid.Resource.Layout.design_layout_tab_text = global::Tutorip.Droid.Resource.Layout.design_layout_tab_text;
+			global::FormsGestures.Droid.Resource.Layout.design_menu_item_action_area = global::Tutorip.Droid.Resource.Layout.design_menu_item_action_area;
+			global::FormsGestures.Droid.Resource.Layout.design_navigation_item = global::Tutorip.Droid.Resource.Layout.design_navigation_item;
+			global::FormsGestures.Droid.Resource.Layout.design_navigation_item_header = global::Tutorip.Droid.Resource.Layout.design_navigation_item_header;
+			global::FormsGestures.Droid.Resource.Layout.design_navigation_item_separator = global::Tutorip.Droid.Resource.Layout.design_navigation_item_separator;
+			global::FormsGestures.Droid.Resource.Layout.design_navigation_item_subheader = global::Tutorip.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::FormsGestures.Droid.Resource.Layout.design_navigation_menu = global::Tutorip.Droid.Resource.Layout.design_navigation_menu;
+			global::FormsGestures.Droid.Resource.Layout.design_navigation_menu_item = global::Tutorip.Droid.Resource.Layout.design_navigation_menu_item;
+			global::FormsGestures.Droid.Resource.Layout.design_text_input_password_icon = global::Tutorip.Droid.Resource.Layout.design_text_input_password_icon;
+			global::FormsGestures.Droid.Resource.Layout.FlyoutContent = global::Tutorip.Droid.Resource.Layout.FlyoutContent;
+			global::FormsGestures.Droid.Resource.Layout.mtrl_layout_snackbar = global::Tutorip.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::FormsGestures.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::Tutorip.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::FormsGestures.Droid.Resource.Layout.notification_action = global::Tutorip.Droid.Resource.Layout.notification_action;
+			global::FormsGestures.Droid.Resource.Layout.notification_action_tombstone = global::Tutorip.Droid.Resource.Layout.notification_action_tombstone;
+			global::FormsGestures.Droid.Resource.Layout.notification_media_action = global::Tutorip.Droid.Resource.Layout.notification_media_action;
+			global::FormsGestures.Droid.Resource.Layout.notification_media_cancel_action = global::Tutorip.Droid.Resource.Layout.notification_media_cancel_action;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_big_media = global::Tutorip.Droid.Resource.Layout.notification_template_big_media;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_big_media_custom = global::Tutorip.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_big_media_narrow = global::Tutorip.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::Tutorip.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_custom_big = global::Tutorip.Droid.Resource.Layout.notification_template_custom_big;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_icon_group = global::Tutorip.Droid.Resource.Layout.notification_template_icon_group;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_lines_media = global::Tutorip.Droid.Resource.Layout.notification_template_lines_media;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_media = global::Tutorip.Droid.Resource.Layout.notification_template_media;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_media_custom = global::Tutorip.Droid.Resource.Layout.notification_template_media_custom;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_part_chronometer = global::Tutorip.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::FormsGestures.Droid.Resource.Layout.notification_template_part_time = global::Tutorip.Droid.Resource.Layout.notification_template_part_time;
+			global::FormsGestures.Droid.Resource.Layout.RootLayout = global::Tutorip.Droid.Resource.Layout.RootLayout;
+			global::FormsGestures.Droid.Resource.Layout.select_dialog_item_material = global::Tutorip.Droid.Resource.Layout.select_dialog_item_material;
+			global::FormsGestures.Droid.Resource.Layout.select_dialog_multichoice_material = global::Tutorip.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::FormsGestures.Droid.Resource.Layout.select_dialog_singlechoice_material = global::Tutorip.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::FormsGestures.Droid.Resource.Layout.ShellContent = global::Tutorip.Droid.Resource.Layout.ShellContent;
+			global::FormsGestures.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::Tutorip.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::FormsGestures.Droid.Resource.String.abc_action_bar_home_description = global::Tutorip.Droid.Resource.String.abc_action_bar_home_description;
+			global::FormsGestures.Droid.Resource.String.abc_action_bar_up_description = global::Tutorip.Droid.Resource.String.abc_action_bar_up_description;
+			global::FormsGestures.Droid.Resource.String.abc_action_menu_overflow_description = global::Tutorip.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::FormsGestures.Droid.Resource.String.abc_action_mode_done = global::Tutorip.Droid.Resource.String.abc_action_mode_done;
+			global::FormsGestures.Droid.Resource.String.abc_activitychooserview_choose_application = global::Tutorip.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::FormsGestures.Droid.Resource.String.abc_activity_chooser_view_see_all = global::Tutorip.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::FormsGestures.Droid.Resource.String.abc_capital_off = global::Tutorip.Droid.Resource.String.abc_capital_off;
+			global::FormsGestures.Droid.Resource.String.abc_capital_on = global::Tutorip.Droid.Resource.String.abc_capital_on;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_body_1_material = global::Tutorip.Droid.Resource.String.abc_font_family_body_1_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_body_2_material = global::Tutorip.Droid.Resource.String.abc_font_family_body_2_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_button_material = global::Tutorip.Droid.Resource.String.abc_font_family_button_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_caption_material = global::Tutorip.Droid.Resource.String.abc_font_family_caption_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_display_1_material = global::Tutorip.Droid.Resource.String.abc_font_family_display_1_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_display_2_material = global::Tutorip.Droid.Resource.String.abc_font_family_display_2_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_display_3_material = global::Tutorip.Droid.Resource.String.abc_font_family_display_3_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_display_4_material = global::Tutorip.Droid.Resource.String.abc_font_family_display_4_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_headline_material = global::Tutorip.Droid.Resource.String.abc_font_family_headline_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_menu_material = global::Tutorip.Droid.Resource.String.abc_font_family_menu_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_subhead_material = global::Tutorip.Droid.Resource.String.abc_font_family_subhead_material;
+			global::FormsGestures.Droid.Resource.String.abc_font_family_title_material = global::Tutorip.Droid.Resource.String.abc_font_family_title_material;
+			global::FormsGestures.Droid.Resource.String.abc_menu_alt_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::FormsGestures.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::FormsGestures.Droid.Resource.String.abc_menu_delete_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::FormsGestures.Droid.Resource.String.abc_menu_enter_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::FormsGestures.Droid.Resource.String.abc_menu_function_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::FormsGestures.Droid.Resource.String.abc_menu_meta_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::FormsGestures.Droid.Resource.String.abc_menu_shift_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::FormsGestures.Droid.Resource.String.abc_menu_space_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::FormsGestures.Droid.Resource.String.abc_menu_sym_shortcut_label = global::Tutorip.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::FormsGestures.Droid.Resource.String.abc_prepend_shortcut_label = global::Tutorip.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::FormsGestures.Droid.Resource.String.abc_searchview_description_clear = global::Tutorip.Droid.Resource.String.abc_searchview_description_clear;
+			global::FormsGestures.Droid.Resource.String.abc_searchview_description_query = global::Tutorip.Droid.Resource.String.abc_searchview_description_query;
+			global::FormsGestures.Droid.Resource.String.abc_searchview_description_search = global::Tutorip.Droid.Resource.String.abc_searchview_description_search;
+			global::FormsGestures.Droid.Resource.String.abc_searchview_description_submit = global::Tutorip.Droid.Resource.String.abc_searchview_description_submit;
+			global::FormsGestures.Droid.Resource.String.abc_searchview_description_voice = global::Tutorip.Droid.Resource.String.abc_searchview_description_voice;
+			global::FormsGestures.Droid.Resource.String.abc_search_hint = global::Tutorip.Droid.Resource.String.abc_search_hint;
+			global::FormsGestures.Droid.Resource.String.abc_shareactionprovider_share_with = global::Tutorip.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::FormsGestures.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Tutorip.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::FormsGestures.Droid.Resource.String.abc_toolbar_collapse_description = global::Tutorip.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::FormsGestures.Droid.Resource.String.appbar_scrolling_view_behavior = global::Tutorip.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::FormsGestures.Droid.Resource.String.bottom_sheet_behavior = global::Tutorip.Droid.Resource.String.bottom_sheet_behavior;
+			global::FormsGestures.Droid.Resource.String.character_counter_content_description = global::Tutorip.Droid.Resource.String.character_counter_content_description;
+			global::FormsGestures.Droid.Resource.String.character_counter_pattern = global::Tutorip.Droid.Resource.String.character_counter_pattern;
+			global::FormsGestures.Droid.Resource.String.fab_transformation_scrim_behavior = global::Tutorip.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::FormsGestures.Droid.Resource.String.fab_transformation_sheet_behavior = global::Tutorip.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::FormsGestures.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::Tutorip.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::FormsGestures.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::Tutorip.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::FormsGestures.Droid.Resource.String.password_toggle_content_description = global::Tutorip.Droid.Resource.String.password_toggle_content_description;
+			global::FormsGestures.Droid.Resource.String.path_password_eye = global::Tutorip.Droid.Resource.String.path_password_eye;
+			global::FormsGestures.Droid.Resource.String.path_password_eye_mask_strike_through = global::Tutorip.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::FormsGestures.Droid.Resource.String.path_password_eye_mask_visible = global::Tutorip.Droid.Resource.String.path_password_eye_mask_visible;
+			global::FormsGestures.Droid.Resource.String.path_password_strike_through = global::Tutorip.Droid.Resource.String.path_password_strike_through;
+			global::FormsGestures.Droid.Resource.String.search_menu_title = global::Tutorip.Droid.Resource.String.search_menu_title;
+			global::FormsGestures.Droid.Resource.String.status_bar_notification_info_overflow = global::Tutorip.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::FormsGestures.Droid.Resource.Style.AlertDialog_AppCompat = global::Tutorip.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::Tutorip.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Animation_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::Tutorip.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::FormsGestures.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::Tutorip.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::FormsGestures.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::Tutorip.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::FormsGestures.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::Tutorip.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Tutorip.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::FormsGestures.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Tutorip.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::FormsGestures.Droid.Resource.Style.Base_CardView = global::Tutorip.Droid.Resource.Style.Base_CardView;
+			global::FormsGestures.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Tutorip.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Tutorip.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::FormsGestures.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Tutorip.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::FormsGestures.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::FormsGestures.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::FormsGestures.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::FormsGestures.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::FormsGestures.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Tutorip.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Tutorip.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Tutorip.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::FormsGestures.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Tutorip.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Tutorip.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::FormsGestures.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Tutorip.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::FormsGestures.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Tutorip.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Tutorip.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::Tutorip.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Tutorip.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Tutorip.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::FormsGestures.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Tutorip.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::FormsGestures.Droid.Resource.Style.CardView = global::Tutorip.Droid.Resource.Style.CardView;
+			global::FormsGestures.Droid.Resource.Style.CardView_Dark = global::Tutorip.Droid.Resource.Style.CardView_Dark;
+			global::FormsGestures.Droid.Resource.Style.CardView_Light = global::Tutorip.Droid.Resource.Style.CardView_Light;
+			global::FormsGestures.Droid.Resource.Style.collectionViewStyle = global::Tutorip.Droid.Resource.Style.collectionViewStyle;
+			global::FormsGestures.Droid.Resource.Style.Platform_AppCompat = global::Tutorip.Droid.Resource.Style.Platform_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Platform_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Platform_MaterialComponents = global::Tutorip.Droid.Resource.Style.Platform_MaterialComponents;
+			global::FormsGestures.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Platform_MaterialComponents_Light = global::Tutorip.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::FormsGestures.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Tutorip.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Tutorip.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Tutorip.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::FormsGestures.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Platform_V21_AppCompat = global::Tutorip.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Platform_V25_AppCompat = global::Tutorip.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Tutorip.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Tutorip.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::FormsGestures.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Tutorip.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::FormsGestures.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Tutorip.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::FormsGestures.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Tutorip.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Tutorip.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Compat_Notification = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Tutorip.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Design_Counter = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Design_Error = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Design_HelperText = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Design_Hint = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Design_Tab = global::Tutorip.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::Tutorip.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Tutorip.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Tutorip.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::FormsGestures.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Tutorip.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_AppCompat = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::Tutorip.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::FormsGestures.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Tutorip.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat = global::Tutorip.Droid.Resource.Style.Theme_AppCompat;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_DayNight = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_Dialog = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_Light = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::FormsGestures.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::FormsGestures.Droid.Resource.Style.Theme_Design = global::Tutorip.Droid.Resource.Style.Theme_Design;
+			global::FormsGestures.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::Tutorip.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::FormsGestures.Droid.Resource.Style.Theme_Design_Light = global::Tutorip.Droid.Resource.Style.Theme_Design_Light;
+			global::FormsGestures.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Tutorip.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::FormsGestures.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::FormsGestures.Droid.Resource.Style.Theme_Design_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::FormsGestures.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Tutorip.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Button = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_EditText = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ListView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_SearchView = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Spinner = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::FormsGestures.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Tutorip.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::FormsGestures.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::Tutorip.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::FormsGestures.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::Tutorip.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::FormsGestures.Droid.Resource.Style.Widget_Design_AppBarLayout = global::Tutorip.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::FormsGestures.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::Tutorip.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::FormsGestures.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::Tutorip.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::FormsGestures.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::Tutorip.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::FormsGestures.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::Tutorip.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::FormsGestures.Droid.Resource.Style.Widget_Design_NavigationView = global::Tutorip.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::FormsGestures.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Tutorip.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::FormsGestures.Droid.Resource.Style.Widget_Design_Snackbar = global::Tutorip.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::FormsGestures.Droid.Resource.Style.Widget_Design_TabLayout = global::Tutorip.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::FormsGestures.Droid.Resource.Style.Widget_Design_TextInputLayout = global::Tutorip.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Button = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::FormsGestures.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::Tutorip.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::FormsGestures.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::Tutorip.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar = global::Tutorip.Droid.Resource.Styleable.ActionBar;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBarLayout = global::Tutorip.Droid.Resource.Styleable.ActionBarLayout;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Tutorip.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_background = global::Tutorip.Droid.Resource.Styleable.ActionBar_background;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::Tutorip.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::Tutorip.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Tutorip.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::Tutorip.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_displayOptions = global::Tutorip.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_divider = global::Tutorip.Droid.Resource.Styleable.ActionBar_divider;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_elevation = global::Tutorip.Droid.Resource.Styleable.ActionBar_elevation;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_height = global::Tutorip.Droid.Resource.Styleable.ActionBar_height;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::Tutorip.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Tutorip.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_homeLayout = global::Tutorip.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_icon = global::Tutorip.Droid.Resource.Styleable.ActionBar_icon;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Tutorip.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_itemPadding = global::Tutorip.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_logo = global::Tutorip.Droid.Resource.Styleable.ActionBar_logo;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_navigationMode = global::Tutorip.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_popupTheme = global::Tutorip.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::Tutorip.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::Tutorip.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_subtitle = global::Tutorip.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::Tutorip.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_title = global::Tutorip.Droid.Resource.Styleable.ActionBar_title;
+			global::FormsGestures.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::Tutorip.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::FormsGestures.Droid.Resource.Styleable.ActionMenuItemView = global::Tutorip.Droid.Resource.Styleable.ActionMenuItemView;
+			global::FormsGestures.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Tutorip.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::FormsGestures.Droid.Resource.Styleable.ActionMenuView = global::Tutorip.Droid.Resource.Styleable.ActionMenuView;
+			global::FormsGestures.Droid.Resource.Styleable.ActionMode = global::Tutorip.Droid.Resource.Styleable.ActionMode;
+			global::FormsGestures.Droid.Resource.Styleable.ActionMode_background = global::Tutorip.Droid.Resource.Styleable.ActionMode_background;
+			global::FormsGestures.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::Tutorip.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::FormsGestures.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::Tutorip.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::FormsGestures.Droid.Resource.Styleable.ActionMode_height = global::Tutorip.Droid.Resource.Styleable.ActionMode_height;
+			global::FormsGestures.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::Tutorip.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::FormsGestures.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::Tutorip.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::FormsGestures.Droid.Resource.Styleable.ActivityChooserView = global::Tutorip.Droid.Resource.Styleable.ActivityChooserView;
+			global::FormsGestures.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Tutorip.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Tutorip.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::FormsGestures.Droid.Resource.Styleable.AlertDialog = global::Tutorip.Droid.Resource.Styleable.AlertDialog;
+			global::FormsGestures.Droid.Resource.Styleable.AlertDialog_android_layout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::FormsGestures.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::Tutorip.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::FormsGestures.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::FormsGestures.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::FormsGestures.Droid.Resource.Styleable.AlertDialog_listLayout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::FormsGestures.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::FormsGestures.Droid.Resource.Styleable.AlertDialog_showTitle = global::Tutorip.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::FormsGestures.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Tutorip.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::FormsGestures.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Tutorip.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayout = global::Tutorip.Droid.Resource.Styleable.AppBarLayout;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayoutStates = global::Tutorip.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Tutorip.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Tutorip.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Tutorip.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Tutorip.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayout_android_background = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayout_elevation = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayout_expanded = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayout_Layout = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::FormsGestures.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::Tutorip.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatImageView = global::Tutorip.Droid.Resource.Styleable.AppCompatImageView;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatImageView_android_src = global::Tutorip.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::Tutorip.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatImageView_tint = global::Tutorip.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::Tutorip.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatSeekBar = global::Tutorip.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Tutorip.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::Tutorip.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Tutorip.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Tutorip.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextHelper = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Tutorip.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::Tutorip.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_colorError = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::FormsGestures.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Tutorip.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::FormsGestures.Droid.Resource.Styleable.BottomAppBar = global::Tutorip.Droid.Resource.Styleable.BottomAppBar;
+			global::FormsGestures.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::FormsGestures.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::FormsGestures.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::FormsGestures.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::FormsGestures.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::FormsGestures.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::Tutorip.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView_elevation = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::FormsGestures.Droid.Resource.Styleable.BottomNavigationView_menu = global::Tutorip.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::FormsGestures.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::Tutorip.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::FormsGestures.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Tutorip.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::FormsGestures.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Tutorip.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::FormsGestures.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Tutorip.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::FormsGestures.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Tutorip.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::FormsGestures.Droid.Resource.Styleable.ButtonBarLayout = global::Tutorip.Droid.Resource.Styleable.ButtonBarLayout;
+			global::FormsGestures.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::Tutorip.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::FormsGestures.Droid.Resource.Styleable.CardView = global::Tutorip.Droid.Resource.Styleable.CardView;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_android_minHeight = global::Tutorip.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_android_minWidth = global::Tutorip.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::Tutorip.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_cardCornerRadius = global::Tutorip.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_cardElevation = global::Tutorip.Droid.Resource.Styleable.CardView_cardElevation;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_cardMaxElevation = global::Tutorip.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Tutorip.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::Tutorip.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_contentPadding = global::Tutorip.Droid.Resource.Styleable.CardView_contentPadding;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::Tutorip.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Tutorip.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Tutorip.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::FormsGestures.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Tutorip.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::FormsGestures.Droid.Resource.Styleable.Chip = global::Tutorip.Droid.Resource.Styleable.Chip;
+			global::FormsGestures.Droid.Resource.Styleable.ChipGroup = global::Tutorip.Droid.Resource.Styleable.ChipGroup;
+			global::FormsGestures.Droid.Resource.Styleable.ChipGroup_checkedChip = global::Tutorip.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::FormsGestures.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::Tutorip.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::FormsGestures.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Tutorip.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::FormsGestures.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Tutorip.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::FormsGestures.Droid.Resource.Styleable.ChipGroup_singleLine = global::Tutorip.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::FormsGestures.Droid.Resource.Styleable.ChipGroup_singleSelection = global::Tutorip.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_android_checkable = global::Tutorip.Droid.Resource.Styleable.Chip_android_checkable;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_android_ellipsize = global::Tutorip.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_android_maxWidth = global::Tutorip.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_android_text = global::Tutorip.Droid.Resource.Styleable.Chip_android_text;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_android_textAppearance = global::Tutorip.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_checkedIcon = global::Tutorip.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::Tutorip.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_checkedIconVisible = global::Tutorip.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::Tutorip.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipCornerRadius = global::Tutorip.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipEndPadding = global::Tutorip.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipIcon = global::Tutorip.Droid.Resource.Styleable.Chip_chipIcon;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipIconEnabled = global::Tutorip.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipIconSize = global::Tutorip.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipIconTint = global::Tutorip.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipIconVisible = global::Tutorip.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipMinHeight = global::Tutorip.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipStartPadding = global::Tutorip.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipStrokeColor = global::Tutorip.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::Tutorip.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_closeIcon = global::Tutorip.Droid.Resource.Styleable.Chip_closeIcon;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_closeIconEnabled = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_closeIconSize = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_closeIconTint = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_closeIconVisible = global::Tutorip.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_hideMotionSpec = global::Tutorip.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_iconEndPadding = global::Tutorip.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_iconStartPadding = global::Tutorip.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_rippleColor = global::Tutorip.Droid.Resource.Styleable.Chip_rippleColor;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_showMotionSpec = global::Tutorip.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_textEndPadding = global::Tutorip.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::FormsGestures.Droid.Resource.Styleable.Chip_textStartPadding = global::Tutorip.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Tutorip.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::FormsGestures.Droid.Resource.Styleable.ColorStateListItem = global::Tutorip.Droid.Resource.Styleable.ColorStateListItem;
+			global::FormsGestures.Droid.Resource.Styleable.ColorStateListItem_alpha = global::Tutorip.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::FormsGestures.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::Tutorip.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::FormsGestures.Droid.Resource.Styleable.ColorStateListItem_android_color = global::Tutorip.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::FormsGestures.Droid.Resource.Styleable.CompoundButton = global::Tutorip.Droid.Resource.Styleable.CompoundButton;
+			global::FormsGestures.Droid.Resource.Styleable.CompoundButton_android_button = global::Tutorip.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::FormsGestures.Droid.Resource.Styleable.CompoundButton_buttonTint = global::Tutorip.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::FormsGestures.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::Tutorip.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::FormsGestures.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Tutorip.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::FormsGestures.Droid.Resource.Styleable.DesignTheme = global::Tutorip.Droid.Resource.Styleable.DesignTheme;
+			global::FormsGestures.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Tutorip.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::FormsGestures.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Tutorip.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::FormsGestures.Droid.Resource.Styleable.DrawerArrowToggle = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::FormsGestures.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::FormsGestures.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::FormsGestures.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::FormsGestures.Droid.Resource.Styleable.DrawerArrowToggle_color = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::FormsGestures.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::FormsGestures.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::FormsGestures.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::FormsGestures.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::Tutorip.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_elevation = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::FormsGestures.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Tutorip.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::FormsGestures.Droid.Resource.Styleable.FlowLayout = global::Tutorip.Droid.Resource.Styleable.FlowLayout;
+			global::FormsGestures.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::Tutorip.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::FormsGestures.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::Tutorip.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamily = global::Tutorip.Droid.Resource.Styleable.FontFamily;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont_android_font = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont_font = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::Tutorip.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::FormsGestures.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::Tutorip.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::FormsGestures.Droid.Resource.Styleable.ForegroundLinearLayout = global::Tutorip.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::FormsGestures.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Tutorip.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::FormsGestures.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Tutorip.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::FormsGestures.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Tutorip.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor = global::Tutorip.Droid.Resource.Styleable.GradientColor;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColorItem = global::Tutorip.Droid.Resource.Styleable.GradientColorItem;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColorItem_android_color = global::Tutorip.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColorItem_android_offset = global::Tutorip.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_centerColor = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_centerX = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_centerY = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_endColor = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_endX = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_endY = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_startColor = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_startX = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_startY = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_tileMode = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::FormsGestures.Droid.Resource.Styleable.GradientColor_android_type = global::Tutorip.Droid.Resource.Styleable.GradientColor_android_type;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::FormsGestures.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::Tutorip.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::FormsGestures.Droid.Resource.Styleable.ListPopupWindow = global::Tutorip.Droid.Resource.Styleable.ListPopupWindow;
+			global::FormsGestures.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Tutorip.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::FormsGestures.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Tutorip.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton = global::Tutorip.Droid.Resource.Styleable.MaterialButton;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::Tutorip.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::Tutorip.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::Tutorip.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::Tutorip.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::Tutorip.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::Tutorip.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::Tutorip.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_icon = global::Tutorip.Droid.Resource.Styleable.MaterialButton_icon;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_iconGravity = global::Tutorip.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_iconPadding = global::Tutorip.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_iconSize = global::Tutorip.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_iconTint = global::Tutorip.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::Tutorip.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_rippleColor = global::Tutorip.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_strokeColor = global::Tutorip.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::Tutorip.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialCardView = global::Tutorip.Droid.Resource.Styleable.MaterialCardView;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::Tutorip.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::Tutorip.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::FormsGestures.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::Tutorip.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MenuGroup = global::Tutorip.Droid.Resource.Styleable.MenuGroup;
+			global::FormsGestures.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::FormsGestures.Droid.Resource.Styleable.MenuGroup_android_enabled = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::FormsGestures.Droid.Resource.Styleable.MenuGroup_android_id = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::FormsGestures.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::FormsGestures.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::FormsGestures.Droid.Resource.Styleable.MenuGroup_android_visible = global::Tutorip.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem = global::Tutorip.Droid.Resource.Styleable.MenuItem;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_actionLayout = global::Tutorip.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::Tutorip.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_actionViewClass = global::Tutorip.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::Tutorip.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_checkable = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_checked = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_enabled = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_icon = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_id = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_id;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_onClick = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_title = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_title;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_android_visible = global::Tutorip.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_contentDescription = global::Tutorip.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_iconTint = global::Tutorip.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_iconTintMode = global::Tutorip.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_numericModifiers = global::Tutorip.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_showAsAction = global::Tutorip.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::FormsGestures.Droid.Resource.Styleable.MenuItem_tooltipText = global::Tutorip.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::FormsGestures.Droid.Resource.Styleable.MenuView = global::Tutorip.Droid.Resource.Styleable.MenuView;
+			global::FormsGestures.Droid.Resource.Styleable.MenuView_android_headerBackground = global::Tutorip.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::FormsGestures.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::Tutorip.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::FormsGestures.Droid.Resource.Styleable.MenuView_android_itemBackground = global::Tutorip.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::FormsGestures.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Tutorip.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::FormsGestures.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::Tutorip.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::Tutorip.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::FormsGestures.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Tutorip.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::FormsGestures.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::Tutorip.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::FormsGestures.Droid.Resource.Styleable.MenuView_subMenuArrow = global::Tutorip.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView = global::Tutorip.Droid.Resource.Styleable.NavigationView;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_android_background = global::Tutorip.Droid.Resource.Styleable.NavigationView_android_background;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Tutorip.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::Tutorip.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_elevation = global::Tutorip.Droid.Resource.Styleable.NavigationView_elevation;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_headerLayout = global::Tutorip.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_itemBackground = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_itemIconTint = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Tutorip.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::FormsGestures.Droid.Resource.Styleable.NavigationView_menu = global::Tutorip.Droid.Resource.Styleable.NavigationView_menu;
+			global::FormsGestures.Droid.Resource.Styleable.PopupWindow = global::Tutorip.Droid.Resource.Styleable.PopupWindow;
+			global::FormsGestures.Droid.Resource.Styleable.PopupWindowBackgroundState = global::Tutorip.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::FormsGestures.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Tutorip.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::FormsGestures.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Tutorip.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::FormsGestures.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::Tutorip.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::FormsGestures.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::Tutorip.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::FormsGestures.Droid.Resource.Styleable.RecycleListView = global::Tutorip.Droid.Resource.Styleable.RecycleListView;
+			global::FormsGestures.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Tutorip.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::FormsGestures.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Tutorip.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView = global::Tutorip.Droid.Resource.Styleable.RecyclerView;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Tutorip.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_android_orientation = global::Tutorip.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Tutorip.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Tutorip.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Tutorip.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Tutorip.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Tutorip.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_layoutManager = global::Tutorip.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::Tutorip.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_spanCount = global::Tutorip.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::FormsGestures.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::Tutorip.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::FormsGestures.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::Tutorip.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::FormsGestures.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Tutorip.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::FormsGestures.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::Tutorip.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::FormsGestures.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Tutorip.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView = global::Tutorip.Droid.Resource.Styleable.SearchView;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_android_focusable = global::Tutorip.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_android_imeOptions = global::Tutorip.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_android_inputType = global::Tutorip.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_android_maxWidth = global::Tutorip.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_closeIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_commitIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::Tutorip.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_goIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_goIcon;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::Tutorip.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_layout = global::Tutorip.Droid.Resource.Styleable.SearchView_layout;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_queryBackground = global::Tutorip.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_queryHint = global::Tutorip.Droid.Resource.Styleable.SearchView_queryHint;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_searchHintIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_searchIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_submitBackground = global::Tutorip.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Tutorip.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::FormsGestures.Droid.Resource.Styleable.SearchView_voiceIcon = global::Tutorip.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::FormsGestures.Droid.Resource.Styleable.Snackbar = global::Tutorip.Droid.Resource.Styleable.Snackbar;
+			global::FormsGestures.Droid.Resource.Styleable.SnackbarLayout = global::Tutorip.Droid.Resource.Styleable.SnackbarLayout;
+			global::FormsGestures.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Tutorip.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::FormsGestures.Droid.Resource.Styleable.SnackbarLayout_elevation = global::Tutorip.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::FormsGestures.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Tutorip.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::FormsGestures.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Tutorip.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::FormsGestures.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::Tutorip.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::FormsGestures.Droid.Resource.Styleable.Spinner = global::Tutorip.Droid.Resource.Styleable.Spinner;
+			global::FormsGestures.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::Tutorip.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::FormsGestures.Droid.Resource.Styleable.Spinner_android_entries = global::Tutorip.Droid.Resource.Styleable.Spinner_android_entries;
+			global::FormsGestures.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Tutorip.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::FormsGestures.Droid.Resource.Styleable.Spinner_android_prompt = global::Tutorip.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::FormsGestures.Droid.Resource.Styleable.Spinner_popupTheme = global::Tutorip.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::FormsGestures.Droid.Resource.Styleable.StateListDrawable = global::Tutorip.Droid.Resource.Styleable.StateListDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.StateListDrawableItem = global::Tutorip.Droid.Resource.Styleable.StateListDrawableItem;
+			global::FormsGestures.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::Tutorip.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::FormsGestures.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::FormsGestures.Droid.Resource.Styleable.StateListDrawable_android_dither = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::FormsGestures.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::FormsGestures.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::FormsGestures.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::FormsGestures.Droid.Resource.Styleable.StateListDrawable_android_visible = global::Tutorip.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat = global::Tutorip.Droid.Resource.Styleable.SwitchCompat;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_showText = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_track = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_track;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_trackTint = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::FormsGestures.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::Tutorip.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.TabItem = global::Tutorip.Droid.Resource.Styleable.TabItem;
+			global::FormsGestures.Droid.Resource.Styleable.TabItem_android_icon = global::Tutorip.Droid.Resource.Styleable.TabItem_android_icon;
+			global::FormsGestures.Droid.Resource.Styleable.TabItem_android_layout = global::Tutorip.Droid.Resource.Styleable.TabItem_android_layout;
+			global::FormsGestures.Droid.Resource.Styleable.TabItem_android_text = global::Tutorip.Droid.Resource.Styleable.TabItem_android_text;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout = global::Tutorip.Droid.Resource.Styleable.TabLayout;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabBackground = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabContentStart = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabGravity = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabIconTint = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabIndicator = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabMode = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabPadding = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabTextColor = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::FormsGestures.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Tutorip.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance = global::Tutorip.Droid.Resource.Styleable.TextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_textColor = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_textSize = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_android_typeface = global::Tutorip.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_fontFamily = global::Tutorip.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::FormsGestures.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::Tutorip.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout = global::Tutorip.Droid.Resource.Styleable.TextInputLayout;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_helperText = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::FormsGestures.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Tutorip.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.ThemeEnforcement = global::Tutorip.Droid.Resource.Styleable.ThemeEnforcement;
+			global::FormsGestures.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Tutorip.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Tutorip.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::FormsGestures.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Tutorip.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar = global::Tutorip.Droid.Resource.Styleable.Toolbar;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_android_gravity = global::Tutorip.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_android_minHeight = global::Tutorip.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_buttonGravity = global::Tutorip.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::Tutorip.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_collapseIcon = global::Tutorip.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Tutorip.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_logo = global::Tutorip.Droid.Resource.Styleable.Toolbar_logo;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_logoDescription = global::Tutorip.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::Tutorip.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::Tutorip.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_navigationIcon = global::Tutorip.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_popupTheme = global::Tutorip.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_subtitle = global::Tutorip.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Tutorip.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::Tutorip.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_title = global::Tutorip.Droid.Resource.Styleable.Toolbar_title;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_titleMargin = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_titleMargins = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::FormsGestures.Droid.Resource.Styleable.Toolbar_titleTextColor = global::Tutorip.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::FormsGestures.Droid.Resource.Styleable.View = global::Tutorip.Droid.Resource.Styleable.View;
+			global::FormsGestures.Droid.Resource.Styleable.ViewBackgroundHelper = global::Tutorip.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::FormsGestures.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::Tutorip.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::FormsGestures.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Tutorip.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::FormsGestures.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Tutorip.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::FormsGestures.Droid.Resource.Styleable.ViewStubCompat = global::Tutorip.Droid.Resource.Styleable.ViewStubCompat;
+			global::FormsGestures.Droid.Resource.Styleable.ViewStubCompat_android_id = global::Tutorip.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::FormsGestures.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Tutorip.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::FormsGestures.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Tutorip.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::FormsGestures.Droid.Resource.Styleable.View_android_focusable = global::Tutorip.Droid.Resource.Styleable.View_android_focusable;
+			global::FormsGestures.Droid.Resource.Styleable.View_android_theme = global::Tutorip.Droid.Resource.Styleable.View_android_theme;
+			global::FormsGestures.Droid.Resource.Styleable.View_paddingEnd = global::Tutorip.Droid.Resource.Styleable.View_paddingEnd;
+			global::FormsGestures.Droid.Resource.Styleable.View_paddingStart = global::Tutorip.Droid.Resource.Styleable.View_paddingStart;
+			global::FormsGestures.Droid.Resource.Styleable.View_theme = global::Tutorip.Droid.Resource.Styleable.View_theme;
 			global::Rg.Plugins.Popup.Resource.Animation.abc_fade_in = global::Tutorip.Droid.Resource.Animation.abc_fade_in;
 			global::Rg.Plugins.Popup.Resource.Animation.abc_fade_out = global::Tutorip.Droid.Resource.Animation.abc_fade_out;
 			global::Rg.Plugins.Popup.Resource.Animation.abc_grow_fade_in_from_bottom = global::Tutorip.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -11498,907 +16649,949 @@ namespace Tutorip.Droid
 			public const int expandedTitleTextAppearance = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int fabAlignmentMode = 2130903246;
+			public const int externalRouteEnabledDrawable = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int fabCradleMargin = 2130903247;
+			public const int fabAlignmentMode = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int fabCradleRoundedCornerRadius = 2130903248;
+			public const int fabCradleMargin = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int fabCradleVerticalOffset = 2130903249;
+			public const int fabCradleRoundedCornerRadius = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int fabCustomSize = 2130903250;
+			public const int fabCradleVerticalOffset = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int fabSize = 2130903251;
+			public const int fabCustomSize = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int fastScrollEnabled = 2130903252;
+			public const int fabSize = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int fastScrollHorizontalThumbDrawable = 2130903253;
+			public const int fastScrollEnabled = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int fastScrollHorizontalTrackDrawable = 2130903254;
+			public const int fastScrollHorizontalThumbDrawable = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int fastScrollVerticalThumbDrawable = 2130903255;
+			public const int fastScrollHorizontalTrackDrawable = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int fastScrollVerticalTrackDrawable = 2130903256;
+			public const int fastScrollVerticalThumbDrawable = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int firstBaselineToTopHeight = 2130903257;
+			public const int fastScrollVerticalTrackDrawable = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int floatingActionButtonStyle = 2130903258;
+			public const int firstBaselineToTopHeight = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int font = 2130903259;
+			public const int floatingActionButtonStyle = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int fontFamily = 2130903260;
+			public const int font = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int fontProviderAuthority = 2130903261;
+			public const int fontFamily = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int fontProviderCerts = 2130903262;
+			public const int fontProviderAuthority = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int fontProviderFetchStrategy = 2130903263;
+			public const int fontProviderCerts = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int fontProviderFetchTimeout = 2130903264;
+			public const int fontProviderFetchStrategy = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int fontProviderPackage = 2130903265;
+			public const int fontProviderFetchTimeout = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int fontProviderQuery = 2130903266;
+			public const int fontProviderPackage = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int fontStyle = 2130903267;
+			public const int fontProviderQuery = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int fontVariationSettings = 2130903268;
+			public const int fontStyle = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int fontWeight = 2130903269;
+			public const int fontVariationSettings = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int foregroundInsidePadding = 2130903270;
+			public const int fontWeight = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int gapBetweenBars = 2130903271;
+			public const int foregroundInsidePadding = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int goIcon = 2130903272;
+			public const int gapBetweenBars = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int headerLayout = 2130903273;
+			public const int goIcon = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int height = 2130903274;
+			public const int headerLayout = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int helperText = 2130903275;
+			public const int height = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int helperTextEnabled = 2130903276;
+			public const int helperText = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int helperTextTextAppearance = 2130903277;
+			public const int helperTextEnabled = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int hideMotionSpec = 2130903278;
+			public const int helperTextTextAppearance = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int hideOnContentScroll = 2130903279;
+			public const int hideMotionSpec = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int hideOnScroll = 2130903280;
+			public const int hideOnContentScroll = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int hintAnimationEnabled = 2130903281;
+			public const int hideOnScroll = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int hintEnabled = 2130903282;
+			public const int hintAnimationEnabled = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int hintTextAppearance = 2130903283;
+			public const int hintEnabled = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int homeAsUpIndicator = 2130903284;
+			public const int hintTextAppearance = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int homeLayout = 2130903285;
+			public const int homeAsUpIndicator = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int hoveredFocusedTranslationZ = 2130903286;
+			public const int homeLayout = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int icon = 2130903287;
+			public const int hoveredFocusedTranslationZ = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int iconEndPadding = 2130903288;
+			public const int icon = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int iconGravity = 2130903289;
-			
-			// aapt resource value: 0x7F0300FF
-			public const int iconifiedByDefault = 2130903295;
+			public const int iconEndPadding = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int iconPadding = 2130903290;
-			
-			// aapt resource value: 0x7F0300FB
-			public const int iconSize = 2130903291;
-			
-			// aapt resource value: 0x7F0300FC
-			public const int iconStartPadding = 2130903292;
-			
-			// aapt resource value: 0x7F0300FD
-			public const int iconTint = 2130903293;
-			
-			// aapt resource value: 0x7F0300FE
-			public const int iconTintMode = 2130903294;
+			public const int iconGravity = 2130903290;
 			
 			// aapt resource value: 0x7F030100
-			public const int imageAspectRatio = 2130903296;
+			public const int iconifiedByDefault = 2130903296;
+			
+			// aapt resource value: 0x7F0300FB
+			public const int iconPadding = 2130903291;
+			
+			// aapt resource value: 0x7F0300FC
+			public const int iconSize = 2130903292;
+			
+			// aapt resource value: 0x7F0300FD
+			public const int iconStartPadding = 2130903293;
+			
+			// aapt resource value: 0x7F0300FE
+			public const int iconTint = 2130903294;
+			
+			// aapt resource value: 0x7F0300FF
+			public const int iconTintMode = 2130903295;
 			
 			// aapt resource value: 0x7F030101
-			public const int imageAspectRatioAdjust = 2130903297;
+			public const int imageAspectRatio = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int imageButtonStyle = 2130903298;
+			public const int imageAspectRatioAdjust = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int indeterminateProgressStyle = 2130903299;
+			public const int imageButtonStyle = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int initialActivityCount = 2130903300;
+			public const int indeterminateProgressStyle = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int insetForeground = 2130903301;
+			public const int initialActivityCount = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int isLightTheme = 2130903302;
+			public const int insetForeground = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int itemBackground = 2130903303;
+			public const int isLightTheme = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int itemHorizontalPadding = 2130903304;
+			public const int itemBackground = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int itemHorizontalTranslationEnabled = 2130903305;
+			public const int itemHorizontalPadding = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int itemIconPadding = 2130903306;
+			public const int itemHorizontalTranslationEnabled = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int itemIconSize = 2130903307;
+			public const int itemIconPadding = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int itemIconTint = 2130903308;
+			public const int itemIconSize = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int itemPadding = 2130903309;
+			public const int itemIconTint = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int itemSpacing = 2130903310;
+			public const int itemPadding = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int itemTextAppearance = 2130903311;
+			public const int itemSpacing = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int itemTextAppearanceActive = 2130903312;
+			public const int itemTextAppearance = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int itemTextAppearanceInactive = 2130903313;
+			public const int itemTextAppearanceActive = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int itemTextColor = 2130903314;
+			public const int itemTextAppearanceInactive = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int keylines = 2130903315;
+			public const int itemTextColor = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int labelVisibilityMode = 2130903316;
+			public const int keylines = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int lastBaselineToBottomHeight = 2130903317;
+			public const int labelVisibilityMode = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int latLngBoundsNorthEastLatitude = 2130903318;
+			public const int lastBaselineToBottomHeight = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int latLngBoundsNorthEastLongitude = 2130903319;
+			public const int latLngBoundsNorthEastLatitude = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int latLngBoundsSouthWestLatitude = 2130903320;
+			public const int latLngBoundsNorthEastLongitude = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int latLngBoundsSouthWestLongitude = 2130903321;
+			public const int latLngBoundsSouthWestLatitude = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int layout = 2130903322;
+			public const int latLngBoundsSouthWestLongitude = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int layoutManager = 2130903323;
+			public const int layout = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int layout_anchor = 2130903324;
+			public const int layoutManager = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int layout_anchorGravity = 2130903325;
+			public const int layout_anchor = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int layout_behavior = 2130903326;
+			public const int layout_anchorGravity = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int layout_collapseMode = 2130903327;
+			public const int layout_behavior = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int layout_collapseParallaxMultiplier = 2130903328;
+			public const int layout_collapseMode = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int layout_dodgeInsetEdges = 2130903329;
+			public const int layout_collapseParallaxMultiplier = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int layout_insetEdge = 2130903330;
+			public const int layout_dodgeInsetEdges = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int layout_keyline = 2130903331;
+			public const int layout_insetEdge = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int layout_scrollFlags = 2130903332;
+			public const int layout_keyline = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int layout_scrollInterpolator = 2130903333;
+			public const int layout_scrollFlags = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int liftOnScroll = 2130903334;
+			public const int layout_scrollInterpolator = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int lineHeight = 2130903335;
+			public const int liftOnScroll = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int lineSpacing = 2130903336;
+			public const int lineHeight = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int listChoiceBackgroundIndicator = 2130903337;
+			public const int lineSpacing = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int listDividerAlertDialog = 2130903338;
+			public const int listChoiceBackgroundIndicator = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int listItemLayout = 2130903339;
+			public const int listDividerAlertDialog = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int listLayout = 2130903340;
+			public const int listItemLayout = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int listMenuViewStyle = 2130903341;
+			public const int listLayout = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int listPopupWindowStyle = 2130903342;
+			public const int listMenuViewStyle = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int listPreferredItemHeight = 2130903343;
+			public const int listPopupWindowStyle = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int listPreferredItemHeightLarge = 2130903344;
+			public const int listPreferredItemHeight = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int listPreferredItemHeightSmall = 2130903345;
+			public const int listPreferredItemHeightLarge = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int listPreferredItemPaddingLeft = 2130903346;
+			public const int listPreferredItemHeightSmall = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int listPreferredItemPaddingRight = 2130903347;
+			public const int listPreferredItemPaddingLeft = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int liteMode = 2130903348;
+			public const int listPreferredItemPaddingRight = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int logo = 2130903349;
+			public const int liteMode = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int logoDescription = 2130903350;
+			public const int logo = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int mapType = 2130903351;
+			public const int logoDescription = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int materialButtonStyle = 2130903352;
+			public const int mapType = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int materialCardViewStyle = 2130903353;
+			public const int materialButtonStyle = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int maxActionInlineWidth = 2130903354;
+			public const int materialCardViewStyle = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int maxButtonHeight = 2130903355;
+			public const int maxActionInlineWidth = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int maxImageSize = 2130903356;
+			public const int maxButtonHeight = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int measureWithLargestChild = 2130903357;
+			public const int maxImageSize = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int menu = 2130903358;
+			public const int measureWithLargestChild = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int multiChoiceItemLayout = 2130903359;
+			public const int mediaRouteAudioTrackDrawable = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int navigationContentDescription = 2130903360;
+			public const int mediaRouteButtonStyle = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int navigationIcon = 2130903361;
+			public const int mediaRouteButtonTint = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int navigationMode = 2130903362;
+			public const int mediaRouteCloseDrawable = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int navigationViewStyle = 2130903363;
+			public const int mediaRouteControlPanelThemeOverlay = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int numericModifiers = 2130903364;
+			public const int mediaRouteDefaultIconDrawable = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int overlapAnchor = 2130903365;
+			public const int mediaRoutePauseDrawable = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int paddingBottomNoButtons = 2130903366;
+			public const int mediaRoutePlayDrawable = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int paddingEnd = 2130903367;
+			public const int mediaRouteSpeakerGroupIconDrawable = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int paddingStart = 2130903368;
+			public const int mediaRouteSpeakerIconDrawable = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int paddingTopNoTitle = 2130903369;
+			public const int mediaRouteStopDrawable = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int panelBackground = 2130903370;
+			public const int mediaRouteTheme = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int panelMenuListTheme = 2130903371;
+			public const int mediaRouteTvIconDrawable = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int panelMenuListWidth = 2130903372;
+			public const int menu = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int passwordToggleContentDescription = 2130903373;
+			public const int multiChoiceItemLayout = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int passwordToggleDrawable = 2130903374;
+			public const int navigationContentDescription = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int passwordToggleEnabled = 2130903375;
+			public const int navigationIcon = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int passwordToggleTint = 2130903376;
+			public const int navigationMode = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int passwordToggleTintMode = 2130903377;
+			public const int navigationViewStyle = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int popupMenuStyle = 2130903378;
+			public const int numericModifiers = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int popupTheme = 2130903379;
+			public const int overlapAnchor = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int popupWindowStyle = 2130903380;
+			public const int paddingBottomNoButtons = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int preserveIconSpacing = 2130903381;
+			public const int paddingEnd = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int pressedTranslationZ = 2130903382;
+			public const int paddingStart = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int progressBarPadding = 2130903383;
+			public const int paddingTopNoTitle = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int progressBarStyle = 2130903384;
+			public const int panelBackground = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int queryBackground = 2130903385;
+			public const int panelMenuListTheme = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int queryHint = 2130903386;
+			public const int panelMenuListWidth = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int radioButtonStyle = 2130903387;
+			public const int passwordToggleContentDescription = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int ratingBarStyle = 2130903388;
+			public const int passwordToggleDrawable = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int ratingBarStyleIndicator = 2130903389;
+			public const int passwordToggleEnabled = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int ratingBarStyleSmall = 2130903390;
+			public const int passwordToggleTint = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int reverseLayout = 2130903391;
+			public const int passwordToggleTintMode = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int rippleColor = 2130903392;
+			public const int popupMenuStyle = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int scopeUris = 2130903393;
+			public const int popupTheme = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int scrimAnimationDuration = 2130903394;
+			public const int popupWindowStyle = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int scrimBackground = 2130903395;
+			public const int preserveIconSpacing = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int scrimVisibleHeightTrigger = 2130903396;
+			public const int pressedTranslationZ = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int searchHintIcon = 2130903397;
+			public const int progressBarPadding = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int searchIcon = 2130903398;
+			public const int progressBarStyle = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int searchViewStyle = 2130903399;
+			public const int queryBackground = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int seekBarStyle = 2130903400;
+			public const int queryHint = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int selectableItemBackground = 2130903401;
+			public const int radioButtonStyle = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int selectableItemBackgroundBorderless = 2130903402;
+			public const int ratingBarStyle = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int showAsAction = 2130903403;
+			public const int ratingBarStyleIndicator = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int showDividers = 2130903404;
+			public const int ratingBarStyleSmall = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int showMotionSpec = 2130903405;
+			public const int reverseLayout = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int showText = 2130903406;
+			public const int rippleColor = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int showTitle = 2130903407;
+			public const int scopeUris = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int singleChoiceItemLayout = 2130903408;
+			public const int scrimAnimationDuration = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int singleLine = 2130903409;
+			public const int scrimBackground = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int singleSelection = 2130903410;
+			public const int scrimVisibleHeightTrigger = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int snackbarButtonStyle = 2130903411;
+			public const int searchHintIcon = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int snackbarStyle = 2130903412;
+			public const int searchIcon = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int spanCount = 2130903413;
+			public const int searchViewStyle = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int spinBars = 2130903414;
+			public const int seekBarStyle = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int spinnerDropDownItemStyle = 2130903415;
+			public const int selectableItemBackground = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int spinnerStyle = 2130903416;
+			public const int selectableItemBackgroundBorderless = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int splitTrack = 2130903417;
+			public const int showAsAction = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int srcCompat = 2130903418;
+			public const int showDividers = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int stackFromEnd = 2130903419;
+			public const int showMotionSpec = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int state_above_anchor = 2130903420;
+			public const int showText = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int state_collapsed = 2130903421;
+			public const int showTitle = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int state_collapsible = 2130903422;
+			public const int singleChoiceItemLayout = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int state_liftable = 2130903423;
+			public const int singleLine = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int state_lifted = 2130903424;
+			public const int singleSelection = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int statusBarBackground = 2130903425;
+			public const int snackbarButtonStyle = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int statusBarScrim = 2130903426;
+			public const int snackbarStyle = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int strokeColor = 2130903427;
+			public const int spanCount = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int strokeWidth = 2130903428;
+			public const int spinBars = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int subMenuArrow = 2130903429;
+			public const int spinnerDropDownItemStyle = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int submitBackground = 2130903430;
+			public const int spinnerStyle = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int subtitle = 2130903431;
+			public const int splitTrack = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int subtitleTextAppearance = 2130903432;
+			public const int srcCompat = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int subtitleTextColor = 2130903433;
+			public const int stackFromEnd = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int subtitleTextStyle = 2130903434;
+			public const int state_above_anchor = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int suggestionRowLayout = 2130903435;
+			public const int state_collapsed = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int switchMinWidth = 2130903436;
+			public const int state_collapsible = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int switchPadding = 2130903437;
+			public const int state_liftable = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int switchStyle = 2130903438;
+			public const int state_lifted = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int switchTextAppearance = 2130903439;
+			public const int statusBarBackground = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int tabBackground = 2130903440;
+			public const int statusBarScrim = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int tabContentStart = 2130903441;
+			public const int strokeColor = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int tabGravity = 2130903442;
+			public const int strokeWidth = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int tabIconTint = 2130903443;
+			public const int subMenuArrow = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int tabIconTintMode = 2130903444;
+			public const int submitBackground = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int tabIndicator = 2130903445;
+			public const int subtitle = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int tabIndicatorAnimationDuration = 2130903446;
+			public const int subtitleTextAppearance = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int tabIndicatorColor = 2130903447;
+			public const int subtitleTextColor = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int tabIndicatorFullWidth = 2130903448;
+			public const int subtitleTextStyle = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int tabIndicatorGravity = 2130903449;
+			public const int suggestionRowLayout = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int tabIndicatorHeight = 2130903450;
+			public const int switchMinWidth = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int tabInlineLabel = 2130903451;
+			public const int switchPadding = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int tabMaxWidth = 2130903452;
+			public const int switchStyle = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int tabMinWidth = 2130903453;
+			public const int switchTextAppearance = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int tabMode = 2130903454;
+			public const int tabBackground = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int tabPadding = 2130903455;
+			public const int tabContentStart = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int tabPaddingBottom = 2130903456;
+			public const int tabGravity = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int tabPaddingEnd = 2130903457;
+			public const int tabIconTint = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int tabPaddingStart = 2130903458;
+			public const int tabIconTintMode = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int tabPaddingTop = 2130903459;
+			public const int tabIndicator = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int tabRippleColor = 2130903460;
+			public const int tabIndicatorAnimationDuration = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int tabSelectedTextColor = 2130903461;
+			public const int tabIndicatorColor = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int tabStyle = 2130903462;
+			public const int tabIndicatorFullWidth = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int tabTextAppearance = 2130903463;
+			public const int tabIndicatorGravity = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int tabTextColor = 2130903464;
+			public const int tabIndicatorHeight = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int tabUnboundedRipple = 2130903465;
+			public const int tabInlineLabel = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int textAllCaps = 2130903466;
+			public const int tabMaxWidth = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int textAppearanceBody1 = 2130903467;
+			public const int tabMinWidth = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int textAppearanceBody2 = 2130903468;
+			public const int tabMode = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int textAppearanceButton = 2130903469;
+			public const int tabPadding = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int textAppearanceCaption = 2130903470;
+			public const int tabPaddingBottom = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int textAppearanceHeadline1 = 2130903471;
+			public const int tabPaddingEnd = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int textAppearanceHeadline2 = 2130903472;
+			public const int tabPaddingStart = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int textAppearanceHeadline3 = 2130903473;
+			public const int tabPaddingTop = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int textAppearanceHeadline4 = 2130903474;
+			public const int tabRippleColor = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int textAppearanceHeadline5 = 2130903475;
+			public const int tabSelectedTextColor = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int textAppearanceHeadline6 = 2130903476;
+			public const int tabStyle = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int textAppearanceLargePopupMenu = 2130903477;
+			public const int tabTextAppearance = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int textAppearanceListItem = 2130903478;
+			public const int tabTextColor = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int textAppearanceListItemSecondary = 2130903479;
+			public const int tabUnboundedRipple = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int textAppearanceListItemSmall = 2130903480;
+			public const int textAllCaps = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int textAppearanceOverline = 2130903481;
+			public const int textAppearanceBody1 = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int textAppearancePopupMenuHeader = 2130903482;
+			public const int textAppearanceBody2 = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int textAppearanceSearchResultSubtitle = 2130903483;
+			public const int textAppearanceButton = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int textAppearanceSearchResultTitle = 2130903484;
+			public const int textAppearanceCaption = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int textAppearanceSmallPopupMenu = 2130903485;
+			public const int textAppearanceHeadline1 = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int textAppearanceSubtitle1 = 2130903486;
+			public const int textAppearanceHeadline2 = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int textAppearanceSubtitle2 = 2130903487;
+			public const int textAppearanceHeadline3 = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int textColorAlertDialogListItem = 2130903488;
+			public const int textAppearanceHeadline4 = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int textColorSearchUrl = 2130903489;
+			public const int textAppearanceHeadline5 = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int textEndPadding = 2130903490;
+			public const int textAppearanceHeadline6 = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int textInputStyle = 2130903491;
+			public const int textAppearanceLargePopupMenu = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int textStartPadding = 2130903492;
+			public const int textAppearanceListItem = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int theme = 2130903493;
+			public const int textAppearanceListItemSecondary = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int thickness = 2130903494;
+			public const int textAppearanceListItemSmall = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int thumbTextPadding = 2130903495;
+			public const int textAppearanceOverline = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int thumbTint = 2130903496;
+			public const int textAppearancePopupMenuHeader = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int thumbTintMode = 2130903497;
+			public const int textAppearanceSearchResultSubtitle = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int tickMark = 2130903498;
+			public const int textAppearanceSearchResultTitle = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int tickMarkTint = 2130903499;
+			public const int textAppearanceSmallPopupMenu = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int tickMarkTintMode = 2130903500;
+			public const int textAppearanceSubtitle1 = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int tint = 2130903501;
+			public const int textAppearanceSubtitle2 = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int tintMode = 2130903502;
+			public const int textColorAlertDialogListItem = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int title = 2130903503;
+			public const int textColorSearchUrl = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int titleEnabled = 2130903504;
+			public const int textEndPadding = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int titleMargin = 2130903505;
+			public const int textInputStyle = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int titleMarginBottom = 2130903506;
+			public const int textStartPadding = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int titleMarginEnd = 2130903507;
-			
-			// aapt resource value: 0x7F0301D6
-			public const int titleMargins = 2130903510;
+			public const int theme = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int titleMarginStart = 2130903508;
+			public const int thickness = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int titleMarginTop = 2130903509;
+			public const int thumbTextPadding = 2130903509;
+			
+			// aapt resource value: 0x7F0301D6
+			public const int thumbTint = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int titleTextAppearance = 2130903511;
+			public const int thumbTintMode = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int titleTextColor = 2130903512;
+			public const int tickMark = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int titleTextStyle = 2130903513;
+			public const int tickMarkTint = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int toolbarId = 2130903514;
+			public const int tickMarkTintMode = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int toolbarNavigationButtonStyle = 2130903515;
+			public const int tint = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int toolbarStyle = 2130903516;
+			public const int tintMode = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int tooltipForegroundColor = 2130903517;
+			public const int title = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int tooltipFrameBackground = 2130903518;
+			public const int titleEnabled = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int tooltipText = 2130903519;
+			public const int titleMargin = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int track = 2130903520;
+			public const int titleMarginBottom = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int trackTint = 2130903521;
-			
-			// aapt resource value: 0x7F0301E2
-			public const int trackTintMode = 2130903522;
-			
-			// aapt resource value: 0x7F0301E3
-			public const int ttcIndex = 2130903523;
+			public const int titleMarginEnd = 2130903521;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int uiCompass = 2130903524;
+			public const int titleMargins = 2130903524;
+			
+			// aapt resource value: 0x7F0301E2
+			public const int titleMarginStart = 2130903522;
+			
+			// aapt resource value: 0x7F0301E3
+			public const int titleMarginTop = 2130903523;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int uiMapToolbar = 2130903525;
+			public const int titleTextAppearance = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int uiRotateGestures = 2130903526;
+			public const int titleTextColor = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int uiScrollGestures = 2130903527;
+			public const int titleTextStyle = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int uiScrollGesturesDuringRotateOrZoom = 2130903528;
+			public const int toolbarId = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int uiTiltGestures = 2130903529;
+			public const int toolbarNavigationButtonStyle = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int uiZoomControls = 2130903530;
+			public const int toolbarStyle = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int uiZoomGestures = 2130903531;
+			public const int tooltipForegroundColor = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int useCompatPadding = 2130903532;
+			public const int tooltipFrameBackground = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int useViewLifecycle = 2130903533;
+			public const int tooltipText = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int viewInflaterClass = 2130903534;
+			public const int track = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int voiceIcon = 2130903535;
+			public const int trackTint = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int windowActionBar = 2130903536;
+			public const int trackTintMode = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int windowActionBarOverlay = 2130903537;
+			public const int ttcIndex = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int windowActionModeOverlay = 2130903538;
+			public const int uiCompass = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int windowFixedHeightMajor = 2130903539;
+			public const int uiMapToolbar = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int windowFixedHeightMinor = 2130903540;
+			public const int uiRotateGestures = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int windowFixedWidthMajor = 2130903541;
+			public const int uiScrollGestures = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int windowFixedWidthMinor = 2130903542;
+			public const int uiScrollGesturesDuringRotateOrZoom = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int windowMinWidthMajor = 2130903543;
+			public const int uiTiltGestures = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int windowMinWidthMinor = 2130903544;
+			public const int uiZoomControls = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int windowNoTitle = 2130903545;
+			public const int uiZoomGestures = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int zOrderOnTop = 2130903546;
+			public const int useCompatPadding = 2130903546;
+			
+			// aapt resource value: 0x7F0301FB
+			public const int useViewLifecycle = 2130903547;
+			
+			// aapt resource value: 0x7F0301FC
+			public const int viewInflaterClass = 2130903548;
+			
+			// aapt resource value: 0x7F0301FD
+			public const int voiceIcon = 2130903549;
+			
+			// aapt resource value: 0x7F0301FE
+			public const int windowActionBar = 2130903550;
+			
+			// aapt resource value: 0x7F0301FF
+			public const int windowActionBarOverlay = 2130903551;
+			
+			// aapt resource value: 0x7F030200
+			public const int windowActionModeOverlay = 2130903552;
+			
+			// aapt resource value: 0x7F030201
+			public const int windowFixedHeightMajor = 2130903553;
+			
+			// aapt resource value: 0x7F030202
+			public const int windowFixedHeightMinor = 2130903554;
+			
+			// aapt resource value: 0x7F030203
+			public const int windowFixedWidthMajor = 2130903555;
+			
+			// aapt resource value: 0x7F030204
+			public const int windowFixedWidthMinor = 2130903556;
+			
+			// aapt resource value: 0x7F030205
+			public const int windowMinWidthMajor = 2130903557;
+			
+			// aapt resource value: 0x7F030206
+			public const int windowMinWidthMinor = 2130903558;
+			
+			// aapt resource value: 0x7F030207
+			public const int windowNoTitle = 2130903559;
+			
+			// aapt resource value: 0x7F030208
+			public const int zOrderOnTop = 2130903560;
 			
 			static Attribute()
 			{
@@ -13331,229 +18524,247 @@ namespace Tutorip.Droid
 			public const int item_touch_helper_swipe_escape_velocity = 2131099793;
 			
 			// aapt resource value: 0x7F060092
-			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099794;
+			public const int mr_controller_volume_group_list_item_height = 2131099794;
 			
 			// aapt resource value: 0x7F060093
-			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099795;
+			public const int mr_controller_volume_group_list_item_icon_size = 2131099795;
 			
 			// aapt resource value: 0x7F060094
-			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099796;
+			public const int mr_controller_volume_group_list_max_height = 2131099796;
 			
 			// aapt resource value: 0x7F060095
-			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099797;
+			public const int mr_controller_volume_group_list_padding_top = 2131099797;
 			
 			// aapt resource value: 0x7F060096
-			public const int mtrl_bottomappbar_height = 2131099798;
+			public const int mr_dialog_fixed_width_major = 2131099798;
 			
 			// aapt resource value: 0x7F060097
-			public const int mtrl_btn_corner_radius = 2131099799;
+			public const int mr_dialog_fixed_width_minor = 2131099799;
 			
 			// aapt resource value: 0x7F060098
-			public const int mtrl_btn_dialog_btn_min_width = 2131099800;
+			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099800;
 			
 			// aapt resource value: 0x7F060099
-			public const int mtrl_btn_disabled_elevation = 2131099801;
+			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099801;
 			
 			// aapt resource value: 0x7F06009A
-			public const int mtrl_btn_disabled_z = 2131099802;
+			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099802;
 			
 			// aapt resource value: 0x7F06009B
-			public const int mtrl_btn_elevation = 2131099803;
+			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099803;
 			
 			// aapt resource value: 0x7F06009C
-			public const int mtrl_btn_focused_z = 2131099804;
+			public const int mtrl_bottomappbar_height = 2131099804;
 			
 			// aapt resource value: 0x7F06009D
-			public const int mtrl_btn_hovered_z = 2131099805;
+			public const int mtrl_btn_corner_radius = 2131099805;
 			
 			// aapt resource value: 0x7F06009E
-			public const int mtrl_btn_icon_btn_padding_left = 2131099806;
+			public const int mtrl_btn_dialog_btn_min_width = 2131099806;
 			
 			// aapt resource value: 0x7F06009F
-			public const int mtrl_btn_icon_padding = 2131099807;
+			public const int mtrl_btn_disabled_elevation = 2131099807;
 			
 			// aapt resource value: 0x7F0600A0
-			public const int mtrl_btn_inset = 2131099808;
+			public const int mtrl_btn_disabled_z = 2131099808;
 			
 			// aapt resource value: 0x7F0600A1
-			public const int mtrl_btn_letter_spacing = 2131099809;
+			public const int mtrl_btn_elevation = 2131099809;
 			
 			// aapt resource value: 0x7F0600A2
-			public const int mtrl_btn_padding_bottom = 2131099810;
+			public const int mtrl_btn_focused_z = 2131099810;
 			
 			// aapt resource value: 0x7F0600A3
-			public const int mtrl_btn_padding_left = 2131099811;
+			public const int mtrl_btn_hovered_z = 2131099811;
 			
 			// aapt resource value: 0x7F0600A4
-			public const int mtrl_btn_padding_right = 2131099812;
+			public const int mtrl_btn_icon_btn_padding_left = 2131099812;
 			
 			// aapt resource value: 0x7F0600A5
-			public const int mtrl_btn_padding_top = 2131099813;
+			public const int mtrl_btn_icon_padding = 2131099813;
 			
 			// aapt resource value: 0x7F0600A6
-			public const int mtrl_btn_pressed_z = 2131099814;
+			public const int mtrl_btn_inset = 2131099814;
 			
 			// aapt resource value: 0x7F0600A7
-			public const int mtrl_btn_stroke_size = 2131099815;
+			public const int mtrl_btn_letter_spacing = 2131099815;
 			
 			// aapt resource value: 0x7F0600A8
-			public const int mtrl_btn_text_btn_icon_padding = 2131099816;
+			public const int mtrl_btn_padding_bottom = 2131099816;
 			
 			// aapt resource value: 0x7F0600A9
-			public const int mtrl_btn_text_btn_padding_left = 2131099817;
+			public const int mtrl_btn_padding_left = 2131099817;
 			
 			// aapt resource value: 0x7F0600AA
-			public const int mtrl_btn_text_btn_padding_right = 2131099818;
+			public const int mtrl_btn_padding_right = 2131099818;
 			
 			// aapt resource value: 0x7F0600AB
-			public const int mtrl_btn_text_size = 2131099819;
+			public const int mtrl_btn_padding_top = 2131099819;
 			
 			// aapt resource value: 0x7F0600AC
-			public const int mtrl_btn_z = 2131099820;
+			public const int mtrl_btn_pressed_z = 2131099820;
 			
 			// aapt resource value: 0x7F0600AD
-			public const int mtrl_card_elevation = 2131099821;
+			public const int mtrl_btn_stroke_size = 2131099821;
 			
 			// aapt resource value: 0x7F0600AE
-			public const int mtrl_card_spacing = 2131099822;
+			public const int mtrl_btn_text_btn_icon_padding = 2131099822;
 			
 			// aapt resource value: 0x7F0600AF
-			public const int mtrl_chip_pressed_translation_z = 2131099823;
+			public const int mtrl_btn_text_btn_padding_left = 2131099823;
 			
 			// aapt resource value: 0x7F0600B0
-			public const int mtrl_chip_text_size = 2131099824;
+			public const int mtrl_btn_text_btn_padding_right = 2131099824;
 			
 			// aapt resource value: 0x7F0600B1
-			public const int mtrl_fab_elevation = 2131099825;
+			public const int mtrl_btn_text_size = 2131099825;
 			
 			// aapt resource value: 0x7F0600B2
-			public const int mtrl_fab_translation_z_hovered_focused = 2131099826;
+			public const int mtrl_btn_z = 2131099826;
 			
 			// aapt resource value: 0x7F0600B3
-			public const int mtrl_fab_translation_z_pressed = 2131099827;
+			public const int mtrl_card_elevation = 2131099827;
 			
 			// aapt resource value: 0x7F0600B4
-			public const int mtrl_navigation_elevation = 2131099828;
+			public const int mtrl_card_spacing = 2131099828;
 			
 			// aapt resource value: 0x7F0600B5
-			public const int mtrl_navigation_item_horizontal_padding = 2131099829;
+			public const int mtrl_chip_pressed_translation_z = 2131099829;
 			
 			// aapt resource value: 0x7F0600B6
-			public const int mtrl_navigation_item_icon_padding = 2131099830;
+			public const int mtrl_chip_text_size = 2131099830;
 			
 			// aapt resource value: 0x7F0600B7
-			public const int mtrl_snackbar_background_corner_radius = 2131099831;
+			public const int mtrl_fab_elevation = 2131099831;
 			
 			// aapt resource value: 0x7F0600B8
-			public const int mtrl_snackbar_margin = 2131099832;
+			public const int mtrl_fab_translation_z_hovered_focused = 2131099832;
 			
 			// aapt resource value: 0x7F0600B9
-			public const int mtrl_textinput_box_bottom_offset = 2131099833;
+			public const int mtrl_fab_translation_z_pressed = 2131099833;
 			
 			// aapt resource value: 0x7F0600BA
-			public const int mtrl_textinput_box_corner_radius_medium = 2131099834;
+			public const int mtrl_navigation_elevation = 2131099834;
 			
 			// aapt resource value: 0x7F0600BB
-			public const int mtrl_textinput_box_corner_radius_small = 2131099835;
+			public const int mtrl_navigation_item_horizontal_padding = 2131099835;
 			
 			// aapt resource value: 0x7F0600BC
-			public const int mtrl_textinput_box_label_cutout_padding = 2131099836;
+			public const int mtrl_navigation_item_icon_padding = 2131099836;
 			
 			// aapt resource value: 0x7F0600BD
-			public const int mtrl_textinput_box_padding_end = 2131099837;
+			public const int mtrl_snackbar_background_corner_radius = 2131099837;
 			
 			// aapt resource value: 0x7F0600BE
-			public const int mtrl_textinput_box_stroke_width_default = 2131099838;
+			public const int mtrl_snackbar_margin = 2131099838;
 			
 			// aapt resource value: 0x7F0600BF
-			public const int mtrl_textinput_box_stroke_width_focused = 2131099839;
+			public const int mtrl_textinput_box_bottom_offset = 2131099839;
 			
 			// aapt resource value: 0x7F0600C0
-			public const int mtrl_textinput_outline_box_expanded_padding = 2131099840;
+			public const int mtrl_textinput_box_corner_radius_medium = 2131099840;
 			
 			// aapt resource value: 0x7F0600C1
-			public const int mtrl_toolbar_default_height = 2131099841;
+			public const int mtrl_textinput_box_corner_radius_small = 2131099841;
 			
 			// aapt resource value: 0x7F0600C2
-			public const int notification_action_icon_size = 2131099842;
+			public const int mtrl_textinput_box_label_cutout_padding = 2131099842;
 			
 			// aapt resource value: 0x7F0600C3
-			public const int notification_action_text_size = 2131099843;
+			public const int mtrl_textinput_box_padding_end = 2131099843;
 			
 			// aapt resource value: 0x7F0600C4
-			public const int notification_big_circle_margin = 2131099844;
+			public const int mtrl_textinput_box_stroke_width_default = 2131099844;
 			
 			// aapt resource value: 0x7F0600C5
-			public const int notification_content_margin_start = 2131099845;
+			public const int mtrl_textinput_box_stroke_width_focused = 2131099845;
 			
 			// aapt resource value: 0x7F0600C6
-			public const int notification_large_icon_height = 2131099846;
+			public const int mtrl_textinput_outline_box_expanded_padding = 2131099846;
 			
 			// aapt resource value: 0x7F0600C7
-			public const int notification_large_icon_width = 2131099847;
+			public const int mtrl_toolbar_default_height = 2131099847;
 			
 			// aapt resource value: 0x7F0600C8
-			public const int notification_main_column_padding_top = 2131099848;
+			public const int notification_action_icon_size = 2131099848;
 			
 			// aapt resource value: 0x7F0600C9
-			public const int notification_media_narrow_margin = 2131099849;
+			public const int notification_action_text_size = 2131099849;
 			
 			// aapt resource value: 0x7F0600CA
-			public const int notification_right_icon_size = 2131099850;
+			public const int notification_big_circle_margin = 2131099850;
 			
 			// aapt resource value: 0x7F0600CB
-			public const int notification_right_side_padding_top = 2131099851;
+			public const int notification_content_margin_start = 2131099851;
 			
 			// aapt resource value: 0x7F0600CC
-			public const int notification_small_icon_background_padding = 2131099852;
+			public const int notification_large_icon_height = 2131099852;
 			
 			// aapt resource value: 0x7F0600CD
-			public const int notification_small_icon_size_as_large = 2131099853;
+			public const int notification_large_icon_width = 2131099853;
 			
 			// aapt resource value: 0x7F0600CE
-			public const int notification_subtext_size = 2131099854;
+			public const int notification_main_column_padding_top = 2131099854;
 			
 			// aapt resource value: 0x7F0600CF
-			public const int notification_top_pad = 2131099855;
+			public const int notification_media_narrow_margin = 2131099855;
 			
 			// aapt resource value: 0x7F0600D0
-			public const int notification_top_pad_large_text = 2131099856;
+			public const int notification_right_icon_size = 2131099856;
 			
 			// aapt resource value: 0x7F0600D1
-			public const int subtitle_corner_radius = 2131099857;
+			public const int notification_right_side_padding_top = 2131099857;
 			
 			// aapt resource value: 0x7F0600D2
-			public const int subtitle_outline_width = 2131099858;
+			public const int notification_small_icon_background_padding = 2131099858;
 			
 			// aapt resource value: 0x7F0600D3
-			public const int subtitle_shadow_offset = 2131099859;
+			public const int notification_small_icon_size_as_large = 2131099859;
 			
 			// aapt resource value: 0x7F0600D4
-			public const int subtitle_shadow_radius = 2131099860;
+			public const int notification_subtext_size = 2131099860;
 			
 			// aapt resource value: 0x7F0600D5
-			public const int tooltip_corner_radius = 2131099861;
+			public const int notification_top_pad = 2131099861;
 			
 			// aapt resource value: 0x7F0600D6
-			public const int tooltip_horizontal_padding = 2131099862;
+			public const int notification_top_pad_large_text = 2131099862;
 			
 			// aapt resource value: 0x7F0600D7
-			public const int tooltip_margin = 2131099863;
+			public const int subtitle_corner_radius = 2131099863;
 			
 			// aapt resource value: 0x7F0600D8
-			public const int tooltip_precise_anchor_extra_offset = 2131099864;
+			public const int subtitle_outline_width = 2131099864;
 			
 			// aapt resource value: 0x7F0600D9
-			public const int tooltip_precise_anchor_threshold = 2131099865;
+			public const int subtitle_shadow_offset = 2131099865;
 			
 			// aapt resource value: 0x7F0600DA
-			public const int tooltip_vertical_padding = 2131099866;
+			public const int subtitle_shadow_radius = 2131099866;
 			
 			// aapt resource value: 0x7F0600DB
-			public const int tooltip_y_offset_non_touch = 2131099867;
+			public const int tooltip_corner_radius = 2131099867;
 			
 			// aapt resource value: 0x7F0600DC
-			public const int tooltip_y_offset_touch = 2131099868;
+			public const int tooltip_horizontal_padding = 2131099868;
+			
+			// aapt resource value: 0x7F0600DD
+			public const int tooltip_margin = 2131099869;
+			
+			// aapt resource value: 0x7F0600DE
+			public const int tooltip_precise_anchor_extra_offset = 2131099870;
+			
+			// aapt resource value: 0x7F0600DF
+			public const int tooltip_precise_anchor_threshold = 2131099871;
+			
+			// aapt resource value: 0x7F0600E0
+			public const int tooltip_vertical_padding = 2131099872;
+			
+			// aapt resource value: 0x7F0600E1
+			public const int tooltip_y_offset_non_touch = 2131099873;
+			
+			// aapt resource value: 0x7F0600E2
+			public const int tooltip_y_offset_touch = 2131099874;
 			
 			static Dimension()
 			{
@@ -13908,100 +19119,715 @@ namespace Tutorip.Droid
 			public const int design_snackbar_background = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int funnel = 2131165303;
+			public const int error = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int googleg_disabled_color_18 = 2131165304;
+			public const int funnel = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int googleg_standard_color_18 = 2131165305;
-			
-			// aapt resource value: 0x7F07007E
-			public const int IconaLogo5 = 2131165310;
+			public const int googleg_disabled_color_18 = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int ic_arrow_back = 2131165306;
+			public const int googleg_standard_color_18 = 2131165306;
+			
+			// aapt resource value: 0x7F070130
+			public const int IconaLogo5 = 2131165488;
 			
 			// aapt resource value: 0x7F07007B
-			public const int ic_mtrl_chip_checked_black = 2131165307;
+			public const int ic_arrow_back = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int ic_mtrl_chip_checked_circle = 2131165308;
+			public const int ic_audiotrack_dark = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int ic_mtrl_chip_close_circle = 2131165309;
+			public const int ic_audiotrack_light = 2131165309;
+			
+			// aapt resource value: 0x7F07007E
+			public const int ic_dialog_close_dark = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int menu1 = 2131165311;
+			public const int ic_dialog_close_light = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_snackbar_background = 2131165312;
+			public const int ic_group_collapse_00 = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_tabs_default_indicator = 2131165313;
+			public const int ic_group_collapse_01 = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int navigation_empty_icon = 2131165314;
+			public const int ic_group_collapse_02 = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_action_background = 2131165315;
+			public const int ic_group_collapse_03 = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg = 2131165316;
+			public const int ic_group_collapse_04 = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_low = 2131165317;
+			public const int ic_group_collapse_05 = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_low_normal = 2131165318;
+			public const int ic_group_collapse_06 = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_bg_low_pressed = 2131165319;
+			public const int ic_group_collapse_07 = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg_normal = 2131165320;
+			public const int ic_group_collapse_08 = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_bg_normal_pressed = 2131165321;
+			public const int ic_group_collapse_09 = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_icon_background = 2131165322;
+			public const int ic_group_collapse_10 = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_template_icon_bg = 2131165323;
+			public const int ic_group_collapse_11 = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_template_icon_low_bg = 2131165324;
+			public const int ic_group_collapse_12 = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_tile_bg = 2131165325;
+			public const int ic_group_collapse_13 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notify_panel_notification_icon_bg = 2131165326;
+			public const int ic_group_collapse_14 = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int PlusImage = 2131165327;
+			public const int ic_group_collapse_15 = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int ProfileImage = 2131165328;
+			public const int ic_group_expand_00 = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int restart = 2131165329;
+			public const int ic_group_expand_01 = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int splash_screen = 2131165330;
+			public const int ic_group_expand_02 = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int star1 = 2131165331;
+			public const int ic_group_expand_03 = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int tooltip_frame_dark = 2131165332;
+			public const int ic_group_expand_04 = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int tooltip_frame_light = 2131165333;
+			public const int ic_group_expand_05 = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int user6 = 2131165334;
+			public const int ic_group_expand_06 = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int ic_group_expand_07 = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int ic_group_expand_08 = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int ic_group_expand_09 = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int ic_group_expand_10 = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int ic_group_expand_11 = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int ic_group_expand_12 = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int ic_group_expand_13 = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int ic_group_expand_14 = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int ic_group_expand_15 = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int ic_media_pause_dark = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int ic_media_pause_light = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int ic_media_play_dark = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int ic_media_play_light = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int ic_media_stop_dark = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int ic_media_stop_light = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int ic_mr_button_connected_00_dark = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int ic_mr_button_connected_00_light = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int ic_mr_button_connected_01_dark = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int ic_mr_button_connected_01_light = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int ic_mr_button_connected_02_dark = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int ic_mr_button_connected_02_light = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int ic_mr_button_connected_03_dark = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int ic_mr_button_connected_03_light = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int ic_mr_button_connected_04_dark = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int ic_mr_button_connected_04_light = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int ic_mr_button_connected_05_dark = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int ic_mr_button_connected_05_light = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int ic_mr_button_connected_06_dark = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int ic_mr_button_connected_06_light = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int ic_mr_button_connected_07_dark = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int ic_mr_button_connected_07_light = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int ic_mr_button_connected_08_dark = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int ic_mr_button_connected_08_light = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int ic_mr_button_connected_09_dark = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int ic_mr_button_connected_09_light = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int ic_mr_button_connected_10_dark = 2131165370;
+			
+			// aapt resource value: 0x7F0700BB
+			public const int ic_mr_button_connected_10_light = 2131165371;
+			
+			// aapt resource value: 0x7F0700BC
+			public const int ic_mr_button_connected_11_dark = 2131165372;
+			
+			// aapt resource value: 0x7F0700BD
+			public const int ic_mr_button_connected_11_light = 2131165373;
+			
+			// aapt resource value: 0x7F0700BE
+			public const int ic_mr_button_connected_12_dark = 2131165374;
+			
+			// aapt resource value: 0x7F0700BF
+			public const int ic_mr_button_connected_12_light = 2131165375;
+			
+			// aapt resource value: 0x7F0700C0
+			public const int ic_mr_button_connected_13_dark = 2131165376;
+			
+			// aapt resource value: 0x7F0700C1
+			public const int ic_mr_button_connected_13_light = 2131165377;
+			
+			// aapt resource value: 0x7F0700C2
+			public const int ic_mr_button_connected_14_dark = 2131165378;
+			
+			// aapt resource value: 0x7F0700C3
+			public const int ic_mr_button_connected_14_light = 2131165379;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int ic_mr_button_connected_15_dark = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int ic_mr_button_connected_15_light = 2131165381;
+			
+			// aapt resource value: 0x7F0700C6
+			public const int ic_mr_button_connected_16_dark = 2131165382;
+			
+			// aapt resource value: 0x7F0700C7
+			public const int ic_mr_button_connected_16_light = 2131165383;
+			
+			// aapt resource value: 0x7F0700C8
+			public const int ic_mr_button_connected_17_dark = 2131165384;
+			
+			// aapt resource value: 0x7F0700C9
+			public const int ic_mr_button_connected_17_light = 2131165385;
+			
+			// aapt resource value: 0x7F0700CA
+			public const int ic_mr_button_connected_18_dark = 2131165386;
+			
+			// aapt resource value: 0x7F0700CB
+			public const int ic_mr_button_connected_18_light = 2131165387;
+			
+			// aapt resource value: 0x7F0700CC
+			public const int ic_mr_button_connected_19_dark = 2131165388;
+			
+			// aapt resource value: 0x7F0700CD
+			public const int ic_mr_button_connected_19_light = 2131165389;
+			
+			// aapt resource value: 0x7F0700CE
+			public const int ic_mr_button_connected_20_dark = 2131165390;
+			
+			// aapt resource value: 0x7F0700CF
+			public const int ic_mr_button_connected_20_light = 2131165391;
+			
+			// aapt resource value: 0x7F0700D0
+			public const int ic_mr_button_connected_21_dark = 2131165392;
+			
+			// aapt resource value: 0x7F0700D1
+			public const int ic_mr_button_connected_21_light = 2131165393;
+			
+			// aapt resource value: 0x7F0700D2
+			public const int ic_mr_button_connected_22_dark = 2131165394;
+			
+			// aapt resource value: 0x7F0700D3
+			public const int ic_mr_button_connected_22_light = 2131165395;
+			
+			// aapt resource value: 0x7F0700D4
+			public const int ic_mr_button_connected_23_dark = 2131165396;
+			
+			// aapt resource value: 0x7F0700D5
+			public const int ic_mr_button_connected_23_light = 2131165397;
+			
+			// aapt resource value: 0x7F0700D6
+			public const int ic_mr_button_connected_24_dark = 2131165398;
+			
+			// aapt resource value: 0x7F0700D7
+			public const int ic_mr_button_connected_24_light = 2131165399;
+			
+			// aapt resource value: 0x7F0700D8
+			public const int ic_mr_button_connected_25_dark = 2131165400;
+			
+			// aapt resource value: 0x7F0700D9
+			public const int ic_mr_button_connected_25_light = 2131165401;
+			
+			// aapt resource value: 0x7F0700DA
+			public const int ic_mr_button_connected_26_dark = 2131165402;
+			
+			// aapt resource value: 0x7F0700DB
+			public const int ic_mr_button_connected_26_light = 2131165403;
+			
+			// aapt resource value: 0x7F0700DC
+			public const int ic_mr_button_connected_27_dark = 2131165404;
+			
+			// aapt resource value: 0x7F0700DD
+			public const int ic_mr_button_connected_27_light = 2131165405;
+			
+			// aapt resource value: 0x7F0700DE
+			public const int ic_mr_button_connected_28_dark = 2131165406;
+			
+			// aapt resource value: 0x7F0700DF
+			public const int ic_mr_button_connected_28_light = 2131165407;
+			
+			// aapt resource value: 0x7F0700E0
+			public const int ic_mr_button_connected_29_dark = 2131165408;
+			
+			// aapt resource value: 0x7F0700E1
+			public const int ic_mr_button_connected_29_light = 2131165409;
+			
+			// aapt resource value: 0x7F0700E2
+			public const int ic_mr_button_connected_30_dark = 2131165410;
+			
+			// aapt resource value: 0x7F0700E3
+			public const int ic_mr_button_connected_30_light = 2131165411;
+			
+			// aapt resource value: 0x7F0700E4
+			public const int ic_mr_button_connecting_00_dark = 2131165412;
+			
+			// aapt resource value: 0x7F0700E5
+			public const int ic_mr_button_connecting_00_light = 2131165413;
+			
+			// aapt resource value: 0x7F0700E6
+			public const int ic_mr_button_connecting_01_dark = 2131165414;
+			
+			// aapt resource value: 0x7F0700E7
+			public const int ic_mr_button_connecting_01_light = 2131165415;
+			
+			// aapt resource value: 0x7F0700E8
+			public const int ic_mr_button_connecting_02_dark = 2131165416;
+			
+			// aapt resource value: 0x7F0700E9
+			public const int ic_mr_button_connecting_02_light = 2131165417;
+			
+			// aapt resource value: 0x7F0700EA
+			public const int ic_mr_button_connecting_03_dark = 2131165418;
+			
+			// aapt resource value: 0x7F0700EB
+			public const int ic_mr_button_connecting_03_light = 2131165419;
+			
+			// aapt resource value: 0x7F0700EC
+			public const int ic_mr_button_connecting_04_dark = 2131165420;
+			
+			// aapt resource value: 0x7F0700ED
+			public const int ic_mr_button_connecting_04_light = 2131165421;
+			
+			// aapt resource value: 0x7F0700EE
+			public const int ic_mr_button_connecting_05_dark = 2131165422;
+			
+			// aapt resource value: 0x7F0700EF
+			public const int ic_mr_button_connecting_05_light = 2131165423;
+			
+			// aapt resource value: 0x7F0700F0
+			public const int ic_mr_button_connecting_06_dark = 2131165424;
+			
+			// aapt resource value: 0x7F0700F1
+			public const int ic_mr_button_connecting_06_light = 2131165425;
+			
+			// aapt resource value: 0x7F0700F2
+			public const int ic_mr_button_connecting_07_dark = 2131165426;
+			
+			// aapt resource value: 0x7F0700F3
+			public const int ic_mr_button_connecting_07_light = 2131165427;
+			
+			// aapt resource value: 0x7F0700F4
+			public const int ic_mr_button_connecting_08_dark = 2131165428;
+			
+			// aapt resource value: 0x7F0700F5
+			public const int ic_mr_button_connecting_08_light = 2131165429;
+			
+			// aapt resource value: 0x7F0700F6
+			public const int ic_mr_button_connecting_09_dark = 2131165430;
+			
+			// aapt resource value: 0x7F0700F7
+			public const int ic_mr_button_connecting_09_light = 2131165431;
+			
+			// aapt resource value: 0x7F0700F8
+			public const int ic_mr_button_connecting_10_dark = 2131165432;
+			
+			// aapt resource value: 0x7F0700F9
+			public const int ic_mr_button_connecting_10_light = 2131165433;
+			
+			// aapt resource value: 0x7F0700FA
+			public const int ic_mr_button_connecting_11_dark = 2131165434;
+			
+			// aapt resource value: 0x7F0700FB
+			public const int ic_mr_button_connecting_11_light = 2131165435;
+			
+			// aapt resource value: 0x7F0700FC
+			public const int ic_mr_button_connecting_12_dark = 2131165436;
+			
+			// aapt resource value: 0x7F0700FD
+			public const int ic_mr_button_connecting_12_light = 2131165437;
+			
+			// aapt resource value: 0x7F0700FE
+			public const int ic_mr_button_connecting_13_dark = 2131165438;
+			
+			// aapt resource value: 0x7F0700FF
+			public const int ic_mr_button_connecting_13_light = 2131165439;
+			
+			// aapt resource value: 0x7F070100
+			public const int ic_mr_button_connecting_14_dark = 2131165440;
+			
+			// aapt resource value: 0x7F070101
+			public const int ic_mr_button_connecting_14_light = 2131165441;
+			
+			// aapt resource value: 0x7F070102
+			public const int ic_mr_button_connecting_15_dark = 2131165442;
+			
+			// aapt resource value: 0x7F070103
+			public const int ic_mr_button_connecting_15_light = 2131165443;
+			
+			// aapt resource value: 0x7F070104
+			public const int ic_mr_button_connecting_16_dark = 2131165444;
+			
+			// aapt resource value: 0x7F070105
+			public const int ic_mr_button_connecting_16_light = 2131165445;
+			
+			// aapt resource value: 0x7F070106
+			public const int ic_mr_button_connecting_17_dark = 2131165446;
+			
+			// aapt resource value: 0x7F070107
+			public const int ic_mr_button_connecting_17_light = 2131165447;
+			
+			// aapt resource value: 0x7F070108
+			public const int ic_mr_button_connecting_18_dark = 2131165448;
+			
+			// aapt resource value: 0x7F070109
+			public const int ic_mr_button_connecting_18_light = 2131165449;
+			
+			// aapt resource value: 0x7F07010A
+			public const int ic_mr_button_connecting_19_dark = 2131165450;
+			
+			// aapt resource value: 0x7F07010B
+			public const int ic_mr_button_connecting_19_light = 2131165451;
+			
+			// aapt resource value: 0x7F07010C
+			public const int ic_mr_button_connecting_20_dark = 2131165452;
+			
+			// aapt resource value: 0x7F07010D
+			public const int ic_mr_button_connecting_20_light = 2131165453;
+			
+			// aapt resource value: 0x7F07010E
+			public const int ic_mr_button_connecting_21_dark = 2131165454;
+			
+			// aapt resource value: 0x7F07010F
+			public const int ic_mr_button_connecting_21_light = 2131165455;
+			
+			// aapt resource value: 0x7F070110
+			public const int ic_mr_button_connecting_22_dark = 2131165456;
+			
+			// aapt resource value: 0x7F070111
+			public const int ic_mr_button_connecting_22_light = 2131165457;
+			
+			// aapt resource value: 0x7F070112
+			public const int ic_mr_button_connecting_23_dark = 2131165458;
+			
+			// aapt resource value: 0x7F070113
+			public const int ic_mr_button_connecting_23_light = 2131165459;
+			
+			// aapt resource value: 0x7F070114
+			public const int ic_mr_button_connecting_24_dark = 2131165460;
+			
+			// aapt resource value: 0x7F070115
+			public const int ic_mr_button_connecting_24_light = 2131165461;
+			
+			// aapt resource value: 0x7F070116
+			public const int ic_mr_button_connecting_25_dark = 2131165462;
+			
+			// aapt resource value: 0x7F070117
+			public const int ic_mr_button_connecting_25_light = 2131165463;
+			
+			// aapt resource value: 0x7F070118
+			public const int ic_mr_button_connecting_26_dark = 2131165464;
+			
+			// aapt resource value: 0x7F070119
+			public const int ic_mr_button_connecting_26_light = 2131165465;
+			
+			// aapt resource value: 0x7F07011A
+			public const int ic_mr_button_connecting_27_dark = 2131165466;
+			
+			// aapt resource value: 0x7F07011B
+			public const int ic_mr_button_connecting_27_light = 2131165467;
+			
+			// aapt resource value: 0x7F07011C
+			public const int ic_mr_button_connecting_28_dark = 2131165468;
+			
+			// aapt resource value: 0x7F07011D
+			public const int ic_mr_button_connecting_28_light = 2131165469;
+			
+			// aapt resource value: 0x7F07011E
+			public const int ic_mr_button_connecting_29_dark = 2131165470;
+			
+			// aapt resource value: 0x7F07011F
+			public const int ic_mr_button_connecting_29_light = 2131165471;
+			
+			// aapt resource value: 0x7F070120
+			public const int ic_mr_button_connecting_30_dark = 2131165472;
+			
+			// aapt resource value: 0x7F070121
+			public const int ic_mr_button_connecting_30_light = 2131165473;
+			
+			// aapt resource value: 0x7F070122
+			public const int ic_mr_button_disabled_dark = 2131165474;
+			
+			// aapt resource value: 0x7F070123
+			public const int ic_mr_button_disabled_light = 2131165475;
+			
+			// aapt resource value: 0x7F070124
+			public const int ic_mr_button_disconnected_dark = 2131165476;
+			
+			// aapt resource value: 0x7F070125
+			public const int ic_mr_button_disconnected_light = 2131165477;
+			
+			// aapt resource value: 0x7F070126
+			public const int ic_mr_button_grey = 2131165478;
+			
+			// aapt resource value: 0x7F070127
+			public const int ic_mtrl_chip_checked_black = 2131165479;
+			
+			// aapt resource value: 0x7F070128
+			public const int ic_mtrl_chip_checked_circle = 2131165480;
+			
+			// aapt resource value: 0x7F070129
+			public const int ic_mtrl_chip_close_circle = 2131165481;
+			
+			// aapt resource value: 0x7F07012A
+			public const int ic_vol_type_speaker_dark = 2131165482;
+			
+			// aapt resource value: 0x7F07012B
+			public const int ic_vol_type_speaker_group_dark = 2131165483;
+			
+			// aapt resource value: 0x7F07012C
+			public const int ic_vol_type_speaker_group_light = 2131165484;
+			
+			// aapt resource value: 0x7F07012D
+			public const int ic_vol_type_speaker_light = 2131165485;
+			
+			// aapt resource value: 0x7F07012E
+			public const int ic_vol_type_tv_dark = 2131165486;
+			
+			// aapt resource value: 0x7F07012F
+			public const int ic_vol_type_tv_light = 2131165487;
+			
+			// aapt resource value: 0x7F070131
+			public const int menu1 = 2131165489;
+			
+			// aapt resource value: 0x7F070132
+			public const int mr_button_connected_dark = 2131165490;
+			
+			// aapt resource value: 0x7F070133
+			public const int mr_button_connected_light = 2131165491;
+			
+			// aapt resource value: 0x7F070134
+			public const int mr_button_connecting_dark = 2131165492;
+			
+			// aapt resource value: 0x7F070135
+			public const int mr_button_connecting_light = 2131165493;
+			
+			// aapt resource value: 0x7F070136
+			public const int mr_button_dark = 2131165494;
+			
+			// aapt resource value: 0x7F070137
+			public const int mr_button_light = 2131165495;
+			
+			// aapt resource value: 0x7F070138
+			public const int mr_dialog_close_dark = 2131165496;
+			
+			// aapt resource value: 0x7F070139
+			public const int mr_dialog_close_light = 2131165497;
+			
+			// aapt resource value: 0x7F07013A
+			public const int mr_dialog_material_background_dark = 2131165498;
+			
+			// aapt resource value: 0x7F07013B
+			public const int mr_dialog_material_background_light = 2131165499;
+			
+			// aapt resource value: 0x7F07013C
+			public const int mr_group_collapse = 2131165500;
+			
+			// aapt resource value: 0x7F07013D
+			public const int mr_group_expand = 2131165501;
+			
+			// aapt resource value: 0x7F07013E
+			public const int mr_media_pause_dark = 2131165502;
+			
+			// aapt resource value: 0x7F07013F
+			public const int mr_media_pause_light = 2131165503;
+			
+			// aapt resource value: 0x7F070140
+			public const int mr_media_play_dark = 2131165504;
+			
+			// aapt resource value: 0x7F070141
+			public const int mr_media_play_light = 2131165505;
+			
+			// aapt resource value: 0x7F070142
+			public const int mr_media_stop_dark = 2131165506;
+			
+			// aapt resource value: 0x7F070143
+			public const int mr_media_stop_light = 2131165507;
+			
+			// aapt resource value: 0x7F070144
+			public const int mr_vol_type_audiotrack_dark = 2131165508;
+			
+			// aapt resource value: 0x7F070145
+			public const int mr_vol_type_audiotrack_light = 2131165509;
+			
+			// aapt resource value: 0x7F070146
+			public const int mtrl_snackbar_background = 2131165510;
+			
+			// aapt resource value: 0x7F070147
+			public const int mtrl_tabs_default_indicator = 2131165511;
+			
+			// aapt resource value: 0x7F070148
+			public const int navigation_empty_icon = 2131165512;
+			
+			// aapt resource value: 0x7F070149
+			public const int notification_action_background = 2131165513;
+			
+			// aapt resource value: 0x7F07014A
+			public const int notification_bg = 2131165514;
+			
+			// aapt resource value: 0x7F07014B
+			public const int notification_bg_low = 2131165515;
+			
+			// aapt resource value: 0x7F07014C
+			public const int notification_bg_low_normal = 2131165516;
+			
+			// aapt resource value: 0x7F07014D
+			public const int notification_bg_low_pressed = 2131165517;
+			
+			// aapt resource value: 0x7F07014E
+			public const int notification_bg_normal = 2131165518;
+			
+			// aapt resource value: 0x7F07014F
+			public const int notification_bg_normal_pressed = 2131165519;
+			
+			// aapt resource value: 0x7F070150
+			public const int notification_icon_background = 2131165520;
+			
+			// aapt resource value: 0x7F070151
+			public const int notification_template_icon_bg = 2131165521;
+			
+			// aapt resource value: 0x7F070152
+			public const int notification_template_icon_low_bg = 2131165522;
+			
+			// aapt resource value: 0x7F070153
+			public const int notification_tile_bg = 2131165523;
+			
+			// aapt resource value: 0x7F070154
+			public const int notify_panel_notification_icon_bg = 2131165524;
+			
+			// aapt resource value: 0x7F070155
+			public const int paperplane = 2131165525;
+			
+			// aapt resource value: 0x7F070156
+			public const int paperplane1 = 2131165526;
+			
+			// aapt resource value: 0x7F070157
+			public const int placeholders = 2131165527;
+			
+			// aapt resource value: 0x7F070158
+			public const int PlusImage = 2131165528;
+			
+			// aapt resource value: 0x7F070159
+			public const int ProfileImage = 2131165529;
+			
+			// aapt resource value: 0x7F07015A
+			public const int restart = 2131165530;
+			
+			// aapt resource value: 0x7F07015B
+			public const int splash_screen = 2131165531;
+			
+			// aapt resource value: 0x7F07015C
+			public const int star1 = 2131165532;
+			
+			// aapt resource value: 0x7F07015D
+			public const int success = 2131165533;
+			
+			// aapt resource value: 0x7F07015E
+			public const int television1 = 2131165534;
+			
+			// aapt resource value: 0x7F07015F
+			public const int tooltip_frame_dark = 2131165535;
+			
+			// aapt resource value: 0x7F070160
+			public const int tooltip_frame_light = 2131165536;
+			
+			// aapt resource value: 0x7F070161
+			public const int user6 = 2131165537;
+			
+			// aapt resource value: 0x7F070162
+			public const int users = 2131165538;
+			
+			// aapt resource value: 0x7F070163
+			public const int users1 = 2131165539;
 			
 			static Drawable()
 			{
@@ -14359,319 +20185,460 @@ namespace Tutorip.Droid
 			public const int mini = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int mtrl_child_content_container = 2131230836;
+			public const int mr_art = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int mtrl_internal_children_alpha_tag = 2131230837;
+			public const int mr_cast_checkbox = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int multiply = 2131230838;
+			public const int mr_cast_close_button = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int navigation_header_container = 2131230839;
+			public const int mr_cast_group_icon = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int never = 2131230840;
+			public const int mr_cast_group_name = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int none = 2131230841;
+			public const int mr_cast_list = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int normal = 2131230842;
+			public const int mr_cast_meta = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int notification_background = 2131230843;
+			public const int mr_cast_meta_art = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int notification_main_column = 2131230844;
+			public const int mr_cast_meta_subtitle = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int notification_main_column_container = 2131230845;
+			public const int mr_cast_meta_title = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int outline = 2131230846;
+			public const int mr_cast_route_icon = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int parallax = 2131230847;
+			public const int mr_cast_route_name = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int parentPanel = 2131230848;
+			public const int mr_cast_stop_button = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int parent_matrix = 2131230849;
+			public const int mr_cast_volume_layout = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int pin = 2131230850;
+			public const int mr_cast_volume_slider = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int progress_circular = 2131230851;
+			public const int mr_chooser_list = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int progress_horizontal = 2131230852;
+			public const int mr_chooser_route_desc = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int radio = 2131230853;
+			public const int mr_chooser_route_icon = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int right = 2131230854;
+			public const int mr_chooser_route_name = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int right_icon = 2131230855;
+			public const int mr_chooser_title = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int right_side = 2131230856;
+			public const int mr_close = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int satellite = 2131230857;
+			public const int mr_control_divider = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int save_image_matrix = 2131230858;
+			public const int mr_control_playback_ctrl = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int save_non_transition_alpha = 2131230859;
+			public const int mr_control_subtitle = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int save_scale_type = 2131230860;
+			public const int mr_control_title = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int screen = 2131230861;
+			public const int mr_control_title_container = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int scroll = 2131230862;
-			
-			// aapt resource value: 0x7F080092
-			public const int scrollable = 2131230866;
+			public const int mr_custom_control = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int scrollIndicatorDown = 2131230863;
+			public const int mr_default_control = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int scrollIndicatorUp = 2131230864;
+			public const int mr_dialog_area = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int scrollView = 2131230865;
+			public const int mr_dialog_header_name = 2131230865;
+			
+			// aapt resource value: 0x7F080092
+			public const int mr_expandable_area = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int search_badge = 2131230867;
+			public const int mr_group_expand_collapse = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int search_bar = 2131230868;
+			public const int mr_group_volume_route_name = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int search_button = 2131230869;
+			public const int mr_group_volume_slider = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int search_close_btn = 2131230870;
+			public const int mr_media_main_control = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int search_edit_frame = 2131230871;
+			public const int mr_name = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int search_go_btn = 2131230872;
+			public const int mr_picker_close_button = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int search_mag_icon = 2131230873;
+			public const int mr_picker_list = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int search_plate = 2131230874;
+			public const int mr_picker_route_icon = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int search_src_text = 2131230875;
+			public const int mr_picker_route_name = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int search_voice_btn = 2131230876;
-			
-			// aapt resource value: 0x7F08009E
-			public const int selected = 2131230878;
+			public const int mr_playback_control = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int select_dialog_listview = 2131230877;
+			public const int mr_title_bar = 2131230877;
+			
+			// aapt resource value: 0x7F08009E
+			public const int mr_volume_control = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int shellcontent_appbar = 2131230879;
+			public const int mr_volume_group_list = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int shellcontent_toolbar = 2131230880;
+			public const int mr_volume_item_icon = 2131230880;
+			
+			// aapt resource value: 0x7F0800A1
+			public const int mr_volume_slider = 2131230881;
+			
+			// aapt resource value: 0x7F0800A2
+			public const int mtrl_child_content_container = 2131230882;
+			
+			// aapt resource value: 0x7F0800A3
+			public const int mtrl_internal_children_alpha_tag = 2131230883;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int multiply = 2131230884;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int navigation_header_container = 2131230885;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int never = 2131230886;
+			
+			// aapt resource value: 0x7F0800A7
+			public const int none = 2131230887;
+			
+			// aapt resource value: 0x7F0800A8
+			public const int normal = 2131230888;
+			
+			// aapt resource value: 0x7F0800A9
+			public const int notification_background = 2131230889;
+			
+			// aapt resource value: 0x7F0800AA
+			public const int notification_main_column = 2131230890;
+			
+			// aapt resource value: 0x7F0800AB
+			public const int notification_main_column_container = 2131230891;
+			
+			// aapt resource value: 0x7F0800AC
+			public const int outline = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int parallax = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int parentPanel = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int parent_matrix = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int pin = 2131230896;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int progress_circular = 2131230897;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int progress_horizontal = 2131230898;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int radio = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int right = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int right_icon = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int right_side = 2131230902;
+			
+			// aapt resource value: 0x7F0800B7
+			public const int satellite = 2131230903;
+			
+			// aapt resource value: 0x7F0800B8
+			public const int save_image_matrix = 2131230904;
+			
+			// aapt resource value: 0x7F0800B9
+			public const int save_non_transition_alpha = 2131230905;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int save_scale_type = 2131230906;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int screen = 2131230907;
+			
+			// aapt resource value: 0x7F0800BC
+			public const int scroll = 2131230908;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int scrollable = 2131230912;
+			
+			// aapt resource value: 0x7F0800BD
+			public const int scrollIndicatorDown = 2131230909;
+			
+			// aapt resource value: 0x7F0800BE
+			public const int scrollIndicatorUp = 2131230910;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int scrollView = 2131230911;
+			
+			// aapt resource value: 0x7F0800C1
+			public const int search_badge = 2131230913;
+			
+			// aapt resource value: 0x7F0800C2
+			public const int search_bar = 2131230914;
+			
+			// aapt resource value: 0x7F0800C3
+			public const int search_button = 2131230915;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int search_close_btn = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int search_edit_frame = 2131230917;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int search_go_btn = 2131230918;
+			
+			// aapt resource value: 0x7F0800C7
+			public const int search_mag_icon = 2131230919;
+			
+			// aapt resource value: 0x7F0800C8
+			public const int search_plate = 2131230920;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int search_src_text = 2131230921;
+			
+			// aapt resource value: 0x7F0800CA
+			public const int search_voice_btn = 2131230922;
+			
+			// aapt resource value: 0x7F0800CC
+			public const int selected = 2131230924;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int select_dialog_listview = 2131230923;
+			
+			// aapt resource value: 0x7F0800CD
+			public const int shellcontent_appbar = 2131230925;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int shellcontent_toolbar = 2131230926;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F0800A1
-			public const int shortcut = 2131230881;
+			// aapt resource value: 0x7F0800CF
+			public const int shortcut = 2131230927;
 			
-			// aapt resource value: 0x7F0800A2
-			public const int showCustom = 2131230882;
+			// aapt resource value: 0x7F0800D0
+			public const int showCustom = 2131230928;
 			
-			// aapt resource value: 0x7F0800A3
-			public const int showHome = 2131230883;
+			// aapt resource value: 0x7F0800D1
+			public const int showHome = 2131230929;
 			
-			// aapt resource value: 0x7F0800A4
-			public const int showTitle = 2131230884;
+			// aapt resource value: 0x7F0800D2
+			public const int showTitle = 2131230930;
 			
-			// aapt resource value: 0x7F0800A5
-			public const int sliding_tabs = 2131230885;
+			// aapt resource value: 0x7F0800D3
+			public const int sliding_tabs = 2131230931;
 			
-			// aapt resource value: 0x7F0800A6
-			public const int smallLabel = 2131230886;
+			// aapt resource value: 0x7F0800D4
+			public const int smallLabel = 2131230932;
 			
-			// aapt resource value: 0x7F0800A7
-			public const int snackbar_action = 2131230887;
+			// aapt resource value: 0x7F0800D5
+			public const int snackbar_action = 2131230933;
 			
-			// aapt resource value: 0x7F0800A8
-			public const int snackbar_text = 2131230888;
+			// aapt resource value: 0x7F0800D6
+			public const int snackbar_text = 2131230934;
 			
-			// aapt resource value: 0x7F0800A9
-			public const int snap = 2131230889;
+			// aapt resource value: 0x7F0800D7
+			public const int snap = 2131230935;
 			
-			// aapt resource value: 0x7F0800AA
-			public const int snapMargins = 2131230890;
+			// aapt resource value: 0x7F0800D8
+			public const int snapMargins = 2131230936;
 			
-			// aapt resource value: 0x7F0800AB
-			public const int spacer = 2131230891;
+			// aapt resource value: 0x7F0800D9
+			public const int spacer = 2131230937;
 			
-			// aapt resource value: 0x7F0800AC
-			public const int split_action_bar = 2131230892;
+			// aapt resource value: 0x7F0800DA
+			public const int split_action_bar = 2131230938;
 			
-			// aapt resource value: 0x7F0800AD
-			public const int src_atop = 2131230893;
+			// aapt resource value: 0x7F0800DB
+			public const int src_atop = 2131230939;
 			
-			// aapt resource value: 0x7F0800AE
-			public const int src_in = 2131230894;
+			// aapt resource value: 0x7F0800DC
+			public const int src_in = 2131230940;
 			
-			// aapt resource value: 0x7F0800AF
-			public const int src_over = 2131230895;
+			// aapt resource value: 0x7F0800DD
+			public const int src_over = 2131230941;
 			
-			// aapt resource value: 0x7F0800B0
-			public const int standard = 2131230896;
+			// aapt resource value: 0x7F0800DE
+			public const int standard = 2131230942;
 			
-			// aapt resource value: 0x7F0800B1
-			public const int start = 2131230897;
+			// aapt resource value: 0x7F0800DF
+			public const int start = 2131230943;
 			
-			// aapt resource value: 0x7F0800B2
-			public const int status_bar_latest_event_content = 2131230898;
+			// aapt resource value: 0x7F0800E0
+			public const int status_bar_latest_event_content = 2131230944;
 			
-			// aapt resource value: 0x7F0800B3
-			public const int stretch = 2131230899;
+			// aapt resource value: 0x7F0800E1
+			public const int stretch = 2131230945;
 			
-			// aapt resource value: 0x7F0800B4
-			public const int submenuarrow = 2131230900;
+			// aapt resource value: 0x7F0800E2
+			public const int submenuarrow = 2131230946;
 			
-			// aapt resource value: 0x7F0800B5
-			public const int submit_area = 2131230901;
+			// aapt resource value: 0x7F0800E3
+			public const int submit_area = 2131230947;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800B6
-			public const int tabMode = 2131230902;
+			// aapt resource value: 0x7F0800E4
+			public const int tabMode = 2131230948;
 			
-			// aapt resource value: 0x7F0800B7
-			public const int tag_transition_group = 2131230903;
+			// aapt resource value: 0x7F0800E5
+			public const int tag_transition_group = 2131230949;
 			
-			// aapt resource value: 0x7F0800B8
-			public const int tag_unhandled_key_event_manager = 2131230904;
+			// aapt resource value: 0x7F0800E6
+			public const int tag_unhandled_key_event_manager = 2131230950;
 			
-			// aapt resource value: 0x7F0800B9
-			public const int tag_unhandled_key_listeners = 2131230905;
+			// aapt resource value: 0x7F0800E7
+			public const int tag_unhandled_key_listeners = 2131230951;
 			
-			// aapt resource value: 0x7F0800BA
-			public const int terrain = 2131230906;
+			// aapt resource value: 0x7F0800E8
+			public const int terrain = 2131230952;
 			
-			// aapt resource value: 0x7F0800BB
-			public const int text = 2131230907;
+			// aapt resource value: 0x7F0800E9
+			public const int text = 2131230953;
 			
-			// aapt resource value: 0x7F0800BC
-			public const int text2 = 2131230908;
+			// aapt resource value: 0x7F0800EA
+			public const int text2 = 2131230954;
 			
-			// aapt resource value: 0x7F0800C1
-			public const int textinput_counter = 2131230913;
+			// aapt resource value: 0x7F0800EF
+			public const int textinput_counter = 2131230959;
 			
-			// aapt resource value: 0x7F0800C2
-			public const int textinput_error = 2131230914;
+			// aapt resource value: 0x7F0800F0
+			public const int textinput_error = 2131230960;
 			
-			// aapt resource value: 0x7F0800C3
-			public const int textinput_helper_text = 2131230915;
+			// aapt resource value: 0x7F0800F1
+			public const int textinput_helper_text = 2131230961;
 			
-			// aapt resource value: 0x7F0800BD
-			public const int textSpacerNoButtons = 2131230909;
+			// aapt resource value: 0x7F0800EB
+			public const int textSpacerNoButtons = 2131230955;
 			
-			// aapt resource value: 0x7F0800BE
-			public const int textSpacerNoTitle = 2131230910;
+			// aapt resource value: 0x7F0800EC
+			public const int textSpacerNoTitle = 2131230956;
 			
-			// aapt resource value: 0x7F0800BF
-			public const int textStart = 2131230911;
+			// aapt resource value: 0x7F0800ED
+			public const int textStart = 2131230957;
 			
-			// aapt resource value: 0x7F0800C0
-			public const int text_input_password_toggle = 2131230912;
+			// aapt resource value: 0x7F0800EE
+			public const int text_input_password_toggle = 2131230958;
 			
-			// aapt resource value: 0x7F0800C4
-			public const int time = 2131230916;
+			// aapt resource value: 0x7F0800F2
+			public const int time = 2131230962;
 			
-			// aapt resource value: 0x7F0800C5
-			public const int title = 2131230917;
+			// aapt resource value: 0x7F0800F3
+			public const int title = 2131230963;
 			
-			// aapt resource value: 0x7F0800C6
-			public const int titleDividerNoCustom = 2131230918;
+			// aapt resource value: 0x7F0800F4
+			public const int titleDividerNoCustom = 2131230964;
 			
-			// aapt resource value: 0x7F0800C7
-			public const int title_template = 2131230919;
+			// aapt resource value: 0x7F0800F5
+			public const int title_template = 2131230965;
 			
-			// aapt resource value: 0x7F0800C8
-			public const int toolbar = 2131230920;
+			// aapt resource value: 0x7F0800F6
+			public const int toolbar = 2131230966;
 			
-			// aapt resource value: 0x7F0800C9
-			public const int top = 2131230921;
+			// aapt resource value: 0x7F0800F7
+			public const int top = 2131230967;
 			
-			// aapt resource value: 0x7F0800CA
-			public const int topPanel = 2131230922;
+			// aapt resource value: 0x7F0800F8
+			public const int topPanel = 2131230968;
 			
-			// aapt resource value: 0x7F0800CB
-			public const int touch_outside = 2131230923;
+			// aapt resource value: 0x7F0800F9
+			public const int touch_outside = 2131230969;
 			
-			// aapt resource value: 0x7F0800CC
-			public const int transition_current_scene = 2131230924;
+			// aapt resource value: 0x7F0800FA
+			public const int transition_current_scene = 2131230970;
 			
-			// aapt resource value: 0x7F0800CD
-			public const int transition_layout_save = 2131230925;
+			// aapt resource value: 0x7F0800FB
+			public const int transition_layout_save = 2131230971;
 			
-			// aapt resource value: 0x7F0800CE
-			public const int transition_position = 2131230926;
+			// aapt resource value: 0x7F0800FC
+			public const int transition_position = 2131230972;
 			
-			// aapt resource value: 0x7F0800CF
-			public const int transition_scene_layoutid_cache = 2131230927;
+			// aapt resource value: 0x7F0800FD
+			public const int transition_scene_layoutid_cache = 2131230973;
 			
-			// aapt resource value: 0x7F0800D0
-			public const int transition_transform = 2131230928;
+			// aapt resource value: 0x7F0800FE
+			public const int transition_transform = 2131230974;
 			
-			// aapt resource value: 0x7F0800D1
-			public const int uniform = 2131230929;
+			// aapt resource value: 0x7F0800FF
+			public const int uniform = 2131230975;
 			
-			// aapt resource value: 0x7F0800D2
-			public const int unlabeled = 2131230930;
+			// aapt resource value: 0x7F080100
+			public const int unlabeled = 2131230976;
 			
-			// aapt resource value: 0x7F0800D3
-			public const int up = 2131230931;
+			// aapt resource value: 0x7F080101
+			public const int up = 2131230977;
 			
-			// aapt resource value: 0x7F0800D4
-			public const int useLogo = 2131230932;
+			// aapt resource value: 0x7F080102
+			public const int useLogo = 2131230978;
 			
-			// aapt resource value: 0x7F0800D5
-			public const int view_offset_helper = 2131230933;
+			// aapt resource value: 0x7F080103
+			public const int view_offset_helper = 2131230979;
 			
-			// aapt resource value: 0x7F0800D6
-			public const int visible = 2131230934;
+			// aapt resource value: 0x7F080104
+			public const int visible = 2131230980;
 			
-			// aapt resource value: 0x7F0800D7
-			public const int webview = 2131230935;
+			// aapt resource value: 0x7F080105
+			public const int volume_item_container = 2131230981;
 			
-			// aapt resource value: 0x7F0800D8
-			public const int wide = 2131230936;
+			// aapt resource value: 0x7F080106
+			public const int webview = 2131230982;
 			
-			// aapt resource value: 0x7F0800D9
-			public const int withText = 2131230937;
+			// aapt resource value: 0x7F080107
+			public const int wide = 2131230983;
 			
-			// aapt resource value: 0x7F0800DA
-			public const int wrap_content = 2131230938;
+			// aapt resource value: 0x7F080108
+			public const int withText = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int wrap_content = 2131230985;
 			
 			static Id()
 			{
@@ -14717,22 +20684,34 @@ namespace Tutorip.Droid
 			public const int hide_password_duration = 2131296265;
 			
 			// aapt resource value: 0x7F09000A
-			public const int mtrl_btn_anim_delay_ms = 2131296266;
+			public const int mr_controller_volume_group_list_animation_duration_ms = 2131296266;
 			
 			// aapt resource value: 0x7F09000B
-			public const int mtrl_btn_anim_duration_ms = 2131296267;
+			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131296267;
 			
 			// aapt resource value: 0x7F09000C
-			public const int mtrl_chip_anim_duration = 2131296268;
+			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131296268;
 			
 			// aapt resource value: 0x7F09000D
-			public const int mtrl_tab_indicator_anim_duration_ms = 2131296269;
+			public const int mr_update_routes_delay_ms = 2131296269;
 			
 			// aapt resource value: 0x7F09000E
-			public const int show_password_duration = 2131296270;
+			public const int mtrl_btn_anim_delay_ms = 2131296270;
 			
 			// aapt resource value: 0x7F09000F
-			public const int status_bar_notification_info_maxnum = 2131296271;
+			public const int mtrl_btn_anim_duration_ms = 2131296271;
+			
+			// aapt resource value: 0x7F090010
+			public const int mtrl_chip_anim_duration = 2131296272;
+			
+			// aapt resource value: 0x7F090011
+			public const int mtrl_tab_indicator_anim_duration_ms = 2131296273;
+			
+			// aapt resource value: 0x7F090012
+			public const int show_password_duration = 2131296274;
+			
+			// aapt resource value: 0x7F090013
+			public const int status_bar_notification_info_maxnum = 2131296275;
 			
 			static Integer()
 			{
@@ -14748,16 +20727,22 @@ namespace Tutorip.Droid
 		{
 			
 			// aapt resource value: 0x7F0A0000
-			public const int mtrl_fast_out_linear_in = 2131361792;
+			public const int mr_fast_out_slow_in = 2131361792;
 			
 			// aapt resource value: 0x7F0A0001
-			public const int mtrl_fast_out_slow_in = 2131361793;
+			public const int mr_linear_out_slow_in = 2131361793;
 			
 			// aapt resource value: 0x7F0A0002
-			public const int mtrl_linear = 2131361794;
+			public const int mtrl_fast_out_linear_in = 2131361794;
 			
 			// aapt resource value: 0x7F0A0003
-			public const int mtrl_linear_out_slow_in = 2131361795;
+			public const int mtrl_fast_out_slow_in = 2131361795;
+			
+			// aapt resource value: 0x7F0A0004
+			public const int mtrl_linear = 2131361796;
+			
+			// aapt resource value: 0x7F0A0005
+			public const int mtrl_linear_out_slow_in = 2131361797;
 			
 			static Interpolator()
 			{
@@ -14917,79 +20902,121 @@ namespace Tutorip.Droid
 			public const int Login = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int mtrl_layout_snackbar = 2131427376;
+			public const int mr_cast_dialog = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int mtrl_layout_snackbar_include = 2131427377;
+			public const int mr_cast_group_item = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_action = 2131427378;
+			public const int mr_cast_group_volume_item = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_action_tombstone = 2131427379;
+			public const int mr_cast_media_metadata = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_media_action = 2131427380;
+			public const int mr_cast_route_item = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_media_cancel_action = 2131427381;
+			public const int mr_chooser_dialog = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_big_media = 2131427382;
+			public const int mr_chooser_list_item = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_big_media_custom = 2131427383;
+			public const int mr_controller_material_dialog_b = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_big_media_narrow = 2131427384;
+			public const int mr_controller_volume_item = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_big_media_narrow_custom = 2131427385;
+			public const int mr_dialog_header_item = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int notification_template_custom_big = 2131427386;
+			public const int mr_picker_dialog = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int notification_template_icon_group = 2131427387;
+			public const int mr_picker_route_item = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int notification_template_lines_media = 2131427388;
+			public const int mr_playback_control = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int notification_template_media = 2131427389;
+			public const int mr_volume_control = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_template_media_custom = 2131427390;
+			public const int mtrl_layout_snackbar = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int notification_template_part_chronometer = 2131427391;
+			public const int mtrl_layout_snackbar_include = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int notification_template_part_time = 2131427392;
+			public const int notification_action = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int RootLayout = 2131427393;
+			public const int notification_action_tombstone = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int select_dialog_item_material = 2131427394;
+			public const int notification_media_action = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int select_dialog_multichoice_material = 2131427395;
+			public const int notification_media_cancel_action = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int select_dialog_singlechoice_material = 2131427396;
+			public const int notification_template_big_media = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int ShellContent = 2131427397;
+			public const int notification_template_big_media_custom = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int support_simple_spinner_dropdown_item = 2131427398;
+			public const int notification_template_big_media_narrow = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int Tabbar = 2131427399;
+			public const int notification_template_big_media_narrow_custom = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int Toolbar = 2131427400;
+			public const int notification_template_custom_big = 2131427400;
+			
+			// aapt resource value: 0x7F0B0049
+			public const int notification_template_icon_group = 2131427401;
+			
+			// aapt resource value: 0x7F0B004A
+			public const int notification_template_lines_media = 2131427402;
+			
+			// aapt resource value: 0x7F0B004B
+			public const int notification_template_media = 2131427403;
+			
+			// aapt resource value: 0x7F0B004C
+			public const int notification_template_media_custom = 2131427404;
+			
+			// aapt resource value: 0x7F0B004D
+			public const int notification_template_part_chronometer = 2131427405;
+			
+			// aapt resource value: 0x7F0B004E
+			public const int notification_template_part_time = 2131427406;
+			
+			// aapt resource value: 0x7F0B004F
+			public const int RootLayout = 2131427407;
+			
+			// aapt resource value: 0x7F0B0050
+			public const int select_dialog_item_material = 2131427408;
+			
+			// aapt resource value: 0x7F0B0051
+			public const int select_dialog_multichoice_material = 2131427409;
+			
+			// aapt resource value: 0x7F0B0052
+			public const int select_dialog_singlechoice_material = 2131427410;
+			
+			// aapt resource value: 0x7F0B0053
+			public const int ShellContent = 2131427411;
+			
+			// aapt resource value: 0x7F0B0054
+			public const int support_simple_spinner_dropdown_item = 2131427412;
+			
+			// aapt resource value: 0x7F0B0055
+			public const int Tabbar = 2131427413;
+			
+			// aapt resource value: 0x7F0B0056
+			public const int Toolbar = 2131427414;
 			
 			static Layout()
 			{
@@ -15222,31 +21249,103 @@ namespace Tutorip.Droid
 			public const int hide_bottom_view_on_scroll_behavior = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int mtrl_chip_close_icon_content_description = 2131558465;
+			public const int mr_button_content_description = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int password_toggle_content_description = 2131558466;
+			public const int mr_cast_button_connected = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int path_password_eye = 2131558467;
+			public const int mr_cast_button_connecting = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int path_password_eye_mask_strike_through = 2131558468;
+			public const int mr_cast_button_disconnected = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int path_password_eye_mask_visible = 2131558469;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int path_password_strike_through = 2131558470;
+			public const int mr_chooser_searching = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int search_menu_title = 2131558471;
+			public const int mr_chooser_title = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int status_bar_notification_info_overflow = 2131558472;
+			public const int mr_controller_album_art = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int title_activity_webview = 2131558473;
+			public const int mr_controller_casting_screen = 2131558473;
+			
+			// aapt resource value: 0x7F0D004A
+			public const int mr_controller_close_description = 2131558474;
+			
+			// aapt resource value: 0x7F0D004B
+			public const int mr_controller_collapse_group = 2131558475;
+			
+			// aapt resource value: 0x7F0D004C
+			public const int mr_controller_disconnect = 2131558476;
+			
+			// aapt resource value: 0x7F0D004D
+			public const int mr_controller_expand_group = 2131558477;
+			
+			// aapt resource value: 0x7F0D004E
+			public const int mr_controller_no_info_available = 2131558478;
+			
+			// aapt resource value: 0x7F0D004F
+			public const int mr_controller_no_media_selected = 2131558479;
+			
+			// aapt resource value: 0x7F0D0050
+			public const int mr_controller_pause = 2131558480;
+			
+			// aapt resource value: 0x7F0D0051
+			public const int mr_controller_play = 2131558481;
+			
+			// aapt resource value: 0x7F0D0052
+			public const int mr_controller_stop = 2131558482;
+			
+			// aapt resource value: 0x7F0D0053
+			public const int mr_controller_stop_casting = 2131558483;
+			
+			// aapt resource value: 0x7F0D0054
+			public const int mr_controller_volume_slider = 2131558484;
+			
+			// aapt resource value: 0x7F0D0055
+			public const int mr_dialog_device_header = 2131558485;
+			
+			// aapt resource value: 0x7F0D0056
+			public const int mr_dialog_route_header = 2131558486;
+			
+			// aapt resource value: 0x7F0D0057
+			public const int mr_system_route_name = 2131558487;
+			
+			// aapt resource value: 0x7F0D0058
+			public const int mr_user_route_category_name = 2131558488;
+			
+			// aapt resource value: 0x7F0D0059
+			public const int mtrl_chip_close_icon_content_description = 2131558489;
+			
+			// aapt resource value: 0x7F0D005A
+			public const int password_toggle_content_description = 2131558490;
+			
+			// aapt resource value: 0x7F0D005B
+			public const int path_password_eye = 2131558491;
+			
+			// aapt resource value: 0x7F0D005C
+			public const int path_password_eye_mask_strike_through = 2131558492;
+			
+			// aapt resource value: 0x7F0D005D
+			public const int path_password_eye_mask_visible = 2131558493;
+			
+			// aapt resource value: 0x7F0D005E
+			public const int path_password_strike_through = 2131558494;
+			
+			// aapt resource value: 0x7F0D005F
+			public const int search_menu_title = 2131558495;
+			
+			// aapt resource value: 0x7F0D0060
+			public const int status_bar_notification_info_overflow = 2131558496;
+			
+			// aapt resource value: 0x7F0D0061
+			public const int title_activity_webview = 2131558497;
 			
 			static String()
 			{
@@ -15855,8 +21954,8 @@ namespace Tutorip.Droid
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
 			
-			// aapt resource value: 0x7F0E01F8
-			public const int collectionViewStyle = 2131624440;
+			// aapt resource value: 0x7F0E0203
+			public const int collectionViewStyle = 2131624451;
 			
 			// aapt resource value: 0x7F0E00C6
 			public const int MainTheme = 2131624134;
@@ -16204,577 +22303,610 @@ namespace Tutorip.Droid
 			public const int TextAppearance_MaterialComponents_Tab = 2131624248;
 			
 			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624249;
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131624249;
 			
 			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624250;
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131624250;
 			
 			// aapt resource value: 0x7F0E013B
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624251;
-			
-			// aapt resource value: 0x7F0E016C
-			public const int ThemeOverlay_AppCompat = 2131624300;
-			
-			// aapt resource value: 0x7F0E016D
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624301;
-			
-			// aapt resource value: 0x7F0E016E
-			public const int ThemeOverlay_AppCompat_Dark = 2131624302;
-			
-			// aapt resource value: 0x7F0E016F
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624303;
-			
-			// aapt resource value: 0x7F0E0170
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624304;
-			
-			// aapt resource value: 0x7F0E0171
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624305;
-			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_AppCompat_Light = 2131624306;
-			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_MaterialComponents = 2131624307;
-			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624308;
-			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624309;
-			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624310;
-			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624311;
-			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624312;
-			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624313;
-			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624314;
-			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624315;
-			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624316;
-			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624317;
-			
-			// aapt resource value: 0x7F0E017E
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624318;
+			public const int TextAppearance_MediaRouter_Title = 2131624251;
 			
 			// aapt resource value: 0x7F0E013C
-			public const int Theme_AppCompat = 2131624252;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624252;
 			
 			// aapt resource value: 0x7F0E013D
-			public const int Theme_AppCompat_CompactMenu = 2131624253;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624253;
 			
 			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat_DayNight = 2131624254;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624254;
 			
-			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624255;
+			// aapt resource value: 0x7F0E0173
+			public const int ThemeOverlay_AppCompat = 2131624307;
 			
-			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624256;
+			// aapt resource value: 0x7F0E0174
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624308;
 			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624259;
+			// aapt resource value: 0x7F0E0175
+			public const int ThemeOverlay_AppCompat_Dark = 2131624309;
 			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624257;
+			// aapt resource value: 0x7F0E0176
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624310;
 			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624258;
+			// aapt resource value: 0x7F0E0177
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624311;
 			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624260;
+			// aapt resource value: 0x7F0E0178
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624312;
 			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_Dialog = 2131624261;
+			// aapt resource value: 0x7F0E0179
+			public const int ThemeOverlay_AppCompat_Light = 2131624313;
 			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624264;
+			// aapt resource value: 0x7F0E017A
+			public const int ThemeOverlay_MaterialComponents = 2131624314;
 			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_Dialog_Alert = 2131624262;
+			// aapt resource value: 0x7F0E017B
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624315;
 			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624263;
+			// aapt resource value: 0x7F0E017C
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624316;
 			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Light = 2131624265;
+			// aapt resource value: 0x7F0E017D
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624317;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624266;
-			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_Light_Dialog = 2131624267;
-			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624270;
-			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624268;
-			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624269;
-			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624271;
-			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_AppCompat_NoActionBar = 2131624272;
-			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_Design = 2131624273;
-			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_Design_BottomSheetDialog = 2131624274;
-			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_Design_Light = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_Light_NoActionBar = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_Design_NoActionBar = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_MaterialComponents = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents_Bridge = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_CompactMenu = 2131624282;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Dialog = 2131624283;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624286;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624284;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624285;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Light = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624288;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624289;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624291;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624292;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624295;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624293;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624294;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624297;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_NoActionBar = 2131624298;
-			
-			// aapt resource value: 0x7F0E016B
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624299;
+			// aapt resource value: 0x7F0E017E
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624318;
 			
 			// aapt resource value: 0x7F0E017F
-			public const int Widget_AppCompat_ActionBar = 2131624319;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624319;
 			
 			// aapt resource value: 0x7F0E0180
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624320;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624320;
 			
 			// aapt resource value: 0x7F0E0181
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624321;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624321;
 			
 			// aapt resource value: 0x7F0E0182
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624322;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624322;
 			
 			// aapt resource value: 0x7F0E0183
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624323;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624323;
 			
 			// aapt resource value: 0x7F0E0184
-			public const int Widget_AppCompat_ActionButton = 2131624324;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624324;
 			
 			// aapt resource value: 0x7F0E0185
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624325;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624325;
 			
 			// aapt resource value: 0x7F0E0186
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624326;
+			public const int ThemeOverlay_MediaRouter_Dark = 2131624326;
 			
 			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActionMode = 2131624327;
+			public const int ThemeOverlay_MediaRouter_Light = 2131624327;
+			
+			// aapt resource value: 0x7F0E013F
+			public const int Theme_AppCompat = 2131624255;
+			
+			// aapt resource value: 0x7F0E0140
+			public const int Theme_AppCompat_CompactMenu = 2131624256;
+			
+			// aapt resource value: 0x7F0E0141
+			public const int Theme_AppCompat_DayNight = 2131624257;
+			
+			// aapt resource value: 0x7F0E0142
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624258;
+			
+			// aapt resource value: 0x7F0E0143
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624259;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624262;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624260;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624261;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624263;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_Dialog = 2131624264;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624267;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_Dialog_Alert = 2131624265;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624266;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_Light = 2131624268;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624269;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Light_Dialog = 2131624270;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624273;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624271;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624272;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624274;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_AppCompat_NoActionBar = 2131624275;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_Design = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_Design_BottomSheetDialog = 2131624277;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_Design_Light = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_Design_Light_NoActionBar = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_Design_NoActionBar = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_MaterialComponents = 2131624282;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624283;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_MaterialComponents_Bridge = 2131624284;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_MaterialComponents_CompactMenu = 2131624285;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_MaterialComponents_Dialog = 2131624286;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624289;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624287;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624288;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_Light = 2131624290;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624291;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624292;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624293;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624294;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624295;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624298;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624296;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624297;
+			
+			// aapt resource value: 0x7F0E016B
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624299;
+			
+			// aapt resource value: 0x7F0E016C
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624300;
+			
+			// aapt resource value: 0x7F0E016D
+			public const int Theme_MaterialComponents_NoActionBar = 2131624301;
+			
+			// aapt resource value: 0x7F0E016E
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624302;
+			
+			// aapt resource value: 0x7F0E016F
+			public const int Theme_MediaRouter = 2131624303;
+			
+			// aapt resource value: 0x7F0E0170
+			public const int Theme_MediaRouter_Light = 2131624304;
+			
+			// aapt resource value: 0x7F0E0172
+			public const int Theme_MediaRouter_LightControlPanel = 2131624306;
+			
+			// aapt resource value: 0x7F0E0171
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624305;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_ActivityChooserView = 2131624328;
+			public const int Widget_AppCompat_ActionBar = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624329;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_Button = 2131624330;
-			
-			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ButtonBar = 2131624336;
-			
-			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624337;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_Button_Borderless = 2131624331;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624331;
 			
 			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624332;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624332;
 			
 			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624333;
+			public const int Widget_AppCompat_ActionButton = 2131624333;
 			
 			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_Button_Colored = 2131624334;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624334;
 			
 			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_Button_Small = 2131624335;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624335;
+			
+			// aapt resource value: 0x7F0E0190
+			public const int Widget_AppCompat_ActionMode = 2131624336;
+			
+			// aapt resource value: 0x7F0E0191
+			public const int Widget_AppCompat_ActivityChooserView = 2131624337;
 			
 			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624338;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624338;
 			
 			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624339;
-			
-			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624340;
-			
-			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624341;
-			
-			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624342;
-			
-			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_EditText = 2131624343;
-			
-			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_ImageButton = 2131624344;
+			public const int Widget_AppCompat_Button = 2131624339;
 			
 			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_Light_ActionBar = 2131624345;
+			public const int Widget_AppCompat_ButtonBar = 2131624345;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624346;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624346;
+			
+			// aapt resource value: 0x7F0E0194
+			public const int Widget_AppCompat_Button_Borderless = 2131624340;
+			
+			// aapt resource value: 0x7F0E0195
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624341;
+			
+			// aapt resource value: 0x7F0E0196
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624342;
+			
+			// aapt resource value: 0x7F0E0197
+			public const int Widget_AppCompat_Button_Colored = 2131624343;
+			
+			// aapt resource value: 0x7F0E0198
+			public const int Widget_AppCompat_Button_Small = 2131624344;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624347;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624348;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624349;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624350;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624351;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624352;
+			public const int Widget_AppCompat_EditText = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624353;
+			public const int Widget_AppCompat_ImageButton = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionButton = 2131624354;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624355;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624356;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624357;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624358;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624359;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624360;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624361;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624362;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624363;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624364;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_SearchView = 2131624365;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624366;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_ListMenuView = 2131624367;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_ListPopupWindow = 2131624368;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_ListView = 2131624369;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_ListView_DropDown = 2131624370;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_ListView_Menu = 2131624371;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_PopupMenu = 2131624372;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624373;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_PopupWindow = 2131624374;
+			public const int Widget_AppCompat_Light_SearchView = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ProgressBar = 2131624375;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624376;
+			public const int Widget_AppCompat_ListMenuView = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_RatingBar = 2131624377;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624378;
+			public const int Widget_AppCompat_ListView = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_RatingBar_Small = 2131624379;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_SearchView = 2131624380;
+			public const int Widget_AppCompat_ListView_Menu = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624381;
+			public const int Widget_AppCompat_PopupMenu = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_SeekBar = 2131624382;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624383;
+			public const int Widget_AppCompat_PopupWindow = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_Spinner = 2131624384;
+			public const int Widget_AppCompat_ProgressBar = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624385;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624386;
+			public const int Widget_AppCompat_RatingBar = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624387;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624388;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_Toolbar = 2131624389;
+			public const int Widget_AppCompat_SearchView = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624390;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_Compat_NotificationActionContainer = 2131624391;
+			public const int Widget_AppCompat_SeekBar = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_Compat_NotificationActionText = 2131624392;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_Design_AppBarLayout = 2131624393;
+			public const int Widget_AppCompat_Spinner = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_Design_BottomNavigationView = 2131624394;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_Design_BottomSheet_Modal = 2131624395;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_Design_CollapsingToolbar = 2131624396;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_Design_FloatingActionButton = 2131624397;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_Design_NavigationView = 2131624398;
+			public const int Widget_AppCompat_Toolbar = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624399;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Design_Snackbar = 2131624400;
+			public const int Widget_Compat_NotificationActionContainer = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_TabLayout = 2131624401;
+			public const int Widget_Compat_NotificationActionText = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_Design_TextInputLayout = 2131624402;
+			public const int Widget_Design_AppBarLayout = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624403;
+			public const int Widget_Design_BottomNavigationView = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624404;
+			public const int Widget_Design_BottomSheet_Modal = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624405;
+			public const int Widget_Design_CollapsingToolbar = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624406;
+			public const int Widget_Design_FloatingActionButton = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624407;
+			public const int Widget_Design_NavigationView = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_MaterialComponents_Button = 2131624408;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_MaterialComponents_Button_Icon = 2131624409;
+			public const int Widget_Design_Snackbar = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624410;
+			public const int Widget_Design_TabLayout = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624411;
+			public const int Widget_Design_TextInputLayout = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624412;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624413;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624414;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624415;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624416;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624417;
+			public const int Widget_MaterialComponents_Button = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_CardView = 2131624418;
-			
-			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_ChipGroup = 2131624423;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Chip_Action = 2131624419;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624420;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624421;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624421;
 			
 			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624422;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624422;
+			
+			// aapt resource value: 0x7F0E01E7
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624423;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624424;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624424;
 			
 			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_NavigationView = 2131624425;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_Snackbar = 2131624426;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624426;
 			
 			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624427;
-			
-			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_TabLayout = 2131624428;
-			
-			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624429;
-			
-			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624430;
-			
-			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624431;
+			public const int Widget_MaterialComponents_CardView = 2131624427;
 			
 			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624432;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624432;
+			
+			// aapt resource value: 0x7F0E01EC
+			public const int Widget_MaterialComponents_Chip_Action = 2131624428;
+			
+			// aapt resource value: 0x7F0E01ED
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624429;
+			
+			// aapt resource value: 0x7F0E01EE
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624430;
+			
+			// aapt resource value: 0x7F0E01EF
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624431;
 			
 			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624433;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624434;
+			public const int Widget_MaterialComponents_NavigationView = 2131624434;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624435;
+			public const int Widget_MaterialComponents_Snackbar = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624436;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624437;
+			public const int Widget_MaterialComponents_TabLayout = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_MaterialComponents_Toolbar = 2131624438;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624438;
 			
 			// aapt resource value: 0x7F0E01F7
-			public const int Widget_Support_CoordinatorLayout = 2131624439;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624439;
+			
+			// aapt resource value: 0x7F0E01F8
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624440;
+			
+			// aapt resource value: 0x7F0E01F9
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624441;
+			
+			// aapt resource value: 0x7F0E01FA
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624442;
+			
+			// aapt resource value: 0x7F0E01FB
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624443;
+			
+			// aapt resource value: 0x7F0E01FC
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624444;
+			
+			// aapt resource value: 0x7F0E01FD
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624445;
+			
+			// aapt resource value: 0x7F0E01FE
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624446;
+			
+			// aapt resource value: 0x7F0E01FF
+			public const int Widget_MaterialComponents_Toolbar = 2131624447;
+			
+			// aapt resource value: 0x7F0E0200
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624448;
+			
+			// aapt resource value: 0x7F0E0201
+			public const int Widget_MediaRouter_MediaRouteButton = 2131624449;
+			
+			// aapt resource value: 0x7F0E0202
+			public const int Widget_Support_CoordinatorLayout = 2131624450;
 			
 			static Style()
 			{
@@ -16789,7 +22921,7 @@ namespace Tutorip.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030034,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300AF,0x7F0300B4,0x7F0300B5,0x7F0300C0,0x7F0300EA,0x7F0300EF,0x7F0300F4,0x7F0300F5,0x7F0300F7,0x7F030103,0x7F03010D,0x7F030135,0x7F030142,0x7F030153,0x7F030157,0x7F030158,0x7F030187,0x7F03018A,0x7F0301CF,0x7F0301D9 }
+			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030034,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300AF,0x7F0300B4,0x7F0300B5,0x7F0300C0,0x7F0300EB,0x7F0300F0,0x7F0300F5,0x7F0300F6,0x7F0300F8,0x7F030104,0x7F03010E,0x7F030136,0x7F030150,0x7F030161,0x7F030165,0x7F030166,0x7F030195,0x7F030198,0x7F0301DD,0x7F0301E7 }
 			public static int[] ActionBar = new int[] {
 					2130903090,
 					2130903091,
@@ -16804,22 +22936,22 @@ namespace Tutorip.Droid
 					2130903220,
 					2130903221,
 					2130903232,
-					2130903274,
-					2130903279,
-					2130903284,
+					2130903275,
+					2130903280,
 					2130903285,
-					2130903287,
-					2130903299,
-					2130903309,
-					2130903349,
-					2130903362,
-					2130903379,
-					2130903383,
-					2130903384,
-					2130903431,
-					2130903434,
-					2130903503,
-					2130903513};
+					2130903286,
+					2130903288,
+					2130903300,
+					2130903310,
+					2130903350,
+					2130903376,
+					2130903393,
+					2130903397,
+					2130903398,
+					2130903445,
+					2130903448,
+					2130903517,
+					2130903527};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -16926,14 +23058,14 @@ namespace Tutorip.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030088,0x7F0300EA,0x7F03018A,0x7F0301D9 }
+			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030088,0x7F0300EB,0x7F030198,0x7F0301E7 }
 			public static int[] ActionMode = new int[] {
 					2130903090,
 					2130903091,
 					2130903176,
-					2130903274,
-					2130903434,
-					2130903513};
+					2130903275,
+					2130903448,
+					2130903527};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -16953,10 +23085,10 @@ namespace Tutorip.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300C5,0x7F030104 }
+			// aapt resource value: { 0x7F0300C5,0x7F030105 }
 			public static int[] ActivityChooserView = new int[] {
 					2130903237,
-					2130903300};
+					2130903301};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -16964,16 +23096,16 @@ namespace Tutorip.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030053,0x7F030054,0x7F03012B,0x7F03012C,0x7F03013F,0x7F03016F,0x7F030170 }
+			// aapt resource value: { 0x10100F2,0x7F030053,0x7F030054,0x7F03012C,0x7F03012D,0x7F03014D,0x7F03017D,0x7F03017E }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903123,
 					2130903124,
-					2130903339,
 					2130903340,
-					2130903359,
-					2130903407,
-					2130903408};
+					2130903341,
+					2130903373,
+					2130903421,
+					2130903422};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -17056,21 +23188,21 @@ namespace Tutorip.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300C0,0x7F0300C6,0x7F030126 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300C0,0x7F0300C6,0x7F030127 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
 					2130903232,
 					2130903238,
-					2130903334};
+					2130903335};
 			
-			// aapt resource value: { 0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180 }
+			// aapt resource value: { 0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903421,
-					2130903422,
-					2130903423,
-					2130903424};
+					2130903435,
+					2130903436,
+					2130903437,
+					2130903438};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -17099,10 +23231,10 @@ namespace Tutorip.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F030124,0x7F030125 }
+			// aapt resource value: { 0x7F030125,0x7F030126 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903332,
-					2130903333};
+					2130903333,
+					2130903334};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -17113,12 +23245,12 @@ namespace Tutorip.Droid
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F03017A,0x7F0301CD,0x7F0301CE }
+			// aapt resource value: { 0x1010119,0x7F030188,0x7F0301DB,0x7F0301DC }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903418,
-					2130903501,
-					2130903502};
+					2130903432,
+					2130903515,
+					2130903516};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -17132,12 +23264,12 @@ namespace Tutorip.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301CA,0x7F0301CB,0x7F0301CC }
+			// aapt resource value: { 0x1010142,0x7F0301D8,0x7F0301D9,0x7F0301DA }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903498,
-					2130903499,
-					2130903500};
+					2130903512,
+					2130903513,
+					2130903514};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -17182,7 +23314,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F0300D9,0x7F0300DC,0x7F030115,0x7F030127,0x7F0301AA }
+			// aapt resource value: { 0x1010034,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F0300DA,0x7F0300DD,0x7F030116,0x7F030128,0x7F0301B8 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903085,
@@ -17190,11 +23322,11 @@ namespace Tutorip.Droid
 					2130903087,
 					2130903088,
 					2130903089,
-					2130903257,
-					2130903260,
-					2130903317,
-					2130903335,
-					2130903466};
+					2130903258,
+					2130903261,
+					2130903318,
+					2130903336,
+					2130903480};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -17229,7 +23361,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 10
 			public const int AppCompatTextView_textAllCaps = 10;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030056,0x7F030057,0x7F030068,0x7F03006D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030099,0x7F0300A8,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B6,0x7F0300B8,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300F4,0x7F030102,0x7F030129,0x7F03012A,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F03014A,0x7F03014B,0x7F03014C,0x7F030152,0x7F030154,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F030177,0x7F030178,0x7F03018E,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301C0,0x7F0301C1,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301EE,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9 }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030056,0x7F030057,0x7F030068,0x7F03006D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030099,0x7F0300A8,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B6,0x7F0300B8,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300F5,0x7F030103,0x7F03012A,0x7F03012B,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030158,0x7F030159,0x7F03015A,0x7F030160,0x7F030162,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030185,0x7F030186,0x7F03019C,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CB,0x7F0301CE,0x7F0301CF,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301FC,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030206,0x7F030207 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -17300,58 +23432,58 @@ namespace Tutorip.Droid
 					2130903229,
 					2130903230,
 					2130903231,
-					2130903284,
-					2130903298,
-					2130903337,
+					2130903285,
+					2130903299,
 					2130903338,
-					2130903341,
+					2130903339,
 					2130903342,
 					2130903343,
 					2130903344,
 					2130903345,
 					2130903346,
 					2130903347,
-					2130903370,
-					2130903371,
-					2130903372,
-					2130903378,
-					2130903380,
-					2130903387,
-					2130903388,
-					2130903389,
-					2130903390,
-					2130903399,
-					2130903400,
+					2130903348,
+					2130903384,
+					2130903385,
+					2130903386,
+					2130903392,
+					2130903394,
 					2130903401,
 					2130903402,
+					2130903403,
+					2130903404,
+					2130903413,
+					2130903414,
 					2130903415,
 					2130903416,
-					2130903438,
-					2130903477,
-					2130903478,
-					2130903479,
-					2130903480,
-					2130903482,
-					2130903483,
-					2130903484,
-					2130903485,
-					2130903488,
-					2130903489,
-					2130903515,
-					2130903516,
-					2130903517,
-					2130903518,
-					2130903534,
-					2130903536,
-					2130903537,
-					2130903538,
-					2130903539,
-					2130903540,
-					2130903541,
-					2130903542,
-					2130903543,
-					2130903544,
-					2130903545};
+					2130903429,
+					2130903430,
+					2130903452,
+					2130903491,
+					2130903492,
+					2130903493,
+					2130903494,
+					2130903496,
+					2130903497,
+					2130903498,
+					2130903499,
+					2130903502,
+					2130903503,
+					2130903529,
+					2130903530,
+					2130903531,
+					2130903532,
+					2130903548,
+					2130903550,
+					2130903551,
+					2130903552,
+					2130903553,
+					2130903554,
+					2130903555,
+					2130903556,
+					2130903557,
+					2130903558,
+					2130903559};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -17716,14 +23848,14 @@ namespace Tutorip.Droid
 			// aapt resource value: 120
 			public const int AppCompatTheme_windowNoTitle = 120;
 			
-			// aapt resource value: { 0x7F030035,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300F0 }
+			// aapt resource value: { 0x7F030035,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300F1 }
 			public static int[] BottomAppBar = new int[] {
 					2130903093,
-					2130903246,
 					2130903247,
 					2130903248,
 					2130903249,
-					2130903280};
+					2130903250,
+					2130903281};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -17743,18 +23875,18 @@ namespace Tutorip.Droid
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300C0,0x7F030107,0x7F030109,0x7F03010B,0x7F03010C,0x7F030110,0x7F030111,0x7F030112,0x7F030114,0x7F03013E }
+			// aapt resource value: { 0x7F0300C0,0x7F030108,0x7F03010A,0x7F03010C,0x7F03010D,0x7F030111,0x7F030112,0x7F030113,0x7F030115,0x7F03014C }
 			public static int[] BottomNavigationView = new int[] {
 					2130903232,
-					2130903303,
-					2130903305,
-					2130903307,
+					2130903304,
+					2130903306,
 					2130903308,
-					2130903312,
+					2130903309,
 					2130903313,
 					2130903314,
-					2130903316,
-					2130903358};
+					2130903315,
+					2130903317,
+					2130903372};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -17867,7 +23999,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006E,0x7F03006F,0x7F030070,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F03007C,0x7F03007D,0x7F03007E,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F0300EE,0x7F0300F8,0x7F0300FC,0x7F030160,0x7F03016D,0x7F0301C2,0x7F0301C4 }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006E,0x7F03006F,0x7F030070,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F03007C,0x7F03007D,0x7F03007E,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F0300EF,0x7F0300F9,0x7F0300FD,0x7F03016E,0x7F03017B,0x7F0301D0,0x7F0301D2 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
@@ -17896,22 +24028,22 @@ namespace Tutorip.Droid
 					2130903173,
 					2130903174,
 					2130903175,
-					2130903278,
-					2130903288,
-					2130903292,
-					2130903392,
-					2130903405,
-					2130903490,
-					2130903492};
+					2130903279,
+					2130903289,
+					2130903293,
+					2130903406,
+					2130903419,
+					2130903504,
+					2130903506};
 			
-			// aapt resource value: { 0x7F030069,0x7F030078,0x7F030079,0x7F03007A,0x7F030171,0x7F030172 }
+			// aapt resource value: { 0x7F030069,0x7F030078,0x7F030079,0x7F03007A,0x7F03017F,0x7F030180 }
 			public static int[] ChipGroup = new int[] {
 					2130903145,
 					2130903160,
 					2130903161,
 					2130903162,
-					2130903409,
-					2130903410};
+					2130903423,
+					2130903424};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -18033,7 +24165,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F03008B,0x7F03008C,0x7F0300A7,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F030162,0x7F030164,0x7F030182,0x7F0301CF,0x7F0301D0,0x7F0301DA }
+			// aapt resource value: { 0x7F03008B,0x7F03008C,0x7F0300A7,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F030170,0x7F030172,0x7F030190,0x7F0301DD,0x7F0301DE,0x7F0301E8 }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903179,
 					2130903180,
@@ -18045,12 +24177,12 @@ namespace Tutorip.Droid
 					2130903243,
 					2130903244,
 					2130903245,
-					2130903394,
-					2130903396,
-					2130903426,
-					2130903503,
-					2130903504,
-					2130903514};
+					2130903408,
+					2130903410,
+					2130903440,
+					2130903517,
+					2130903518,
+					2130903528};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -18082,10 +24214,10 @@ namespace Tutorip.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F03011F,0x7F030120 }
+			// aapt resource value: { 0x7F030120,0x7F030121 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903327,
-					2130903328};
+					2130903328,
+					2130903329};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -18141,23 +24273,23 @@ namespace Tutorip.Droid
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F030113,0x7F030181 }
+			// aapt resource value: { 0x7F030114,0x7F03018F }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903315,
-					2130903425};
+					2130903316,
+					2130903439};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F03011C,0x7F03011D,0x7F03011E,0x7F030121,0x7F030122,0x7F030123 }
+			// aapt resource value: { 0x10100B3,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030122,0x7F030123,0x7F030124 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903324,
 					2130903325,
 					2130903326,
-					2130903329,
+					2130903327,
 					2130903330,
-					2130903331};
+					2130903331,
+					2130903332};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -18194,16 +24326,16 @@ namespace Tutorip.Droid
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F03002A,0x7F03002B,0x7F030037,0x7F03008D,0x7F0300B9,0x7F0300E7,0x7F030176,0x7F0301C6 }
+			// aapt resource value: { 0x7F03002A,0x7F03002B,0x7F030037,0x7F03008D,0x7F0300B9,0x7F0300E8,0x7F030184,0x7F0301D4 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903082,
 					2130903083,
 					2130903095,
 					2130903181,
 					2130903225,
-					2130903271,
-					2130903414,
-					2130903494};
+					2130903272,
+					2130903428,
+					2130903508};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -18229,21 +24361,21 @@ namespace Tutorip.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F0300C0,0x7F0300D2,0x7F0300D3,0x7F0300EE,0x7F0300F6,0x7F03013C,0x7F030156,0x7F030160,0x7F03016D,0x7F0301EC }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F0300C0,0x7F0300D3,0x7F0300D4,0x7F0300EF,0x7F0300F7,0x7F03013D,0x7F030164,0x7F03016E,0x7F03017B,0x7F0301FA }
 			public static int[] FloatingActionButton = new int[] {
 					2130903093,
 					2130903094,
 					2130903102,
 					2130903232,
-					2130903250,
 					2130903251,
-					2130903278,
-					2130903286,
-					2130903356,
-					2130903382,
-					2130903392,
-					2130903405,
-					2130903532};
+					2130903252,
+					2130903279,
+					2130903287,
+					2130903357,
+					2130903396,
+					2130903406,
+					2130903419,
+					2130903546};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -18291,10 +24423,10 @@ namespace Tutorip.Droid
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F03010E,0x7F030128 }
+			// aapt resource value: { 0x7F03010F,0x7F030129 }
 			public static int[] FlowLayout = new int[] {
-					2130903310,
-					2130903336};
+					2130903311,
+					2130903337};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -18302,27 +24434,27 @@ namespace Tutorip.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0300E2 }
+			// aapt resource value: { 0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E3 }
 			public static int[] FontFamily = new int[] {
-					2130903261,
 					2130903262,
 					2130903263,
 					2130903264,
 					2130903265,
-					2130903266};
+					2130903266,
+					2130903267};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300DB,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0301E3 }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300DC,0x7F0300E4,0x7F0300E5,0x7F0300E6,0x7F0301F1 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903259,
-					2130903267,
+					2130903260,
 					2130903268,
 					2130903269,
-					2130903523};
+					2130903270,
+					2130903537};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -18372,11 +24504,11 @@ namespace Tutorip.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300E6 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0300E7 }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903270};
+					2130903271};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -18449,7 +24581,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300B5,0x7F0300B7,0x7F03013D,0x7F03016C }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300B5,0x7F0300B7,0x7F03013E,0x7F03017A }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -18458,8 +24590,8 @@ namespace Tutorip.Droid
 					16843048,
 					2130903221,
 					2130903223,
-					2130903357,
-					2130903404};
+					2130903358,
+					2130903418};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -18518,11 +24650,11 @@ namespace Tutorip.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x7F030080,0x7F030100,0x7F030101 }
+			// aapt resource value: { 0x7F030080,0x7F030101,0x7F030102 }
 			public static int[] LoadingImageView = new int[] {
 					2130903168,
-					2130903296,
-					2130903297};
+					2130903297,
+					2130903298};
 			
 			// aapt resource value: 0
 			public const int LoadingImageView_circleCrop = 0;
@@ -18533,7 +24665,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 2
 			public const int LoadingImageView_imageAspectRatioAdjust = 2;
 			
-			// aapt resource value: { 0x7F030029,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030116,0x7F030117,0x7F030118,0x7F030119,0x7F030134,0x7F030137,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301ED,0x7F0301FA }
+			// aapt resource value: { 0x7F030029,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F030135,0x7F030138,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FB,0x7F030208 }
 			public static int[] MapAttrs = new int[] {
 					2130903081,
 					2130903130,
@@ -18543,22 +24675,22 @@ namespace Tutorip.Droid
 					2130903134,
 					2130903135,
 					2130903136,
-					2130903318,
 					2130903319,
 					2130903320,
 					2130903321,
-					2130903348,
-					2130903351,
-					2130903524,
-					2130903525,
-					2130903526,
-					2130903527,
-					2130903528,
-					2130903529,
-					2130903530,
-					2130903531,
-					2130903533,
-					2130903546};
+					2130903322,
+					2130903349,
+					2130903352,
+					2130903538,
+					2130903539,
+					2130903540,
+					2130903541,
+					2130903542,
+					2130903543,
+					2130903544,
+					2130903545,
+					2130903547,
+					2130903560};
 			
 			// aapt resource value: 0
 			public const int MapAttrs_ambientEnabled = 0;
@@ -18632,7 +24764,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 23
 			public const int MapAttrs_zOrderOnTop = 23;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030035,0x7F030036,0x7F0300AA,0x7F0300F7,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FD,0x7F0300FE,0x7F030160,0x7F030183,0x7F030184 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030035,0x7F030036,0x7F0300AA,0x7F0300F8,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FE,0x7F0300FF,0x7F03016E,0x7F030191,0x7F030192 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
@@ -18641,15 +24773,15 @@ namespace Tutorip.Droid
 					2130903093,
 					2130903094,
 					2130903210,
-					2130903287,
-					2130903289,
+					2130903288,
 					2130903290,
 					2130903291,
-					2130903293,
+					2130903292,
 					2130903294,
-					2130903392,
-					2130903427,
-					2130903428};
+					2130903295,
+					2130903406,
+					2130903441,
+					2130903442};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -18699,10 +24831,10 @@ namespace Tutorip.Droid
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F030183,0x7F030184 }
+			// aapt resource value: { 0x7F030191,0x7F030192 }
 			public static int[] MaterialCardView = new int[] {
-					2130903427,
-					2130903428};
+					2130903441,
+					2130903442};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -18710,7 +24842,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030042,0x7F030043,0x7F030071,0x7F03007B,0x7F03007F,0x7F03008E,0x7F03008F,0x7F030095,0x7F030096,0x7F030098,0x7F0300BF,0x7F0300DA,0x7F030138,0x7F030139,0x7F030143,0x7F030163,0x7F030173,0x7F0301A6,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B4,0x7F0301B9,0x7F0301BE,0x7F0301BF,0x7F0301C3 }
+			// aapt resource value: { 0x7F030042,0x7F030043,0x7F030071,0x7F03007B,0x7F03007F,0x7F03008E,0x7F03008F,0x7F030095,0x7F030096,0x7F030098,0x7F0300BF,0x7F0300DB,0x7F030139,0x7F03013A,0x7F030151,0x7F030171,0x7F030181,0x7F0301B4,0x7F0301B9,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C7,0x7F0301CC,0x7F0301CD,0x7F0301D1 }
 			public static int[] MaterialComponentsTheme = new int[] {
 					2130903106,
 					2130903107,
@@ -18723,27 +24855,27 @@ namespace Tutorip.Droid
 					2130903190,
 					2130903192,
 					2130903231,
-					2130903258,
-					2130903352,
+					2130903259,
 					2130903353,
-					2130903363,
-					2130903395,
-					2130903411,
-					2130903462,
-					2130903467,
-					2130903468,
-					2130903469,
-					2130903470,
-					2130903471,
-					2130903472,
-					2130903473,
-					2130903474,
-					2130903475,
+					2130903354,
+					2130903377,
+					2130903409,
+					2130903425,
 					2130903476,
 					2130903481,
+					2130903482,
+					2130903483,
+					2130903484,
+					2130903485,
 					2130903486,
 					2130903487,
-					2130903491};
+					2130903488,
+					2130903489,
+					2130903490,
+					2130903495,
+					2130903500,
+					2130903501,
+					2130903505};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -18841,6 +24973,25 @@ namespace Tutorip.Droid
 			// aapt resource value: 31
 			public const int MaterialComponentsTheme_textInputStyle = 31;
 			
+			// aapt resource value: { 0x101013F,0x1010140,0x7F0300CE,0x7F030141 }
+			public static int[] MediaRouteButton = new int[] {
+					16843071,
+					16843072,
+					2130903246,
+					2130903361};
+			
+			// aapt resource value: 1
+			public const int MediaRouteButton_android_minHeight = 1;
+			
+			// aapt resource value: 0
+			public const int MediaRouteButton_android_minWidth = 0;
+			
+			// aapt resource value: 2
+			public const int MediaRouteButton_externalRouteEnabledDrawable = 2;
+			
+			// aapt resource value: 3
+			public const int MediaRouteButton_mediaRouteButtonTint = 3;
+			
 			// aapt resource value: { 0x101000E,0x10100D0,0x1010194,0x10101DE,0x10101DF,0x10101E0 }
 			public static int[] MenuGroup = new int[] {
 					16842766,
@@ -18868,7 +25019,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F03009B,0x7F0300FD,0x7F0300FE,0x7F030144,0x7F03016B,0x7F0301DF }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F03009B,0x7F0300FE,0x7F0300FF,0x7F030152,0x7F030179,0x7F0301ED }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -18888,11 +25039,11 @@ namespace Tutorip.Droid
 					2130903072,
 					2130903080,
 					2130903195,
-					2130903293,
 					2130903294,
-					2130903364,
-					2130903403,
-					2130903519};
+					2130903295,
+					2130903378,
+					2130903417,
+					2130903533};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -18963,7 +25114,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030155,0x7F030185 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030163,0x7F030193 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -18972,8 +25123,8 @@ namespace Tutorip.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903381,
-					2130903429};
+					2130903395,
+					2130903443};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -19002,20 +25153,20 @@ namespace Tutorip.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300C0,0x7F0300E9,0x7F030107,0x7F030108,0x7F03010A,0x7F03010C,0x7F03010F,0x7F030112,0x7F03013E }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300C0,0x7F0300EA,0x7F030108,0x7F030109,0x7F03010B,0x7F03010D,0x7F030110,0x7F030113,0x7F03014C }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
 					2130903232,
-					2130903273,
-					2130903303,
+					2130903274,
 					2130903304,
-					2130903306,
-					2130903308,
-					2130903311,
-					2130903314,
-					2130903358};
+					2130903305,
+					2130903307,
+					2130903309,
+					2130903312,
+					2130903315,
+					2130903372};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -19053,15 +25204,15 @@ namespace Tutorip.Droid
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030145 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030153 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903365};
+					2130903379};
 			
-			// aapt resource value: { 0x7F03017C }
+			// aapt resource value: { 0x7F03018A }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903420};
+					2130903434};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -19075,10 +25226,10 @@ namespace Tutorip.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030146,0x7F030149 }
+			// aapt resource value: { 0x7F030154,0x7F030157 }
 			public static int[] RecycleListView = new int[] {
-					2130903366,
-					2130903369};
+					2130903380,
+					2130903383};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -19086,19 +25237,19 @@ namespace Tutorip.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F03011B,0x7F03015F,0x7F030175,0x7F03017B }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F03011C,0x7F03016D,0x7F030183,0x7F030189 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
-					2130903252,
 					2130903253,
 					2130903254,
 					2130903255,
 					2130903256,
-					2130903323,
-					2130903391,
-					2130903413,
-					2130903419};
+					2130903257,
+					2130903324,
+					2130903405,
+					2130903427,
+					2130903433};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -19133,9 +25284,9 @@ namespace Tutorip.Droid
 			// aapt resource value: 10
 			public const int RecyclerView_stackFromEnd = 10;
 			
-			// aapt resource value: { 0x7F030105 }
+			// aapt resource value: { 0x7F030106 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903301};
+					2130903302};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
@@ -19147,7 +25298,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030081,0x7F03009A,0x7F0300B0,0x7F0300E8,0x7F0300FF,0x7F03011A,0x7F030159,0x7F03015A,0x7F030165,0x7F030166,0x7F030186,0x7F03018B,0x7F0301EF }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030081,0x7F03009A,0x7F0300B0,0x7F0300E9,0x7F030100,0x7F03011B,0x7F030167,0x7F030168,0x7F030173,0x7F030174,0x7F030194,0x7F030199,0x7F0301FD }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -19156,16 +25307,16 @@ namespace Tutorip.Droid
 					2130903169,
 					2130903194,
 					2130903216,
-					2130903272,
-					2130903295,
-					2130903322,
-					2130903385,
-					2130903386,
-					2130903397,
-					2130903398,
-					2130903430,
-					2130903435,
-					2130903535};
+					2130903273,
+					2130903296,
+					2130903323,
+					2130903399,
+					2130903400,
+					2130903411,
+					2130903412,
+					2130903444,
+					2130903449,
+					2130903549};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -19218,11 +25369,11 @@ namespace Tutorip.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F030055,0x7F030097,0x7F030161 }
+			// aapt resource value: { 0x7F030055,0x7F030097,0x7F03016F }
 			public static int[] SignInButton = new int[] {
 					2130903125,
 					2130903191,
-					2130903393};
+					2130903407};
 			
 			// aapt resource value: 0
 			public const int SignInButton_buttonSize = 0;
@@ -19233,16 +25384,16 @@ namespace Tutorip.Droid
 			// aapt resource value: 2
 			public const int SignInButton_scopeUris = 2;
 			
-			// aapt resource value: { 0x7F030173,0x7F030174 }
+			// aapt resource value: { 0x7F030181,0x7F030182 }
 			public static int[] Snackbar = new int[] {
-					2130903411,
-					2130903412};
+					2130903425,
+					2130903426};
 			
-			// aapt resource value: { 0x101011F,0x7F0300C0,0x7F03013A }
+			// aapt resource value: { 0x101011F,0x7F0300C0,0x7F03013B }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130903232,
-					2130903354};
+					2130903355};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -19259,13 +25410,13 @@ namespace Tutorip.Droid
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030153 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030161 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903379};
+					2130903393};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -19316,22 +25467,22 @@ namespace Tutorip.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03016E,0x7F030179,0x7F03018C,0x7F03018D,0x7F03018F,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301E0,0x7F0301E1,0x7F0301E2 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03017C,0x7F030187,0x7F03019A,0x7F03019B,0x7F03019D,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301EE,0x7F0301EF,0x7F0301F0 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903406,
-					2130903417,
-					2130903436,
-					2130903437,
-					2130903439,
-					2130903495,
-					2130903496,
-					2130903497,
-					2130903520,
-					2130903521,
-					2130903522};
+					2130903420,
+					2130903431,
+					2130903450,
+					2130903451,
+					2130903453,
+					2130903509,
+					2130903510,
+					2130903511,
+					2130903534,
+					2130903535,
+					2130903536};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -19390,22 +25541,8 @@ namespace Tutorip.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A7,0x7F0301A8,0x7F0301A9 }
+			// aapt resource value: { 0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B5,0x7F0301B6,0x7F0301B7 }
 			public static int[] TabLayout = new int[] {
-					2130903440,
-					2130903441,
-					2130903442,
-					2130903443,
-					2130903444,
-					2130903445,
-					2130903446,
-					2130903447,
-					2130903448,
-					2130903449,
-					2130903450,
-					2130903451,
-					2130903452,
-					2130903453,
 					2130903454,
 					2130903455,
 					2130903456,
@@ -19414,9 +25551,23 @@ namespace Tutorip.Droid
 					2130903459,
 					2130903460,
 					2130903461,
+					2130903462,
 					2130903463,
 					2130903464,
-					2130903465};
+					2130903465,
+					2130903466,
+					2130903467,
+					2130903468,
+					2130903469,
+					2130903470,
+					2130903471,
+					2130903472,
+					2130903473,
+					2130903474,
+					2130903475,
+					2130903477,
+					2130903478,
+					2130903479};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -19493,7 +25644,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300DC,0x7F0301AA }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300DD,0x7F0301B8 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -19506,8 +25657,8 @@ namespace Tutorip.Droid
 					16843107,
 					16843108,
 					16843692,
-					2130903260,
-					2130903466};
+					2130903261,
+					2130903480};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -19548,7 +25699,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 12
 			public const int TextAppearance_textAllCaps = 12;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F03004C,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300C3,0x7F0300C4,0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0300F1,0x7F0300F2,0x7F0300F3,0x7F03014D,0x7F03014E,0x7F03014F,0x7F030150,0x7F030151 }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F03004C,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300C3,0x7F0300C4,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
@@ -19567,17 +25718,17 @@ namespace Tutorip.Droid
 					2130903214,
 					2130903235,
 					2130903236,
-					2130903275,
 					2130903276,
 					2130903277,
-					2130903281,
+					2130903278,
 					2130903282,
 					2130903283,
-					2130903373,
-					2130903374,
-					2130903375,
-					2130903376,
-					2130903377};
+					2130903284,
+					2130903387,
+					2130903388,
+					2130903389,
+					2130903390,
+					2130903391};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -19678,7 +25829,7 @@ namespace Tutorip.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030052,0x7F030089,0x7F03008A,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F030135,0x7F030136,0x7F03013B,0x7F030140,0x7F030141,0x7F030153,0x7F030187,0x7F030188,0x7F030189,0x7F0301CF,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030052,0x7F030089,0x7F03008A,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F030136,0x7F030137,0x7F03013C,0x7F03014E,0x7F03014F,0x7F030161,0x7F030195,0x7F030196,0x7F030197,0x7F0301DD,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
@@ -19691,24 +25842,24 @@ namespace Tutorip.Droid
 					2130903199,
 					2130903200,
 					2130903201,
-					2130903349,
 					2130903350,
-					2130903355,
-					2130903360,
-					2130903361,
-					2130903379,
-					2130903431,
-					2130903432,
-					2130903433,
-					2130903503,
-					2130903505,
-					2130903506,
-					2130903507,
-					2130903508,
-					2130903509,
-					2130903510,
-					2130903511,
-					2130903512};
+					2130903351,
+					2130903356,
+					2130903374,
+					2130903375,
+					2130903393,
+					2130903445,
+					2130903446,
+					2130903447,
+					2130903517,
+					2130903519,
+					2130903520,
+					2130903521,
+					2130903522,
+					2130903523,
+					2130903524,
+					2130903525,
+					2130903526};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -19797,13 +25948,13 @@ namespace Tutorip.Droid
 			// aapt resource value: 28
 			public const int Toolbar_titleTextColor = 28;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030147,0x7F030148,0x7F0301C5 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F030155,0x7F030156,0x7F0301D3 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903367,
-					2130903368,
-					2130903493};
+					2130903381,
+					2130903382,
+					2130903507};
 			
 			// aapt resource value: { 0x10100D4,0x7F030035,0x7F030036 }
 			public static int[] ViewBackgroundHelper = new int[] {

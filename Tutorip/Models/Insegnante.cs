@@ -5,6 +5,7 @@ namespace Tutorip.Models
 {
     public class Insegnante
     {
+
         [JsonProperty("email")]
         public String email { get; set; }
 
