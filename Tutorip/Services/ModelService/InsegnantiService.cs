@@ -11,6 +11,6 @@ namespace Tutorip.Services
         public static async Task<Insegnante[]> GetInsegnanti(Filtri filtri)
         {
             return await InsegnantiRepository.GetInsegnanti(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
-        } 
+        }
     }
 }
