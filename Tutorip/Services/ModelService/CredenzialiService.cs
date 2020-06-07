@@ -16,7 +16,7 @@ namespace Tutorip.Services
 
         public static void Esiste(Credenziali c)
         {
-            RestService.Esiste(c, Constants.TutoripEndPoint + "/credenziali/create.php/");
+            CredenzialiRepository.Esiste(c, Constants.TutoripEndPoint + "/credenziali/create.php/");
         }
     }
 }

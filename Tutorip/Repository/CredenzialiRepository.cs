@@ -41,5 +41,10 @@ namespace Tutorip.Repository
                 Debug.WriteLine(@"\tTodoItem successfully saved."); //Non utile
             }
         }
+
+        internal static void Esiste(Credenziali c, string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
