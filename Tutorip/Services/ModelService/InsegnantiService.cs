@@ -2,7 +2,6 @@
 using Tutorip.Data;
 using Tutorip.Models;
 using Tutorip.Repository;
-using tutoripProva.Models;
 
 namespace Tutorip.Services
 {

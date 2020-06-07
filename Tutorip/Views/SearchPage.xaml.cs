@@ -11,7 +11,6 @@ using Tutorip.Models;
 using Tutorip.Views;
 using Tutorip.Services;
 using Tutorip.Data;
-using tutoripProva.Models;
 using Rg.Plugins.Popup.Services;
 using Xamarin.Essentials;
 using Xamarin.Forms.Maps;

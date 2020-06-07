@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace tutoripProva.Models
+namespace Tutorip.Models
 {
     class ElencoInsegnanti
     {

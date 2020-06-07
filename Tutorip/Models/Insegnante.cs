@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Tutorip.Models;
 
-namespace tutoripProva.Models
+namespace Tutorip.Models
 {
     public class Insegnante
     {
