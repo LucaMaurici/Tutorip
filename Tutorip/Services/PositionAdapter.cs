@@ -24,7 +24,6 @@ namespace Tutorip.Services
             {
                 var request = new GeolocationRequest(GeolocationAccuracy.Medium);
                 var location = await Geolocation.GetLocationAsync(request);
-
                 if (location != null)
                 {
                     p = new Posizione();

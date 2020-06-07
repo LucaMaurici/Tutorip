@@ -25,18 +25,18 @@ namespace Tutorip.Views
         PositionAdapter p;
         public SearchPage()
         {
+            InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
             p = new PositionAdapter();
             this.filtri = new Filtri();
             filtri.setDefault();
             setLabelValue();
-            InitializeComponent();
+            
         }
 
         public async void setLabelValue()
         {
             Posizione pos = (Posizione) await p.calcolaPosizione();
-
             if (pos != null)
             {
                 lb_posizione.Text = pos.indirizzo;
