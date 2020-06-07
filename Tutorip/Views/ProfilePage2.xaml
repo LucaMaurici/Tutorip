@@ -12,7 +12,7 @@
         
         <StackLayout Orientation="Horizontal">
             <!--IMMAGINE-->
-            <Image Source="user6"></Image>
+            <Image Source="user6" HeightRequest="100" WidthRequest="100"></Image>
             <StackLayout>
                 <!--NOME e DISTANZA-->
                 <Label x:Name="name_lbl" Text="Alessandro Vitale" FontAttributes="Bold" FontSize="25" Margin="10,0,0,0"/>
@@ -32,35 +32,34 @@
                     </Label.FormattedText>
                 </Label>
             </StackLayout>
-            <!--VALUTAZIONI-->
-            <StackLayout Orientation="Horizontal">
-                <Label x:Name="eval_brv_lbl" Margin="10,0,0,0">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Bravura a spiegare: " FontAttributes="Bold" FontSize="Medium"></Span>
-                            <Span Text="7,5"></Span>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label x:Name="eval_emp_lbl" Margin="10,0,0,0">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Empatia: " FontAttributes="Bold" FontSize="Medium"></Span>
-                            <Span Text="7,5"></Span>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label x:Name="eval_org_lbl" Margin="10,0,0,0">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Organizzazione: " FontAttributes="Bold" FontSize="Medium"></Span>
-                            <Span Text="7,5"></Span>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-            </StackLayout>
         </StackLayout>
-        
+        <!--VALUTAZIONI-->
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="eval_brv_lbl" Margin="10,0,0,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Bravura a spiegare: " FontAttributes="Bold" FontSize="Medium"></Span>
+                        <Span Text="7,5"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label x:Name="eval_emp_lbl" Margin="10,0,0,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Empatia: " FontAttributes="Bold" FontSize="Medium"></Span>
+                        <Span Text="7,5"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label x:Name="eval_org_lbl" Margin="10,0,0,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Organizzazione: " FontAttributes="Bold" FontSize="Medium"></Span>
+                        <Span Text="7,5"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
