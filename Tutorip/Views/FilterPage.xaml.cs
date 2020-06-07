@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using Tutorip.Data;
 using Tutorip.Models;
 using Tutorip.Services;
-using tutoripProva.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -44,11 +43,11 @@ namespace Tutorip.Views
             filtri.tariffaMassima = float.Parse(en_tariffa.Text);
             filtri.valutazioneMinima = float.Parse(en_valutazione.Text);
 
-            ElencoInsegnanti elenco = await RestService.GetInsegnanti(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
-            if (elenco != null)
+            Insegnante[] elenco = await InsegnantiService.GetInsegnanti(filtri);
+            if (elenco.Length != 0)
             {
                 insegnanti_list.IsVisible = true;
-                insegnanti_list.ItemsSource = elenco.Insegnanti;
+                insegnanti_list.ItemsSource = elenco;
             }
             else
             {

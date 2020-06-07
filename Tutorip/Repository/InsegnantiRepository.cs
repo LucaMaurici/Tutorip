@@ -33,7 +33,9 @@ namespace Tutorip.Repository
             {
                 Debug.WriteLine("\tERROR {0}", ex.Message);
             }
-            return elenco.Insegnanti;
+            if(elenco != null)
+                return elenco.Insegnanti;
+            return new Insegnante[0];
         }
 
         internal class ElencoInsegnanti
