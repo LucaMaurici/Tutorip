@@ -17,10 +17,5 @@ namespace Tutorip.Models
             this.Email = email;
             this.Token = token;
         }
-        
-        public void salva()
-        {
-            RestService.SaveElements(this, Constants.TutoripEndPoint + "/credenziali/create.php/");
-        }
     }
 }
