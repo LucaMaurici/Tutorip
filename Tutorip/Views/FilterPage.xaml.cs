@@ -1,11 +1,6 @@
 ﻿using Rg.Plugins.Popup.Pages;
 using Rg.Plugins.Popup.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tutorip.Data;
 using Tutorip.Models;
 using Tutorip.Services;
 using Xamarin.Forms;

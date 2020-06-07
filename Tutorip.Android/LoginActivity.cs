@@ -1,15 +1,9 @@
 ﻿using System;
-
 using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Xamarin;
-//using Tutorip.GoogleAuthentication.Authentication;
 using Tutorip.GoogleAuthentication.Services;
-//using Android.Content.Res;
 using Tutorip.Services.GoogleServices;
 using Android.Content;
 using Xamarin.Auth;
@@ -31,7 +25,7 @@ namespace Tutorip.Droid
             CustomTabsConfiguration.CustomTabsClosingMessage = null;
             Button googleLoginButton = FindViewById<Button>(Resource.Id.googleLoginButton);
             googleLoginButton.Click += OnGoogleLoginButtonClicked;
-            googleLoginButton.Text = "Connesso con " + Preferences.Get("email", "Login with Google");
+            googleLoginButton.Text = "Connesso con " + Preferences.Get("nome", "Login with Google");
         }
 
         private void OnGoogleLoginButtonClicked(object sender, EventArgs e)
@@ -45,17 +39,16 @@ namespace Tutorip.Droid
 
         public async void OnAuthenticationCompleted(GoogleOAuthToken token)
         {
-            // Retrieve the user's email address
             var googleService = new GoogleService();
-            var email = await googleService.GetEmailAsync(token.TokenType, token.AccessToken);
-            Console.WriteLine(email);
-            // Display it on the UI
+            var profile = await googleService.GetProfileAsync(token.TokenType, token.AccessToken);
             var googleButton = FindViewById<Button>(Resource.Id.googleLoginButton);
-            googleButton.Text = $"Connesso con {email}";
+            googleButton.Text = $"Connesso con {profile.given_name}";
             Preferences.Set("tokenType", token.TokenType);
             Preferences.Set("accessToken", token.AccessToken);
-            Preferences.Set("email", email);
-            var credenziali = new Credenziali(email, token);
+            Preferences.Set("email", profile.email);
+            Preferences.Set("nome", profile.given_name);
+            Preferences.Set("cognome", profile.family_name);
+            var credenziali = new Credenziali(profile.email, token);
             CredenzialiService.Salva(credenziali);
         }
 

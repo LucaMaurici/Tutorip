@@ -1,5 +1,4 @@
-﻿using Android.Content.Res;
-using System;
+﻿using System;
 using Xamarin.Auth;
 
 namespace Tutorip.GoogleAuthentication.Services
