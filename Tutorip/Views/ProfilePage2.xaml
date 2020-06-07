@@ -12,18 +12,18 @@
         
         <StackLayout Orientation="Horizontal">
             <!--IMMAGINE-->
-            <Image Source="user6"></Image>
+            <Image Source="user6" HeightRequest="30" WidthRequest="30" HorizontalOptions="FillAndExpand"></Image>
             <StackLayout>
                 <!--NOME e DISTANZA-->
-                <Label x:Name="name_lbl" Text="Alessandro Vitale" FontAttributes="Bold" FontSize="25" Margin="10,0,0,0"/>
-                <Label x:Name="location_lbl" Text="Roma, 5Km" TextColor="#a5a2a2" FontSize="Subtitle" Margin="10,0,0,0"/>
+                <Label x:Name="name_lbl" Text="Alessandro Vitale" FontAttributes="Bold" FontSize="25"  HorizontalOptions="FillAndExpand" Margin="0,0,0,0"/>
+                <Label x:Name="location_lbl" Text="Roma, 5Km" TextColor="#a5a2a2" FontSize="Subtitle"  HorizontalOptions="FillAndExpand" Margin="0,0,0,0"/>
                 <!--TARIFFA e VALUTAZIONE MEDIA-->
                 <StackLayout Orientation="Horizontal">
-                    <Label x:Name="tariffa_lbl" Text="15$" FontSize="35" TextColor="#2D8A2D" FontAttributes="Bold"></Label>
-                    <Label x:Name="eval_lbl" FontSize="Large" Text="7,5" Margin="10,0,0,0"></Label>
+                    <Label x:Name="tariffa_lbl" Text="15$" FontSize="35" TextColor="#2D8A2D" FontAttributes="Bold"  HorizontalOptions="FillAndExpand"></Label>
+                    <Label x:Name="eval_lbl" FontSize="Large" Text="7,5" Margin="10,0,0,0" HorizontalOptions="FillAndExpand"></Label>
                 </StackLayout>
                 <!--EMAIL-->
-                <Label x:Name="email_lbl" Margin="0,0,0,0">
+                <Label x:Name="email_lbl" Margin="0,0,0,0" HorizontalOptions="FillAndExpand">
                     <Label.FormattedText>
                         <FormattedString>
                             <Span Text="Email: " FontAttributes="Bold" FontSize="Medium"/>
@@ -32,35 +32,35 @@
                     </Label.FormattedText>
                 </Label>
             </StackLayout>
-            <!--VALUTAZIONI-->
-            <StackLayout Orientation="Horizontal">
-                <Label x:Name="eval_brv_lbl" Margin="10,0,0,0">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Bravura a spiegare: " FontAttributes="Bold" FontSize="Medium"></Span>
-                            <Span Text="7,5"></Span>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label x:Name="eval_emp_lbl" Margin="10,0,0,0">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Empatia: " FontAttributes="Bold" FontSize="Medium"></Span>
-                            <Span Text="7,5"></Span>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label x:Name="eval_org_lbl" Margin="10,0,0,0">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Organizzazione: " FontAttributes="Bold" FontSize="Medium"></Span>
-                            <Span Text="7,5"></Span>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-            </StackLayout>
+
         </StackLayout>
-        
+        <!--VALUTAZIONI-->
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="eval_brv_lbl" Margin="10,0,0,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Bravura a spiegare: " FontAttributes="Bold" FontSize="Medium"></Span>
+                        <Span Text="7,5"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label x:Name="eval_emp_lbl" Margin="10,0,0,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Empatia: " FontAttributes="Bold" FontSize="Medium"></Span>
+                        <Span Text="7,5"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label x:Name="eval_org_lbl" Margin="10,0,0,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Organizzazione: " FontAttributes="Bold" FontSize="Medium"></Span>
+                        <Span Text="7,5"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
