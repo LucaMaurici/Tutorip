@@ -42,7 +42,6 @@ namespace Tutorip.Repository
         {
             bool esito = false;
             var json = "{\"Email\": " + JsonConvert.SerializeObject(c.Email) +"}";
-            Console.WriteLine(json);
             var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
             HttpResponseMessage response = null;
             try
@@ -68,6 +67,31 @@ namespace Tutorip.Repository
             }
             return esito;
         }
+
+        public static async Task<int> getIdAsync(string email, string uri)
+        {
+            int id = 0;
+            var json = "{\"Email\": " + JsonConvert.SerializeObject(email) + "}";
+            var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = null;
+            try
+            {
+                response = await _client.PostAsync(uri, sendContent);
+                Console.WriteLine(response.StatusCode);
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    temp result = JsonConvert.DeserializeObject<temp>(content);
+                    id = result.n;
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine("ERRORE");
+            }
+            return id;
+        }
+
         internal class temp
         {
             public int n;

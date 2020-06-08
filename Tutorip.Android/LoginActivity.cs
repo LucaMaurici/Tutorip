@@ -49,7 +49,7 @@ namespace Tutorip.Droid
             Preferences.Set("nome", profile.given_name);
             Preferences.Set("cognome", profile.family_name);
             var credenziali = new Credenziali(profile.email, token);
-            CredenzialiService.Salva(credenziali);
+            UtenteCredenzialiService.Salva(credenziali, new Utente(profile.given_name, profile.family_name));
         }
 
 
