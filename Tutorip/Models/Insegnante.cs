@@ -6,8 +6,8 @@ namespace Tutorip.Models
     public class Insegnante
     {
 
-        [JsonProperty("email")]
-        public String email { get; set; }
+        [JsonProperty("id")]
+        public int id { get; set; }
 
         [JsonProperty("descrizione")]
         public String descrizione { get; set; }
@@ -21,9 +21,21 @@ namespace Tutorip.Models
         [JsonProperty("posizione")]
         public Posizione posizione { get; set; }
 
+        [JsonProperty("numeroValutazioni")]
+        public int numeroValutazioni { get; set; }
+
+        [JsonProperty("promozioni")]
+        public int promozioni { get; set; }
+
+        [JsonProperty("gruppo")]
+        public int gruppo { get; set; }
+
+        [JsonProperty("dataOraRegistrazione")]
+        public DateTime dataOraRegistrazione { get; set; }
+
         public override string ToString()
         {
-            return email + " " + tariffa;
+            return id + " " + tariffa;
         }
     }
 }

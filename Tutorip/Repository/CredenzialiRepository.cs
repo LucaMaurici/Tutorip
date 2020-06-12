@@ -85,7 +85,7 @@ namespace Tutorip.Repository
                     id = result.n;
                 }
             }
-            catch (HttpRequestException ex)
+            catch
             {
                 Console.WriteLine("ERRORE");
             }

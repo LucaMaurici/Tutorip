@@ -37,6 +37,21 @@ namespace Tutorip.Repository
             return new Insegnante[0];
         }
 
+        public static async Task SaveAsync(Insegnante i, string uri)
+        {
+            var json = JsonConvert.SerializeObject(i);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = null;
+            try
+            {
+                response = await _client.PostAsync(uri, content);
+            }
+            catch
+            {
+                Console.WriteLine("errore");
+            }
+        }
+
         internal class ElencoInsegnanti
         {
             [JsonProperty("ElencoRisultati")]

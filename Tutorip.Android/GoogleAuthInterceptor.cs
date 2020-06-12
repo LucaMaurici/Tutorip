@@ -38,8 +38,8 @@ namespace Tutorip.Droid
             // Convert iOS NSUrl to C#/netxf/BCL System.Uri - common API
             Uri uri_netfx = new Uri(uri_android.ToString());
             // Send the URI to the Authenticator for continuation
-            LoginActivity.Auth?.OnPageLoading(uri_netfx);
-            var intent = new Intent(this, typeof(LoginActivity));
+            GoogleLoginActivity.Auth?.OnPageLoading(uri_netfx);
+            var intent = new Intent(this, typeof(GoogleLoginActivity));
             intent.SetFlags(ActivityFlags.ClearTop | ActivityFlags.SingleTop);
             StartActivity(intent);
             Finish();

@@ -11,5 +11,10 @@ namespace Tutorip.Services
         {
             return await InsegnantiRepository.GetInsegnanti(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
         }
+
+        public static async void Save(Insegnante i)
+        {
+            await InsegnantiRepository.SaveAsync(i, Constants.TutoripEndPoint + "/insegnante/create.php/");
+        }
     }
 }

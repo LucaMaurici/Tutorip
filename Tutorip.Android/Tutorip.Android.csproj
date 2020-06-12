@@ -68,7 +68,7 @@
   <ItemGroup>
     <Compile Include="Configuration.cs" />
     <Compile Include="GoogleAuthInterceptor.cs" />
-    <Compile Include="LoginActivity.cs" />
+    <Compile Include="GoogleLoginActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
