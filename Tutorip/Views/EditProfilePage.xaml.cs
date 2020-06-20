@@ -20,9 +20,11 @@ namespace Tutorip.Views
             this.insegnante = insegnante;
         }
 
-        private void bt_SalvaProfilo_Clicked(object sender, EventArgs e)
+        private async void bt_SalvaProfilo_Clicked(object sender, EventArgs e)
         {
+            this.IsEnabled = false;
 
+            this.IsEnabled = true;
         }
 
         private void bt_indietro_Clicked(object sender, EventArgs e)

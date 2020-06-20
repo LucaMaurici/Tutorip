@@ -32,16 +32,21 @@ namespace Tutorip.Views
             Navigation.PopAsync();
         }
 
-        private void vc_profiloInsegnante_Tapped(object sender, EventArgs e)
+        private async void vc_profiloInsegnante_Tapped(object sender, EventArgs e)
         {
+            this.IsEnabled = false;
+
+            this.IsEnabled = true;
         }
 
-        private void vc_preferiti_Tapped(object sender, EventArgs e)
+        private async void vc_preferiti_Tapped(object sender, EventArgs e)
         {
+            this.IsEnabled = false;
 
+            this.IsEnabled = true;
         }
 
-        private void Menu_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void Menu_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (sender is ListView lv)
                 lv.SelectedItem = null;
@@ -58,7 +63,9 @@ namespace Tutorip.Views
             }
             else if (em.testo == "Insegnanti preferiti")
             {
+                this.IsEnabled = false;
                 Navigation.PushAsync(new ProfilePage(new Insegnante()));
+                this.IsEnabled = true;
             }
         }
     }

@@ -55,17 +55,21 @@ namespace Tutorip.Views
             }
         }
 
-        private void insegnanti_list_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void insegnanti_list_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            Navigation.PushAsync(new ProfilePage((Insegnante)e.Item));
+            this.IsEnabled = false;
+            await Navigation.PushAsync(new ProfilePage((Insegnante)e.Item));
+            this.IsEnabled = true;
         }
 
         private async void bt_filtri_Clicked(object sender, EventArgs e)
         {
+            this.IsEnabled = false;
             filtri.nomeMateria = en_materia.Text;
             var page = new FilterPage(this.filtri, this.insegnanti_list, this);
             Opacity = 0.2;
             await PopupNavigation.Instance.PushAsync(page);
+            this.IsEnabled = true;
         }
 
         private void login_btn_Clicked(object sender, EventArgs e)

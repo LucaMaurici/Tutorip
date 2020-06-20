@@ -22,9 +22,11 @@ namespace Tutorip.Views
             Navigation.PopAsync();
         }
 
-        private void bt_ModificaProfilo_Clicked(object sender, System.EventArgs e)
+        private async void bt_ModificaProfilo_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new EditProfilePage(this.insegnante));
+            this.IsEnabled = false;
+            await Navigation.PushAsync(new EditProfilePage(this.insegnante));
+            this.IsEnabled = true;
         }
     }
 }
