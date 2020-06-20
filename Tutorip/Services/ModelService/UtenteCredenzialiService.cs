@@ -1,5 +1,7 @@
 ﻿using Android.Preferences;
 using System;
+using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 using Tutorip.Data;
 using Tutorip.Models;
 using Tutorip.Repository;
@@ -11,11 +13,13 @@ namespace Tutorip.Services
     {
         public static async void Salva(Credenziali c, Utente u)
         {
-            bool esito = (bool) await CredenzialiRepository.Esiste(c, Constants.TutoripEndPoint + "/credenziali/checkEmail.php/");
+            bool esito = (bool)await CredenzialiRepository.Esiste(c, Constants.TutoripEndPoint + "/credenziali/checkEmail.php/");
             if (esito)
             {
                 CredenzialiRepository.Save(c, Constants.TutoripEndPoint + "/credenziali/create.php/");
+                Console.WriteLine(Preferences.Get("email", null));
                 int id = await CredenzialiRepository.getIdAsync(Preferences.Get("email", null), Constants.TutoripEndPoint + "/credenziali/getId.php/");
+                Console.WriteLine("ID!!!!: " + id);
                 if (id != 0)
                 {
                     Preferences.Set("id", id.ToString());

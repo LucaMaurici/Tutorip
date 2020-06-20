@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Tutorip.Models;
+using Tutorip.Services;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -32,7 +34,6 @@ namespace Tutorip.Views
 
         private void vc_profiloInsegnante_Tapped(object sender, EventArgs e)
         {
-
         }
 
         private void vc_preferiti_Tapped(object sender, EventArgs e)
@@ -47,7 +48,13 @@ namespace Tutorip.Views
             ElementoMenu em = (ElementoMenu)e.Item;
             if(em.testo == "Diventa insegnante")
             {
-                Navigation.PushAsync(new SignUpTutorPage());
+                Insegnante i = new Insegnante();
+                i.nomeDaVisualizzare = "gino";
+                i.profiloPubblico = 1;
+                i.id = int.Parse(Preferences.Get("id", null));
+                Console.WriteLine("prova1");
+                InsegnantiService.Save(i);
+                //Navigation.PushAsync(new SignUpTutorPage());
             }
             else if (em.testo == "Insegnanti preferiti")
             {

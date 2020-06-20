@@ -9,6 +9,9 @@ namespace Tutorip.Models
         [JsonProperty("id")]
         public int id { get; set; }
 
+        [JsonProperty("nomeDaVisualizzare")]
+        public String nomeDaVisualizzare { get; set; }
+
         [JsonProperty("descrizione")]
         public String descrizione { get; set; }
 
@@ -32,6 +35,9 @@ namespace Tutorip.Models
 
         [JsonProperty("dataOraRegistrazione")]
         public DateTime dataOraRegistrazione { get; set; }
+
+        [JsonProperty("profiloPubblico")]
+        public int profiloPubblico { get; set; }
 
         public override string ToString()
         {

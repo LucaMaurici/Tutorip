@@ -14,6 +14,7 @@ namespace Tutorip.Repository
         public static async void SaveAsync(Utente u, string uri)
         {
             var json = JsonConvert.SerializeObject(u);
+            Console.WriteLine("Json: " + json);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             HttpResponseMessage response = null;
                 try
