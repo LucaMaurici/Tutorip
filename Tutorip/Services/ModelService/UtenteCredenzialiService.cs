@@ -18,13 +18,14 @@ namespace Tutorip.Services
             {
                 CredenzialiRepository.Save(c, Constants.TutoripEndPoint + "/credenziali/create.php/");
                 Console.WriteLine(Preferences.Get("email", null));
-                int id = await CredenzialiRepository.getIdAsync(Preferences.Get("email", null), Constants.TutoripEndPoint + "/credenziali/getId.php/");
-                Console.WriteLine("ID!!!!: " + id);
+                int id = 1;
+                id = await CredenzialiRepository.getId(Preferences.Get("email", null), Constants.TutoripEndPoint + "/credenziali/getId.php/");
+                Console.WriteLine("ID!!!!!!!!!!!: " + id);
                 if (id != 0)
                 {
                     Preferences.Set("id", id.ToString());
                     u.id = id;
-                    UtentiRepository.SaveAsync(u, Constants.TutoripEndPoint + "/utenteVero/createVera.php/");
+                    UtentiRepository.SaveAsync(u, Constants.TutoripEndPoint + "/utente/create.php/");
                     Console.WriteLine("SUCCESSO!");
                 }
             }

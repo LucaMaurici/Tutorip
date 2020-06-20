@@ -68,7 +68,7 @@ namespace Tutorip.Repository
             return esito;
         }
 
-        public static async Task<int> getIdAsync(string email, string uri)
+        public static async Task<int> getId(string email, string uri)
         {
             int id = 0;
             var json = "{\"Email\": " + JsonConvert.SerializeObject(email) + "}";
