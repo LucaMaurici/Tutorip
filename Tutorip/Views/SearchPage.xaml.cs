@@ -73,15 +73,18 @@ namespace Tutorip.Views
             DependencyService.Get<INativePages>().StartPage();
         }
 
-        private void profile_btn_Clicked(object sender, EventArgs e)
+        private async void profile_btn_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ProfilePage2(new Insegnante()));
+            this.IsEnabled = false;
+            await Navigation.PushAsync(new ProfilePage2(new Insegnante()));
+            this.IsEnabled = true;
         }
 
-        private void bt_menu_Clicked(object sender, EventArgs e)
+        private async void bt_menu_Clicked(object sender, EventArgs e)
         {
-            var page = new MenuPage();
-            Navigation.PushAsync(page);
+            this.IsEnabled = false;
+            await Navigation.PushAsync(new MenuPage());
+            this.IsEnabled = true;
         }
     }
 }
