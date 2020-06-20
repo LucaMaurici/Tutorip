@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Accounts;
+using System;
 using System.Collections.Generic;
 using Tutorip.Models;
 using Tutorip.Services;
@@ -25,6 +26,7 @@ namespace Tutorip.Views
         {
             this.MenuItems.Add(new ElementoMenu("user6", "Diventa insegnante"));
             this.MenuItems.Add(new ElementoMenu("star1", "Insegnanti preferiti"));
+            this.MenuItems.Add(new ElementoMenu("users1", "Account"));
         }
 
         private void bt_indietro_Clicked(object sender, EventArgs e)
@@ -46,7 +48,7 @@ namespace Tutorip.Views
             if (sender is ListView lv)
                 lv.SelectedItem = null;
             ElementoMenu em = (ElementoMenu)e.Item;
-            if(em.testo == "Diventa insegnante")
+            if (em.testo == "Diventa insegnante")
             {
                 Insegnante i = new Insegnante();
                 i.nomeDaVisualizzare = "gino";
@@ -59,6 +61,11 @@ namespace Tutorip.Views
             else if (em.testo == "Insegnanti preferiti")
             {
                 Navigation.PushAsync(new ProfilePage(new Insegnante()));
+            }
+
+            else if (em.testo == "Account")
+            {
+                Navigation.PushAsync(new AccountPage());
             }
         }
     }
