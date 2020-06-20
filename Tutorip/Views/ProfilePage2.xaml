@@ -10,6 +10,39 @@
              xmlns:f9p="clr-namespace:Forms9Patch;assembly=Forms9Patch">
 
     <StackLayout>
+        <Frame Padding="17,12,17,12">
+            <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <ImageButton
+                        x:Name="bt_indietro"
+                        Source="restart"
+                        Margin="0,0,0,0"
+                        BackgroundColor="Transparent"
+                        Clicked="bt_indietro_Clicked"
+                        HeightRequest="35"
+                        WidthRequest="35">
+                    </ImageButton>
+                    <Label
+                        Text="Il mio profilo"
+                        FontSize="27"
+                        Margin="10,0,0,0"
+                        VerticalOptions="Center">
+                    </Label>
+                </StackLayout>
+                <StackLayout>
+                    <ImageButton
+                        x:Name="bt_ModificaProfilo"
+                        Source="edit"
+                        Margin="0,0,0,-5"
+                        BackgroundColor="Transparent"
+                        Clicked="bt_ModificaProfilo_Clicked"
+                        HeightRequest="25"
+                        WidthRequest="25">
+                    </ImageButton>
+                    <Label Text="Modifica" FontSize="13"></Label>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
         <Frame Padding="20,20,5,20">
             <StackLayout Orientation="Horizontal">
                 <!--IMMAGINE e DISTANZA-->
