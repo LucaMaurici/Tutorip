@@ -48,19 +48,30 @@ namespace Tutorip.Services
 
         public async Task<Posizione> Indirizzo2Posizione(String indirizzo)
         {
-            Posizione p = null;
+            Posizione p = new Posizione();
+            
+            Console.WriteLine(indirizzo);
             var locations = await Geocoding.GetLocationsAsync(indirizzo);
-            if (locations == null)
+            var location = locations?.FirstOrDefault();
+            try
             {
-                return p;
+                if (location == null)
+                {
+                    return p;
+                }
+                else
+                {
+                    p.latitudine = location.Latitude;
+                    p.longitudine = location.Longitude;
+                    p.indirizzo = indirizzo;
+                }
             }
-            else
+            catch
             {
-                Location location = locations.FirstOrDefault();
-                p.latitudine = location.Latitude;
-                p.longitudine = location.Longitude;
-                p.indirizzo = indirizzo;
+                Console.WriteLine("ERORE FAI I TESTE");
             }
+            //String i = await this.Posizione2IndirizzoAsync(new Position(p.latitudine, p.longitudine));
+            //Console.WriteLine(i);
             return p;
         }
     }

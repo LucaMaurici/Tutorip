@@ -10,21 +10,20 @@ namespace Tutorip.Views
     {
 
         Filtri filtri;
-        PositionAdapter p;
+        PositionAdapter positionAdapter;
         public SearchPage()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            p = new PositionAdapter();
             this.filtri = new Filtri();
+            positionAdapter = new PositionAdapter();
             filtri.setDefault();
             setLabelValue();
-            
         }
 
         public async void setLabelValue()
         {
-            Posizione pos = (Posizione) await p.calcolaPosizione();
+            Posizione pos = (Posizione) await positionAdapter.calcolaPosizione();
             if (pos != null)
             {
                 lb_posizione.Text = pos.indirizzo;
@@ -39,7 +38,7 @@ namespace Tutorip.Views
         {
             filtri.nomeMateria = en_materia.Text;
 
-            filtri.posizione = (Posizione) await p.calcolaPosizione();
+            filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
 
             //ElencoInsegnanti elenco = await InsegnantiService.GetInsegnanti(filtri);
             Insegnante[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
@@ -68,10 +67,10 @@ namespace Tutorip.Views
             await PopupNavigation.Instance.PushAsync(page);
         }
 
-        private void login_btn_Clicked(object sender, EventArgs e)
+        /*private void login_btn_Clicked(object sender, EventArgs e)
         {
             DependencyService.Get<INativePages>().StartPage();
-        }
+        }*/
 
         private void profile_btn_Clicked(object sender, EventArgs e)
         {

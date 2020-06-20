@@ -4,14 +4,40 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Tutorip.Views.AccountPage">
-    <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                <Button Text="Login with Google"
-                        Clicked="LogGoogBtn_clicked"></Button>
-                <Button Text="Login with Facebook"></Button>
-            </StackLayout>
+             x:Class="Tutorip.Views.AccountPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#FFFDF7">
+    <StackLayout Orientation="Vertical">
+        <StackLayout x:Name="btn_stack" Orientation="Horizontal" VerticalOptions="Center">
+            <Button x:Name="LogGoogBtn"
+                        Text="Login with Google"
+                        Clicked="LogGoogBtn_clicked"
+                        VerticalOptions="Center"></Button>
+            <Button x:Name="LogFbBtn"
+                        Text="Login with Facebook"
+                        Clicked="LogFbBtn_clicked"
+                        VerticalOptions="Center"></Button>
         </StackLayout>
-    </ContentPage.Content>
+
+        <Frame x:Name="name_frame" VerticalOptions="Center" CornerRadius="30">
+            <StackLayout>
+                <Label HorizontalOptions="Center" FontSize="Medium">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Ciao "></Span>
+                            <Span x:Name="nameSpan" FontAttributes="Bold"></Span>
+                            <Span Text="!"></Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="pos_frame" VerticalOptions="Center">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
+                <Entry x:Name="pos_entry" Placeholder="Inserisci il tuo indirizzo" ></Entry>
+                <Button Text="Invia" Clicked="PosBtn_clicked" BackgroundColor="Transparent"></Button>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
 </ContentPage>

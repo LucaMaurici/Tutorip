@@ -39,7 +39,7 @@ namespace Tutorip.Droid
             Uri uri_netfx = new Uri(uri_android.ToString());
             // Send the URI to the Authenticator for continuation
             GoogleLoginActivity.Auth?.OnPageLoading(uri_netfx);
-            var intent = new Intent(this, typeof(GoogleLoginActivity));
+            var intent = new Intent(this, typeof(MainActivity));
             intent.SetFlags(ActivityFlags.ClearTop | ActivityFlags.SingleTop);
             StartActivity(intent);
             Finish();
