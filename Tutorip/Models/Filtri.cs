@@ -14,7 +14,7 @@ namespace Tutorip.Models
         {
             tariffaMassima = 80;
             valutazioneMinima = 0;
-            distanzaMassima = 50;
+            distanzaMassima = 10000000;
         }
     }
 }

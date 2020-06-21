@@ -19,17 +19,23 @@ namespace Tutorip.Repository
 
             var json = JsonConvert.SerializeObject(filtri);
             var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
+            Console.WriteLine(json);
             try
             {
                 HttpResponseMessage response = await _client.PostAsync(uri, sendContent);
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(content);
+                    Console.WriteLine("PROVA3");
                     elenco = JsonConvert.DeserializeObject<ElencoInsegnanti>(content);
+                    Console.WriteLine("PROVA");
+                    Console.WriteLine("ARRAY: " + elenco.Insegnanti);
                 }
             }
             catch (Exception ex)
             {
+                Console.WriteLine("PROVA2");
                 Debug.WriteLine("\tERROR {0}", ex.Message);
             }
             if(elenco != null)

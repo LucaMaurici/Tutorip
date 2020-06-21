@@ -14,7 +14,9 @@ namespace Tutorip.Views
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
+            this.IsEnabled = false;
             await Navigation.PushAsync(new SignUpTutorPage());
+            this.IsEnabled = true;
         }
     }
 }

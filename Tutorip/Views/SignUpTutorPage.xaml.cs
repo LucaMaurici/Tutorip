@@ -17,9 +17,11 @@ namespace Tutorip.Views
             throw new NotImplementedException();
         }
 
-        private void aggiungiImage_Clicked(object sender, EventArgs e)
+        private async void aggiungiImage_Clicked(object sender, EventArgs e)
         {
+            this.IsEnabled = false;
 
+            this.IsEnabled = true;
         }
     }
 }

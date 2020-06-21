@@ -10,21 +10,20 @@ namespace Tutorip.Views
     {
 
         Filtri filtri;
-        PositionAdapter p;
+        PositionAdapter positionAdapter;
         public SearchPage()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            p = new PositionAdapter();
             this.filtri = new Filtri();
+            positionAdapter = new PositionAdapter();
             filtri.setDefault();
             setLabelValue();
-            
         }
 
         public async void setLabelValue()
         {
-            Posizione pos = (Posizione) await p.calcolaPosizione();
+            Posizione pos = (Posizione) await positionAdapter.calcolaPosizione();
             if (pos != null)
             {
                 lb_posizione.Text = pos.indirizzo;
@@ -39,7 +38,8 @@ namespace Tutorip.Views
         {
             filtri.nomeMateria = en_materia.Text;
 
-            filtri.posizione = (Posizione) await p.calcolaPosizione();
+            filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
+
 
             //ElencoInsegnanti elenco = await InsegnantiService.GetInsegnanti(filtri);
             Insegnante[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
@@ -55,38 +55,40 @@ namespace Tutorip.Views
             }
         }
 
-        private void insegnanti_list_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void insegnanti_list_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            Navigation.PushAsync(new ProfilePage((Insegnante)e.Item));
+            this.IsEnabled = false;
+            await Navigation.PushAsync(new ProfilePage((Insegnante)e.Item));
+            this.IsEnabled = true;
         }
 
         private async void bt_filtri_Clicked(object sender, EventArgs e)
         {
+            this.IsEnabled = false;
             filtri.nomeMateria = en_materia.Text;
             var page = new FilterPage(this.filtri, this.insegnanti_list, this);
             Opacity = 0.2;
             await PopupNavigation.Instance.PushAsync(page);
+            this.IsEnabled = true;
         }
 
-        private void login_btn_Clicked(object sender, EventArgs e)
-        {
-            //DependencyService.Get<INativePages>().StartPage();
-        }
-
-        private void profile_btn_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new ProfilePage2(new Insegnante()));
-        }
-
-        private void bt_menu_Clicked(object sender, EventArgs e)
-        {
-            var page = new MenuPage();
-            Navigation.PushAsync(page);
-        }
-
-        private void FacebookButton_Clicked(object sender, EventArgs e)
+        /*private void login_btn_Clicked(object sender, EventArgs e)
         {
             DependencyService.Get<INativePages>().StartPage();
+        }*/
+
+        private async void profile_btn_Clicked(object sender, EventArgs e)
+        {
+            this.IsEnabled = false;
+            await Navigation.PushAsync(new ProfilePage2(new Insegnante()));
+            this.IsEnabled = true;
+        }
+
+        private async void bt_menu_Clicked(object sender, EventArgs e)
+        {
+            this.IsEnabled = false;
+            await Navigation.PushAsync(new MenuPage());
+            this.IsEnabled = true;
         }
     }
 }

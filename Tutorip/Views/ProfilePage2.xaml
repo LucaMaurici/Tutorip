@@ -10,6 +10,51 @@
              xmlns:f9p="clr-namespace:Forms9Patch;assembly=Forms9Patch">
 
     <StackLayout>
+        <Frame Padding="17,12,17,12">
+            <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <ImageButton
+                        x:Name="bt_indietro"
+                        Source="restart"
+                        Margin="0,0,0,0"
+                        BackgroundColor="Transparent"
+                        Clicked="bt_indietro_Clicked"
+                        HeightRequest="35"
+                        WidthRequest="35">
+                    </ImageButton>
+                    <Label
+                        Text="Il mio profilo"
+                        FontSize="24"
+                        Margin="10,0,0,0"
+                        VerticalOptions="Center">
+                    </Label>
+                </StackLayout>
+                <StackLayout Margin="0,0,10,0">
+                    <ImageButton
+                        x:Name="bt_ModificaVisibilità"
+                        Source="hide"
+                        Margin="0,0,0,-5"
+                        BackgroundColor="Transparent"
+                        Clicked="bt_ModificaVisibilità_Clicked"
+                        HeightRequest="25"
+                        WidthRequest="25">
+                    </ImageButton>
+                    <Label Text="Nascosto" FontSize="13"></Label>
+                </StackLayout>
+                <StackLayout>
+                    <ImageButton
+                        x:Name="bt_ModificaProfilo"
+                        Source="edit"
+                        Margin="0,0,0,-5"
+                        BackgroundColor="Transparent"
+                        Clicked="bt_ModificaProfilo_Clicked"
+                        HeightRequest="25"
+                        WidthRequest="25">
+                    </ImageButton>
+                    <Label Text="Modifica" FontSize="13"></Label>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
         <Frame Padding="20,20,5,20">
             <StackLayout Orientation="Horizontal">
                 <!--IMMAGINE e DISTANZA-->
@@ -62,7 +107,7 @@
                 </StackLayout>
                 <!--GRUPPI-->
                 <StackLayout Orientation="Horizontal" Margin="15,0,0,0">
-                    <Label Text="Lezione di gruppo" FontAttributes="None" FontSize="18"></Label>
+                    <Label Text="Lezione di gruppo su richiesta" FontAttributes="None" FontSize="18"></Label>
                     <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
                         <Image Source="success" IsVisible="True" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
                         <Image Source="error" IsVisible="False" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
@@ -71,7 +116,7 @@
                 <!--EMAIL-->
                 <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
                     <Image Source="paperplane1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
-                    <Label x:Name="email_lbl" Text="alessandro.vitale@gmail.com" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
+                    <Label x:Name="lb_email" Text="alessandro.vitale@gmail.com" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
                 </StackLayout>
             </StackLayout>
         </Frame>

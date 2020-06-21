@@ -61,11 +61,11 @@
 
         
 
-        <Button
+        <!--<Button
                 x:Name="login_btn"
                 Text="Login"
                 Clicked="login_btn_Clicked">
-        </Button>
+        </Button>-->
 
         <Button
                 x:Name="FacebookButton"

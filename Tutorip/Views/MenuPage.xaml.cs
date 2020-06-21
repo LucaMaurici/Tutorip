@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Android.Accounts;
+using System;
 using System.Collections.Generic;
 using Tutorip.Models;
+using Tutorip.Services;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,6 +26,7 @@ namespace Tutorip.Views
         {
             this.MenuItems.Add(new ElementoMenu("user6", "Diventa insegnante"));
             this.MenuItems.Add(new ElementoMenu("star1", "Insegnanti preferiti"));
+            this.MenuItems.Add(new ElementoMenu("users1", "Account"));
         }
 
         private void bt_indietro_Clicked(object sender, EventArgs e)
@@ -32,12 +36,16 @@ namespace Tutorip.Views
 
         private void vc_profiloInsegnante_Tapped(object sender, EventArgs e)
         {
+            this.IsEnabled = false;
 
+            this.IsEnabled = true;
         }
 
         private void vc_preferiti_Tapped(object sender, EventArgs e)
         {
+            this.IsEnabled = false;
 
+            this.IsEnabled = true;
         }
 
         private void Menu_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -45,13 +53,27 @@ namespace Tutorip.Views
             if (sender is ListView lv)
                 lv.SelectedItem = null;
             ElementoMenu em = (ElementoMenu)e.Item;
-            if(em.testo == "Diventa insegnante")
+            if (em.testo == "Diventa insegnante")
             {
-                Navigation.PushAsync(new SignUpTutorPage());
+                /*Insegnante i = new Insegnante();
+                i.nomeDaVisualizzare = "gino";
+                i.profiloPubblico = 1;
+                i.id = int.Parse(Preferences.Get("id", (-1).ToString()));
+                Console.WriteLine("prova1");
+                InsegnantiService.Save(i);*/
+                Navigation.PushAsync(new EditProfilePage(new Insegnante()));
+
             }
             else if (em.testo == "Insegnanti preferiti")
             {
+                this.IsEnabled = false;
                 Navigation.PushAsync(new ProfilePage(new Insegnante()));
+                this.IsEnabled = true;
+            }
+
+            else if (em.testo == "Account")
+            {
+                Navigation.PushAsync(new AccountPage());
             }
         }
     }
