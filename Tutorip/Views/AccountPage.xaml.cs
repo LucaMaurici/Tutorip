@@ -44,7 +44,7 @@ namespace Tutorip.Views
 
         private void LogFbBtn_clicked(object sender, EventArgs e)
         {
-
+            DependencyService.Get<INativePages>().FacebookStartPage();
         }
 
         private async void PosBtn_clicked(object sender, EventArgs e)

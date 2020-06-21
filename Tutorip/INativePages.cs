@@ -7,5 +7,6 @@ namespace Tutorip
     public interface INativePages
     {
         void StartPage();
+        void FacebookStartPage();
     }
 }
