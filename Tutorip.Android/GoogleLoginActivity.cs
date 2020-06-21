@@ -20,15 +20,16 @@ namespace Tutorip.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.Login);
+            //SetContentView(Resource.Layout.Login);
             Auth = new GoogleAuthenticator(Configuration.ClientId, Configuration.Scope, Configuration.RedirectUrl, this);
             CustomTabsConfiguration.CustomTabsClosingMessage = null;
             Button googleLoginButton = FindViewById<Button>(Resource.Id.googleLoginButton);
-            googleLoginButton.Click += OnGoogleLoginButtonClicked;
-            googleLoginButton.Text = "Connesso con " + Preferences.Get("nome", "Login with Google");
+            //googleLoginButton.Click += OnGoogleLoginButtonClicked;
+            this.OnGoogleLoginButtonClicked();
+            //googleLoginButton.Text = "Connesso con " + Preferences.Get("nome", "Login with Google");
         }
 
-        private void OnGoogleLoginButtonClicked(object sender, EventArgs e)
+        private void OnGoogleLoginButtonClicked() //c'erano sender e eventargs
         {
             // Display the activity handling the authentication
             var authenticator = Auth.GetAuthenticator();
@@ -42,7 +43,7 @@ namespace Tutorip.Droid
             var googleService = new GoogleService();
             var profile = await googleService.GetProfileAsync(token.TokenType, token.AccessToken);
             var googleButton = FindViewById<Button>(Resource.Id.googleLoginButton);
-            googleButton.Text = $"Connesso con {profile.given_name}";
+            //googleButton.Text = $"Connesso con {profile.given_name}";
             Preferences.Set("tokenType", token.TokenType);
             Preferences.Set("accessToken", token.AccessToken);
             Preferences.Set("email", profile.email);
