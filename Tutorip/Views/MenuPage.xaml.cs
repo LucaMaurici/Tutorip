@@ -34,34 +34,35 @@ namespace Tutorip.Views
             Navigation.PopAsync();
         }
 
-        private async void vc_profiloInsegnante_Tapped(object sender, EventArgs e)
+        private void vc_profiloInsegnante_Tapped(object sender, EventArgs e)
         {
             this.IsEnabled = false;
 
             this.IsEnabled = true;
         }
 
-        private async void vc_preferiti_Tapped(object sender, EventArgs e)
+        private void vc_preferiti_Tapped(object sender, EventArgs e)
         {
             this.IsEnabled = false;
 
             this.IsEnabled = true;
         }
 
-        private async void Menu_ItemTapped(object sender, ItemTappedEventArgs e)
+        private void Menu_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (sender is ListView lv)
                 lv.SelectedItem = null;
             ElementoMenu em = (ElementoMenu)e.Item;
             if (em.testo == "Diventa insegnante")
             {
-                Insegnante i = new Insegnante();
+                /*Insegnante i = new Insegnante();
                 i.nomeDaVisualizzare = "gino";
                 i.profiloPubblico = 1;
-                i.id = int.Parse(Preferences.Get("id", null));
+                i.id = int.Parse(Preferences.Get("id", (-1).ToString()));
                 Console.WriteLine("prova1");
-                InsegnantiService.Save(i);
-                //Navigation.PushAsync(new SignUpTutorPage());
+                InsegnantiService.Save(i);*/
+                Navigation.PushAsync(new EditProfilePage(new Insegnante()));
+
             }
             else if (em.testo == "Insegnanti preferiti")
             {

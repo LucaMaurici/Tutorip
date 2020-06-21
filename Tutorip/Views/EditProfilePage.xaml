@@ -49,10 +49,10 @@
                 <ImageButton Source="user6" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" BackgroundColor="Transparent" Clicked="img_profileImage_Clicked"></ImageButton>
                 <StackLayout HorizontalOptions="CenterAndExpand">
                     <!--NOME-->
-                    <Entry Placeholder="Nome C." WidthRequest="200" Keyboard="Text" HorizontalTextAlignment="Center" TextColor="#666" FontAttributes="Bold" FontSize="25" Margin="5,0,5,0" TranslationX="-3" HorizontalOptions="CenterAndExpand"></Entry>
+                    <Entry x:Name="en_nome" Placeholder="Nome C." WidthRequest="200" Keyboard="Text" HorizontalTextAlignment="Center" TextColor="#666" FontAttributes="Bold" FontSize="25" Margin="5,0,5,0" TranslationX="-3" HorizontalOptions="CenterAndExpand"></Entry>
                     <!--TARIFFA-->
                     <StackLayout Orientation="Horizontal" TranslationX="20" Margin="0,-15,0,0">
-                        <Entry Keyboard="Numeric" Placeholder="15" WidthRequest="120" HorizontalTextAlignment="End" TextColor="#2D8E80" FontAttributes="Bold" FontSize="40"></Entry>
+                        <Entry x:Name="en_tariffa" Keyboard="Numeric" Placeholder="15" WidthRequest="120" HorizontalTextAlignment="End" TextColor="#2D8E80" FontAttributes="Bold" FontSize="40"></Entry>
                         <Label Text="€" TextColor="#2D8E80" FontSize="35" FontAttributes="Bold" VerticalOptions="CenterAndExpand"></Label>
                     </StackLayout>
                     <Label Text="Tariffa" Margin="80,-10,0,0"></Label>

@@ -15,7 +15,6 @@ namespace Tutorip.Services
 
         public static async void Save(Insegnante i)
         {
-            Console.WriteLine("prova2");
             await InsegnantiRepository.SaveAsync(i, Constants.TutoripEndPoint + "/insegnante/create.php/");
         }
     }
