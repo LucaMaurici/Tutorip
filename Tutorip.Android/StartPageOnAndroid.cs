@@ -8,7 +8,7 @@ namespace Tutorip.Droid
     {
         public void StartPage()
         {
-            var intent = new Intent(Android.App.Application.Context, typeof(GoogleLoginActivity) );
+            var intent = new Intent(Android.App.Application.Context, typeof(FacebookLoginActivity) );
             intent.SetFlags(ActivityFlags.NewTask);
             Android.App.Application.Context.StartActivity(intent);
         }

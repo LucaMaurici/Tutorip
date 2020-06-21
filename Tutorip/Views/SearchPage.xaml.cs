@@ -70,7 +70,7 @@ namespace Tutorip.Views
 
         private void login_btn_Clicked(object sender, EventArgs e)
         {
-            DependencyService.Get<INativePages>().StartPage();
+            //DependencyService.Get<INativePages>().StartPage();
         }
 
         private void profile_btn_Clicked(object sender, EventArgs e)
@@ -82,6 +82,11 @@ namespace Tutorip.Views
         {
             var page = new MenuPage();
             Navigation.PushAsync(page);
+        }
+
+        private void FacebookButton_Clicked(object sender, EventArgs e)
+        {
+            DependencyService.Get<INativePages>().StartPage();
         }
     }
 }

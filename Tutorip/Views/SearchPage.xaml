@@ -68,6 +68,12 @@
         </Button>
 
         <Button
+                x:Name="FacebookButton"
+                Text="Login with Facebook"
+                Clicked="FacebookButton_Clicked">
+        </Button>
+
+        <Button
                 x:Name="profile_btn"
                 Text="profile"
                 Clicked="profile_btn_Clicked">

@@ -67,6 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration.cs" />
+    <Compile Include="FacebookConfiguration.cs" />
+    <Compile Include="FacebookLoginActivity.cs" />
     <Compile Include="GoogleAuthInterceptor.cs" />
     <Compile Include="GoogleLoginActivity.cs" />
     <Compile Include="MainActivity.cs" />
@@ -170,6 +172,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\paperplane1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\FacebookLogin.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
