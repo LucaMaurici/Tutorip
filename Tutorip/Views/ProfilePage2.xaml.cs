@@ -28,5 +28,10 @@ namespace Tutorip.Views
             await Navigation.PushAsync(new EditProfilePage(this.insegnante));
             this.IsEnabled = true;
         }
+
+        private void bt_ModificaVisibilità_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

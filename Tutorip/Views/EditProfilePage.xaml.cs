@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,6 +31,13 @@ namespace Tutorip.Views
         private void bt_indietro_Clicked(object sender, EventArgs e)
         {
             Navigation.PopAsync();
+        }
+
+        private void img_profileImage_Clicked(object sender, EventArgs e)
+        {
+            this.IsEnabled = false;
+
+            this.IsEnabled = true;
         }
     }
 }

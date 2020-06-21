@@ -43,94 +43,60 @@
                 </StackLayout>
             </StackLayout>
         </Frame>
-        <Frame Padding="20,20,5,20">
+        <Frame Padding="20,5,5,12">
             <StackLayout Orientation="Horizontal">
-                <!--IMMAGINE e DISTANZA-->
-                <StackLayout Margin="0,0,0,0">
-                    <!--IMMAGINE-->
-                    <Image Source="user6" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center"></Image>
-                    <!--DISTANZA-->
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                        <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
-                        <Label x:Name="distanza_lbl" Text="2 Km" TextColor="#888" FontAttributes="None" FontSize="18"/>
-                    </StackLayout>
-                </StackLayout>
+                <!--IMMAGINE-->
+                <ImageButton Source="user6" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" BackgroundColor="Transparent" Clicked="img_profileImage_Clicked"></ImageButton>
                 <StackLayout HorizontalOptions="CenterAndExpand">
                     <!--NOME-->
-                    <f9p:Label x:Name="name_lbl" Text="Alex" FontAttributes="Bold" FontSize="50" Margin="5,0,5,0" TranslationX="-3" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Lines="1" AutoFit="Width"></f9p:Label>
-                    <!--TARIFFA e VALUTAZIONE MEDIA-->
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                        <Label x:Name="tariffa_lbl" TextColor="#2D8E80" FontAttributes="Bold" Margin="0,0,20,0">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <Span FontSize="40" FontAttributes="Bold">15</Span>
-                                    <Span FontSize="25" FontAttributes="None"></Span>
-                                    <Span FontSize="30" FontAttributes="None">€</Span>
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
-
-                        <Image Source="star1" WidthRequest="28" HeightRequest="28" TranslationY="1"></Image>
-                        <Label x:Name="eval_lbl" FontAttributes="Bold" HorizontalOptions="StartAndExpand">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <Span FontSize="40" FontAttributes="Bold">8</Span>
-                                    <Span FontSize="30" FontAttributes="Bold"></Span>
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
+                    <Entry Placeholder="Nome C." WidthRequest="200" Keyboard="Text" HorizontalTextAlignment="Center" TextColor="#666" FontAttributes="Bold" FontSize="25" Margin="5,0,5,0" TranslationX="-3" HorizontalOptions="CenterAndExpand"></Entry>
+                    <!--TARIFFA-->
+                    <StackLayout Orientation="Horizontal" TranslationX="20" Margin="0,-15,0,0">
+                        <Entry Keyboard="Numeric" Placeholder="15" WidthRequest="120" HorizontalTextAlignment="End" TextColor="#2D8E80" FontAttributes="Bold" FontSize="40"></Entry>
+                        <Label Text="€" TextColor="#2D8E80" FontSize="35" FontAttributes="Bold" VerticalOptions="CenterAndExpand"></Label>
                     </StackLayout>
+                    <Label Text="Tariffa" Margin="80,-10,0,0"></Label>
                 </StackLayout>
             </StackLayout>
         </Frame>
-        <Frame>
+        <Frame Padding="20,10,20,20">
             <StackLayout>
                 <!--MODALITA'-->
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="In presenza e a distanza" FontAttributes="None" FontSize="18" Margin="15,0,0,0"></Label>
-                    <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
-                        <Image Source="users" WidthRequest="21" HeightRequest="21" VerticalOptions="Center"></Image>
-                        <Image Source="television1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
+                    <Label Text="Modalità" FontAttributes="None" FontSize="18" Margin="0,0,0,0" VerticalOptions="Center"></Label>
+                    <Picker x:Name="pck_modalità" HorizontalOptions="FillAndExpand" Title="In presenza o a distanza?" Margin="20,0,0,0" TextColor="#666" FontSize="17">
+                        <Picker.Items>
+                            <x:String>In presenza</x:String>
+                            <x:String>A distanza</x:String>
+                            <x:String>In presenza e distanza</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+                <!--INDIRIZZO-->
+                <StackLayout>
+                    <StackLayout x:Name="posizione" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                        <Image Source="placeholder3" WidthRequest="22" HeightRequest="22"></Image>
+                        <Entry x:Name="en_indirizzo" Placeholder="Via le mani dal naso, 30, Lodi" FontSize="18" Margin="5,-5,0,0" WidthRequest="300"></Entry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="End" TranslationX="-20" Margin="0,-5,0,0">
+                        <CheckBox x:Name="cb_indirizzo" TranslationX="-5" TranslationY="-3"></CheckBox>
+                        <Label Text="Mostra indirizzo" FontSize="18"></Label>
                     </StackLayout>
                 </StackLayout>
                 <!--GRUPPI-->
-                <StackLayout Orientation="Horizontal" Margin="15,0,0,0">
-                    <Label Text="Lezione di gruppo" FontAttributes="None" FontSize="18"></Label>
-                    <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
-                        <Image Source="success" IsVisible="True" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
-                        <Image Source="error" IsVisible="False" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
-                    </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="cb_gruppo" TranslationX="-5" TranslationY="-3"></CheckBox>
+                    <Label Text="Lezione di gruppo su richiesta" FontSize="18"></Label>
                 </StackLayout>
                 <!--EMAIL-->
                 <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                    <Image Source="paperplane1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
-                    <Label x:Name="email_lbl" Text="alessandro.vitale@gmail.com" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
+                    <Image Source="paperplane1" WidthRequest="22" HeightRequest="22"></Image>
+                    <Entry x:Name="en_email" Keyboard="Email" Placeholder="iltuoindirizzo@email.com" FontSize="18" TextColor="#358" Margin="5,-5,0,0" WidthRequest="300"></Entry>
                 </StackLayout>
-            </StackLayout>
-        </Frame>
-        <!--VALUTAZIONI-->
-        <Frame>
-            <StackLayout Orientation="Horizontal" Margin="0,-15,0,0">
-                <StackLayout HorizontalOptions="CenterAndExpand">
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                        <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                        <Label x:Name="num_spg_lbl" FontSize="28" Text="7.7" FontAttributes="None"></Label>
-                    </StackLayout>
-                    <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="None" FontSize="16"/>
-                </StackLayout>
-                <StackLayout HorizontalOptions="CenterAndExpand">
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                        <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                        <Label x:Name="num_emp_lbl" FontSize="28" Text="9" FontAttributes="None"></Label>
-                    </StackLayout>
-                    <Label x:Name="eval_emp_lbl" Text="Empatia" FontAttributes="None" FontSize="16" TranslationX="5"/>
-                </StackLayout>
-                <StackLayout HorizontalOptions="CenterAndExpand">
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                        <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                        <Label x:Name="num_org_lbl" FontSize="28" Text="7" FontAttributes="None"></Label>
-                    </StackLayout>
-                    <Label x:Name="eval_org_lbl" Text="Organizzazione" TranslationX="6" FontAttributes="None" FontSize="16"/>
+                <!--CELLULARE-->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <Image Source="smartphone10" WidthRequest="22" HeightRequest="22"></Image>
+                    <Entry x:Name="en_cellulare" Keyboard="Telephone" Placeholder="Cellulare" FontSize="18" TextColor="#358" Margin="5,-5,0,0" WidthRequest="300"></Entry>
                 </StackLayout>
             </StackLayout>
         </Frame>
