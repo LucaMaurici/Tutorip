@@ -40,7 +40,7 @@ namespace Tutorip.Views
             filtri.tariffaMassima = float.Parse(en_tariffa.Text);
             filtri.valutazioneMinima = float.Parse(en_valutazione.Text);
             filtri.posizione = (Posizione)await positionAdapter.calcolaPosizione();
-            Insegnante[] elenco = await InsegnantiService.GetInsegnanti(filtri);
+            RisultatoRicercaInsegnanti[] elenco = await InsegnantiService.GetInsegnanti(filtri);
             if (elenco.Length != 0)
             {
                 insegnanti_list.IsVisible = true;

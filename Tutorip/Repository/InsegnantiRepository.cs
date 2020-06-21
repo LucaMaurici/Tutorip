@@ -13,7 +13,7 @@ namespace Tutorip.Repository
 
         private static readonly HttpClient _client = new HttpClient();
 
-        public static async Task<Insegnante[]> GetInsegnanti(Filtri filtri, string uri)
+        public static async Task<RisultatoRicercaInsegnanti[]> GetInsegnanti(Filtri filtri, string uri)
         {
             ElencoInsegnanti elenco = null;
 
@@ -27,20 +27,15 @@ namespace Tutorip.Repository
                 {
                     string content = await response.Content.ReadAsStringAsync();
                     Console.WriteLine(content);
-                    Console.WriteLine("PROVA3");
                     elenco = JsonConvert.DeserializeObject<ElencoInsegnanti>(content);
-                    Console.WriteLine("PROVA");
-                    Console.WriteLine("ARRAY: " + elenco.Insegnanti);
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine("PROVA2");
+
                 Debug.WriteLine("\tERROR {0}", ex.Message);
             }
-            if(elenco != null)
-                return elenco.Insegnanti;
-            return new Insegnante[0];
+            return elenco.Risultati;
         }
 
         public static async Task SaveAsync(Insegnante i, string uri)
@@ -61,7 +56,7 @@ namespace Tutorip.Repository
         internal class ElencoInsegnanti
         {
             [JsonProperty("ElencoRisultati")]
-            public Insegnante[] Insegnanti { get; set; }
+            public RisultatoRicercaInsegnanti[] Risultati { get; set; }
         }
 
     }

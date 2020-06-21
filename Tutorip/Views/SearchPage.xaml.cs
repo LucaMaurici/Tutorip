@@ -42,7 +42,7 @@ namespace Tutorip.Views
 
 
             //ElencoInsegnanti elenco = await InsegnantiService.GetInsegnanti(filtri);
-            Insegnante[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
+            RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
             if(insegnanti.Length != 0)
             {
                 insegnanti_list.IsVisible = true;

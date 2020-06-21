@@ -8,7 +8,7 @@ namespace Tutorip.Services
 {
     class InsegnantiService
     {
-        public static async Task<Insegnante[]> GetInsegnanti(Filtri filtri)
+        public static async Task<RisultatoRicercaInsegnanti[]> GetInsegnanti(Filtri filtri)
         {
             return await InsegnantiRepository.GetInsegnanti(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
         }
