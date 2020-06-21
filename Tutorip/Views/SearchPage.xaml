@@ -22,7 +22,7 @@
                 HeightRequest="35"
                 WidthRequest="35">
             </ImageButton>
-            
+
             <Label
                 x:Name="lb_posizione"
                 HorizontalOptions="FillAndExpand"
@@ -45,7 +45,8 @@
             <Entry
                 x:Name="en_materia"
                 HorizontalOptions="FillAndExpand"
-                Margin="0,0,0,0">
+                Margin="0,0,0,0"
+                TextChanged="en_materia_TextChanged">
             </Entry>
 
             <Button 
@@ -56,10 +57,10 @@
                 BackgroundColor="White"
                 Clicked="search_btn_Clicked">
             </Button>
-            
+
         </StackLayout>
 
-        
+
 
         <!--<Button
                 x:Name="login_btn"
@@ -233,5 +234,9 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+
+        <ListView x:Name="ListaDiMaterie"
+                  ItemTapped="ListaDiMaterie_ItemTapped"
+                  IsVisible="true"/>
     </StackLayout>
 </ContentPage>
