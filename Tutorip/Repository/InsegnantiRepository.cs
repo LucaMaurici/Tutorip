@@ -15,8 +15,7 @@ namespace Tutorip.Repository
 
         public static async Task<RisultatoRicercaInsegnanti[]> GetInsegnanti(Filtri filtri, string uri)
         {
-            ElencoInsegnanti elenco = null;
-
+            ElencoInsegnanti elenco = new ElencoInsegnanti();
             var json = JsonConvert.SerializeObject(filtri);
             var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
             Console.WriteLine(json);
@@ -35,7 +34,32 @@ namespace Tutorip.Repository
 
                 Debug.WriteLine("\tERROR {0}", ex.Message);
             }
-            return elenco.Risultati;
+            if (elenco != null)
+            {
+                return elenco.Risultati;
+            }
+            return null;
+        }
+
+        internal static async Task<Insegnante> findInsegnanteById(int id, string uri)
+        {
+            Insegnante i = new Insegnante();
+            var json = "\"Id\":" + JsonConvert.SerializeObject(id);
+            var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
+            try
+            {
+                HttpResponseMessage response = await _client.PostAsync(uri, sendContent);
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    i = JsonConvert.DeserializeObject<Insegnante>(content);
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Errore");
+            }
+            return i;
         }
 
         public static async Task SaveAsync(Insegnante i, string uri)

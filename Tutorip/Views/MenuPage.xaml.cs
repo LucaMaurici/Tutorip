@@ -55,12 +55,6 @@ namespace Tutorip.Views
             ElementoMenu em = (ElementoMenu)e.Item;
             if (em.testo == "Diventa insegnante")
             {
-                /*Insegnante i = new Insegnante();
-                i.nomeDaVisualizzare = "gino";
-                i.profiloPubblico = 1;
-                i.id = int.Parse(Preferences.Get("id", (-1).ToString()));
-                Console.WriteLine("prova1");
-                InsegnantiService.Save(i);*/
                 Navigation.PushAsync(new EditProfilePage(new Insegnante()));
 
             }

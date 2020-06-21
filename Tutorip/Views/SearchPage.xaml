@@ -184,19 +184,48 @@
             </ListView.ItemTemplate>
         </ListView>-->
 
-        <ListView x:Name="insegnanti_list">
+        <ListView x:Name="insegnanti_list" IsVisible="False" ItemTapped="insegnanti_list_ItemTapped" RowHeight="170" Margin="15,0,15,0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Frame>
+                        <Frame CornerRadius="20"
+                            BackgroundColor="White"
+                            HasShadow="True"
+                            Margin="0,10,0,10">
                             <StackLayout Orientation="Horizontal">
-                                <StackLayout Orientation="Horizontal">
-                                    <Image Source="user6"></Image>
+                                <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                                    <Image Source="user6" WidthRequest="70" HeightRequest="70"></Image>
                                 </StackLayout>
                                 <StackLayout Orientation="Vertical">
-                                    <Label Text="{Binding valutazioneMedia}"></Label>
-                                    <Label Text="{Binding tariffa}"></Label>
-                                    <Label Text="{Binding distanza}"></Label>
+                                    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+                                        <Image Source="users1" HeightRequest="20" WidthRequest="20"></Image>
+                                        <Label Text="Lorenzo M." FontSize="Medium" FontAttributes="Bold"></Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+                                        <Image Source="star1" HeightRequest="20" WidthRequest="20"></Image>
+                                        <Label Text="{Binding valutazioneMedia}" FontSize="Medium"></Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+                                        <Label>
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="{Binding tariffa}" TextColor="#2D8E80" FontSize="Medium"></Span>
+                                                    <Span Text="€" TextColor="#2D8E80" FontSize="Medium"></Span>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+                                        <Image Source="placeholders" HeightRequest="20" WidthRequest="20"></Image>
+                                        <Label>
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="{Binding distanza}" FontSize="Medium" ></Span>
+                                                    <Span Text=" Km" FontSize="Medium"></Span>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </StackLayout>
                                 </StackLayout>
                             </StackLayout>
                         </Frame>

@@ -39,11 +39,8 @@ namespace Tutorip.Views
             filtri.nomeMateria = en_materia.Text;
 
             filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
-
-
-            //ElencoInsegnanti elenco = await InsegnantiService.GetInsegnanti(filtri);
             RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
-            if(insegnanti.Length != 0)
+            if (insegnanti != null)
             {
                 insegnanti_list.IsVisible = true;
                 insegnanti_list.ItemsSource = insegnanti;
@@ -57,8 +54,15 @@ namespace Tutorip.Views
 
         private async void insegnanti_list_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+            if (sender is ListView lv)
+                lv.SelectedItem = null;
             this.IsEnabled = false;
-            await Navigation.PushAsync(new ProfilePage((Insegnante)e.Item));
+            RisultatoRicercaInsegnanti r = (RisultatoRicercaInsegnanti)e.Item;
+            Insegnante i = await InsegnantiService.getInsegnante(r.id);
+            if (i.id != 0) 
+            {
+                await Navigation.PushAsync(new ProfilePage(i));
+            }
             this.IsEnabled = true;
         }
 
