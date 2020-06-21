@@ -40,6 +40,7 @@ namespace Tutorip.Views
 
             filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
 
+
             //ElencoInsegnanti elenco = await InsegnantiService.GetInsegnanti(filtri);
             Insegnante[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
             if(insegnanti.Length != 0)

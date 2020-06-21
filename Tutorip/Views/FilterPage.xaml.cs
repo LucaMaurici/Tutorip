@@ -14,6 +14,7 @@ namespace Tutorip.Views
         private Filtri filtri;
         private ListView insegnanti_list;
         private Page parent;
+        private PositionAdapter positionAdapter;
 
         public FilterPage(Filtri f, ListView insegnanti_list, Page parent)
         {
@@ -21,6 +22,7 @@ namespace Tutorip.Views
             this.filtri = f;
             this.insegnanti_list = insegnanti_list;
             this.parent = parent;
+            this.positionAdapter = new PositionAdapter();
             sl_tariffa.Value = f.tariffaMassima;
             en_tariffa.Text = f.tariffaMassima.ToString();
             sl_valutazione.Value = f.valutazioneMinima;
@@ -37,7 +39,7 @@ namespace Tutorip.Views
         {
             filtri.tariffaMassima = float.Parse(en_tariffa.Text);
             filtri.valutazioneMinima = float.Parse(en_valutazione.Text);
-
+            filtri.posizione = (Posizione)await positionAdapter.calcolaPosizione();
             Insegnante[] elenco = await InsegnantiService.GetInsegnanti(filtri);
             if (elenco.Length != 0)
             {
