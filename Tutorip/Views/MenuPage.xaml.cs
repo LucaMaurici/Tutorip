@@ -48,26 +48,34 @@ namespace Tutorip.Views
             this.IsEnabled = true;
         }
 
-        private void Menu_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void Menu_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (sender is ListView lv)
                 lv.SelectedItem = null;
             ElementoMenu em = (ElementoMenu)e.Item;
             if (em.testo == "Diventa insegnante")
             {
-                Navigation.PushAsync(new EditProfilePage(new Insegnante()));
+                if (Preferences.Get("isInsegnante", false) == true)
+                    await Navigation.PushAsync(new ProfilePage2(new Insegnante())); //sarà da mettere l'insegnante corrente
+                else
+                {
+                    if(Preferences.Get("id", null) ==null)
+                        await Navigation.PushAsync(new AccountPage());
+                    else
+                       await Navigation.PushAsync(new EditProfilePage(new Insegnante()));
+                }
 
             }
             else if (em.testo == "Insegnanti preferiti")
             {
                 this.IsEnabled = false;
-                Navigation.PushAsync(new ProfilePage(new Insegnante()));
+                await Navigation.PushAsync(new ProfilePage(new Insegnante()));
                 this.IsEnabled = true;
             }
 
             else if (em.testo == "Account")
             {
-                Navigation.PushAsync(new AccountPage());
+                await Navigation.PushAsync(new AccountPage());
             }
         }
     }

@@ -39,7 +39,10 @@ namespace Tutorip.Views
             //insegnante.dataOraRegistrazione = DateTime.Now;
             insegnante.id = int.Parse(Preferences.Get("id", (-1).ToString()));
             if (insegnante.id != -1)
+            {
                 InsegnantiService.Save(insegnante);
+                Preferences.Set("isInsegnante", true);
+            }
             else
                 Console.WriteLine("Errore");
         }

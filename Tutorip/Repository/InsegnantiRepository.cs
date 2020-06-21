@@ -62,7 +62,7 @@ namespace Tutorip.Repository
             return i;
         }
 
-        public static async Task SaveAsync(Insegnante i, string uri)
+        public static async Task SaveAsync(Insegnante i, string uri) //Bisogna far si che in caso già esista il profilo viene aggiornato
         {
             var json = JsonConvert.SerializeObject(i);
             var content = new StringContent(json, Encoding.UTF8, "application/json");

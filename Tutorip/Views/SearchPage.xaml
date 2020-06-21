@@ -184,7 +184,7 @@
             </ListView.ItemTemplate>
         </ListView>-->
 
-        <ListView x:Name="insegnanti_list" IsVisible="False" ItemTapped="insegnanti_list_ItemTapped" RowHeight="170" Margin="15,0,15,0">
+        <ListView x:Name="insegnanti_list" IsVisible="False" ItemTapped="insegnanti_list_ItemTapped" RowHeight="175" Margin="15,0,15,0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -220,7 +220,7 @@
                                         <Label>
                                             <Label.FormattedText>
                                                 <FormattedString>
-                                                    <Span Text="{Binding distanza}" FontSize="Medium" ></Span>
+                                                    <Span Text="{Binding distanza}" FontSize="Medium"></Span>
                                                     <Span Text=" Km" FontSize="Medium"></Span>
                                                 </FormattedString>
                                             </Label.FormattedText>

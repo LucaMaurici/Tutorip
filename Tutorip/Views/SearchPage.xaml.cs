@@ -40,6 +40,8 @@ namespace Tutorip.Views
 
             filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
             RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
+            foreach(RisultatoRicercaInsegnanti r in insegnanti)
+                r.distanza = r.distanza.Substring(0, 6);
             if (insegnanti != null)
             {
                 insegnanti_list.IsVisible = true;
