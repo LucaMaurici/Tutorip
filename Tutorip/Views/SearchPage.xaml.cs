@@ -3,11 +3,17 @@ using Xamarin.Forms;
 using Tutorip.Models;
 using Tutorip.Services;
 using Rg.Plugins.Popup.Services;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Tutorip.Views
 {
     public partial class SearchPage : ContentPage
     {
+        List<string> materie = new List<string>
+        {
+            "Matematica", "Geografia", "Italiano", "Inglese", "Storia", "Arte", "Disegno tecnico", "Informatica"
+        };
 
         Filtri filtri;
         PositionAdapter positionAdapter;
@@ -43,6 +49,7 @@ namespace Tutorip.Views
             if (insegnanti != null)
             {
                 insegnanti_list.IsVisible = true;
+                ListaDiMaterie.IsVisible = false;
                 insegnanti_list.ItemsSource = insegnanti;
             }
             else
@@ -93,6 +100,19 @@ namespace Tutorip.Views
             this.IsEnabled = false;
             await Navigation.PushAsync(new MenuPage());
             this.IsEnabled = true;
+        }
+
+        private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var keyword = en_materia.Text;
+            var suggestions = materie.Where(m => m.ToLower().Contains(keyword.ToLower()));
+            ListaDiMaterie.ItemsSource = suggestions;
+        }
+
+        private void ListaDiMaterie_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var materia = e.Item as string;
+            en_materia.Text = materia;
         }
     }
 }
