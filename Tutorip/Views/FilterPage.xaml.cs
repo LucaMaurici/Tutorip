@@ -41,7 +41,7 @@ namespace Tutorip.Views
             filtri.valutazioneMinima = float.Parse(en_valutazione.Text);
             filtri.posizione = (Posizione)await positionAdapter.calcolaPosizione();
             RisultatoRicercaInsegnanti[] elenco = await InsegnantiService.GetInsegnanti(filtri);
-            if (elenco.Length != 0)
+            if (elenco!=null)
             {
                 insegnanti_list.IsVisible = true;
                 insegnanti_list.ItemsSource = elenco;
