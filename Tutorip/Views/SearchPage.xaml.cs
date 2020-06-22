@@ -10,11 +10,7 @@ namespace Tutorip.Views
 {
     public partial class SearchPage : ContentPage
     {
-        List<string> materie = new List<string>
-        {
-            "Matematica", "Geografia", "Italiano", "Inglese", "Storia", "Arte", "Disegno tecnico", "Informatica"
-        };
-
+        List<string> materie;
         Filtri filtri;
         PositionAdapter positionAdapter;
         public SearchPage()
@@ -22,6 +18,7 @@ namespace Tutorip.Views
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
             this.filtri = new Filtri();
+            materie = new List<string> {"Matematica", "Geografia", "Italiano", "Inglese", "Storia", "Arte", "Disegno tecnico", "Informatica"};
             positionAdapter = new PositionAdapter();
             filtri.setDefault();
             setLabelValue();
