@@ -4,6 +4,7 @@ namespace Tutorip.Models
 {
     public class Filtri
     {
+        //COMMENTO FASULLO
         public String nomeMateria { get; set; }
         public Posizione posizione { get; set; }
         public float tariffaMassima { get; set; }
