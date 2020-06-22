@@ -17,12 +17,14 @@ namespace Tutorip.Views
     {
         private Insegnante insegnante;
         private PositionAdapter positionAdapter;
+        int indice = 2;
 
         public EditProfilePage(Insegnante insegnante)
         {
             InitializeComponent();
             this.insegnante = insegnante;
             this.positionAdapter = new PositionAdapter();
+            this.StL_materie.Children.Add(this.en1_materie);
         }
 
         private async void bt_SalvaProfilo_Clicked(object sender, EventArgs e)
@@ -36,6 +38,18 @@ namespace Tutorip.Views
                 insegnante.gruppo = 0;
             insegnante.posizione = await positionAdapter.Indirizzo2Posizione(en_indirizzo.Text);
             this.IsEnabled = true;
+            Contatti c = new Contatti();
+            c.cellulare = this.en_cellulare.Text;
+            c.emailContatto = this.en_email.Text;
+            insegnante.contatti = c;
+            List<Materia> materie = new List<Materia>(); //va sostituito con la lista di materie dell'insegnante
+            foreach(var element in this.StL_materie.Children)
+            {
+                Entry entry = (Entry)element;
+                materie.Add(new Materia(entry.Text)); //va sostituito con la lista di materie dell'insegnante
+            }
+            foreach (Materia m in materie)
+                Console.WriteLine(m);
             //insegnante.dataOraRegistrazione = DateTime.Now;
             insegnante.id = int.Parse(Preferences.Get("id", (-1).ToString()));
             if (insegnante.id != -1)
@@ -57,6 +71,15 @@ namespace Tutorip.Views
             this.IsEnabled = false;
 
             this.IsEnabled = true;
+        }
+
+        private void btn_addMateria_Clicked(object sender, EventArgs e)
+        {
+            var entry = new Entry { Placeholder= "Materia " + indice};
+            AutomationProperties.SetIsInAccessibleTree(entry, true);
+            AutomationProperties.SetName(entry, "entry" + indice.ToString());
+            indice++;
+            this.StL_materie.Children.Add(entry);
         }
     }
 }
