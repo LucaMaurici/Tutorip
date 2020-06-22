@@ -172,5 +172,6 @@
         <ListView x:Name="ListaDiMaterie"
                   ItemTapped="ListaDiMaterie_ItemTapped"
                   IsVisible="true"/>
+        
     </StackLayout>
 </ContentPage>
