@@ -10,9 +10,9 @@ namespace Tutorip.Models
         [JsonProperty("id")]
         public int id { get; set; }
         [JsonProperty("valutazioneMedia")]
-        public int valutazioneMedia { get; set; }
+        public int? valutazioneMedia { get; set; }
         [JsonProperty("tariffa")]
-        public int tariffa { get; set; }
+        public int? tariffa { get; set; }
         [JsonProperty("distanza")]
         public String distanza { get; set; }
 

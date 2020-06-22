@@ -45,10 +45,10 @@ namespace Tutorip.Views
             filtri.nomeMateria = en_materia.Text;
             filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
             RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
-            foreach (RisultatoRicercaInsegnanti r in insegnanti)
-                r.distanza = r.distanza.Substring(0, 6);
             if (insegnanti != null)
             {
+                foreach (RisultatoRicercaInsegnanti r in insegnanti)
+                    r.distanza = r.distanza.Substring(0, 5);
                 insegnanti_list.IsVisible = true;
                 ListaDiMaterie.IsVisible = false;
                 insegnanti_list.ItemsSource = insegnanti;

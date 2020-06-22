@@ -15,7 +15,7 @@ namespace Tutorip.Repository
 
         public static async Task<RisultatoRicercaInsegnanti[]> GetInsegnanti(Filtri filtri, string uri)
         {
-            ElencoInsegnanti elenco = new ElencoInsegnanti();
+            ElencoInsegnanti elenco = null;
             var json = JsonConvert.SerializeObject(filtri);
             var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
             Console.WriteLine(json);
