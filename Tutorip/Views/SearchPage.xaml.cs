@@ -48,7 +48,7 @@ namespace Tutorip.Views
             if (insegnanti != null)
             {
                 foreach (RisultatoRicercaInsegnanti r in insegnanti)
-                    r.distanza = r.distanza.Substring(0, 5);
+                    r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
                 insegnanti_list.IsVisible = true;
                 ListaDiMaterie.IsVisible = false;
                 insegnanti_list.ItemsSource = insegnanti;
@@ -115,5 +115,6 @@ namespace Tutorip.Views
         {
             this.setLabelValue();
         }
+
     }
 }
