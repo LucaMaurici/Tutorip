@@ -24,7 +24,10 @@ namespace Tutorip.Views
 
         private void creaListaMenuItem()
         {
-            this.MenuItems.Add(new ElementoMenu("user6", "Diventa insegnante"));
+            if (Preferences.Get("isInsegnante", false))
+                this.MenuItems.Add(new ElementoMenu("user6", "Profilo insegnante"));
+            else
+                this.MenuItems.Add(new ElementoMenu("user6", "Diventa insegnante"));
             this.MenuItems.Add(new ElementoMenu("star1", "Insegnanti preferiti"));
             this.MenuItems.Add(new ElementoMenu("users1", "Account"));
         }
@@ -55,17 +58,27 @@ namespace Tutorip.Views
             ElementoMenu em = (ElementoMenu)e.Item;
             if (em.testo == "Diventa insegnante")
             {
-                if (Preferences.Get("isInsegnante", false) == true)
+                /*if (Preferences.Get("isInsegnante", false) == true)
                     await Navigation.PushAsync(new ProfilePage2(new Insegnante())); //sarà da mettere l'insegnante corrente
                 else
-                {
-                    if(Preferences.Get("id", null) ==null)
+                {*/
+                    if (Preferences.Get("id", null) == null)
                         await Navigation.PushAsync(new AccountPage());
                     else
-                       await Navigation.PushAsync(new EditProfilePage(new Insegnante()));
-                }
+                        await Navigation.PushAsync(new EditProfilePage(new Insegnante()));
+                //}
 
             }
+
+            else if (em.testo == "Profilo insegnante")
+            {
+                Insegnante i = await InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", null)));
+                if (i.id != 0)
+                {
+                    await Navigation.PushAsync(new ProfilePage2(i));
+                }
+            }
+
             else if (em.testo == "Insegnanti preferiti")
             {
                 this.IsEnabled = false;

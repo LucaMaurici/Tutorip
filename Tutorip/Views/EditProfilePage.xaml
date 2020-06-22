@@ -106,7 +106,15 @@
                     <Label Text="Inserisci le tue materie"></Label>
                     <Button x:Name="btn_addMateria" Text="Aggiungi una materia" Clicked="btn_addMateria_Clicked" HorizontalOptions="End"></Button>
                     <StackLayout Orientation="Vertical" x:Name="StL_materie">
-                        <Entry x:Name="en1_materie" HorizontalOptions="FillAndExpand" Placeholder="Materia 1"></Entry>
+                        <Entry x:Name="en1_materie" HorizontalOptions="FillAndExpand" Placeholder="Materia 1">
+                            <Entry.Keyboard>
+                                <Keyboard x:FactoryMethod="Create">
+                                    <x:Arguments>
+                                        <KeyboardFlags>Spellcheck</KeyboardFlags>
+                                    </x:Arguments>
+                                </Keyboard>
+                            </Entry.Keyboard>
+                        </Entry>
                     </StackLayout>
                 </StackLayout>
             </Frame>

@@ -64,18 +64,18 @@
                     <!--DISTANZA-->
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                         <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
-                        <Label x:Name="distanza_lbl" Text="2 Km" TextColor="#888" FontAttributes="None" FontSize="18"/>
+                        <Label x:Name="distanza_lbl" Text="{Binding insegnante.posizione.indirizzo}" TextColor="#888" FontAttributes="None" FontSize="18"/>
                     </StackLayout>
                 </StackLayout>
                 <StackLayout HorizontalOptions="CenterAndExpand">
                     <!--NOME-->
-                    <f9p:Label x:Name="name_lbl" Text="Alex" FontAttributes="Bold" FontSize="50" Margin="5,0,5,0" TranslationX="-3" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Lines="1" AutoFit="Width"></f9p:Label>
+                    <f9p:Label x:Name="name_lbl" Text="{Binding insegnante.nomeDaVisualizzare}" FontAttributes="Bold" FontSize="50" Margin="5,0,5,0" TranslationX="-3" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Lines="1" AutoFit="Width"></f9p:Label>
                     <!--TARIFFA e VALUTAZIONE MEDIA-->
                     <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                         <Label x:Name="tariffa_lbl" TextColor="#2D8E80" FontAttributes="Bold" Margin="0,0,20,0">
                             <Label.FormattedText>
                                 <FormattedString>
-                                    <Span FontSize="40" FontAttributes="Bold">15</Span>
+                                    <Span x:Name="tariffa_spn" FontSize="40" FontAttributes="Bold" Text="{Binding insegnante.tariffa}"></Span>
                                     <Span FontSize="25" FontAttributes="None"></Span>
                                     <Span FontSize="30" FontAttributes="None">€</Span>
                                 </FormattedString>
@@ -86,7 +86,7 @@
                         <Label x:Name="eval_lbl" FontAttributes="Bold" HorizontalOptions="StartAndExpand">
                             <Label.FormattedText>
                                 <FormattedString>
-                                    <Span FontSize="40" FontAttributes="Bold">8</Span>
+                                    <Span FontSize="40" FontAttributes="Bold" Text="{Binding insegnante.valutazioneMedia}"></Span>
                                     <Span FontSize="30" FontAttributes="Bold"></Span>
                                 </FormattedString>
                             </Label.FormattedText>
@@ -99,7 +99,7 @@
             <StackLayout>
                 <!--MODALITA'-->
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="In presenza e a distanza" FontAttributes="None" FontSize="18" Margin="15,0,0,0"></Label>
+                    <Label x:Name="lb_mod" FontAttributes="None" FontSize="18" Margin="15,0,0,0"></Label>
                     <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
                         <Image Source="users" WidthRequest="21" HeightRequest="21" VerticalOptions="Center"></Image>
                         <Image Source="television1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
@@ -107,7 +107,7 @@
                 </StackLayout>
                 <!--GRUPPI-->
                 <StackLayout Orientation="Horizontal" Margin="15,0,0,0">
-                    <Label Text="Lezione di gruppo su richiesta" FontAttributes="None" FontSize="18"></Label>
+                    <Label x:Name="lb_gruppo" FontAttributes="None" FontSize="18"></Label>
                     <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
                         <Image Source="success" IsVisible="True" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
                         <Image Source="error" IsVisible="False" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
@@ -116,7 +116,7 @@
                 <!--EMAIL-->
                 <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
                     <Image Source="paperplane1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
-                    <Label x:Name="lb_email" Text="alessandro.vitale@gmail.com" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
+                    <Label x:Name="lb_email" Text="{Binding insegnante.contatti.emailContatto}" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
                 </StackLayout>
             </StackLayout>
         </Frame>
@@ -146,6 +146,13 @@
                 </StackLayout>
             </StackLayout>
         </Frame>
+        <!--<ListView x:Name="subject_list">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell></TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>  Da aggiungere per visualizzazione materi-->
     </StackLayout>
 
 </ContentPage>
