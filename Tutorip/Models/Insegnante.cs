@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 
 namespace Tutorip.Models
 {
@@ -39,6 +40,14 @@ namespace Tutorip.Models
         [JsonProperty("profiloPubblico")]
         public int profiloPubblico { get; set; }
 
+        [JsonProperty("contatti")]
+        public Contatti contatti { get; set; }
+
+        [JsonProperty("materie")]
+        public List<Materia> materie { get; set; }
+
+        [JsonProperty("modalita")]
+        public int modalita { get; set; }
         public override string ToString()
         {
             return id + " " + tariffa;

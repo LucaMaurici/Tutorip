@@ -7,18 +7,22 @@
              x:Class="Tutorip.Views.AccountPage"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="#FFFDF7">
-    <StackLayout Orientation="Vertical">
+    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
         <StackLayout x:Name="btn_stack" Orientation="Horizontal" VerticalOptions="Center">
             <Button x:Name="LogGoogBtn"
                         Text="Login with Google"
                         Clicked="LogGoogBtn_clicked"
-                        VerticalOptions="Center"></Button>
+                        VerticalOptions="CenterAndExpand"
+                        BackgroundColor="White"
+                        CornerRadius="30"></Button>
             <Button x:Name="LogFbBtn"
                         Text="Login with Facebook"
                         Clicked="LogFbBtn_clicked"
-                        VerticalOptions="Center"></Button>
+                        VerticalOptions="CenterAndExpand"
+                        BackgroundColor="White"
+                        CornerRadius="30"></Button>
         </StackLayout>
-
+        
         <Frame x:Name="name_frame" VerticalOptions="Center" CornerRadius="30">
             <StackLayout>
                 <Label HorizontalOptions="Center" FontSize="Medium">
