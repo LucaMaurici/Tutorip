@@ -32,21 +32,20 @@ namespace Tutorip.Views
             Posizione pos = (Posizione) await positionAdapter.calcolaPosizione();
             if (pos != null)
             {
-                lb_posizione.Text = pos.indirizzo;
+                btn_posizione.Text = pos.indirizzo;
             }
             else
             {
-                lb_posizione.Text = "Impossibile accedere alla posizione del dispositivo";
+                btn_posizione.Text = "Impossibile accedere alla posizione del dispositivo";
             }
         }
 
         private async void search_btn_Clicked(object sender, EventArgs e)
         {
             filtri.nomeMateria = en_materia.Text;
-
             filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
             RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
-            foreach(RisultatoRicercaInsegnanti r in insegnanti)
+            foreach (RisultatoRicercaInsegnanti r in insegnanti)
                 r.distanza = r.distanza.Substring(0, 6);
             if (insegnanti != null)
             {
@@ -85,11 +84,6 @@ namespace Tutorip.Views
             this.IsEnabled = true;
         }
 
-        /*private void login_btn_Clicked(object sender, EventArgs e)
-        {
-            DependencyService.Get<INativePages>().StartPage();
-        }*/
-
         private async void profile_btn_Clicked(object sender, EventArgs e)
         {
             this.IsEnabled = false;
@@ -115,6 +109,11 @@ namespace Tutorip.Views
         {
             var materia = e.Item as string;
             en_materia.Text = materia;
+        }
+
+        private void btn_posizione_Clicked(object sender, EventArgs e)
+        {
+            this.setLabelValue();
         }
     }
 }
