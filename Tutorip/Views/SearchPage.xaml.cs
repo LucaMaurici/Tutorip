@@ -67,7 +67,7 @@ namespace Tutorip.Views
             Insegnante i = await InsegnantiService.getInsegnante(r.id);
             if (i.id != 0) 
             {
-                await Navigation.PushAsync(new ProfilePage(i));
+                await Navigation.PushAsync(new ProfilePage2(i));
             }
             this.IsEnabled = true;
         }

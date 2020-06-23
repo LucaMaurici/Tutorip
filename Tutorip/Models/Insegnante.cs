@@ -15,8 +15,8 @@ namespace Tutorip.Models
 
         //immagine
 
-        [JsonProperty("descrizione")]
-        public String descrizione { get; set; }
+        /*[JsonProperty("descrizione")]
+        public String descrizione { get; set; }*/
 
         [JsonProperty("tariffa")]
         public float? tariffa { get; set; }

@@ -26,24 +26,32 @@ namespace Tutorip.Views
             else
                 this.lb_gruppo.Text = "Lezione in singolo";
 
-            /*if (insegnante.modalita == 0)
+            if (insegnante.modalita == 0)
                 this.lb_mod.Text = "In presenza";
             if (insegnante.modalita == 1)
                 this.lb_mod.Text = "A distanza";
             if (insegnante.modalita == 2)
-                this.lb_mod.Text = "In presenza e a distanza";*/
+                this.lb_mod.Text = "In presenza e a distanza";
 
             this.distanza_lbl.Text = insegnante.posizione.indirizzo;
-            //this.lb_email.Text = insegnante.contatti.emailContatto;
+            this.lb_email.Text = insegnante.contatti.emailContatto;
             this.eval_lbl.Text = insegnante.valutazioneMedia;
             this.name_lbl.Text = insegnante.nomeDaVisualizzare;
             this.tariffa_spn.Text = insegnante.tariffa.ToString();
-            //this.subject_list.ItemsSource = insegnante.materie;
+            this.subject_list.ItemsSource = insegnante.materie;
         }
 
         private void bt_indietro_Clicked(object sender, System.EventArgs e)
         {
+            Navigation.InsertPageBefore(new MenuPage(), this);
             Navigation.PopAsync();
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            Navigation.InsertPageBefore(new MenuPage(), this);
+            Navigation.PopAsync();
+            return true;
         }
 
         private async void bt_ModificaProfilo_Clicked(object sender, System.EventArgs e)

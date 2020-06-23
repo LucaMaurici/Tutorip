@@ -146,13 +146,13 @@
                 </StackLayout>
             </StackLayout>
         </Frame>
-        <!--<ListView x:Name="subject_list">
+        <ListView x:Name="subject_list">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell></TextCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView>  Da aggiungere per visualizzazione materi-->
+        </ListView>
     </StackLayout>
 
 </ContentPage>

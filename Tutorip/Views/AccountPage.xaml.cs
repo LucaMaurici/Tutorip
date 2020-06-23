@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using Tutorip.Models;
 using Tutorip.Services;
 using Xamarin.Essentials;
@@ -40,11 +41,21 @@ namespace Tutorip.Views
         private void LogGoogBtn_clicked(object sender, EventArgs e)
         {
             DependencyService.Get<INativePages>().StartPage();
+            Navigation.InsertPageBefore(new AccountPage(), this);
+            Navigation.PopAsync();
         }
 
         private void LogFbBtn_clicked(object sender, EventArgs e)
         {
             DependencyService.Get<INativePages>().FacebookStartPage();
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            Navigation.InsertPageBefore(new MenuPage(), this);
+            Navigation.PopAsync();
+            //return base.OnBackButtonPressed();
+            return true;
         }
 
         private async void PosBtn_clicked(object sender, EventArgs e)

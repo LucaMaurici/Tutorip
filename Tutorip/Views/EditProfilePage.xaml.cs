@@ -76,6 +76,8 @@ namespace Tutorip.Views
             {
                 InsegnantiService.Save(insegnante);
                 Preferences.Set("isInsegnante", true);
+                Navigation.InsertPageBefore(new MenuPage(), this);
+                await Navigation.PopAsync();
                 await Navigation.PushAsync(new ProfilePage2(insegnante));
             }
             else
@@ -85,7 +87,15 @@ namespace Tutorip.Views
 
         private void bt_indietro_Clicked(object sender, EventArgs e)
         {
+            Navigation.InsertPageBefore(new MenuPage(), this);
             Navigation.PopAsync();
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            Navigation.InsertPageBefore(new MenuPage(), this);
+            Navigation.PopAsync();
+            return true;
         }
 
         private void img_profileImage_Clicked(object sender, EventArgs e)
