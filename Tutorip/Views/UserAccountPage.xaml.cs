@@ -30,9 +30,9 @@ namespace Tutorip.Views
         private async void PosBtn_clicked(object sender, EventArgs e)
         {
             Posizione p = await positionAdapter.Indirizzo2Posizione(pos_entry.Text);
-            Preferences.Set("latitudine", p.latitudine.ToString());
-            Preferences.Set("longitudine", p.longitudine.ToString());
-            Preferences.Set("indirizzo", p.indirizzo.ToString());
+            Preferences.Set("latitudineDefault", p.latitudine.ToString());
+            Preferences.Set("longitudineDefault", p.longitudine.ToString());
+            Preferences.Set("indirizzoDefault", p.indirizzo);
         }
 
         protected override bool OnBackButtonPressed()

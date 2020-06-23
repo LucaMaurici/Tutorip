@@ -42,9 +42,17 @@ namespace Tutorip.Views
             this.creaListaMenuItem();
         }*/
 
-        private void bt_indietro_Clicked(object sender, EventArgs e)
+        private async void bt_indietro_Clicked(object sender, EventArgs e)
         {
+            //Navigation.InsertPageBefore(new SearchPage(), this);
+            await Navigation.PopAsync();
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            //Navigation.InsertPageBefore(new SearchPage(), this);
             Navigation.PopAsync();
+            return true;
         }
 
         private void vc_profiloInsegnante_Tapped(object sender, EventArgs e)
@@ -60,6 +68,8 @@ namespace Tutorip.Views
 
             this.IsEnabled = true;
         }
+
+
 
         private async void Menu_ItemTapped(object sender, ItemTappedEventArgs e)
         {

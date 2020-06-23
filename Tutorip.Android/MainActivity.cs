@@ -4,6 +4,7 @@ using Android.Runtime;
 using Android.OS;
 using Xamarin;
 using Rg.Plugins.Popup.Services;
+using Xamarin.Forms;
 
 namespace Tutorip.Droid
 {

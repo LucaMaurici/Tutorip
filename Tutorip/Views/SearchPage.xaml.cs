@@ -6,6 +6,8 @@ using Rg.Plugins.Popup.Services;
 using System.Collections.Generic;
 using System.Linq;
 using Tutorip.Services.ModelService;
+using Android.Preferences;
+using Xamarin.Essentials;
 
 namespace Tutorip.Views
 {
@@ -37,17 +39,26 @@ namespace Tutorip.Views
             {
                 btn_posizione.Text = "Impossibile accedere alla posizione del dispositivo";
             }
+            Preferences.Set("latitudineCorrente", pos.latitudine.ToString());
+            Preferences.Set("longitudineCorrente", pos.longitudine.ToString());
+            Preferences.Set("indirizzoCorrente", pos.indirizzo);
         }
 
         private async void search_btn_Clicked(object sender, EventArgs e)
         {
             filtri.nomeMateria = en_materia.Text;
-            filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
+            //filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
+            //filtri.posizione = await positionAdapter.Indirizzo2Posizione(Preferences.Get("indirizzoCorrente", null));
+            Posizione pos = new Posizione();
+            pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
+            pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
+            pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
+            filtri.posizione = pos;
             RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
             if (insegnanti != null)
             {
                 foreach (RisultatoRicercaInsegnanti r in insegnanti)
-                r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
+                    r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
                 insegnanti_list.IsVisible = true;
                 ListaDiMaterie.IsVisible = false;
                 insegnanti_list.ItemsSource = insegnanti;
@@ -97,12 +108,12 @@ namespace Tutorip.Views
             this.IsEnabled = true;
         }
 
-        private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
+        /*private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
         {
             var keyword = en_materia.Text;
             var suggestions = materie.Where(m => m.nome.ToLower().Contains(keyword.ToLower()));
             ListaDiMaterie.ItemsSource = suggestions;
-        }
+        } NON FUNZIONA*/
 
         private void ListaDiMaterie_ItemTapped(object sender, ItemTappedEventArgs e)
         {

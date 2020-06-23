@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Tutorip.Models;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -48,14 +49,27 @@ namespace Tutorip.Views
 
         private void bt_indietro_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.InsertPageBefore(new MenuPage(), this);
-            Navigation.PopAsync();
+            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id)
+            {
+                Navigation.InsertPageBefore(new MenuPage(), this);
+                Navigation.PopAsync();
+            }
+            else
+            {
+                Navigation.PopAsync();
+            }
         }
 
         protected override bool OnBackButtonPressed()
         {
+            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id) {
             Navigation.InsertPageBefore(new MenuPage(), this);
             Navigation.PopAsync();
+            }   
+            else
+            {
+                Navigation.PopAsync();
+            }
             return true;
         }
 

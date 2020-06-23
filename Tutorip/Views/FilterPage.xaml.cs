@@ -4,6 +4,7 @@ using Rg.Plugins.Popup.Services;
 using System;
 using Tutorip.Models;
 using Tutorip.Services;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -28,6 +29,8 @@ namespace Tutorip.Views
             en_tariffa.Text = f.tariffaMassima.ToString();
             sl_valutazione.Value = f.valutazioneMinima;
             en_valutazione.Text = f.valutazioneMinima.ToString();
+            sl_distanzaMax.Value = f.distanzaMassima;
+            en_distanzaMax.Text = f.distanzaMassima.ToString();
         }
 
         private void torna_indietro(object sender, EventArgs e)
@@ -46,11 +49,28 @@ namespace Tutorip.Views
         {
             filtri.tariffaMassima = float.Parse(en_tariffa.Text);
             filtri.valutazioneMinima = float.Parse(en_valutazione.Text);
-            filtri.posizione = (Posizione)await positionAdapter.calcolaPosizione();
-            
+            filtri.distanzaMassima = float.Parse(en_distanzaMax.Text);
+            //filtri.posizione = (Posizione)await positionAdapter.calcolaPosizione();
+            if (Preferences.Get("latitudineDefault", null) != null && cb_posizione.IsChecked)
+            {
+                Console.WriteLine("1111");
+                Posizione pos = new Posizione();
+                pos.latitudine = double.Parse(Preferences.Get("latitudineDefault", null));
+                pos.longitudine = double.Parse(Preferences.Get("longitudineDefault", null));
+                pos.indirizzo = Preferences.Get("indirizzoDefault", null);
+                filtri.posizione = pos;
+            }
+            else
+            {
+                Console.WriteLine("2222");
+                filtri.posizione = await positionAdapter.Indirizzo2Posizione(Preferences.Get("indirizzoCorrente", null));
+            }
+
             RisultatoRicercaInsegnanti[] elenco = await InsegnantiService.GetInsegnanti(filtri);
             if (elenco!=null)
             {
+                foreach (RisultatoRicercaInsegnanti r in elenco)
+                    r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
                 insegnanti_list.IsVisible = true;
                 insegnanti_list.ItemsSource = elenco;
             }

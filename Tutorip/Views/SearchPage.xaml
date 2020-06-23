@@ -95,11 +95,11 @@
                 <Entry
                     x:Name="en_materia"
                     HorizontalOptions="FillAndExpand"
-                    TextChanged="en_materia_TextChanged"
+                    
                     FontSize="Body"
                     HeightRequest="30">
                 </Entry>
-
+                <!--TextChanged="en_materia_TextChanged" DA RIMETTERE NELLA ENTRY--> 
                 <!--<Button 
                     x:Name="search_btn"
                     Text="Cerca"
