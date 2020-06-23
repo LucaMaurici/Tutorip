@@ -11,7 +11,7 @@ namespace Tutorip.Views
 {
     public partial class SearchPage : ContentPage
     {
-        List<string> materie = new List<string>();
+        List<Materia> materie = new List<Materia>();
         Filtri filtri;
         PositionAdapter positionAdapter;
         public SearchPage()
@@ -100,7 +100,7 @@ namespace Tutorip.Views
         private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
         {
             var keyword = en_materia.Text;
-            var suggestions = materie.Where(m => m.ToLower().Contains(keyword.ToLower()));
+            var suggestions = materie.Where(m => m.nome.ToLower().Contains(keyword.ToLower()));
             ListaDiMaterie.ItemsSource = suggestions;
         }
 
