@@ -22,11 +22,12 @@ namespace Tutorip.Views
             this.listInitializr();
             positionAdapter = new PositionAdapter();
             filtri.setDefault();
-            setLabelValue();
+            setButtonTextValue();
         }
 
-        public async void setLabelValue()
+        public async void setButtonTextValue()
         {
+            this.btn_posizione.Text = "Tocca per aggiornare";
             Posizione pos = (Posizione) await positionAdapter.calcolaPosizione();
             if (pos != null)
             {
@@ -67,7 +68,7 @@ namespace Tutorip.Views
             Insegnante i = await InsegnantiService.getInsegnante(r.id);
             if (i.id != 0) 
             {
-                await Navigation.PushAsync(new ProfilePage(i));
+                await Navigation.PushAsync(new ProfilePage2(i));
             }
             this.IsEnabled = true;
         }
@@ -105,13 +106,15 @@ namespace Tutorip.Views
 
         private void ListaDiMaterie_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+            if (sender is ListView lv)
+                lv.SelectedItem = null;
             var materia = e.Item as string;
             en_materia.Text = materia;
         }
 
         private void btn_posizione_Clicked(object sender, EventArgs e)
         {
-            this.setLabelValue();
+            this.setButtonTextValue();
         }
 
         private async void listInitializr()

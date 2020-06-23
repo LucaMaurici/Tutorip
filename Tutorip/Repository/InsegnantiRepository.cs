@@ -44,14 +44,16 @@ namespace Tutorip.Repository
         internal static async Task<Insegnante> findInsegnanteById(int id, string uri)
         {
             Insegnante i = new Insegnante();
-            var json = "\"Id\":" + JsonConvert.SerializeObject(id);
+            var json = "{\"id\":" + JsonConvert.SerializeObject(id) +"}";
             var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
+            Console.WriteLine("JSON: "+ json);
             try
             {
                 HttpResponseMessage response = await _client.PostAsync(uri, sendContent);
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(content);
                     i = JsonConvert.DeserializeObject<Insegnante>(content);
                 }
             }
@@ -66,6 +68,7 @@ namespace Tutorip.Repository
         {
             var json = JsonConvert.SerializeObject(i);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
+            Console.WriteLine(json);
             HttpResponseMessage response = null;
             try
             {

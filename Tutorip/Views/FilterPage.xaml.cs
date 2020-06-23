@@ -1,4 +1,5 @@
-﻿using Rg.Plugins.Popup.Pages;
+﻿using Forms9Patch.Elements.Popups.Core;
+using Rg.Plugins.Popup.Pages;
 using Rg.Plugins.Popup.Services;
 using System;
 using Tutorip.Models;
@@ -9,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace Tutorip.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class FilterPage : PopupPage
+    public partial class FilterPage : Rg.Plugins.Popup.Pages.PopupPage
     {
         private Filtri filtri;
         private ListView insegnanti_list;
@@ -32,9 +33,15 @@ namespace Tutorip.Views
         private void torna_indietro(object sender, EventArgs e)
         {
             parent.Opacity = 1;
-            PopupNavigation.Instance.PopAsync(true);
+            Rg.Plugins.Popup.Services.PopupNavigation.Instance.PopAsync(true);
         }
 
+        protected override bool OnBackButtonPressed()
+        {
+            parent.Opacity = 1;
+            Rg.Plugins.Popup.Services.PopupNavigation.Instance.PopAsync(true);
+            return true;
+        }
         private async void bt_applica_Clicked(object sender, EventArgs e)
         {
             filtri.tariffaMassima = float.Parse(en_tariffa.Text);
@@ -53,7 +60,7 @@ namespace Tutorip.Views
                 Console.WriteLine("Nessun insegnante");
             }
             parent.Opacity = 1;
-            await PopupNavigation.Instance.PopAsync(true);
+            await Rg.Plugins.Popup.Services.PopupNavigation.Instance.PopAsync(true);
         }
 
         private void sl_tariffa_ValueChanged(object sender, ValueChangedEventArgs e)
