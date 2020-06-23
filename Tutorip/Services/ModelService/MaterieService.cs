@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Java.Util;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,9 +11,14 @@ namespace Tutorip.Services.ModelService
 {
     class MaterieService
     {
-        public static async Task<List<string>> getMaterie()
+        public static async Task<List<Materia>> getMaterie()
         {
-            return await MaterieRepository.getAllMaterie(Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
+            Materia[] fakeMaterieArray = await MaterieRepository.getAllMaterie(Constants.TutoripEndPoint + "/materia/findAllMaterie.php/");
+            List<Materia> listaDiMaterie = new List<Materia>();
+            foreach(Materia m in fakeMaterieArray) {
+                    listaDiMaterie.Add(m);
+                }
+            return listaDiMaterie;
         }
 
         public static async Task<Materia[]> getMaterieInsegnante(int id)

@@ -13,9 +13,9 @@ namespace Tutorip.Repository
     {
         private static readonly HttpClient _client = new HttpClient();
 
-        public static async Task<List<string>> getAllMaterie(string uri)
+        public static async Task<Materia[]> getAllMaterie(string uri)
         {
-            List<string> listaDiMaterie = new List<string>();
+            ElencoMaterie listaDiMaterie = null;
             try
             {
                 HttpResponseMessage response = await _client.GetAsync(uri);
@@ -23,14 +23,14 @@ namespace Tutorip.Repository
                 {
                     string content = await response.Content.ReadAsStringAsync();
                     Console.WriteLine(content);
-                    listaDiMaterie = JsonConvert.DeserializeObject<List<string>>(content);
+                    listaDiMaterie = JsonConvert.DeserializeObject<ElencoMaterie>(content);
                 }
             }
             catch (Exception ex)
             {
                 Debug.WriteLine("\tERROR {0}", ex.Message);
             }
-            return listaDiMaterie;
+            return listaDiMaterie.Risultati;
         }
 
         public static async Task<Materia[]> getMaterieInsegnante(int id, string uri)
