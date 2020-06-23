@@ -4,26 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Tutorip.Views.AccountPage"
-             NavigationPage.HasNavigationBar="False"
-             BackgroundColor="#FFFDF7">
-    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
-        <StackLayout x:Name="btn_stack" Orientation="Horizontal" VerticalOptions="Center">
-            <Button x:Name="LogGoogBtn"
-                        Text="Login with Google"
-                        Clicked="LogGoogBtn_clicked"
-                        VerticalOptions="CenterAndExpand"
-                        BackgroundColor="White"
-                        CornerRadius="30"></Button>
-            <Button x:Name="LogFbBtn"
-                        Text="Login with Facebook"
-                        Clicked="LogFbBtn_clicked"
-                        VerticalOptions="CenterAndExpand"
-                        BackgroundColor="White"
-                        CornerRadius="30"></Button>
-        </StackLayout>
-        
-        <!--<Frame x:Name="name_frame" VerticalOptions="Center" CornerRadius="30">
+             x:Class="Tutorip.Views.UserAccountPage"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Frame x:Name="name_frame" VerticalOptions="Center" CornerRadius="30">
             <StackLayout>
                 <Label HorizontalOptions="Center" FontSize="Medium">
                     <Label.FormattedText>
@@ -42,6 +26,6 @@
                 <Entry x:Name="pos_entry" Placeholder="Inserisci il tuo indirizzo" ></Entry>
                 <Button Text="Invia" Clicked="PosBtn_clicked" BackgroundColor="Transparent"></Button>
             </StackLayout>
-        </Frame>-->
+        </Frame>
     </StackLayout>
 </ContentPage>

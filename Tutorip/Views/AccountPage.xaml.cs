@@ -16,11 +16,11 @@ namespace Tutorip.Views
         public AccountPage()
         {
             InitializeComponent();
-            pageLayout();
+            //pageLayout();
             positionAdapter = new PositionAdapter();
         }
 
-        private void pageLayout()
+        /*private void pageLayout()
         {
             if(Preferences.Get("id", null) != null)
             {
@@ -32,19 +32,18 @@ namespace Tutorip.Views
                 name_frame.IsVisible = false;
                 pos_frame.IsVisible = false;
             }
-        }
+        }*/
 
-        private void setNameSpan()
+        /*private void setNameSpan()
         {
             nameSpan.Text = Preferences.Get("nome", null) + " " + Preferences.Get("cognome", null);
-        }
+        }*/
 
-        private void LogGoogBtn_clicked(object sender, EventArgs e)
+        private async void LogGoogBtn_clicked(object sender, EventArgs e)
         {
-            int pausa=0;
-            DependencyService.Get<INativePages>().StartPage();
-            Navigation.InsertPageBefore(new AccountPage(), this);
-            Navigation.PopAsync();
+            await Task.Run(() => { DependencyService.Get<INativePages>().StartPage(); });
+            Navigation.InsertPageBefore(new WelcomePage(), this);
+            await Navigation.PopAsync();
         }
 
         private void LogFbBtn_clicked(object sender, EventArgs e)
@@ -60,12 +59,12 @@ namespace Tutorip.Views
             return true;
         }
 
-        private async void PosBtn_clicked(object sender, EventArgs e)
+        /*private async void PosBtn_clicked(object sender, EventArgs e)
         {
             Posizione p = await positionAdapter.Indirizzo2Posizione(pos_entry.Text);
             Preferences.Set("latitudine", p.latitudine.ToString());
             Preferences.Set("longitudine", p.longitudine.ToString());
             Preferences.Set("indirizzo", p.indirizzo.ToString());
-        }
+        }*/
     }
 }

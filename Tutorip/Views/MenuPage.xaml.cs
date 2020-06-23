@@ -23,21 +23,24 @@ namespace Tutorip.Views
 
         private void creaListaMenuItem()
         {
-            this.MenuItems.Clear();
+            //this.MenuItems.Clear();
             if (Preferences.Get("isInsegnante", false))
                 this.MenuItems.Add(new ElementoMenu("user6", "Profilo insegnante"));
             else
                 this.MenuItems.Add(new ElementoMenu("user6", "Diventa insegnante"));
             this.MenuItems.Add(new ElementoMenu("star1", "Insegnanti preferiti"));
-            this.MenuItems.Add(new ElementoMenu("users1", "Account"));
+            if (Preferences.Get("id", null) == null)
+                this.MenuItems.Add(new ElementoMenu("users1", "Accedi o crea il tuo Account"));
+            else
+                this.MenuItems.Add(new ElementoMenu("users1", "Il tuo account"));
             Menu.ItemsSource = this.MenuItems;
         }
 
-        protected override void OnAppearing()
+        /*protected override void OnAppearing()
         {
             base.OnAppearing();
             this.creaListaMenuItem();
-        }
+        }*/
 
         private void bt_indietro_Clicked(object sender, EventArgs e)
         {
@@ -63,7 +66,6 @@ namespace Tutorip.Views
             if (sender is ListView lv)
                 lv.SelectedItem = null;
             ElementoMenu em = (ElementoMenu)e.Item;
-            Page page = null;
             if (em.testo == "Diventa insegnante")
             {
                 /*if (Preferences.Get("isInsegnante", false) == true)
@@ -101,9 +103,15 @@ namespace Tutorip.Views
                 this.IsEnabled = true;
             }
 
-            else if (em.testo == "Account")
+            else if (em.testo == "Accedi o crea il tuo Account")
             {
                 Navigation.InsertPageBefore(new AccountPage(), this);
+                await Navigation.PopAsync();
+            }
+
+            else if(em.testo == "Il tuo account")
+            {
+                Navigation.InsertPageBefore(new UserAccountPage(), this);
                 await Navigation.PopAsync();
             }
             //Navigation.InsertPageBefore(page, this);
