@@ -11,7 +11,7 @@ namespace Tutorip.Services.ModelService
     {
         public static async Task<List<string>> getMaterie()
         {
-            return await MaterieRepository.getAllMaterie(Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
+            return await MaterieRepository.getAllMaterie(Constants.TutoripEndPoint + "/materie/getAllMaterie.php/");
         }
     }
 }

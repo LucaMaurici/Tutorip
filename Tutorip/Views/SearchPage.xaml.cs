@@ -5,12 +5,13 @@ using Tutorip.Services;
 using Rg.Plugins.Popup.Services;
 using System.Collections.Generic;
 using System.Linq;
+using Tutorip.Services.ModelService;
 
 namespace Tutorip.Views
 {
     public partial class SearchPage : ContentPage
     {
-        List<string> materie;
+        List<string> materie = new List<string>();
         Filtri filtri;
         PositionAdapter positionAdapter;
         public SearchPage()
@@ -18,7 +19,7 @@ namespace Tutorip.Views
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
             this.filtri = new Filtri();
-            materie = new List<string> {"Matematica", "Geografia", "Italiano", "Inglese", "Storia", "Arte", "Disegno tecnico", "Informatica"};
+            this.listInitializr();
             positionAdapter = new PositionAdapter();
             filtri.setDefault();
             setLabelValue();
@@ -45,7 +46,7 @@ namespace Tutorip.Views
             if (insegnanti != null)
             {
                 foreach (RisultatoRicercaInsegnanti r in insegnanti)
-                    r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
+                r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
                 insegnanti_list.IsVisible = true;
                 ListaDiMaterie.IsVisible = false;
                 insegnanti_list.ItemsSource = insegnanti;
@@ -113,5 +114,9 @@ namespace Tutorip.Views
             this.setLabelValue();
         }
 
+        private async void listInitializr()
+        {
+            materie = await MaterieService.getMaterie();
+        }
     }
 }
