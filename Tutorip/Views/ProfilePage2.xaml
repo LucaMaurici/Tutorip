@@ -146,10 +146,10 @@
                 </StackLayout>
             </StackLayout>
         </Frame>
-        <ListView x:Name="subject_list">
+        <ListView x:Name="subject_list" SelectionMode="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell></TextCell>
+                    <TextCell Text="{Binding nome}" TextColor="Black"></TextCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

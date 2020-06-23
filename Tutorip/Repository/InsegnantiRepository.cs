@@ -53,6 +53,7 @@ namespace Tutorip.Repository
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(content);
                     i = JsonConvert.DeserializeObject<Insegnante>(content);
                 }
             }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Java.Lang;
+using System;
 using System.Threading.Tasks;
 using Tutorip.Models;
 using Tutorip.Services;
@@ -40,6 +41,7 @@ namespace Tutorip.Views
 
         private void LogGoogBtn_clicked(object sender, EventArgs e)
         {
+            int pausa=0;
             DependencyService.Get<INativePages>().StartPage();
             Navigation.InsertPageBefore(new AccountPage(), this);
             Navigation.PopAsync();

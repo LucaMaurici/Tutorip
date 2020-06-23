@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Tutorip.Data;
 using Tutorip.Models;
 using Tutorip.Repository;
+using Tutorip.Services.ModelService;
 
 namespace Tutorip.Services
 {
@@ -19,9 +22,21 @@ namespace Tutorip.Services
             await InsegnantiRepository.SaveAsync(i, Constants.TutoripEndPoint + "/insegnante/create.php/");
         }
 
-        internal static async Task<Insegnante> getInsegnante(int id)
+        /*internal static async Task<Insegnante> getInsegnante(int id)
         {
             return await InsegnantiRepository.findInsegnanteById(id, Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
+        }*/
+
+        internal static async Task<Insegnante> getInsegnante(int id)
+        {
+            Materia[] materie = await MaterieService.getMaterieInsegnante(id);
+            Insegnante i = await InsegnantiRepository.findInsegnanteById(id, Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
+            i.materie = new List<Materia>();
+            foreach (Materia m in materie)
+            {
+                i.materie.Add(m);
+            }
+            return i;
         }
     }
 }
