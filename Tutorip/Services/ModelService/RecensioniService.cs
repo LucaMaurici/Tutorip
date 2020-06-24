@@ -17,7 +17,7 @@ namespace Tutorip.Services.ModelService
 
         public static async Task<Recensione[]> GetRecensioniInsegnante(int idInsegnante)
         {
-            return await RecensioniRepository.GetRecensioniInsegnante(idInsegnante, Constants.TutoripEndPoint + "/recensione/getRecensioniByIdInsegnante");
+            return await RecensioniRepository.GetRecensioniInsegnante(idInsegnante, Constants.TutoripEndPoint + "/recensione/findRecensioniByIdInsegnante.php/");
         }
             
 

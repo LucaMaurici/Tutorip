@@ -5,11 +5,14 @@ namespace Tutorip.Models
 {
     public class Recensione
     {
-        [JsonProperty("nomeAutore")]
+        /*[JsonProperty("nomeAutore")]
         public String nome { get; set; }
 
         [JsonProperty("cognomeAutore")]
-        public String cognome { get; set; }
+        public String cognome { get; set; }*/
+
+        [JsonProperty("utente")]
+        public Utente utente { get; set; }
         
         [JsonProperty("cod_utente")]
         public int? cod_utente { get; set; }
