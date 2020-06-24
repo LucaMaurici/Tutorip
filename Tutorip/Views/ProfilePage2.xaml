@@ -147,6 +147,19 @@
                 </StackLayout>
             </Frame>
 
+            <Frame x:Name="fr_materie" Padding="8">
+                <StackLayout x:Name="stl_materie" Orientation="Vertical">
+                    <!--<FlexLayout x:Name="flx_materie" Direction="Row" Wrap="Wrap" AlignItems="Center"  JustifyContent="SpaceEvenly">-->
+                    <FlexLayout x:Name="flx_materie" Direction="Row" Wrap="Wrap" AlignItems="Start" JustifyContent="SpaceEvenly">
+                        <!--
+                        <StackLayout x:Name="stli_materie" Orientation="Vertical" FlexLayout.Basis="50%">
+                        </StackLayout>
+                        -->
+                    </FlexLayout>
+                </StackLayout>
+
+            </Frame>
+            <!--
             <Frame>
                 <ListView x:Name="subject_list" SelectionMode="None" IsVisible="True">
                     <ListView.ItemTemplate>
@@ -156,12 +169,12 @@
                     </ListView.ItemTemplate>
                 </ListView>
             </Frame>
-
-            <Frame>
+            -->
+            <Frame Padding="10">
                 <StackLayout Orientation="Vertical">
                     <StackLayout Orientation="Horizontal">
-                        <CheckBox x:Name="isAnonimo"></CheckBox>
-                        <Label Text="Anonimo"></Label>
+                        <CheckBox x:Name="isAnonimo" IsVisible="True"></CheckBox>
+                        <Label Text="Anonimo" IsVisible="True"></Label>
                         <Button x:Name="btn_recensione" Text="Lascia una recensione" Clicked="btn_recensione_Clicked"></Button>
                         <!-- Magari sarà un image button non so che scriverci-->
                     </StackLayout>

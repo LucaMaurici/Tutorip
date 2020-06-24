@@ -45,7 +45,16 @@ namespace Tutorip.Views
             //List<string> materie = new List<Materia>();
             //foreach (Materia m in insegnante.materie)
             //    materie.Add(m);
-            this.subject_list.ItemsSource = insegnante.materie;
+            //this.subject_list.ItemsSource = insegnante.materie;
+
+            foreach(Materia materia in this.insegnante.materie)
+            {
+                this.flx_materie.Children.Add(new Button { 
+                    Text = materia.nome, HorizontalOptions=LayoutOptions.Start, 
+                    BackgroundColor=Color.Transparent, FontSize=13, TextColor=Color.FromHex("#0E5D90"), BorderColor=Color.FromHex("#0E5D90"),
+                    BorderWidth=1, CornerRadius=20, Padding=10, Margin=3
+                });
+            }
         }
 
         private void bt_indietro_Clicked(object sender, System.EventArgs e)
