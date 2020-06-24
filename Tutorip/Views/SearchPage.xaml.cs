@@ -5,16 +5,15 @@ using Tutorip.Services;
 using Rg.Plugins.Popup.Services;
 using System.Collections.Generic;
 using System.Linq;
+using Tutorip.Services.ModelService;
+using Android.Preferences;
+using Xamarin.Essentials;
 
 namespace Tutorip.Views
 {
     public partial class SearchPage : ContentPage
     {
-        List<string> materie = new List<string>
-        {
-            "Matematica", "Geografia", "Italiano", "Inglese", "Storia", "Arte", "Disegno tecnico", "Informatica"
-        };
-
+        List<Materia> materie = new List<Materia>();
         Filtri filtri;
         PositionAdapter positionAdapter;
         public SearchPage()
@@ -22,13 +21,15 @@ namespace Tutorip.Views
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
             this.filtri = new Filtri();
+            this.listInitializr();
             positionAdapter = new PositionAdapter();
             filtri.setDefault();
-            setLabelValue();
+            setButtonTextValue();
         }
 
-        public async void setLabelValue()
+        public async void setButtonTextValue()
         {
+            this.btn_posizione.Text = "Tocca per aggiornare";
             Posizione pos = (Posizione) await positionAdapter.calcolaPosizione();
             if (pos != null)
             {
@@ -38,12 +39,21 @@ namespace Tutorip.Views
             {
                 btn_posizione.Text = "Impossibile accedere alla posizione del dispositivo";
             }
+            Preferences.Set("latitudineCorrente", pos.latitudine.ToString());
+            Preferences.Set("longitudineCorrente", pos.longitudine.ToString());
+            Preferences.Set("indirizzoCorrente", pos.indirizzo);
         }
 
         private async void search_btn_Clicked(object sender, EventArgs e)
         {
             filtri.nomeMateria = en_materia.Text;
-            filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
+            //filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
+            //filtri.posizione = await positionAdapter.Indirizzo2Posizione(Preferences.Get("indirizzoCorrente", null));
+            Posizione pos = new Posizione();
+            pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
+            pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
+            pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
+            filtri.posizione = pos;
             RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
             if (insegnanti != null)
             {
@@ -69,7 +79,7 @@ namespace Tutorip.Views
             Insegnante i = await InsegnantiService.getInsegnante(r.id);
             if (i.id != 0) 
             {
-                await Navigation.PushAsync(new ProfilePage(i));
+                await Navigation.PushAsync(new ProfilePage2(i));
             }
             this.IsEnabled = true;
         }
@@ -98,23 +108,29 @@ namespace Tutorip.Views
             this.IsEnabled = true;
         }
 
-        private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
+        /*private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
         {
             var keyword = en_materia.Text;
-            var suggestions = materie.Where(m => m.ToLower().Contains(keyword.ToLower()));
+            var suggestions = materie.Where(m => m.nome.ToLower().Contains(keyword.ToLower()));
             ListaDiMaterie.ItemsSource = suggestions;
-        }
+        } NON FUNZIONA*/
 
         private void ListaDiMaterie_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+            if (sender is ListView lv)
+                lv.SelectedItem = null;
             var materia = e.Item as string;
             en_materia.Text = materia;
         }
 
         private void btn_posizione_Clicked(object sender, EventArgs e)
         {
-            this.setLabelValue();
+            this.setButtonTextValue();
         }
 
+        private async void listInitializr()
+        {
+            materie = await MaterieService.getMaterie();
+        }
     }
 }

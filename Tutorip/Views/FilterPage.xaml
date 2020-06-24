@@ -126,9 +126,12 @@
 
             </StackLayout>
 
-            <StackLayout
-                Orientation="Horizontal"
-                >
+            <StackLayout Orientation="Horizontal" Padding="5">
+                <CheckBox x:Name="cb_posizione"></CheckBox>
+                <Label Text="Usa posizione default" Padding="5"></Label>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
                 <Button
                     x:Name="bt_annulla"
                     Text="Annulla"

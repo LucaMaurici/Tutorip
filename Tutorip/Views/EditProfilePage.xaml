@@ -8,98 +8,134 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="#FFFDF7"
              xmlns:f9p="clr-namespace:Forms9Patch;assembly=Forms9Patch">
-
-    <StackLayout>
-        <Frame Padding="17,12,17,12">
-            <StackLayout Orientation="Horizontal">
-                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                    <ImageButton
-                        x:Name="bt_indietro"
-                        Source="restart"
-                        Margin="0,0,0,0"
-                        BackgroundColor="Transparent"
-                        Clicked="bt_indietro_Clicked"
-                        HeightRequest="35"
-                        WidthRequest="35">
-                    </ImageButton>
-                    <Label
-                        Text="Modifica profilo"
-                        FontSize="27"
-                        Margin="10,0,0,0"
-                        VerticalOptions="Center">
-                    </Label>
-                </StackLayout>
-                <StackLayout>
-                    <ImageButton
-                        x:Name="bt_SalvaProfilo"
-                        Source="success"
-                        Margin="0,0,0,-5"
-                        BackgroundColor="Transparent"
-                        Clicked="bt_SalvaProfilo_Clicked"
-                        HeightRequest="25"
-                        WidthRequest="25">
-                    </ImageButton>
-                    <Label Text="Salva" FontSize="13"></Label>
-                </StackLayout>
-            </StackLayout>
-        </Frame>
-        <Frame Padding="20,5,5,12">
-            <StackLayout Orientation="Horizontal">
-                <!--IMMAGINE-->
-                <ImageButton Source="user6" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" BackgroundColor="Transparent" Clicked="img_profileImage_Clicked"></ImageButton>
-                <StackLayout HorizontalOptions="CenterAndExpand">
-                    <!--NOME-->
-                    <Entry x:Name="en_nome" Placeholder="Nome C." WidthRequest="200" Keyboard="Text" HorizontalTextAlignment="Center" TextColor="#666" FontAttributes="Bold" FontSize="25" Margin="5,0,5,0" TranslationX="-3" HorizontalOptions="CenterAndExpand"></Entry>
-                    <!--TARIFFA-->
-                    <StackLayout Orientation="Horizontal" TranslationX="20" Margin="0,-15,0,0">
-                        <Entry x:Name="en_tariffa" Keyboard="Numeric" Placeholder="15" WidthRequest="120" HorizontalTextAlignment="End" TextColor="#2D8E80" FontAttributes="Bold" FontSize="40"></Entry>
-                        <Label Text="€" TextColor="#2D8E80" FontSize="35" FontAttributes="Bold" VerticalOptions="CenterAndExpand"></Label>
-                    </StackLayout>
-                    <Label Text="Tariffa" Margin="80,-10,0,0"></Label>
-                </StackLayout>
-            </StackLayout>
-        </Frame>
-        <Frame Padding="20,10,20,20">
-            <StackLayout>
-                <!--MODALITA'-->
+    <ScrollView>
+        <StackLayout>
+            <Frame Padding="17,12,17,12">
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="Modalità" FontAttributes="None" FontSize="18" Margin="0,0,0,0" VerticalOptions="Center"></Label>
-                    <Picker x:Name="pck_modalità" HorizontalOptions="FillAndExpand" Title="In presenza o a distanza?" Margin="20,0,0,0" TextColor="#666" FontSize="17">
-                        <Picker.Items>
-                            <x:String>In presenza</x:String>
-                            <x:String>A distanza</x:String>
-                            <x:String>In presenza e distanza</x:String>
-                        </Picker.Items>
-                    </Picker>
-                </StackLayout>
-                <!--INDIRIZZO-->
-                <StackLayout>
-                    <StackLayout x:Name="posizione" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                        <Image Source="placeholder3" WidthRequest="22" HeightRequest="22"></Image>
-                        <Entry x:Name="en_indirizzo" Placeholder="Via le mani dal naso, 30, Lodi" FontSize="18" Margin="5,-5,0,0" WidthRequest="300"></Entry>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                        <ImageButton
+                            x:Name="bt_indietro"
+                            Source="restart"
+                            Margin="0,0,0,0"
+                            BackgroundColor="Transparent"
+                            Clicked="bt_indietro_Clicked"
+                            HeightRequest="35"
+                            WidthRequest="35">
+                        </ImageButton>
+                        <Label
+                            Text="Modifica profilo"
+                            FontSize="27"
+                            Margin="10,0,0,0"
+                            VerticalOptions="Center">
+                        </Label>
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="End" TranslationX="-20" Margin="0,-5,0,0">
-                        <CheckBox x:Name="cb_indirizzo" TranslationX="-5" TranslationY="-3"></CheckBox>
-                        <Label Text="Mostra indirizzo" FontSize="18"></Label>
-                    </StackLayout>
-                </StackLayout>
-                <!--GRUPPI-->
-                <StackLayout Orientation="Horizontal">
-                    <CheckBox x:Name="cb_gruppo" TranslationX="-5" TranslationY="-3"></CheckBox>
-                    <Label Text="Lezione di gruppo su richiesta" FontSize="18"></Label>
-                </StackLayout>
-                <!--EMAIL-->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                    <Image Source="paperplane1" WidthRequest="22" HeightRequest="22"></Image>
-                    <Entry x:Name="en_email" Keyboard="Email" Placeholder="iltuoindirizzo@email.com" FontSize="18" TextColor="#358" Margin="5,-5,0,0" WidthRequest="300"></Entry>
-                </StackLayout>
-                <!--CELLULARE-->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                    <Image Source="smartphone10" WidthRequest="22" HeightRequest="22"></Image>
-                    <Entry x:Name="en_cellulare" Keyboard="Telephone" Placeholder="Cellulare" FontSize="18" TextColor="#358" Margin="5,-5,0,0" WidthRequest="300"></Entry>
-                </StackLayout>
-            </StackLayout>
-        </Frame>
-    </StackLayout>
+                    <StackLayout>
+                        <ImageButton
+                            x:Name="bt_SalvaProfilo"
+                            Source="success"
+                            Margin="0,0,0,-5"
+                            BackgroundColor="Transparent"
+                            Clicked="bt_SalvaProfilo_Clicked"
+                            HeightRequest="25"
+                            WidthRequest="25">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <VisualState.Setters>
+                                            <Setter Property="Scale"
+                                            Value="1" />
+                                        </VisualState.Setters>
+                                    </VisualState>
 
+                                    <VisualState x:Name="Pressed">
+                                        <VisualState.Setters>
+                                            <Setter Property="Scale"
+                                            Value="0.8" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </ImageButton>
+                        <Label Text="Salva" FontSize="13"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame Padding="20,5,5,12">
+                <StackLayout Orientation="Horizontal">
+                    <!--IMMAGINE-->
+                    <ImageButton Source="user6" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" BackgroundColor="Transparent" Clicked="img_profileImage_Clicked"></ImageButton>
+                    <StackLayout HorizontalOptions="CenterAndExpand">
+                        <!--NOME-->
+                        <Entry x:Name="en_nome" Placeholder="Nome C." WidthRequest="200" Keyboard="Text" HorizontalTextAlignment="Center" TextColor="#666" FontAttributes="Bold" FontSize="25" Margin="5,0,5,0" TranslationX="-3" HorizontalOptions="CenterAndExpand"></Entry>
+                        <!--TARIFFA-->
+                        <StackLayout Orientation="Horizontal" TranslationX="20" Margin="0,-15,0,0">
+                            <Entry x:Name="en_tariffa" Keyboard="Numeric" Placeholder="15" WidthRequest="120" HorizontalTextAlignment="End" TextColor="#2D8E80" FontAttributes="Bold" FontSize="40"></Entry>
+                            <Label Text="€" TextColor="#2D8E80" FontSize="35" FontAttributes="Bold" VerticalOptions="CenterAndExpand"></Label>
+                        </StackLayout>
+                        <Label Text="Tariffa" Margin="80,-10,0,0"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame Padding="20,10,20,20">
+                <StackLayout>
+                    <!--MODALITA'-->
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Modalità" FontAttributes="None" FontSize="18" Margin="0,0,0,0" VerticalOptions="Center"></Label>
+                        <Picker x:Name="pck_modalità" HorizontalOptions="FillAndExpand" Title="In presenza o a distanza?" Margin="20,0,0,0" TextColor="#666" FontSize="17">
+                            <Picker.Items>
+                                <x:String>In presenza</x:String>
+                                <x:String>A distanza</x:String>
+                                <x:String>In presenza e distanza</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </StackLayout>
+                    <!--INDIRIZZO-->
+                    <StackLayout>
+                        <StackLayout x:Name="posizione" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                            <Image Source="placeholder3" WidthRequest="22" HeightRequest="22"></Image>
+                            <Entry x:Name="en_indirizzo" Placeholder="Via le mani dal naso, 30, Lodi" FontSize="18" Margin="5,-5,0,0" WidthRequest="300"></Entry>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="End" TranslationX="-20" Margin="0,-5,0,0">
+                            <CheckBox x:Name="cb_indirizzo" TranslationX="-5" TranslationY="-3"></CheckBox>
+                            <Label Text="Mostra indirizzo" FontSize="18"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                    <!--GRUPPI-->
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="cb_gruppo" TranslationX="-5" TranslationY="-3"></CheckBox>
+                        <Label Text="Lezione di gruppo su richiesta" FontSize="18"></Label>
+                    </StackLayout>
+                    <!--EMAIL-->
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                        <Image Source="paperplane1" WidthRequest="22" HeightRequest="22"></Image>
+                        <Entry x:Name="en_email" Keyboard="Email" Placeholder="iltuoindirizzo@email.com" FontSize="18" TextColor="#358" Margin="5,-5,0,0" WidthRequest="300"></Entry>
+                    </StackLayout>
+                    <!--CELLULARE-->
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                        <Image Source="smartphone10" WidthRequest="22" HeightRequest="22"></Image>
+                        <Entry x:Name="en_cellulare" Keyboard="Telephone" Placeholder="Cellulare" FontSize="18" TextColor="#358" Margin="5,-5,0,0" WidthRequest="300"></Entry>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame x:Name="fr_materie" Padding="20,10,20,20">
+                <StackLayout>
+                    <Label Text="Inserisci le tue materie"></Label>
+                    <Button x:Name="btn_addMateria" Text="Aggiungi una materia" Clicked="btn_addMateria_Clicked" HorizontalOptions="End"></Button>
+                    <StackLayout Orientation="Vertical" x:Name="StL_materie">
+                        <Entry x:Name="en1_materie" HorizontalOptions="FillAndExpand" Placeholder="Materia 1">
+                            <Entry.Keyboard>
+                                <Keyboard x:FactoryMethod="Create">
+                                    <x:Arguments>
+                                        <KeyboardFlags>Spellcheck</KeyboardFlags>
+                                    </x:Arguments>
+                                </Keyboard>
+                            </Entry.Keyboard>
+                        </Entry>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

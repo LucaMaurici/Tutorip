@@ -10,6 +10,7 @@ using Xamarin.Auth;
 using Xamarin.Essentials;
 using Tutorip.Models;
 using Tutorip.Services;
+using Tutorip.Views;
 
 namespace Tutorip.Droid
 {

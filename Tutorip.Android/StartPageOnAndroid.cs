@@ -1,4 +1,5 @@
 ﻿using Android.Content;
+using System.Threading.Tasks;
 using Tutorip.Droid;
 
 [assembly: Xamarin.Forms.Dependency(typeof(StartPageOnAndroid))]

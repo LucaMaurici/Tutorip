@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 
 namespace Tutorip.Models
 {
@@ -12,33 +13,52 @@ namespace Tutorip.Models
         [JsonProperty("nomeDaVisualizzare")]
         public String nomeDaVisualizzare { get; set; }
 
-        [JsonProperty("descrizione")]
-        public String descrizione { get; set; }
+        //immagine
+
+        /*[JsonProperty("descrizione")]
+        public String descrizione { get; set; }*/
 
         [JsonProperty("tariffa")]
-        public float tariffa { get; set; }
+        public float? tariffa { get; set; }
 
         [JsonProperty("valutazioneMedia")]
-        public String valutazione { get; set; }
-
-        [JsonProperty("posizione")]
-        public Posizione posizione { get; set; }
+        public String valutazioneMedia { get; set; }
 
         [JsonProperty("numeroValutazioni")]
-        public int numeroValutazioni { get; set; }
+        public int? numeroValutazioni { get; set; }
 
-        [JsonProperty("promozioni")]
-        public int promozioni { get; set; }
+        /*[JsonProperty("promozioni")]
+        public int promozioni { get; set; }*/
 
         [JsonProperty("gruppo")]
-        public int gruppo { get; set; }
+        public int? gruppo { get; set; }
 
         [JsonProperty("dataOraRegistrazione")]
         public DateTime dataOraRegistrazione { get; set; }
 
         [JsonProperty("profiloPubblico")]
-        public int profiloPubblico { get; set; }
+        public int? profiloPubblico { get; set; }
 
+        [JsonProperty("contatti")]
+        public Contatti contatti { get; set; }
+
+        [JsonProperty("materie")]
+        public List<Materia> materie { get; set; }
+
+        [JsonProperty("posizione")]
+        public Posizione posizione { get; set; }
+
+        [JsonProperty("recensioni")]
+        public Recensione[] recensioni { get; set; }
+
+        [JsonProperty("modalita")]
+        public int? modalita { get; set; }
+
+        public Insegnante()
+        {
+            this.posizione = new Posizione();
+            this.contatti = new Contatti();
+        }
         public override string ToString()
         {
             return id + " " + tariffa;
