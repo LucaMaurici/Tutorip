@@ -34,7 +34,7 @@ namespace Tutorip.Repository
         public static async Task<Recensione[]> GetRecensioniInsegnante(int idInsegnante, string uri)
         {
             ElencoRecensioni elenco = null;
-            var json = "{\"cod_insegnante\":" + JsonConvert.SerializeObject(idInsegnante) + "}";
+            var json = "{\"id\":" + JsonConvert.SerializeObject(idInsegnante) + "}";
             var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
             Console.WriteLine(json);
             try
@@ -42,6 +42,7 @@ namespace Tutorip.Repository
                 HttpResponseMessage response = await _client.PostAsync(uri, sendContent);
                 if (response.IsSuccessStatusCode)
                 {
+                    Console.WriteLine(response.StatusCode);
                     string content = await response.Content.ReadAsStringAsync();
                     Console.WriteLine(content);
                     elenco = JsonConvert.DeserializeObject<ElencoRecensioni>(content);

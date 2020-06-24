@@ -116,6 +116,11 @@
                         <Image Source="smartphone10" WidthRequest="22" HeightRequest="22"></Image>
                         <Entry x:Name="en_cellulare" Keyboard="Telephone" Placeholder="Cellulare" FontSize="18" TextColor="#358" Margin="5,-5,0,0" WidthRequest="300"></Entry>
                     </StackLayout>
+                    <!--FACEBOOK-->
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                        <Image Source="paperplane1" WidthRequest="22" HeightRequest="22"></Image>
+                        <Entry x:Name="en_facebook" Keyboard="Email" Placeholder="iltuoaccountFacebook" FontSize="18" TextColor="#358" Margin="5,-5,0,0" WidthRequest="300"></Entry>
+                    </StackLayout>
                 </StackLayout>
             </Frame>
 
