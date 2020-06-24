@@ -33,9 +33,13 @@ namespace Tutorip.Services
             Recensione[] recensioni = await RecensioniService.GetRecensioniInsegnante(id);
             Insegnante i = await InsegnantiRepository.findInsegnanteById(id, Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
             i.materie = new List<Materia>();
-            foreach (Materia m in materie)
+            i.recensioni = new Recensione[100];
+            if (materie != null)
             {
-                i.materie.Add(m);
+                foreach (Materia m in materie)
+                {
+                    i.materie.Add(m);
+                }
             }
             i.recensioni = recensioni;
             return i;
@@ -43,12 +47,12 @@ namespace Tutorip.Services
 
         public static void aggiungiPreferito(int cod_utente, int cod_insegnante)
         {
-            InsegnantiRepository.aggiungiPreferito(cod_utente, cod_insegnante, Constants.TutoripEndPoint + "/insegnante/aggiungiPreferito.php/");
+            InsegnantiRepository.aggiungiPreferito(cod_utente, cod_insegnante, Constants.TutoripEndPoint + "/preferiti/savePreferiti.php/");
         }
 
         internal static async Task<RisultatoRicercaInsegnanti[]> getPreferiti(int idUtente) 
         {
-            return await InsegnantiRepository.getPreferiti(idUtente, Constants.TutoripEndPoint + "/insegnante/getPreferiti/");
+            return await InsegnantiRepository.getPreferiti(idUtente, Constants.TutoripEndPoint + "/preferiti/findPreferitiById/");
         }
     }
 }

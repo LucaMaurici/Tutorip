@@ -1,10 +1,5 @@
-﻿using Java.Security;
-using System;
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tutorip.Models;
 using Tutorip.Services;
 using Xamarin.Essentials;
@@ -25,7 +20,22 @@ namespace Tutorip.Views
             InitializeComponent();
             this.insegnante = insegnante;
             this.positionAdapter = new PositionAdapter();
+            completaCampi();
             this.StL_materie.Children.Add(this.en1_materie);
+        }
+
+        private void completaCampi()
+        {
+            this.en_nome.Text = insegnante.nomeDaVisualizzare;
+            this.en_tariffa.Text = insegnante.tariffa.ToString();
+            this.en_indirizzo.Text = insegnante.posizione.indirizzo;
+            this.en_cellulare.Text = insegnante.contatti.cellulare;
+            this.en_email.Text = insegnante.contatti.emailContatto;
+            //this.en_facebook.Text = insegnante.contatti.facebook;
+            if (insegnante.gruppo == 1)
+                this.cb_gruppo.IsChecked = true;
+            else
+                this.cb_gruppo.IsChecked = false;
         }
 
         private async void bt_SalvaProfilo_Clicked(object sender, EventArgs e)
