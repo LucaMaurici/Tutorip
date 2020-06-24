@@ -8,12 +8,12 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="#FFFDF7"
              xmlns:f9p="clr-namespace:Forms9Patch;assembly=Forms9Patch">
-
-    <StackLayout>
-        <Frame Padding="17,12,17,12">
-            <StackLayout Orientation="Horizontal">
-                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                    <ImageButton
+    <ScrollView>
+        <StackLayout>
+            <Frame Padding="17,12,17,12">
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                        <ImageButton
                         x:Name="bt_indietro"
                         Source="restart"
                         Margin="0,0,0,0"
@@ -21,16 +21,16 @@
                         Clicked="bt_indietro_Clicked"
                         HeightRequest="35"
                         WidthRequest="35">
-                    </ImageButton>
-                    <Label
+                        </ImageButton>
+                        <Label
                         Text="Il mio profilo"
                         FontSize="24"
                         Margin="10,0,0,0"
                         VerticalOptions="Center">
-                    </Label>
-                </StackLayout>
-                <StackLayout Margin="0,0,10,0">
-                    <ImageButton
+                        </Label>
+                    </StackLayout>
+                    <StackLayout Margin="0,0,10,0">
+                        <ImageButton
                         x:Name="bt_ModificaVisibilità"
                         Source="hide"
                         Margin="0,0,0,-5"
@@ -38,11 +38,11 @@
                         Clicked="bt_ModificaVisibilità_Clicked"
                         HeightRequest="25"
                         WidthRequest="25">
-                    </ImageButton>
-                    <Label Text="Nascosto" FontSize="13"></Label>
-                </StackLayout>
-                <StackLayout>
-                    <ImageButton
+                        </ImageButton>
+                        <Label Text="Nascosto" FontSize="13"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <ImageButton
                         x:Name="bt_ModificaProfilo"
                         Source="edit"
                         Margin="0,0,0,-5"
@@ -50,109 +50,125 @@
                         Clicked="bt_ModificaProfilo_Clicked"
                         HeightRequest="25"
                         WidthRequest="25">
-                    </ImageButton>
-                    <Label Text="Modifica" FontSize="13"></Label>
-                </StackLayout>
-            </StackLayout>
-        </Frame>
-        <Frame Padding="20,20,5,20">
-            <StackLayout Orientation="Horizontal">
-                <!--IMMAGINE e DISTANZA-->
-                <StackLayout Margin="0,0,0,0">
-                    <!--IMMAGINE-->
-                    <Image Source="user6" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center"></Image>
-                    <!--DISTANZA-->
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                        <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
-                        <Label x:Name="distanza_lbl" Text="{Binding insegnante.posizione.indirizzo}" TextColor="#888" FontAttributes="None" FontSize="18"/>
+                        </ImageButton>
+                        <Label Text="Modifica" FontSize="13"></Label>
                     </StackLayout>
                 </StackLayout>
-                <StackLayout HorizontalOptions="CenterAndExpand">
-                    <!--NOME-->
-                    <f9p:Label x:Name="name_lbl" Text="{Binding insegnante.nomeDaVisualizzare}" FontAttributes="Bold" FontSize="50" Margin="5,0,5,0" TranslationX="-3" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Lines="1" AutoFit="Width"></f9p:Label>
-                    <!--TARIFFA e VALUTAZIONE MEDIA-->
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                        <Label x:Name="tariffa_lbl" TextColor="#2D8E80" FontAttributes="Bold" Margin="0,0,20,0">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <Span x:Name="tariffa_spn" FontSize="40" FontAttributes="Bold" Text="{Binding insegnante.tariffa}"></Span>
-                                    <Span FontSize="25" FontAttributes="None"></Span>
-                                    <Span FontSize="30" FontAttributes="None">€</Span>
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
-                        
-                        <Image Source="star1" WidthRequest="28" HeightRequest="28" TranslationY="1"></Image>
-                        <Label x:Name="eval_lbl" FontAttributes="Bold" HorizontalOptions="StartAndExpand">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <Span FontSize="40" FontAttributes="Bold" Text="{Binding insegnante.valutazioneMedia}"></Span>
-                                    <Span FontSize="30" FontAttributes="Bold"></Span>
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
-                    </StackLayout>
-                </StackLayout>
-            </StackLayout>
-        </Frame>
-        <Frame>
-            <StackLayout>
-                <!--MODALITA'-->
+            </Frame>
+            <Frame Padding="20,20,5,20">
                 <StackLayout Orientation="Horizontal">
-                    <Label x:Name="lb_mod" FontAttributes="None" FontSize="18" Margin="15,0,0,0"></Label>
-                    <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
-                        <Image Source="users" WidthRequest="21" HeightRequest="21" VerticalOptions="Center"></Image>
-                        <Image Source="television1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
+                    <!--IMMAGINE e DISTANZA-->
+                    <StackLayout Margin="0,0,0,0">
+                        <!--IMMAGINE-->
+                        <Image Source="user6" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center"></Image>
+                        <!--DISTANZA-->
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
+                            <Label x:Name="distanza_lbl" Text="{Binding insegnante.posizione.indirizzo}" TextColor="#888" FontAttributes="None" FontSize="18"/>
+                        </StackLayout>
                     </StackLayout>
-                </StackLayout>
-                <!--GRUPPI-->
-                <StackLayout Orientation="Horizontal" Margin="15,0,0,0">
-                    <Label x:Name="lb_gruppo" FontAttributes="None" FontSize="18"></Label>
-                    <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
-                        <Image Source="success" IsVisible="True" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
-                        <Image Source="error" IsVisible="False" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
-                    </StackLayout>
-                </StackLayout>
-                <!--EMAIL-->
-                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                    <Image Source="paperplane1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
-                    <Label x:Name="lb_email" Text="{Binding insegnante.contatti.emailContatto}" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
-                </StackLayout>
-            </StackLayout>
-        </Frame>
-        <!--VALUTAZIONI-->
-        <Frame>
-            <StackLayout Orientation="Horizontal" Margin="0,-15,0,0">
-                <StackLayout HorizontalOptions="CenterAndExpand">
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                        <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                        <Label x:Name="num_spg_lbl" FontSize="28" Text="7.7" FontAttributes="None"></Label>
-                    </StackLayout>
-                    <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="None" FontSize="16"/>
-                </StackLayout>
-                <StackLayout HorizontalOptions="CenterAndExpand">
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                        <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                        <Label x:Name="num_emp_lbl" FontSize="28" Text="9" FontAttributes="None"></Label>
-                    </StackLayout>
-                    <Label x:Name="eval_emp_lbl" Text="Empatia" FontAttributes="None" FontSize="16" TranslationX="5"/>
-                </StackLayout>
-                <StackLayout HorizontalOptions="CenterAndExpand">
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                        <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                        <Label x:Name="num_org_lbl" FontSize="28" Text="7" FontAttributes="None"></Label>
-                    </StackLayout>
-                    <Label x:Name="eval_org_lbl" Text="Organizzazione" TranslationX="6" FontAttributes="None" FontSize="16"/>
-                </StackLayout>
-            </StackLayout>
-        </Frame>
-        <ListView x:Name="subject_list" SelectionMode="None">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding nome}" TextColor="Black"></TextCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </StackLayout>
+                    <StackLayout HorizontalOptions="CenterAndExpand">
+                        <!--NOME-->
+                        <f9p:Label x:Name="name_lbl" Text="{Binding insegnante.nomeDaVisualizzare}" FontAttributes="Bold" FontSize="50" Margin="5,0,5,0" TranslationX="-3" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Lines="1" AutoFit="Width"></f9p:Label>
+                        <!--TARIFFA e VALUTAZIONE MEDIA-->
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <Label x:Name="tariffa_lbl" TextColor="#2D8E80" FontAttributes="Bold" Margin="0,0,20,0">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span x:Name="tariffa_spn" FontSize="40" FontAttributes="Bold" Text="{Binding insegnante.tariffa}"></Span>
+                                        <Span FontSize="25" FontAttributes="None"></Span>
+                                        <Span FontSize="30" FontAttributes="None">€</Span>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
 
+                            <Image Source="star1" WidthRequest="28" HeightRequest="28" TranslationY="1"></Image>
+                            <Label x:Name="eval_lbl" FontAttributes="Bold" HorizontalOptions="StartAndExpand">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span FontSize="40" FontAttributes="Bold" Text="{Binding insegnante.valutazioneMedia}"></Span>
+                                        <Span FontSize="30" FontAttributes="Bold"></Span>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame>
+                <StackLayout>
+                    <!--MODALITA'-->
+                    <StackLayout Orientation="Horizontal">
+                        <Label x:Name="lb_mod" FontAttributes="None" FontSize="18" Margin="15,0,0,0"></Label>
+                        <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                            <Image Source="users" WidthRequest="21" HeightRequest="21" VerticalOptions="Center"></Image>
+                            <Image Source="television1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
+                        </StackLayout>
+                    </StackLayout>
+                    <!--GRUPPI-->
+                    <StackLayout Orientation="Horizontal" Margin="15,0,0,0">
+                        <Label x:Name="lb_gruppo" FontAttributes="None" FontSize="18"></Label>
+                        <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                            <Image Source="success" IsVisible="True" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
+                            <Image Source="error" IsVisible="False" WidthRequest="21" HeightRequest="21" VerticalOptions="End"></Image>
+                        </StackLayout>
+                    </StackLayout>
+                    <!--EMAIL-->
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                        <Image Source="paperplane1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
+                        <Label x:Name="lb_email" Text="{Binding insegnante.contatti.emailContatto}" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <!--VALUTAZIONI-->
+            <Frame>
+                <StackLayout Orientation="Horizontal" Margin="0,-15,0,0">
+                    <StackLayout HorizontalOptions="CenterAndExpand">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                            <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                            <Label x:Name="num_spg_lbl" FontSize="28" Text="7.7" FontAttributes="None"></Label>
+                        </StackLayout>
+                        <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="None" FontSize="16"/>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="CenterAndExpand">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                            <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                            <Label x:Name="num_emp_lbl" FontSize="28" Text="9" FontAttributes="None"></Label>
+                        </StackLayout>
+                        <Label x:Name="eval_emp_lbl" Text="Empatia" FontAttributes="None" FontSize="16" TranslationX="5"/>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="CenterAndExpand">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                            <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                            <Label x:Name="num_org_lbl" FontSize="28" Text="7" FontAttributes="None"></Label>
+                        </StackLayout>
+                        <Label x:Name="eval_org_lbl" Text="Organizzazione" TranslationX="6" FontAttributes="None" FontSize="16"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame>
+                <ListView x:Name="subject_list" SelectionMode="None" IsVisible="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding nome}" TextColor="Black"></TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Frame>
+
+            <Frame>
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                        <CheckBox x:Name="isAnonimo"></CheckBox>
+                        <Label Text="Anonimo"></Label>
+                        <Button x:Name="btn_recensione" Text="Lascia una recensione" Clicked="btn_recensione_Clicked"></Button>
+                        <!-- Magari sarà un image button non so che scriverci-->
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" x:Name="stl_recensione"></StackLayout>
+                    <Button x:Name="btn_salvaRecensione" Clicked="btn_salvaRecensione_Clicked" HorizontalOptions="FillAndExpand"></Button>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

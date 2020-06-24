@@ -30,12 +30,14 @@ namespace Tutorip.Services
         internal static async Task<Insegnante> getInsegnante(int id)
         {
             Materia[] materie = await MaterieService.getMaterieInsegnante(id);
+            Recensione[] recensioni = await RecensioniService.GetRecensioniInsegnante(id);
             Insegnante i = await InsegnantiRepository.findInsegnanteById(id, Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
             i.materie = new List<Materia>();
             foreach (Materia m in materie)
             {
                 i.materie.Add(m);
             }
+            i.recensioni = recensioni;
             return i;
         }
 

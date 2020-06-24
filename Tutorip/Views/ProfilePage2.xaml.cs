@@ -17,7 +17,7 @@ namespace Tutorip.Views
         public ProfilePage2(Insegnante insegnante)
         {
             InitializeComponent();
-            //name_lbl.Text = item.email;
+            this.btn_salvaRecensione.IsVisible = false;
             this.insegnante = insegnante;
             completeProfile();
         }
@@ -77,7 +77,7 @@ namespace Tutorip.Views
         private async void bt_ModificaProfilo_Clicked(object sender, System.EventArgs e)
         {
             this.IsEnabled = false;
-            await Navigation.PushAsync(new EditProfilePage(this.insegnante));
+            await Navigation.PushAsync(new EditProfilePage(this.insegnante)); // conveniente pushare???
             this.IsEnabled = true;
         }
 
@@ -86,9 +86,49 @@ namespace Tutorip.Views
 
         }
 
-        private void bt_addFav_Clicked(object sender, EventArgs e)
+        private void bt_addFav_Clicked(object sender, EventArgs e) // bottone per aggiungere ai preferiti da mostrare solo se si è utenti che vedono il profilo
         {
             InsegnantiService.aggiungiPreferito(int.Parse(Preferences.Get("id", null)), insegnante.id);
+        }
+
+        private void btn_recensione_Clicked(object sender, EventArgs e)
+        {
+
+            var entryTitolo = new Entry { Placeholder = "Titolo", Keyboard = Keyboard.Text };
+            var entryCorpo =  new Entry { Placeholder = "Testo della recensione", Keyboard = Keyboard.Text };
+            var entryValMed =  new Entry { Placeholder = "ValutazioneMedia", Keyboard = Keyboard.Numeric };
+            var entryEmpatia =  new Entry { Placeholder = "Empatia", Keyboard = Keyboard.Numeric };
+            var entrySpieg = new Entry { Placeholder = "Spiegazione", Keyboard = Keyboard.Numeric };
+            var entryOrg = new Entry { Placeholder = "Organizzazione", Keyboard = Keyboard.Numeric };
+            
+            this.stl_recensione.Children.Add(entryTitolo);
+            this.stl_recensione.Children.Add(entryCorpo);
+            this.stl_recensione.Children.Add(entryValMed);
+            this.stl_recensione.Children.Add(entryEmpatia);
+            this.stl_recensione.Children.Add(entrySpieg);
+            this.stl_recensione.Children.Add(entryOrg);
+
+            this.btn_salvaRecensione.IsVisible = true;
+        }
+
+        private void btn_salvaRecensione_Clicked(object sender, EventArgs e)
+        {
+            Recensione r = new Recensione();
+            Entry entryTitolo = (Entry) stl_recensione.Children[0];
+            Console.WriteLine(entryTitolo.Text);
+            //r.titolo = entryTitolo.Text;
+            Entry entryCorpo = (Entry)stl_recensione.Children[1];
+            Console.WriteLine(entryCorpo.Text);
+            //r.corpo = entryCorpo.Text;
+            Entry entryValMed = (Entry)stl_recensione.Children[2];
+            Console.WriteLine(entryValMed.Text);
+            //r.valutazioneGenerale = int.Parse(entryValMed.Text);
+            Entry entryEmp = (Entry)stl_recensione.Children[3];
+            //r.empatia = int.Parse(entryEmp.Text);
+            Entry entrySpieg = (Entry)stl_recensione.Children[4];
+            //r.spiegazione = int.Parse(entrySpieg.Text);
+            Entry entryOrg = (Entry)stl_recensione.Children[5];
+            //r.organizzazione = int.Parse(entryOrg.Text);
         }
     }
 }

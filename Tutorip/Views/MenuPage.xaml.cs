@@ -98,7 +98,7 @@ namespace Tutorip.Views
 
             else if (em.testo == "Profilo insegnante")
             {
-                Insegnante i = await InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", null))); //occhio al null
+                Insegnante i = await InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", (-1).ToString()))); //occhio al null
                 if (i.id != 0)
                 {
                     Navigation.InsertPageBefore(new ProfilePage2(i), this);
