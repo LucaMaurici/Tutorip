@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Tutorip.Models;
 using Tutorip.Services;
+using Tutorip.Services.ModelService;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -41,10 +42,6 @@ namespace Tutorip.Views
             this.eval_lbl.Text = insegnante.valutazioneMedia;
             this.name_lbl.Text = insegnante.nomeDaVisualizzare;
             this.tariffa_spn.Text = insegnante.tariffa.ToString();
-            
-            //List<string> materie = new List<Materia>();
-            //foreach (Materia m in insegnante.materie)
-            //    materie.Add(m);
             this.subject_list.ItemsSource = insegnante.materie;
         }
 
@@ -114,21 +111,29 @@ namespace Tutorip.Views
         private void btn_salvaRecensione_Clicked(object sender, EventArgs e)
         {
             Recensione r = new Recensione();
+
+            r.cod_insegnante = insegnante.id;
+            r.cod_utente = int.Parse(Preferences.Get("id", (-1).ToString()));
+
+            if (this.cb_isAnonimo.IsChecked)
+                r.anonimo = 1;
+            else
+                r.anonimo = 0;
+
             Entry entryTitolo = (Entry) stl_recensione.Children[0];
-            Console.WriteLine(entryTitolo.Text);
-            //r.titolo = entryTitolo.Text;
+            r.titolo = entryTitolo.Text;
             Entry entryCorpo = (Entry)stl_recensione.Children[1];
-            Console.WriteLine(entryCorpo.Text);
-            //r.corpo = entryCorpo.Text;
+            r.corpo = entryCorpo.Text;
             Entry entryValMed = (Entry)stl_recensione.Children[2];
-            Console.WriteLine(entryValMed.Text);
-            //r.valutazioneGenerale = int.Parse(entryValMed.Text);
+            r.valutazioneGenerale = int.Parse(entryValMed.Text);
             Entry entryEmp = (Entry)stl_recensione.Children[3];
-            //r.empatia = int.Parse(entryEmp.Text);
+            r.empatia = int.Parse(entryEmp.Text);
             Entry entrySpieg = (Entry)stl_recensione.Children[4];
-            //r.spiegazione = int.Parse(entrySpieg.Text);
+            r.spiegazione = int.Parse(entrySpieg.Text);
             Entry entryOrg = (Entry)stl_recensione.Children[5];
-            //r.organizzazione = int.Parse(entryOrg.Text);
+            r.organizzazione = int.Parse(entryOrg.Text);
+
+            RecensioniService.Save(r);
         }
     }
 }

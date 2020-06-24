@@ -160,7 +160,7 @@
             <Frame>
                 <StackLayout Orientation="Vertical">
                     <StackLayout Orientation="Horizontal">
-                        <CheckBox x:Name="isAnonimo"></CheckBox>
+                        <CheckBox x:Name="cb_isAnonimo"></CheckBox>
                         <Label Text="Anonimo"></Label>
                         <Button x:Name="btn_recensione" Text="Lascia una recensione" Clicked="btn_recensione_Clicked"></Button>
                         <!-- Magari sarà un image button non so che scriverci-->

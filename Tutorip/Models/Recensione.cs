@@ -15,7 +15,7 @@ namespace Tutorip.Models
         public int? cod_utente { get; set; }
 
         [JsonProperty("cod_insegnante")]
-        public int? cod_insegante { get; set; }
+        public int? cod_insegnante { get; set; }
 
         [JsonProperty("titolo")]
         public String titolo { get; set; }
