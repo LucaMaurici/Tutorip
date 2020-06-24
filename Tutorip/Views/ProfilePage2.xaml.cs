@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Tutorip.Models;
+using Tutorip.Services;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -83,6 +84,11 @@ namespace Tutorip.Views
         private void bt_ModificaVisibilità_Clicked(object sender, System.EventArgs e)
         {
 
+        }
+
+        private void bt_addFav_Clicked(object sender, EventArgs e)
+        {
+            InsegnantiService.aggiungiPreferito(int.Parse(Preferences.Get("id", null)), insegnante.id);
         }
     }
 }

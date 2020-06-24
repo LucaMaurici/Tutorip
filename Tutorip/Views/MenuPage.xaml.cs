@@ -98,7 +98,7 @@ namespace Tutorip.Views
 
             else if (em.testo == "Profilo insegnante")
             {
-                Insegnante i = await InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", null)));
+                Insegnante i = await InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", null))); //occhio al null
                 if (i.id != 0)
                 {
                     Navigation.InsertPageBefore(new ProfilePage2(i), this);
@@ -109,7 +109,18 @@ namespace Tutorip.Views
             else if (em.testo == "Insegnanti preferiti")
             {
                 this.IsEnabled = false;
-                await Navigation.PushAsync(new ProfilePage(new Insegnante()));
+                //await Navigation.PushAsync(new ProfilePage(new Insegnante()));
+                if (Preferences.Get("id", null) != null)
+                {
+                    RisultatoRicercaInsegnanti[] risultati = await InsegnantiService.getPreferiti(int.Parse(Preferences.Get("id", null))); //eventualmente da spostare nella PreferitiPage
+                    Navigation.InsertPageBefore(new PreferitiPage(risultati), this);
+                    await Navigation.PopAsync();
+                }
+                else
+                {
+                    Navigation.InsertPageBefore(new AccountPage(), this);
+                    await Navigation.PopAsync();
+                }
                 this.IsEnabled = true;
             }
 

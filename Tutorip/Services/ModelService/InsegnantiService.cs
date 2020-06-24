@@ -38,5 +38,15 @@ namespace Tutorip.Services
             }
             return i;
         }
+
+        public static void aggiungiPreferito(int cod_utente, int cod_insegnante)
+        {
+            InsegnantiRepository.aggiungiPreferito(cod_utente, cod_insegnante, Constants.TutoripEndPoint + "/insegnante/aggiungiPreferito.php/");
+        }
+
+        internal static async Task<RisultatoRicercaInsegnanti[]> getPreferiti(int idUtente) 
+        {
+            return await InsegnantiRepository.getPreferiti(idUtente, Constants.TutoripEndPoint + "/insegnante/getPreferiti/");
+        }
     }
 }

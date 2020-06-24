@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Tutorip.Models
 {
-    class RisultatoRicercaInsegnanti
+    public class RisultatoRicercaInsegnanti
     {
         [JsonProperty("id")]
         public int id { get; set; }
