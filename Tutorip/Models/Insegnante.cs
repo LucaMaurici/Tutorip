@@ -49,7 +49,7 @@ namespace Tutorip.Models
         public Posizione posizione { get; set; }
 
         [JsonProperty("recensioni")]
-        public Recensione[] recensioni { get; set; }
+        public List<Recensione> recensioni { get; set; }
 
         [JsonProperty("modalita")]
         public int? modalita { get; set; }

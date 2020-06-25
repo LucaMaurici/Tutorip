@@ -182,6 +182,9 @@
                     <Button x:Name="btn_salvaRecensione" Clicked="btn_salvaRecensione_Clicked" HorizontalOptions="FillAndExpand"></Button>
                 </StackLayout>
             </Frame>
+            <StackLayout x:Name="stl_recensioni">
+
+            </StackLayout>
         </StackLayout>
     </ScrollView>
 </ContentPage>

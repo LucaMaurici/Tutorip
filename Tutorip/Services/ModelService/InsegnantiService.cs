@@ -33,7 +33,7 @@ namespace Tutorip.Services
             Recensione[] recensioni = await RecensioniService.GetRecensioniInsegnante(id);
             Insegnante i = await InsegnantiRepository.findInsegnanteById(id, Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
             i.materie = new List<Materia>();
-            i.recensioni = new Recensione[100];
+            i.recensioni = new List<Recensione>();
             if (materie != null)
             {
                 foreach (Materia m in materie)
@@ -41,7 +41,14 @@ namespace Tutorip.Services
                     i.materie.Add(m);
                 }
             }
-            i.recensioni = recensioni;
+            if (recensioni != null)
+            {
+                foreach (Recensione r in recensioni)
+                {
+                    i.recensioni.Add(r);
+
+                }
+            }
             return i;
         }
 
