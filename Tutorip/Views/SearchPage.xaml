@@ -7,48 +7,48 @@
              x:Class="Tutorip.Views.SearchPage"
              Title="{Binding Title}"
              NavigationPage.HasNavigationBar="False"
-             Padding="10">
+             Padding="5">
     <!--BackgroundImageSource="sfondoConLineeObliqueS2"-->
 
     <StackLayout>
-
-        <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
-            <ImageButton
+        <Frame Padding="10" CornerRadius="15" Margin="3,3,3,3">
+            <StackLayout Orientation="Horizontal" Margin="5,0,5,0">
+                <ImageButton
                 x:Name="bt_menu"
                 Source="menu1"
                 Margin="0,0,0,0"
                 BackgroundColor="Transparent"
                 Clicked="bt_menu_Clicked"
-                HeightRequest="35"
-                WidthRequest="35">
-                <VisualStateManager.VisualStateGroups>
-                    <VisualStateGroup x:Name="CommonStates">
-                        <VisualState x:Name="Normal">
-                            <VisualState.Setters>
-                                <Setter Property="Scale"
+                HeightRequest="38"
+                WidthRequest="38">
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale"
                             Value="1" />
-                            </VisualState.Setters>
-                        </VisualState>
+                                </VisualState.Setters>
+                            </VisualState>
 
-                        <VisualState x:Name="Pressed">
-                            <VisualState.Setters>
-                                <Setter Property="Scale"
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale"
                             Value="0.8" />
-                            </VisualState.Setters>
-                        </VisualState>
+                                </VisualState.Setters>
+                            </VisualState>
 
-                    </VisualStateGroup>
-                </VisualStateManager.VisualStateGroups>
-            </ImageButton>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                </ImageButton>
 
-            <!--<Label
+                <!--<Label
                 x:Name="lb_posizione"
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="CenterAndExpand"
                 Margin="15,0,0,0">
             </Label>-->
 
-            <Button
+                <Button
                 x:Name="btn_posizione"
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="CenterAndExpand"
@@ -58,47 +58,47 @@
                 WidthRequest="60"
                 HeightRequest="48"
                 FontSize="Caption">
-            </Button>
+                </Button>
 
-            <ImageButton
+                <ImageButton
                 x:Name="bt_filtri"
                 Source="funnel"
                 Margin="0,0,0,0"
                 BackgroundColor="Transparent"
                 Clicked="bt_filtri_Clicked"
-                HeightRequest="30"
-                WidthRequest="30">
-                <VisualStateManager.VisualStateGroups>
-                    <VisualStateGroup x:Name="CommonStates">
-                        <VisualState x:Name="Normal">
-                            <VisualState.Setters>
-                                <Setter Property="Scale"
+                HeightRequest="33"
+                WidthRequest="33">
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale"
                             Value="1" />
-                            </VisualState.Setters>
-                        </VisualState>
+                                </VisualState.Setters>
+                            </VisualState>
 
-                        <VisualState x:Name="Pressed">
-                            <VisualState.Setters>
-                                <Setter Property="Scale"
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale"
                             Value="0.8" />
-                            </VisualState.Setters>
-                        </VisualState>
+                                </VisualState.Setters>
+                            </VisualState>
 
-                    </VisualStateGroup>
-                </VisualStateManager.VisualStateGroups>
-            </ImageButton>
-        </StackLayout>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                </ImageButton>
+            </StackLayout>
+        </Frame>
 
-        <Frame CornerRadius="40" BackgroundColor="White" HasShadow="False" WidthRequest="60" HeightRequest="60" TranslationY="+10" Margin="10,0,10,0">
+        <Frame CornerRadius="40" BackgroundColor="White" HasShadow="True" Padding="15,1,15,1" Margin="10,0,10,-3">
             <StackLayout Orientation="Horizontal">
-                <ImageButton x:Name="search_btn" Source="search" Clicked="search_btn_Clicked" WidthRequest="30"></ImageButton>
                 <Entry
                     x:Name="en_materia"
                     HorizontalOptions="FillAndExpand"
-                    
-                    FontSize="Body"
-                    HeightRequest="30">
+                    Placeholder="Cerca"
+                    FontSize="Body">
                 </Entry>
+                <ImageButton x:Name="search_btn" Source="search" BackgroundColor="Transparent" Clicked="search_btn_Clicked" HeightRequest="30" WidthRequest="30"></ImageButton>
                 <!--TextChanged="en_materia_TextChanged" DA RIMETTERE NELLA ENTRY--> 
                 <!--<Button 
                     x:Name="search_btn"
@@ -108,7 +108,6 @@
                     BackgroundColor="White"
                     Clicked="search_btn_Clicked">
                 </Button>-->
-
             </StackLayout>
         </Frame>
 

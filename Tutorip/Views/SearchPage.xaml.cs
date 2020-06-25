@@ -58,7 +58,14 @@ namespace Tutorip.Views
             if (insegnanti != null)
             {
                 foreach (RisultatoRicercaInsegnanti r in insegnanti)
+                {
                     r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
+                    if(r.valutazioneMedia == null)
+                    {
+                        //qualcosa per togliere la valutazione
+                    }
+                }
+                    
                 insegnanti_list.IsVisible = true;
                 ListaDiMaterie.IsVisible = false;
                 insegnanti_list.ItemsSource = insegnanti;
