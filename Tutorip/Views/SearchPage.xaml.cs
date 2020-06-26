@@ -9,12 +9,14 @@ using Tutorip.Services.ModelService;
 using Android.Preferences;
 using Xamarin.Essentials;
 using System.Threading.Tasks;
+using Android.Views.TextService;
 
 namespace Tutorip.Views
 {
     public partial class SearchPage : ContentPage
     {
         List<Materia> materie = new List<Materia>();
+        List<String> suggestions = new List<String>(); //deve essere di materia per fare la list view più carina
         Filtri filtri;
         PositionAdapter positionAdapter;
         public SearchPage()
@@ -126,8 +128,28 @@ namespace Tutorip.Views
 
         private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
         {
+            //da aggiungere qualcosa per conciliare la ricerca sulla entry con i risultati della precedente ricerca => probabilmente un isVIsible
+            insegnanti_list.IsVisible = false;
+            ListaDiMaterie.ItemsSource = null;
             var keyword = en_materia.Text;
-            var suggestions = materie.Where(m => m.nome.ToLower().Contains(keyword.ToLower()));
+            if(keyword.Length == 0)
+            {
+                ListaDiMaterie.IsVisible = false;
+            }
+            else
+                ListaDiMaterie.IsVisible = true;
+            suggestions.Clear();
+            
+            //var suggestions = materie.Where(m => m.nome.ToLower().Contains(keyword.ToLower()));
+            foreach(Materia m in materie)
+            {
+                Console.WriteLine("NOME: " + m.nome);
+                Console.WriteLine("KEYWORD: " + keyword);
+                if (m.nome.ToLower().Contains(keyword.ToLower()))
+                {
+                    suggestions.Add(m.nome); //deve essere m per fare più carina la cosa del binding
+                }
+            }
             ListaDiMaterie.ItemsSource = suggestions;
         }
 
@@ -135,8 +157,9 @@ namespace Tutorip.Views
         {
             if (sender is ListView lv)
                 lv.SelectedItem = null;
-            var materia = e.Item as string;
-            en_materia.Text = materia;
+            String m = (String) e.Item; ////deve essere castato a materia per fare più carina la cosa del binding
+            //var materia = e.Item as string;
+            en_materia.Text = m;
         }
 
         private void btn_posizione_Clicked(object sender, EventArgs e)
