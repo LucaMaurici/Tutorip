@@ -133,32 +133,6 @@
                     </StackLayout>
                 </StackLayout>
             </Frame>
-            <!--VALUTAZIONI-->
-            <Frame>
-                <StackLayout Orientation="Horizontal" Margin="0,-15,0,0">
-                    <StackLayout HorizontalOptions="CenterAndExpand">
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                            <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                            <Label x:Name="num_spg_lbl" FontSize="28" Text="7.7" FontAttributes="None"></Label>
-                        </StackLayout>
-                        <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="None" FontSize="16"/>
-                    </StackLayout>
-                    <StackLayout HorizontalOptions="CenterAndExpand">
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                            <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                            <Label x:Name="num_emp_lbl" FontSize="28" Text="9" FontAttributes="None"></Label>
-                        </StackLayout>
-                        <Label x:Name="eval_emp_lbl" Text="Empatia" FontAttributes="None" FontSize="16" TranslationX="5"/>
-                    </StackLayout>
-                    <StackLayout HorizontalOptions="CenterAndExpand">
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                            <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                            <Label x:Name="num_org_lbl" FontSize="28" Text="7" FontAttributes="None"></Label>
-                        </StackLayout>
-                        <Label x:Name="eval_org_lbl" Text="Organizzazione" TranslationX="6" FontAttributes="None" FontSize="16"/>
-                    </StackLayout>
-                </StackLayout>
-            </Frame>
 
             <Frame x:Name="fr_materie" Padding="8">
                 <StackLayout x:Name="stl_materie" Orientation="Vertical">
@@ -183,6 +157,38 @@
                 </ListView>
             </Frame>
             -->
+
+            <!-- VALUTAZIONI -->
+            <Frame Padding="20,8,20,20">
+                <StackLayout>
+                    <Label Text="Recensioni" FontSize="35" FontAttributes="Bold" Margin="0,0,0,10"></Label>
+                    <StackLayout Orientation="Horizontal" Margin="0,-15,0,0">
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                                <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                                <Label x:Name="num_spg_lbl" FontSize="28" Text="7.7" FontAttributes="None"></Label>
+                            </StackLayout>
+                            <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="None" FontSize="16"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                                <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                                <Label x:Name="num_emp_lbl" FontSize="28" Text="9" FontAttributes="None"></Label>
+                            </StackLayout>
+                            <Label x:Name="eval_emp_lbl" Text="Empatia" FontAttributes="None" FontSize="16" TranslationX="5"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                                <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                                <Label x:Name="num_org_lbl" FontSize="28" Text="7" FontAttributes="None"></Label>
+                            </StackLayout>
+                            <Label x:Name="eval_org_lbl" Text="Organizzazione" TranslationX="6" FontAttributes="None" FontSize="16"/>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <!-- LASCIA RECENSIONI -->
             <Frame Padding="10" x:Name="fr_lasciaRecensione">
                 <StackLayout Orientation="Vertical">
                     <StackLayout Orientation="Horizontal">
@@ -195,6 +201,7 @@
                     <Button x:Name="btn_salvaRecensione" Clicked="btn_salvaRecensione_Clicked" HorizontalOptions="FillAndExpand"></Button>
                 </StackLayout>
             </Frame>
+            <!--LISTA RECENSIONI-->
             <StackLayout x:Name="stl_recensioni">
 
             </StackLayout>

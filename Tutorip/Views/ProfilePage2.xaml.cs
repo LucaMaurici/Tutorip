@@ -64,16 +64,17 @@ namespace Tutorip.Views
             {
                 foreach (Recensione recensione in this.insegnante.recensioni)
                 {
-                    var frame = new Frame { Padding = 10 };
+                    var frame = new Frame { Padding = new Thickness(30,10,30,20) };
                     this.stl_recensioni.Children.Add(frame);
                     var stack = new StackLayout();
                     frame.Content = stack;
                     var stackHor = new StackLayout { Orientation = StackOrientation.Horizontal };
-                    stackHor.Children.Add(new Label { Text = recensione.titolo, FontSize = 25, HorizontalOptions = LayoutOptions.StartAndExpand });
-                    var stackVal = new StackLayout { Orientation = StackOrientation.Horizontal };
+                    stack.Children.Add(stackHor);
+                    stackHor.Children.Add(new Label { Text = recensione.titolo, FontSize = 25, FontAttributes=FontAttributes.Bold, HorizontalOptions = LayoutOptions.StartAndExpand });
+                    var stackVal = new StackLayout { Orientation = StackOrientation.Horizontal, Margin = new Thickness(0,0,40,0) };
                     stackHor.Children.Add(stackVal);
                     stackVal.Children.Add(new Image { Source = "star1", WidthRequest = 28, HeightRequest = 28, TranslationY = 1 });
-                    stackVal.Children.Add(new Label { Text = recensione.valutazioneGenerale.ToString(), FontSize = 30 }); //chiamata a formattatore di stringa valutazione
+                    stackVal.Children.Add(new Label { Text = recensione.valutazioneGenerale.ToString(), FontSize = 30, FontAttributes = FontAttributes.Bold }); //chiamata a formattatore di stringa valutazione
                     stack.Children.Add(new Label { Text = recensione.corpo, Margin = 5 });
                     if (recensione.anonimo == 0)
                         stack.Children.Add(new Label
@@ -81,7 +82,8 @@ namespace Tutorip.Views
                             Text = recensione.utente.nome + " " + recensione.utente.cognome,
                             FontSize = 15,
                             FontAttributes = FontAttributes.Italic,
-                            HorizontalTextAlignment = TextAlignment.End
+                            HorizontalTextAlignment = TextAlignment.End,
+                            Margin = new Thickness(0,0,20,0)
                         });
                 }
             }
