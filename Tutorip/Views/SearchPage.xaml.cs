@@ -60,9 +60,10 @@ namespace Tutorip.Views
                 foreach (RisultatoRicercaInsegnanti r in insegnanti)
                 {
                     r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
-                    if(r.valutazioneMedia == null)
+                    if(r.valutazioneMedia == null || r.valutazioneMedia=="")
                     {
                         //qualcosa per togliere la valutazione
+                        r.valutazioneMedia = "//";
                     }
                 }
                     
