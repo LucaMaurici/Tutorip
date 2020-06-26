@@ -8,6 +8,7 @@ using System.Linq;
 using Tutorip.Services.ModelService;
 using Android.Preferences;
 using Xamarin.Essentials;
+using System.Threading.Tasks;
 
 namespace Tutorip.Views
 {
@@ -21,13 +22,13 @@ namespace Tutorip.Views
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
             this.filtri = new Filtri();
-            //this.listInitializr();
             positionAdapter = new PositionAdapter();
+            Task.Run(()=> { listInitializer(); }) ;
             filtri.setDefault();
-            setButtonTextValue();
+            setPositionButtonTextValue();
         }
 
-        public async void setButtonTextValue()
+        public async void setPositionButtonTextValue()
         {
             this.btn_posizione.Text = "Tocca per aggiornare";
             Posizione pos = (Posizione) await positionAdapter.calcolaPosizione();
@@ -52,7 +53,7 @@ namespace Tutorip.Views
             Posizione pos = new Posizione();
             if(Preferences.Get("latitudineCorrente", null) == null && Preferences.Get("longitudineCorrente", null) == null)
             {
-                DisplayAlert("Per eseguire la ricerca è necessaria la tua posizione", "Accendi la posizione del dispositivo o inserisci un indirizzo", "Ok");
+                await DisplayAlert("Per eseguire la ricerca è necessaria la tua posizione", "Accendi la posizione del dispositivo o inserisci un indirizzo", "Ok");
             }
             else
             {
@@ -140,10 +141,10 @@ namespace Tutorip.Views
 
         private void btn_posizione_Clicked(object sender, EventArgs e)
         {
-            this.setButtonTextValue();
+            this.setPositionButtonTextValue();
         }
 
-        private async void listInitializr()
+        private async Task listInitializer()
         {
             materie = await MaterieService.getMaterie();
         }
