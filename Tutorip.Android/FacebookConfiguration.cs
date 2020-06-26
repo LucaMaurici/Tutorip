@@ -14,7 +14,7 @@ namespace Tutorip.Droid
 {
     public static class FacebookConfiguration
     {
-        public const string ClientId = "262199141537070";
+        public const string ClientId = "912353289241764";
         public const string Scope = "email";
     }
 }

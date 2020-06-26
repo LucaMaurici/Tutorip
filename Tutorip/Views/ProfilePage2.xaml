@@ -23,13 +23,14 @@
                         WidthRequest="35">
                         </ImageButton>
                         <Label
+                        x:Name="lbl_profilo"
                         Text="Il mio profilo"
                         FontSize="24"
                         Margin="10,0,0,0"
                         VerticalOptions="Center">
                         </Label>
                     </StackLayout>
-                    <StackLayout Margin="0,0,10,0">
+                    <StackLayout Margin="0,0,10,0" x:Name="stl_visibilità">
                         <ImageButton
                         x:Name="bt_ModificaVisibilità"
                         Source="hide"
@@ -41,7 +42,7 @@
                         </ImageButton>
                         <Label Text="Nascosto" FontSize="13"></Label>
                     </StackLayout>
-                    <StackLayout>
+                    <StackLayout x:Name="stl_modifica">
                         <ImageButton
                         x:Name="bt_ModificaProfilo"
                         Source="edit"
@@ -52,6 +53,18 @@
                         WidthRequest="25">
                         </ImageButton>
                         <Label Text="Modifica" FontSize="13"></Label>
+                    </StackLayout>
+                    <StackLayout x:Name="stl_preferiti">
+                        <ImageButton
+                        x:Name="bt_addFav"
+                        Source="star1"
+                        Margin="0,0,0,-5"
+                        BackgroundColor="Transparent"
+                        Clicked="bt_addFav_Clicked"
+                        HeightRequest="25"
+                        WidthRequest="25">
+                        </ImageButton>
+                        <Label Text="Preferiti" FontSize="13"></Label>
                     </StackLayout>
                 </StackLayout>
             </Frame>
@@ -170,7 +183,7 @@
                 </ListView>
             </Frame>
             -->
-            <Frame Padding="10">
+            <Frame Padding="10" x:Name="fr_lasciaRecensione">
                 <StackLayout Orientation="Vertical">
                     <StackLayout Orientation="Horizontal">
                         <CheckBox x:Name="cb_isAnonimo" IsVisible="True"></CheckBox>

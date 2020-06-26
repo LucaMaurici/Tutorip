@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Tutorip.Data;
 using Tutorip.Models;
@@ -31,9 +32,11 @@ namespace Tutorip.Services
         {
             Materia[] materie = await MaterieService.getMaterieInsegnante(id);
             Recensione[] recensioni = await RecensioniService.GetRecensioniInsegnante(id);
+            SezioneProfilo[] descrizione = await DescrizioneService.getDescrizione(id);
             Insegnante i = await InsegnantiRepository.findInsegnanteById(id, Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
             i.materie = new List<Materia>();
             i.recensioni = new List<Recensione>();
+            i.descrizione = new List<SezioneProfilo>();
             if (materie != null)
             {
                 foreach (Materia m in materie)
@@ -46,7 +49,13 @@ namespace Tutorip.Services
                 foreach (Recensione r in recensioni)
                 {
                     i.recensioni.Add(r);
-
+                }
+            }
+            if (descrizione != null)
+            {
+                foreach (SezioneProfilo sezione in descrizione)
+                {
+                    i.descrizione.Add(sezione);
                 }
             }
             return i;

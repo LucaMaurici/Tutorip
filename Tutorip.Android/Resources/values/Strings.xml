@@ -2,4 +2,6 @@
 <resources>
     <string name="googleLogin">Login with Google</string>
 	<string name="facebookLogin">Login with Facebook</string>
+	<string name="facebook_app_id">912353289241764</string>
+	<string name="fb_login_protocol_scheme">fb912353289241764</string>
 </resources>

@@ -97,14 +97,32 @@ namespace Tutorip.Views
 
         private void bt_indietro_Clicked(object sender, EventArgs e)
         {
-            Navigation.InsertPageBefore(new MenuPage(), this);
-            Navigation.PopAsync();
+            if (Preferences.Get("isInsegnante", false))
+            {
+                Navigation.InsertPageBefore(new ProfilePage2(insegnante), this);
+                Navigation.PopAsync();
+                
+            }
+            else
+            {
+                Navigation.InsertPageBefore(new MenuPage(), this);
+                Navigation.PopAsync();
+            }
         }
 
         protected override bool OnBackButtonPressed()
         {
-            Navigation.InsertPageBefore(new MenuPage(), this);
-            Navigation.PopAsync();
+            if(Preferences.Get("isInsegnante", false))
+            {
+                Navigation.InsertPageBefore(new ProfilePage2(insegnante), this);
+                Navigation.PopAsync();
+
+            }
+            else
+            {
+                Navigation.InsertPageBefore(new MenuPage(), this);
+                Navigation.PopAsync();
+            }
             return true;
         }
 
