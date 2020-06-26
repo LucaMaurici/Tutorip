@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:f9p="clr-namespace:Forms9Patch;assembly=Forms9Patch"
              mc:Ignorable="d"
-             x:Class="Tutorip.Views.PreferitiPage">
+             x:Class="Tutorip.Views.PreferitiPage"
+             NavigationPage.HasNavigationBar="False">
 
     <StackLayout>
         <StackLayout
@@ -26,7 +27,7 @@
             </Label>
         </StackLayout>
 
-        <ListView x:Name="preferiti_list" IsVisible="False" ItemTapped="preferiti_list_ItemTapped" RowHeight="190" Margin="15,0,15,0">
+        <ListView x:Name="preferiti_list" ItemTapped="preferiti_list_ItemTapped" RowHeight="190" Margin="15,0,15,0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
