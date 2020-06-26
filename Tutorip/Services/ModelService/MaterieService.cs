@@ -16,8 +16,8 @@ namespace Tutorip.Services.ModelService
             Materia[] fakeMaterieArray = await MaterieRepository.getAllMaterie(Constants.TutoripEndPoint + "/materia/findAllMaterie.php/");
             List<Materia> listaDiMaterie = new List<Materia>();
             foreach(Materia m in fakeMaterieArray) {
-                    listaDiMaterie.Add(m);
-                }
+                listaDiMaterie.Add(m);
+            }
             return listaDiMaterie;
         }
 

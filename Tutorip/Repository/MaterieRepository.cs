@@ -16,9 +16,13 @@ namespace Tutorip.Repository
         public static async Task<Materia[]> getAllMaterie(string uri)
         {
             ElencoMaterie listaDiMaterie = null;
+            var json = "{\"foo\":\" \"}";
+            var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
             try
             {
-                HttpResponseMessage response = await _client.GetAsync(uri);
+                HttpResponseMessage response = await _client.PostAsync(uri, sendContent);
+                response.EnsureSuccessStatusCode();
+                Console.WriteLine(response);
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();
