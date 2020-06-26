@@ -20,8 +20,25 @@ namespace Tutorip.Views
             InitializeComponent();
             this.btn_salvaRecensione.IsVisible = false;
             this.insegnante = insegnante;
+            gestisciVisibilita();
             this.completeProfile();
             this.popolaRecensioni();
+        }
+
+        private void gestisciVisibilita()
+        {
+            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id)
+            {
+                this.stl_preferiti.IsVisible = false;
+                this.fr_lasciaRecensione.IsVisible = false;
+            }
+            else
+            {
+                this.stl_preferiti.IsVisible = true;
+                this.fr_lasciaRecensione.IsVisible = true;
+                this.stl_visibilità.IsVisible = false;
+                this.stl_modifica.IsVisible = false;
+            }
         }
 
         /*                  <Image Source="star1" WidthRequest="28" HeightRequest="28" TranslationY="1"></Image>
@@ -36,22 +53,30 @@ namespace Tutorip.Views
 
         private void popolaRecensioni()
         {
-            foreach(Recensione recensione in this.insegnante.recensioni)
+            if (insegnante.recensioni != null)
             {
-                var frame = new Frame { Padding = 10 };
-                this.stl_recensioni.Children.Add(frame);
-                var stack = new StackLayout();
-                frame.Content = stack;
-                var stackHor = new StackLayout { Orientation = StackOrientation.Horizontal };
-                stackHor.Children.Add(new Label { Text=recensione.titolo, FontSize=25, HorizontalOptions=LayoutOptions.StartAndExpand });
-                var stackVal = new StackLayout { Orientation = StackOrientation.Horizontal };
-                stackHor.Children.Add(stackVal);
-                stackVal.Children.Add(new Image { Source="star1", WidthRequest=28, HeightRequest=28, TranslationY=1 });
-                stackVal.Children.Add(new Label { Text=recensione.valutazioneGenerale.ToString(), FontSize = 30 }); //chiamata a formattatore di stringa valutazione
-                stack.Children.Add(new Label { Text=recensione.corpo, Margin=5 });
-                if (recensione.anonimo == 0)
-                    stack.Children.Add(new Label { Text=recensione.utente.nome+" "+recensione.utente.cognome, FontSize=15,
-                        FontAttributes=FontAttributes.Italic, HorizontalTextAlignment=TextAlignment.End });
+                foreach (Recensione recensione in this.insegnante.recensioni)
+                {
+                    var frame = new Frame { Padding = 10 };
+                    this.stl_recensioni.Children.Add(frame);
+                    var stack = new StackLayout();
+                    frame.Content = stack;
+                    var stackHor = new StackLayout { Orientation = StackOrientation.Horizontal };
+                    stackHor.Children.Add(new Label { Text = recensione.titolo, FontSize = 25, HorizontalOptions = LayoutOptions.StartAndExpand });
+                    var stackVal = new StackLayout { Orientation = StackOrientation.Horizontal };
+                    stackHor.Children.Add(stackVal);
+                    stackVal.Children.Add(new Image { Source = "star1", WidthRequest = 28, HeightRequest = 28, TranslationY = 1 });
+                    stackVal.Children.Add(new Label { Text = recensione.valutazioneGenerale.ToString(), FontSize = 30 }); //chiamata a formattatore di stringa valutazione
+                    stack.Children.Add(new Label { Text = recensione.corpo, Margin = 5 });
+                    if (recensione.anonimo == 0)
+                        stack.Children.Add(new Label
+                        {
+                            Text = recensione.utente.nome + " " + recensione.utente.cognome,
+                            FontSize = 15,
+                            FontAttributes = FontAttributes.Italic,
+                            HorizontalTextAlignment = TextAlignment.End
+                        });
+                }
             }
         }
 
@@ -69,7 +94,9 @@ namespace Tutorip.Views
             if (insegnante.modalita == 2)
                 this.lb_mod.Text = "In presenza e a distanza";
 
-            this.distanza_lbl.Text = insegnante.posizione.indirizzo;
+            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id)
+                this.distanza_lbl.Text = insegnante.posizione.indirizzo;
+
             this.lb_email.Text = insegnante.contatti.emailContatto;
             this.eval_lbl.Text = insegnante.valutazioneMedia;
             this.name_lbl.Text = insegnante.nomeDaVisualizzare;

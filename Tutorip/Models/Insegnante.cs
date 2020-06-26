@@ -33,8 +33,8 @@ namespace Tutorip.Models
         [JsonProperty("gruppo")]
         public int? gruppo { get; set; }
 
-        [JsonProperty("dataOraRegistrazione")]
-        public DateTime dataOraRegistrazione { get; set; }
+        /*[JsonProperty("dataOraRegistrazione")]
+        public DateTime dataOraRegistrazione { get; set; }*/
 
         [JsonProperty("profiloPubblico")]
         public int? profiloPubblico { get; set; }
@@ -53,6 +53,9 @@ namespace Tutorip.Models
 
         [JsonProperty("modalita")]
         public int? modalita { get; set; }
+
+        [JsonProperty("descrizione")]
+        public List<SezioneProfilo> descrizione { get; set; }
 
         public Insegnante()
         {

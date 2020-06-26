@@ -23,7 +23,7 @@ namespace Tutorip.Views
 
         private void creaListaMenuItem()
         {
-            //this.MenuItems.Clear();
+            this.MenuItems.Clear();
             if (Preferences.Get("isInsegnante", false))
                 this.MenuItems.Add(new ElementoMenu("user6", "Profilo insegnante"));
             else
