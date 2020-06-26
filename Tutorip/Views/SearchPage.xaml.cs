@@ -123,12 +123,12 @@ namespace Tutorip.Views
             this.IsEnabled = true;
         }
 
-        /*private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
+        private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
         {
             var keyword = en_materia.Text;
             var suggestions = materie.Where(m => m.nome.ToLower().Contains(keyword.ToLower()));
             ListaDiMaterie.ItemsSource = suggestions;
-        } NON FUNZIONA*/
+        }
 
         private void ListaDiMaterie_ItemTapped(object sender, ItemTappedEventArgs e)
         {
