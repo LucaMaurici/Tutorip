@@ -21,7 +21,7 @@ namespace Tutorip.Views
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
             this.filtri = new Filtri();
-            this.listInitializr();
+            //this.listInitializr();
             positionAdapter = new PositionAdapter();
             filtri.setDefault();
             setButtonTextValue();
@@ -34,14 +34,14 @@ namespace Tutorip.Views
             if (pos != null)
             {
                 btn_posizione.Text = pos.indirizzo;
+                Preferences.Set("latitudineCorrente", pos.latitudine.ToString());
+                Preferences.Set("longitudineCorrente", pos.longitudine.ToString());
+                Preferences.Set("indirizzoCorrente", pos.indirizzo);
             }
             else
             {
                 btn_posizione.Text = "Impossibile accedere alla posizione del dispositivo";
             }
-            Preferences.Set("latitudineCorrente", pos.latitudine.ToString());
-            Preferences.Set("longitudineCorrente", pos.longitudine.ToString());
-            Preferences.Set("indirizzoCorrente", pos.indirizzo);
         }
 
         private async void search_btn_Clicked(object sender, EventArgs e)
@@ -50,31 +50,38 @@ namespace Tutorip.Views
             //filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
             //filtri.posizione = await positionAdapter.Indirizzo2Posizione(Preferences.Get("indirizzoCorrente", null));
             Posizione pos = new Posizione();
-            pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
-            pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
-            pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
-            filtri.posizione = pos;
-            RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
-            if (insegnanti != null)
+            if(Preferences.Get("latitudineCorrente", null) == null && Preferences.Get("longitudineCorrente", null) == null)
             {
-                foreach (RisultatoRicercaInsegnanti r in insegnanti)
-                {
-                    r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
-                    if(r.valutazioneMedia == null || r.valutazioneMedia=="")
-                    {
-                        //qualcosa per togliere la valutazione
-                        r.valutazioneMedia = "//";
-                    }
-                }
-                    
-                insegnanti_list.IsVisible = true;
-                ListaDiMaterie.IsVisible = false;
-                insegnanti_list.ItemsSource = insegnanti;
+                DisplayAlert("Per eseguire la ricerca è necessaria la tua posizione", "Accendi la posizione del dispositivo o inserisci un indirizzo", "Ok");
             }
             else
             {
-                insegnanti_list.IsVisible = false;
-                Console.WriteLine("Nessun insegnante");
+                pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
+                pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
+                pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
+                filtri.posizione = pos;
+                RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
+                if (insegnanti != null)
+                {
+                    foreach (RisultatoRicercaInsegnanti r in insegnanti)
+                    {
+                        r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
+                        if (r.valutazioneMedia == null || r.valutazioneMedia == "")
+                        {
+                            //qualcosa per togliere la valutazione
+                            r.valutazioneMedia = "//";
+                        }
+                    }
+
+                    insegnanti_list.IsVisible = true;
+                    ListaDiMaterie.IsVisible = false;
+                    insegnanti_list.ItemsSource = insegnanti;
+                }
+                else
+                {
+                    insegnanti_list.IsVisible = false;
+                    Console.WriteLine("Nessun insegnante");
+                }
             }
         }
 
