@@ -34,6 +34,10 @@ namespace Tutorip.Repository
             {
                 Debug.WriteLine("\tERROR {0}", ex.Message);
             }
+            if (listaDiMaterie != null)
+            {
+                return listaDiMaterie.Risultati;
+            }
             return listaDiMaterie.Risultati;
         }
 
