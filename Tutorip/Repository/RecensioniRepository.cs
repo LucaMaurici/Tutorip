@@ -62,7 +62,7 @@ namespace Tutorip.Repository
 
         internal class ElencoRecensioni
         {
-            [JsonProperty("ElencoRisultati")]
+            [JsonProperty("ElencoRecensioni")]
             public Recensione[] Risultati { get; set; }
         }
     }
