@@ -68,7 +68,7 @@ namespace Tutorip.Services
 
         internal static async Task<RisultatoRicercaInsegnanti[]> getPreferiti(int idUtente) 
         {
-            return await InsegnantiRepository.getPreferiti(idUtente, Constants.TutoripEndPoint + "/preferiti/findPreferitiById/");
+            return await InsegnantiRepository.getPreferiti(idUtente, Constants.TutoripEndPoint + "/preferiti/findPreferitiById.php/");
         }
     }
 }
