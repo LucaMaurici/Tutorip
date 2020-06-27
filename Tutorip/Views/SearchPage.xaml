@@ -89,7 +89,8 @@
                     x:Name="en_materia"
                     HorizontalOptions="FillAndExpand"
                     Placeholder="Cerca"
-                    FontSize="Body">
+                    FontSize="Body"
+                    TextChanged="en_materia_TextChanged">
                 </Entry>
                 <ImageButton x:Name="search_btn" Source="search" BackgroundColor="Transparent" Clicked="search_btn_Clicked" HeightRequest="30" WidthRequest="30"></ImageButton>
                 <!--TextChanged="en_materia_TextChanged" DA RIMETTERE NELLA ENTRY--> 
@@ -199,7 +200,17 @@
 
         <ListView x:Name="ListaDiMaterie"
                   ItemTapped="ListaDiMaterie_ItemTapped"
-                  IsVisible="true"/>
+                  IsVisible="true"></ListView>
+        <!--<ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame>
+                            <Label Text="{Binding nome}" TextColor="Black"></Label>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView> SCOMMENTA PER FARE PIù CARINO MA BINDING NON FUNZIONANTE-->
         
     </StackLayout>
 </ContentPage>
