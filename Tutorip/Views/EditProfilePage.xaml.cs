@@ -55,11 +55,7 @@ namespace Tutorip.Views
             if (en_indirizzo.Text != null) {
                 Posizione pos = new Posizione();
                 pos = await positionAdapter.Indirizzo2Posizione(en_indirizzo.Text);
-                /*SEVERO MA GIUSTO*/
-                if (int.Parse(Preferences.Get("idPosizione", (-1).ToString())) == -1)
-                    pos.id = null;
-                else
-                    pos.id = int.Parse(Preferences.Get("idPosizione", (-1).ToString()));
+                pos.id = insegnante.posizione.id;
                 insegnante.posizione = pos;
             }
             //contatti
