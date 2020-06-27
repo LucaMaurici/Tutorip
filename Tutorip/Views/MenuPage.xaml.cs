@@ -101,7 +101,7 @@ namespace Tutorip.Views
                 Insegnante i = await InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", (-1).ToString()))); //occhio al null
                 if (i.id != 0)
                 {
-                    Navigation.InsertPageBefore(new ProfilePage2(i), this);
+                    Navigation.InsertPageBefore(new ProfilePage2(i, "menu"), this);
                     await Navigation.PopAsync();
                 }
             }

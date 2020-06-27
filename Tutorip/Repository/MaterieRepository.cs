@@ -59,7 +59,6 @@ namespace Tutorip.Repository
             }
             catch (Exception ex)
             {
-
                 Debug.WriteLine("\tERROR {0}", ex.Message);
             }
             if (elenco != null)
