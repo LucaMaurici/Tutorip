@@ -32,7 +32,7 @@ namespace Tutorip.Views
 
         public async void setPositionButtonTextValue()
         {
-            this.btn_posizione.Text = "Tocca per aggiornare";
+            this.btn_posizione.Text = "Calcolando la posizione..";
             Posizione pos = (Posizione) await positionAdapter.calcolaPosizione();
             if (pos != null)
             {
@@ -43,7 +43,7 @@ namespace Tutorip.Views
             }
             else
             {
-                btn_posizione.Text = "Impossibile accedere alla posizione del dispositivo";
+                btn_posizione.Text = "Impossibile accedere alla posizione del dispositivo, tocca per aggiornare";
             }
         }
 

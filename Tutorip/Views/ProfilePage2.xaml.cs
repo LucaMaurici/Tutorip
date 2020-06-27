@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Tutorip.Models;
 using Tutorip.Services;
 using Tutorip.Services.ModelService;
@@ -23,6 +24,7 @@ namespace Tutorip.Views
             gestisciVisibilita();
             this.completeProfile();
             this.popolaRecensioni();
+            this.riempiDescrizione();
         }
 
         private void gestisciVisibilita()
@@ -83,6 +85,23 @@ namespace Tutorip.Views
                             FontAttributes = FontAttributes.Italic,
                             HorizontalTextAlignment = TextAlignment.End
                         });
+                }
+            }
+        }
+
+        private void riempiDescrizione()
+        {
+            if(insegnante.descrizione != null)
+            {
+                foreach (SezioneProfilo s in this.insegnante.descrizione)
+                {
+                    var frame = new Frame { Padding = 10 };
+                    this.stl_descrizione.Children.Add(frame);
+                    var stack = new StackLayout();
+                    frame.Content = stack;
+                    var stackVer = new StackLayout { Orientation = StackOrientation.Vertical };
+                    stackVer.Children.Add(new Label { Text = s.titolo, FontSize = 25, HorizontalOptions = LayoutOptions.StartAndExpand });
+                    stackVer.Children.Add(new Label { Text = s.corpo, HorizontalOptions = LayoutOptions.StartAndExpand });
                 }
             }
         }

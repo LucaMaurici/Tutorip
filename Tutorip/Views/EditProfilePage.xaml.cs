@@ -74,6 +74,22 @@ namespace Tutorip.Views
                 insegnante.materie.Add(new Materia(entry.Text));
             }
 
+            //descrizione
+            insegnante.descrizione = new List<SezioneProfilo>();
+            foreach(var element in this.stl_descrizione.Children)
+            {
+                Frame frame = (Frame)element;
+                StackLayout stack = (StackLayout) frame.Content;
+                SezioneProfilo s = new SezioneProfilo();
+                Entry entryIndice = (Entry)stack.Children[0];
+                s.indice = int.Parse(entryIndice.Text);
+                Entry entryTitolo = (Entry)stack.Children[1];
+                s.titolo = entryTitolo.Text;
+                Entry entryCorpo = (Entry)stack.Children[2];
+                s.corpo = entryCorpo.Text;
+                s.idInsegnante = insegnante.id;
+            }
+
             //modalità
             insegnante.modalita = this.pck_modalità.SelectedIndex;
 
@@ -141,6 +157,23 @@ namespace Tutorip.Views
             entry.Keyboard = Keyboard.Create(KeyboardFlags.Suggestions);
             indice++;
             this.StL_materie.Children.Add(entry);
+            this.scrollView.FadeTo(1, 150, Easing.CubicIn);
+            this.scrollView.ScrollToAsync(0, entry.Y, true);
+        }
+
+        private void btn_addSezione_Clicked(object sender, EventArgs e)
+        {
+            var frame = new Frame { Padding = 10 };
+            var Stack = new StackLayout { Orientation = StackOrientation.Vertical};
+            var entryIndice = new Entry { Placeholder = "Indice", Keyboard = Keyboard.Numeric, HorizontalOptions = LayoutOptions.End};
+            var entryTitolo = new Entry { Placeholder = "Titolo", Keyboard = Keyboard.Text, HorizontalOptions = LayoutOptions.StartAndExpand };
+            var entryCorpo = new Entry { Placeholder = "Testo", Keyboard = Keyboard.Text, HorizontalOptions = LayoutOptions.StartAndExpand };
+            Stack.Children.Add(entryIndice);
+            Stack.Children.Add(entryTitolo);
+            Stack.Children.Add(entryCorpo);
+            frame.Content = Stack;
+            this.stl_descrizione.Children.Add(frame);
+            //this.scrollView.ScrollToAsync(0, entryCorpo.Y, true); Non funziona
         }
     }
 }

@@ -16,10 +16,6 @@ namespace Tutorip.Views
         public PreferitiPage(RisultatoRicercaInsegnanti[] preferiti)
         {
             InitializeComponent();
-            foreach(RisultatoRicercaInsegnanti r in preferiti)
-            {
-                Console.WriteLine(r.nomeDaVisualizzare);
-            }
             this.preferiti_list.ItemsSource = preferiti;
 
         }

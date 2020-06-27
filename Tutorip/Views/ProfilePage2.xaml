@@ -198,6 +198,10 @@
             <StackLayout x:Name="stl_recensioni">
 
             </StackLayout>
+
+            <StackLayout x:Name="stl_descrizione">
+                
+            </StackLayout>
         </StackLayout>
     </ScrollView>
 </ContentPage>
