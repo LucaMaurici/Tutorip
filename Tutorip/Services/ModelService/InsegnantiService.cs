@@ -7,6 +7,7 @@ using Tutorip.Data;
 using Tutorip.Models;
 using Tutorip.Repository;
 using Tutorip.Services.ModelService;
+using Xamarin.Essentials;
 
 namespace Tutorip.Services
 {
@@ -14,13 +15,13 @@ namespace Tutorip.Services
     {
         public static async Task<RisultatoRicercaInsegnanti[]> GetInsegnanti(Filtri filtri)
         {
-            Console.WriteLine("PROVA3");
             return await InsegnantiRepository.GetInsegnanti(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
         }
 
         public static async void Save(Insegnante i)
         {
-            await InsegnantiRepository.SaveAsync(i, Constants.TutoripEndPoint + "/insegnante/create.php/");
+            int idPosizione = await InsegnantiRepository.SaveAsync(i, Constants.TutoripEndPoint + "/insegnante/create.php/");
+            Preferences.Set("idPosizione", idPosizione.ToString());
         }
 
         /*internal static async Task<Insegnante> getInsegnante(int id)

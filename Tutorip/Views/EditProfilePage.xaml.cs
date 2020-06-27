@@ -42,13 +42,9 @@ namespace Tutorip.Views
         {
             this.IsEnabled = false;
             //nome
-            Console.WriteLine(this.en_nome.Text);
             insegnante.nomeDaVisualizzare = this.en_nome.Text;
-            Console.WriteLine(insegnante.nomeDaVisualizzare);
             //tariffa
-            Console.WriteLine(this.en_tariffa.Text);
             insegnante.tariffa = float.Parse(this.en_tariffa.Text);
-            Console.WriteLine(insegnante.tariffa);
             //gruppo
             if (this.cb_gruppo.IsChecked)
                 insegnante.gruppo = 1;
@@ -56,14 +52,21 @@ namespace Tutorip.Views
                 insegnante.gruppo = 0;
 
             //posizione
-            Console.WriteLine(en_indirizzo.Text);
-            if (en_indirizzo.Text !=null)
-                insegnante.posizione = await positionAdapter.Indirizzo2Posizione(en_indirizzo.Text);
-            Console.WriteLine(insegnante.posizione);
+            if (en_indirizzo.Text != null) {
+                Posizione pos = new Posizione();
+                pos = await positionAdapter.Indirizzo2Posizione(en_indirizzo.Text);
+                /*SEVERO MA GIUSTO*/
+                if (int.Parse(Preferences.Get("idPosizione", (-1).ToString())) == -1)
+                    pos.id = null;
+                else
+                    pos.id = int.Parse(Preferences.Get("idPosizione", (-1).ToString()));
+                insegnante.posizione = pos;
+            }
             //contatti
             Contatti c = new Contatti();
             c.cellulare = this.en_cellulare.Text;
             c.emailContatto = this.en_email.Text;
+            c.facebook = this.en_facebook.Text;
             insegnante.contatti = c;
 
             //materie

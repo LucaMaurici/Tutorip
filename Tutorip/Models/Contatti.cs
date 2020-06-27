@@ -11,7 +11,7 @@ namespace Tutorip.Models
         [JsonProperty("cellulare")]
         public String cellulare { get; set; }
 
-        //[JsonProperty("facebook")]
-        //String facebook { get; set; }
+        [JsonProperty("facebook")]
+        public String facebook { get; set; }
     }
 }
