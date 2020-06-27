@@ -13,7 +13,7 @@ namespace Tutorip.Views
     {
         private Insegnante insegnante;
         private PositionAdapter positionAdapter;
-        int indice = 2;
+        int indiceCampoMateria = 2;
 
         public EditProfilePage(Insegnante insegnante)
         {
@@ -86,7 +86,7 @@ namespace Tutorip.Views
             {
                 InsegnantiService.Save(insegnante);
                 Preferences.Set("isInsegnante", true);
-                Navigation.InsertPageBefore(new ProfilePage2(insegnante), this);
+                Navigation.InsertPageBefore(new ProfilePage2(insegnante, "save"), this);
                 await Navigation.PopAsync();
                 //await Navigation.PushAsync(new ProfilePage2(insegnante));
             }
@@ -99,9 +99,8 @@ namespace Tutorip.Views
         {
             if (Preferences.Get("isInsegnante", false))
             {
-                Navigation.InsertPageBefore(new ProfilePage2(insegnante), this);
+                Navigation.InsertPageBefore(new ProfilePage2(insegnante, "indietro"), this);
                 Navigation.PopAsync();
-                
             }
             else
             {
@@ -114,7 +113,7 @@ namespace Tutorip.Views
         {
             if(Preferences.Get("isInsegnante", false))
             {
-                Navigation.InsertPageBefore(new ProfilePage2(insegnante), this);
+                Navigation.InsertPageBefore(new ProfilePage2(insegnante, "indietro"), this);
                 Navigation.PopAsync();
 
             }
@@ -135,11 +134,11 @@ namespace Tutorip.Views
 
         private void btn_addMateria_Clicked(object sender, EventArgs e)
         {
-            var entry = new Entry { Placeholder= "Materia " + indice};
+            var entry = new Entry { Placeholder= "Materia " + indiceCampoMateria};
             //AutomationProperties.SetIsInAccessibleTree(entry, true);
             //AutomationProperties.SetName(entry, "entry" + indice.ToString());
             entry.Keyboard = Keyboard.Create(KeyboardFlags.Suggestions);
-            indice++;
+            indiceCampoMateria++;
             this.StL_materie.Children.Add(entry);
         }
     }

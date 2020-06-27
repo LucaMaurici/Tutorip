@@ -14,8 +14,9 @@ namespace Tutorip.Views
     {
 
         Insegnante insegnante;
+        String origine;
 
-        public ProfilePage2(Insegnante insegnante)
+        public ProfilePage2(Insegnante insegnante, String origine)
         {
             InitializeComponent();
             this.btn_salvaRecensione.IsVisible = false;
@@ -23,6 +24,7 @@ namespace Tutorip.Views
             gestisciVisibilita();
             this.completeProfile();
             this.popolaRecensioni();
+            this.origine = origine;
         }
 
         private void gestisciVisibilita()
@@ -128,7 +130,7 @@ namespace Tutorip.Views
 
         private void bt_indietro_Clicked(object sender, System.EventArgs e)
         {
-            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id)
+            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id && this.origine.Equals("salva"))
             {
                 Navigation.InsertPageBefore(new MenuPage(), this);
                 Navigation.PopAsync();
@@ -141,9 +143,9 @@ namespace Tutorip.Views
 
         protected override bool OnBackButtonPressed()
         {
-            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id) {
-            Navigation.InsertPageBefore(new MenuPage(), this);
-            Navigation.PopAsync();
+            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id && this.origine.Equals("salva")) {
+                Navigation.InsertPageBefore(new MenuPage(), this);
+                Navigation.PopAsync();
             }   
             else
             {
@@ -159,6 +161,7 @@ namespace Tutorip.Views
             this.IsEnabled = true;
         }
 
+        // TODO
         private void bt_ModificaVisibilità_Clicked(object sender, System.EventArgs e)
         {
 

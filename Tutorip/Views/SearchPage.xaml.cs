@@ -95,7 +95,7 @@ namespace Tutorip.Views
             Insegnante i = await InsegnantiService.getInsegnante(r.id);
             if (i.id != 0) 
             {
-                await Navigation.PushAsync(new ProfilePage2(i));
+                await Navigation.PushAsync(new ProfilePage2(i, "search"));
             }
             this.IsEnabled = true;
         }
@@ -107,13 +107,6 @@ namespace Tutorip.Views
             var page = new FilterPage(this.filtri, this.insegnanti_list, this);
             Opacity = 0.2;
             await PopupNavigation.Instance.PushAsync(page);
-            this.IsEnabled = true;
-        }
-
-        private async void profile_btn_Clicked(object sender, EventArgs e)
-        {
-            this.IsEnabled = false;
-            await Navigation.PushAsync(new ProfilePage2(new Insegnante()));
             this.IsEnabled = true;
         }
 
