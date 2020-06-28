@@ -44,13 +44,15 @@ namespace Tutorip.Views
 
         private async void bt_indietro_Clicked(object sender, EventArgs e)
         {
-            //Navigation.InsertPageBefore(new SearchPage(), this);
+            Navigation.InsertPageBefore(new SearchPage(), this);
             await Navigation.PopAsync();
+            //Navigation.NavigationStack.GetEnumerator().MoveNext();
+            //Navigation.RemovePage(Navigation.NavigationStack.GetEnumerator().Current);
         }
 
         protected override bool OnBackButtonPressed()
         {
-            //Navigation.InsertPageBefore(new SearchPage(), this);
+            Navigation.InsertPageBefore(new SearchPage(), this);
             Navigation.PopAsync();
             return true;
         }
@@ -101,8 +103,9 @@ namespace Tutorip.Views
                 Insegnante i = await InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", (-1).ToString()))); //occhio al null
                 if (i.id != 0)
                 {
-                    Navigation.InsertPageBefore(new ProfilePage2(i, "menu"), this);
-                    await Navigation.PopAsync();
+                    //Navigation.InsertPageBefore(new ProfilePage2(i, "menu"), this);
+                    //await Navigation.PopAsync();
+                    await Navigation.PushAsync(new ProfilePage2(i, "menu"));
                 }
             }
 

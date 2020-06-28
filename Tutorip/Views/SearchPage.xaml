@@ -14,13 +14,13 @@
         <Frame Padding="10" CornerRadius="15" Margin="3,3,3,3">
             <StackLayout Orientation="Horizontal" Margin="5,0,5,0">
                 <ImageButton
-                x:Name="bt_menu"
-                Source="menu1"
-                Margin="0,0,0,0"
-                BackgroundColor="Transparent"
-                Clicked="bt_menu_Clicked"
-                HeightRequest="38"
-                WidthRequest="38">
+                    x:Name="bt_menu"
+                    Source="menu1"
+                    Margin="0,0,0,0"
+                    BackgroundColor="Transparent"
+                    Clicked="bt_menu_Clicked"
+                    HeightRequest="38"
+                    WidthRequest="38">
                     <!-- DA METTERE DAPPERTUTTO SENZA QUESTO COMMENTO OVVIAMENTE -->
                     <VisualStateManager.VisualStateGroups>
                         <VisualStateGroup x:Name="CommonStates">
@@ -46,25 +46,25 @@
             </Label>-->
 
                 <Button
-                x:Name="btn_posizione"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="CenterAndExpand"
-                Margin="15,0,0,0"
-                BackgroundColor="Transparent"
-                Clicked="btn_posizione_Clicked"
-                WidthRequest="60"
-                HeightRequest="48"
-                FontSize="Caption">
+                    x:Name="btn_posizione"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Margin="15,0,0,0"
+                    BackgroundColor="Transparent"
+                    Clicked="btn_posizione_Clicked"
+                    WidthRequest="60"
+                    HeightRequest="48"
+                    FontSize="Caption">
                 </Button>
 
                 <ImageButton
-                x:Name="bt_filtri"
-                Source="funnel"
-                Margin="0,0,0,0"
-                BackgroundColor="Transparent"
-                Clicked="bt_filtri_Clicked"
-                HeightRequest="33"
-                WidthRequest="33">
+                    x:Name="bt_filtri"
+                    Source="funnel"
+                    Margin="0,0,0,0"
+                    BackgroundColor="Transparent"
+                    Clicked="bt_filtri_Clicked"
+                    HeightRequest="33"
+                    WidthRequest="33">
                     <VisualStateManager.VisualStateGroups>
                         <VisualStateGroup x:Name="CommonStates">
                             <VisualState x:Name="Normal">
