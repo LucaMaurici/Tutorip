@@ -101,7 +101,7 @@ namespace Tutorip.Views
             {
                 InsegnantiService.Save(insegnante);
                 Preferences.Set("isInsegnante", true);
-                Navigation.InsertPageBefore(new ProfilePage2(insegnante, "save"), this);
+                Navigation.InsertPageBefore(new ProfilePage2(insegnante, "salva"), this);
                 await Navigation.PopAsync();
                 //await Navigation.PushAsync(new ProfilePage2(insegnante));
             }
@@ -114,7 +114,7 @@ namespace Tutorip.Views
         {
             if (Preferences.Get("isInsegnante", false))
             {
-                Navigation.InsertPageBefore(new ProfilePage2(insegnante, "indietro"), this);
+                //Navigation.InsertPageBefore(new ProfilePage2(insegnante, "indietro"), this);
                 Navigation.PopAsync();
             }
             else
@@ -128,7 +128,7 @@ namespace Tutorip.Views
         {
             if(Preferences.Get("isInsegnante", false))
             {
-                Navigation.InsertPageBefore(new ProfilePage2(insegnante, "indietro"), this);
+                //Navigation.InsertPageBefore(new ProfilePage2(insegnante, "indietro"), this);
                 Navigation.PopAsync();
 
             }
