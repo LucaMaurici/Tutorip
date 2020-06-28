@@ -1,7 +1,4 @@
-﻿using Android.Preferences;
-using System;
-using System.Runtime.CompilerServices;
-using System.Threading.Tasks;
+﻿using System;
 using Tutorip.Data;
 using Tutorip.Models;
 using Tutorip.Repository;

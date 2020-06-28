@@ -20,7 +20,7 @@
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Image Source="placeholder3" WidthRequest="22" HeightRequest="22"></Image>
-                <Entry x:Name="en_indirizzo" Placeholder="Inserisci un indirizzo" HorizontalOptions="Center"></Entry>
+                <Entry x:Name="en_indirizzo" Placeholder="Inserisci un indirizzo" HorizontalOptions="FillAndExpand"></Entry>
                 <ImageButton x:Name="btn_indirizzo" Source="success" Clicked="btn_indirizzo_Clicked" WidthRequest="22" HeightRequest="22" BackgroundColor="Transparent">
                 </ImageButton>
             </StackLayout>
