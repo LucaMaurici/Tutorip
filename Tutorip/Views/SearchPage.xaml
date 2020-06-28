@@ -93,15 +93,20 @@
                     TextChanged="en_materia_TextChanged">
                 </Entry>
                 <ImageButton x:Name="search_btn" Source="search" BackgroundColor="Transparent" Clicked="search_btn_Clicked" HeightRequest="30" WidthRequest="30"></ImageButton>
-                <!--TextChanged="en_materia_TextChanged" DA RIMETTERE NELLA ENTRY--> 
-                <!--<Button 
-                    x:Name="search_btn"
-                    Text="Cerca"
-                    Margin="0,0,0,0"
-                    CornerRadius="30"
-                    BackgroundColor="White"
-                    Clicked="search_btn_Clicked">
-                </Button>-->
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal">
+                            <VisualState.Setters>
+                                <Setter Property="Scale" Value="1" />
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="Pressed">
+                            <VisualState.Setters>
+                                <Setter Property="Scale" Value="0.8" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
             </StackLayout>
         </Frame>
 
@@ -167,7 +172,7 @@
                                 </StackLayout>
                                 <StackLayout HorizontalOptions="CenterAndExpand">
                                     <!--NOME-->
-                                    <f9p:Label x:Name="name_lbl" Text="{Binding nomeDaVisualizzare}" FontAttributes="Bold" FontSize="50" Margin="5,0,5,0" TranslationX="-3" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Lines="1" AutoFit="Width"></f9p:Label>
+                                    <f9p:Label x:Name="name_lbl" Text="{Binding nomeDaVisualizzare}" FontAttributes="Bold" FontSize="50" Margin="5,0,5,0" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" Lines="1" AutoFit="Width"></f9p:Label>
                                     <!--TARIFFA e VALUTAZIONE MEDIA-->
                                     <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                                         <Label x:Name="tariffa_lbl" TextColor="#2D8E80" FontAttributes="Bold" Margin="0,0,20,0">

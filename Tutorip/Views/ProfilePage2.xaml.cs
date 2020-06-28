@@ -27,6 +27,9 @@ namespace Tutorip.Views
             this.popolaRecensioni();
             this.origine = origine;
             this.riempiDescrizione();
+
+            //binding
+            //this.eval_lbl.Text = insegnante.valutazioneMedia;
         }
 
         private void gestisciVisibilita()
@@ -51,16 +54,6 @@ namespace Tutorip.Views
                 this.stl_modifica.IsVisible = false;
             }
         }
-
-        /*                  <Image Source="star1" WidthRequest="28" HeightRequest="28" TranslationY="1"></Image>
-                            <Label x:Name="eval_lbl" FontAttributes="Bold" HorizontalOptions="StartAndExpand">
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span FontSize="40" FontAttributes="Bold" Text="{Binding insegnante.valutazioneMedia}"></Span>
-                                        <Span FontSize="30" FontAttributes="Bold"></Span>
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>*/
 
         private void popolaRecensioni()
         {
@@ -124,11 +117,11 @@ namespace Tutorip.Views
             if (insegnante.modalita == 2)
                 this.lb_mod.Text = "In presenza e a distanza";
 
-            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id)
-                this.distanza_lbl.Text = insegnante.posizione.indirizzo;
+            if (int.Parse(Preferences.Get("id", (0).ToString())) != insegnante.id)
+                this.distanza_lbl.Text = insegnante.Distanza;
 
             this.lb_email.Text = insegnante.contatti.emailContatto;
-            this.eval_lbl.Text = insegnante.valutazioneMedia;
+            this.sp_eval.Text = insegnante.valutazioneMedia;
             this.name_lbl.Text = insegnante.nomeDaVisualizzare;
             this.tariffa_spn.Text = insegnante.tariffa.ToString();
             

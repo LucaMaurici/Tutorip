@@ -59,6 +59,11 @@ namespace Tutorip.Services
                     i.descrizione.Add(sezione);
                 }
             }*/
+            if (i.valutazioneMedia == null || i.valutazioneMedia == "")
+            {
+                //qualcosa per togliere la valutazione
+                i.valutazioneMedia = "-";
+            }
             return i;
         }
 
