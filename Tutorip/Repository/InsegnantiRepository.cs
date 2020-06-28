@@ -108,9 +108,8 @@ namespace Tutorip.Repository
             }
         }
 
-        public static async Task<int> SaveAsync(Insegnante i, string uri) //Bisogna far si che in caso già esista il profilo viene aggiornato
+        public static async void SaveAsync(Insegnante i, string uri)
         {
-            temp result = new temp();
             var json = JsonConvert.SerializeObject(i);
             var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
             Console.WriteLine(json);
@@ -118,32 +117,17 @@ namespace Tutorip.Repository
             try
             {
                 response = await _client.PostAsync(uri, sendContent);
-                if (response.IsSuccessStatusCode)
-                {
-                    string content = await response.Content.ReadAsStringAsync();
-                    result = JsonConvert.DeserializeObject<temp>(content);
-                }
             }
             catch
             {
                 Console.WriteLine("errore");
             }
-            if(result != null)
-            {
-                return result.n;
-            }
-            return -1;
         }
 
         internal class ElencoInsegnanti
         {
             [JsonProperty("ElencoRisultati")]
             public RisultatoRicercaInsegnanti[] Risultati { get; set; }
-        }
-
-        internal class temp
-        {
-            public int n;
         }
 
     }

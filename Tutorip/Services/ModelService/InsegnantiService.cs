@@ -18,10 +18,9 @@ namespace Tutorip.Services
             return await InsegnantiRepository.GetInsegnanti(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
         }
 
-        public static async void Save(Insegnante i)
+        public static void Save(Insegnante i)
         {
-            int idPosizione = await InsegnantiRepository.SaveAsync(i, Constants.TutoripEndPoint + "/insegnante/create.php/");
-            Preferences.Set("idPosizione", idPosizione.ToString());
+            InsegnantiRepository.SaveAsync(i, Constants.TutoripEndPoint + "/insegnante/create.php/");
         }
 
         /*internal static async Task<Insegnante> getInsegnante(int id)
@@ -31,13 +30,14 @@ namespace Tutorip.Services
 
         internal static async Task<Insegnante> getInsegnante(int id)
         {
-            Materia[] materie = await MaterieService.getMaterieInsegnante(id);
-            Recensione[] recensioni = await RecensioniService.GetRecensioniInsegnante(id);
-            SezioneProfilo[] descrizione = await DescrizioneService.getDescrizione(id);
+            //Materia[] materie = await MaterieService.getMaterieInsegnante(id);
+            //Recensione[] recensioni = await RecensioniService.GetRecensioniInsegnante(id);
+            //SezioneProfilo[] descrizione = await DescrizioneService.getDescrizione(id);
             Insegnante i = await InsegnantiRepository.findInsegnanteById(id, Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
-            i.materie = new List<Materia>();
-            i.recensioni = new List<Recensione>();
-            i.descrizione = new List<SezioneProfilo>();
+            //i.materie = new List<Materia>();
+            //i.recensioni = new List<Recensione>();
+            //i.descrizione = new List<SezioneProfilo>();
+            /*
             if (materie != null)
             {
                 foreach (Materia m in materie)
@@ -58,7 +58,7 @@ namespace Tutorip.Services
                 {
                     i.descrizione.Add(sezione);
                 }
-            }
+            }*/
             return i;
         }
 

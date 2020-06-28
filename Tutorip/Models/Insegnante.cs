@@ -54,7 +54,7 @@ namespace Tutorip.Models
         [JsonProperty("modalita")]
         public int? modalita { get; set; }
 
-        [JsonProperty("descrizione")]
+        [JsonProperty("Descrizione")]
         public List<SezioneProfilo> descrizione { get; set; }
 
         public Insegnante()
