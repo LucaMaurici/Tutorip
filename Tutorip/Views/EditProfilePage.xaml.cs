@@ -66,13 +66,19 @@ namespace Tutorip.Views
             insegnante.contatti = c;
 
             //materie
-            insegnante.materie = new List<Materia>();
-            foreach(var element in this.StL_materie.Children)
-            {
-                Entry entry = (Entry)element;
-                insegnante.materie.Add(new Materia(entry.Text));
-            }
+            if(!Preferences.Get("isInsegnante", false))
+                insegnante.materie = new List<Materia>();
 
+            Entry en = (Entry) StL_materie.Children[0];
+            if (en.Text != null) 
+            {
+                foreach (var element in this.StL_materie.Children)
+                {
+                    Entry entry = (Entry)element;
+                    insegnante.materie.Add(new Materia(entry.Text));
+                }
+            }
+            
             //descrizione
             insegnante.descrizione = new List<SezioneProfilo>();
             foreach(var element in this.stl_descrizione.Children)
@@ -87,6 +93,7 @@ namespace Tutorip.Views
                 Entry entryCorpo = (Entry)stack.Children[2];
                 s.corpo = entryCorpo.Text;
                 s.idInsegnante = insegnante.id;
+                this.insegnante.descrizione.Add(s);
             }
 
             //modalità
