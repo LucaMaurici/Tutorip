@@ -1,64 +1,63 @@
-﻿using System;
-using Android.App;
+﻿using Android.App;
 using Android.Content;
 using Android.Content.PM;
 using Android.OS;
+using Android.Util;
 using Android.Widget;
+using Java.Lang;
+using Java.Security;
+using System.Collections.Generic;
+using System.Json;
 using Tutorip.Services.FacebookAuthentication;
 using Tutorip.Services.FacebookServices;
-using Xamarin.Essentials;
+using Xamarin.Auth;
+using Xamarin.Facebook;
+using Xamarin.Facebook.Login;
+using Xamarin.Facebook.Login.Widget;
 
 namespace Tutorip.Droid
 {
-    [Activity(Label = "Xamarin_FacebookAuth.Android", MainLauncher = false, Theme = "@style/MainTheme", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class FacebookLoginActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity, IFacebookAuthenticationDelegate
-    {
-        private static FacebookAuthenticator _auth;
+    [Activity(Label = "com.mvm.tutorip.FacebookLoginActivity", MainLauncher = false, Theme = "@style/MainTheme", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    public class FacebookLoginActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity, IFacebookCallback {
+        TextView userNameText, emailText;
+        LoginButton facebookLoginButton;
+        ICallbackManager callbackManager;
+        FacebookProfileTracker profileTracker;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.FacebookLogin);
-            _auth = new FacebookAuthenticator(Configuration.ClientId, Configuration.Scope, this);
-            var facebookLoginButton = FindViewById<Button>(Resource.Id.facebookLoginButton);
-            facebookLoginButton.Click += OnFacebookLoginButtonClicked;
-            facebookLoginButton.Text = "Connesso con " + Preferences.Get("email", "Login with Facebook");
+
+            facebookLoginButton = (LoginButton)FindViewById(Resource.Id.loginButton);
+            userNameText = (TextView)FindViewById(Resource.Id.usernameText);
+            emailText = (TextView)FindViewById(Resource.Id.emailText);
+            facebookLoginButton.SetReadPermissions(new List<string> { "public_profile", "email" });
+            
+            callbackManager = CallbackManagerFactory.Create();
+            facebookLoginButton.RegisterCallback(callbackManager, this);
+            profileTracker = new FacebookProfileTracker();
+    }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            callbackManager.OnActivityResult(requestCode, (int)resultCode, data);
         }
 
-        private void OnFacebookLoginButtonClicked(object sender, EventArgs e)
-        {
-            // Display the activity handling the authentication
-            var authenticator = _auth.GetAuthenticator();
-            var intent = authenticator.GetUI(this);
-            //intent.SetFlags(ActivityFlags.ClearTop | ActivityFlags.SingleTop); 
-            StartActivity(intent);
+        public void OnCancel() {
+            //Questo metodo viene richiamato solo se l'utente chiude la finestra di login senza concludere la procedura. Un toast è più che sufficiente per informare l'utente che 
+            //L'operazione è stata cancellata
+            Toast.MakeText(this, "Cancellato", ToastLength.Long).Show();
         }
 
-        public async void OnAuthenticationCompleted(FacebookOAuthToken token)
-        {
-            // Retrieve the user's email address
-            var facebookService = new FacebookService();
-            var email = await facebookService.GetEmailAsync(token.AccessToken);
-
-            // Display it on the UI
-            var facebookButton = FindViewById<Button>(Resource.Id.facebookLoginButton);
-            facebookButton.Text = $"Connesso con {email}";
+        public void OnError(FacebookException error) {
+            //Qui si deve implementare la logica in caso di errori durante il login
         }
 
-        public void OnAuthenticationCanceled()
-        {
-            new AlertDialog.Builder(this)
-                .SetTitle("Authentication canceled")
-                .SetMessage("You didn't completed the authentication process")
-                .Show();
-        }
-
-        public void OnAuthenticationFailed(string message, Exception exception)
-        {
-            new AlertDialog.Builder(this)
-                .SetTitle(message)
-                .SetMessage(exception?.ToString())
-                .Show();
+        public void OnSuccess(Object result) {
+            //Qui si deve implementare la logica per prendere i dati dal profilo dell'utente e poterli utilizzare nell'applicazione.
+            Toast.MakeText(this, "Success", ToastLength.Long).Show();
         }
     }
 }

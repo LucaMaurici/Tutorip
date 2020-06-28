@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<string name="app_name">Tutorip</string>
     <string name="googleLogin">Login with Google</string>
 	<string name="facebookLogin">Login with Facebook</string>
-	<string name="facebook_app_id">912353289241764</string>
-	<string name="fb_login_protocol_scheme">fb912353289241764</string>
+	<string name="facebook_app_id">320057399155353</string>
+	<string name="fb_login_protocol_scheme">fb320057399155353</string>
+	<string name="userNameText">Username</string>
+	<string name="emailTest">Email</string>
+
 </resources>
