@@ -93,7 +93,7 @@ namespace Tutorip.Views
                         if (r.valutazioneMedia == null || r.valutazioneMedia == "")
                         {
                             //qualcosa per togliere la valutazione
-                            r.valutazioneMedia = "//";
+                            r.valutazioneMedia = "-";
                         }
                     }
 
@@ -134,6 +134,7 @@ namespace Tutorip.Views
             this.IsEnabled = false;
             RisultatoRicercaInsegnanti r = (RisultatoRicercaInsegnanti)e.Item;
             Insegnante i = await InsegnantiService.getInsegnante(r.id);
+            i.Distanza = r.distanza;
             if (i.id != 0) 
             {
                 await Navigation.PushAsync(new ProfilePage2(i, "search"));

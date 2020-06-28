@@ -77,7 +77,7 @@
                         <!--DISTANZA-->
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                             <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
-                            <Label x:Name="distanza_lbl" Text="{Binding insegnante.posizione.indirizzo}" TextColor="#888" FontAttributes="None" FontSize="18"/>
+                            <Label x:Name="distanza_lbl" Text="{Binding insegnante.Distanza}" TextColor="#888" FontAttributes="None" FontSize="18"/>
                         </StackLayout>
                     </StackLayout>
                     <StackLayout HorizontalOptions="CenterAndExpand">
@@ -99,8 +99,8 @@
                             <Label x:Name="eval_lbl" FontAttributes="Bold" HorizontalOptions="StartAndExpand">
                                 <Label.FormattedText>
                                     <FormattedString>
-                                        <Span FontSize="40" FontAttributes="Bold" Text="{Binding insegnante.valutazioneMedia}"></Span>
-                                        <Span FontSize="30" FontAttributes="Bold"></Span>
+                                        <Span x:Name="sp_eval" FontSize="40" FontAttributes="Bold"></Span>
+                                        <Span FontSize="30" FontAttributes="Bold"></Span>                                    
                                     </FormattedString>
                                 </Label.FormattedText>
                             </Label>

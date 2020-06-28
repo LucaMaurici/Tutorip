@@ -57,6 +57,8 @@ namespace Tutorip.Models
         [JsonProperty("Descrizione")]
         public List<SezioneProfilo> descrizione { get; set; }
 
+        public String Distanza { get; set; }
+
         public Insegnante()
         {
             this.posizione = new Posizione();

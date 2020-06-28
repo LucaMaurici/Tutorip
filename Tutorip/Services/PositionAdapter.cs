@@ -87,15 +87,14 @@ namespace Tutorip.Services
             distanza = distanza.Substring(0, max_length);
             if (distanza.Equals("0.00"))
                 return "0";
-            //if (!distanza.ElementAt(0).Equals('0'))
-            //{
-                var i = 0;
-                if(distanza.Contains('.'))
-                    i = distanza.IndexOf('.');
-                if(i == 3)
-                    return distanza.Substring(0, 3);
-                distanza = distanza.Substring(0, max_length - i);
-            //}        
+            var i = 0;
+            if(distanza.Contains('.'))
+                i = distanza.IndexOf('.');
+            if(i == 3)
+                return distanza.Substring(0, 3);
+            distanza = distanza.Substring(0, max_length - i);
+
+            distanza += "Km";
             return distanza;
         }
 
