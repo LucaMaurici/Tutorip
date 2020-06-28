@@ -92,7 +92,22 @@
                     FontSize="Body"
                     TextChanged="en_materia_TextChanged">
                 </Entry>
-                <ImageButton x:Name="search_btn" Source="search" BackgroundColor="Transparent" Clicked="search_btn_Clicked" HeightRequest="30" WidthRequest="30"></ImageButton>
+                <ImageButton x:Name="search_btn" Source="search" BackgroundColor="Transparent" Clicked="search_btn_Clicked" HeightRequest="30" WidthRequest="30">
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale" Value="1" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale" Value="0.8" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                </ImageButton>
                 <!--TextChanged="en_materia_TextChanged" DA RIMETTERE NELLA ENTRY--> 
                 <!--<Button 
                     x:Name="search_btn"

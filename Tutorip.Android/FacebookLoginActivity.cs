@@ -6,6 +6,7 @@ using Android.Util;
 using Android.Widget;
 using Java.Lang;
 using Java.Security;
+using System;
 using System.Collections.Generic;
 using System.Json;
 using Tutorip.Services.FacebookAuthentication;
@@ -48,15 +49,19 @@ namespace Tutorip.Droid
         public void OnCancel() {
             //Questo metodo viene richiamato solo se l'utente chiude la finestra di login senza concludere la procedura. Un toast è più che sufficiente per informare l'utente che 
             //L'operazione è stata cancellata
+            Console.WriteLine("llalalala");
             Toast.MakeText(this, "Cancellato", ToastLength.Long).Show();
         }
 
         public void OnError(FacebookException error) {
+            Console.WriteLine(error.ToString());
             //Qui si deve implementare la logica in caso di errori durante il login
         }
 
-        public void OnSuccess(Object result) {
+        public void OnSuccess(Java.Lang.Object result) {
             //Qui si deve implementare la logica per prendere i dati dal profilo dell'utente e poterli utilizzare nell'applicazione.
+            Console.WriteLine("sususususus");
+            Console.WriteLine(result);
             Toast.MakeText(this, "Success", ToastLength.Long).Show();
         }
     }

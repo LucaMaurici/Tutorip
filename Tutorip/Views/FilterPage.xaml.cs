@@ -53,7 +53,6 @@ namespace Tutorip.Views
             //filtri.posizione = (Posizione)await positionAdapter.calcolaPosizione();
             if (Preferences.Get("latitudineDefault", null) != null && cb_posizione.IsChecked)
             {
-                Console.WriteLine("1111");
                 Posizione pos = new Posizione();
                 pos.latitudine = double.Parse(Preferences.Get("latitudineDefault", null));
                 pos.longitudine = double.Parse(Preferences.Get("longitudineDefault", null));
@@ -62,7 +61,6 @@ namespace Tutorip.Views
             }
             else
             {
-                Console.WriteLine("2222");
                 filtri.posizione = await positionAdapter.Indirizzo2Posizione(Preferences.Get("indirizzoCorrente", null));
             }
 

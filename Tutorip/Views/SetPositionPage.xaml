@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Tutorip.Views.SetPositionPage"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             CloseWhenBackgroundIsClicked="True"
+             BackgroundClicked="torna_indietro"
+             BackgroundColor="Transparent">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="White" VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Seleziona l'indirizzo di ricerca" HeightRequest="30"/>
+            <BoxView HeightRequest="1" BackgroundColor="Black"></BoxView>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="placeholder3" WidthRequest="22" HeightRequest="22"></Image>
+                <Button x:Name="btn_posAct" Text="Posizione attuale" HorizontalOptions="CenterAndExpand" Clicked="btn_posAct_Clicked"></Button>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="placeholder3" WidthRequest="22" HeightRequest="22"></Image>
+                <Entry x:Name="en_indirizzo" Placeholder="Inserisci un indirizzo" HorizontalOptions="Center"></Entry>
+                <ImageButton x:Name="btn_indirizzo" Source="success" Clicked="btn_indirizzo_Clicked" WidthRequest="22" HeightRequest="22"></ImageButton>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</pages:PopupPage>
