@@ -44,16 +44,18 @@ namespace Tutorip.Views
 
         private async void bt_indietro_Clicked(object sender, EventArgs e)
         {
-            Navigation.InsertPageBefore(new SearchPage(), this);
-            await Navigation.PopAsync();
+            //Navigation.InsertPageBefore(new SearchPage(), this);
+            //await Navigation.PopAsync();
+            Navigation.PopToRootAsync();
             //Navigation.NavigationStack.GetEnumerator().MoveNext();
             //Navigation.RemovePage(Navigation.NavigationStack.GetEnumerator().Current);
         }
 
         protected override bool OnBackButtonPressed()
         {
-            Navigation.InsertPageBefore(new SearchPage(), this);
-            Navigation.PopAsync();
+            //Navigation.InsertPageBefore(new SearchPage(), this);
+            //Navigation.PopAsync();
+            Navigation.PopToRootAsync();
             return true;
         }
 
