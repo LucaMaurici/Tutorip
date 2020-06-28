@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Threading.Tasks;
 using Tutorip.Models;
 using Xamarin.Essentials;
@@ -77,7 +78,13 @@ namespace Tutorip.Services
 
         public String approssimaDistanza (String distanza)
         {
-            distanza = distanza.Substring(0, 4);
+            int max_length = 4;
+            int l = distanza.Length;
+            if(l < max_length)
+            {
+                return distanza;
+            }
+            distanza = distanza.Substring(0, max_length);
             if (distanza.Equals("0.00"))
                 return "0";
             //if (!distanza.ElementAt(0).Equals('0'))
@@ -87,7 +94,7 @@ namespace Tutorip.Services
                     i = distanza.IndexOf('.');
                 if(i == 3)
                     return distanza.Substring(0, 3);
-                distanza = distanza.Substring(0, 4 - i);
+                distanza = distanza.Substring(0, max_length - i);
             //}        
             return distanza;
         }

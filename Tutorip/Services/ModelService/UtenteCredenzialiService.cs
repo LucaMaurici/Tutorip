@@ -14,7 +14,7 @@ namespace Tutorip.Services
         public static async void Salva(Credenziali c, Utente u)
         {
             bool esito = (bool)await CredenzialiRepository.Esiste(c, Constants.TutoripEndPoint + "/credenziali/checkEmail.php/");
-            if (esito)
+            if (esito) //if non esiste
             {
                 CredenzialiRepository.Save(c, Constants.TutoripEndPoint + "/credenziali/create.php/");
                 Console.WriteLine(Preferences.Get("email", null));
@@ -31,7 +31,12 @@ namespace Tutorip.Services
             }
             else
             {
-                Console.WriteLine("FALLIMENTO!");
+                int id = await CredenzialiRepository.getId(Preferences.Get("email", null), Constants.TutoripEndPoint + "/credenziali/getId.php/");
+                Preferences.Set("id", id.ToString());
+                if(InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", (-1).ToString()))) != null)
+                {
+                    Preferences.Set("isInsegnante", true);
+                }
             }
         }
 
