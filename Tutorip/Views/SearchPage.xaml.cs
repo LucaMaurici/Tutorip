@@ -28,6 +28,18 @@ namespace Tutorip.Views
             Task.Run(()=> { listInitializer(); }) ;
             filtri.setDefault();
             setPositionButtonTextValue();
+            calcolaPosizione();
+        }
+
+        private async Task calcolaPosizione()
+        {
+            Posizione pos = (Posizione)await positionAdapter.calcolaPosizione();
+            if (pos != null)
+            {
+                Preferences.Set("latitudineCorrente", pos.latitudine.ToString());
+                Preferences.Set("longitudineCorrente", pos.longitudine.ToString());
+                Preferences.Set("indirizzoCorrente", pos.indirizzo);
+            }
         }
 
         public async void setPositionButtonTextValue()
@@ -46,16 +58,10 @@ namespace Tutorip.Views
                 btn_posizione.Text = "Impossibile accedere alla posizione del dispositivo, tocca per aggiornare";
             }*/
 
-            Posizione pos = (Posizione)await positionAdapter.calcolaPosizione();
-            if (pos != null)
-            {
-                Preferences.Set("latitudineCorrente", pos.latitudine.ToString());
-                Preferences.Set("longitudineCorrente", pos.longitudine.ToString());
-                Preferences.Set("indirizzoCorrente", pos.indirizzo);
-            }
-
             if (Preferences.Get("isUsingCurrentPos", null) == "si")
             {
+                btn_posizione.Text = "Calcolando la posizione...";
+                await calcolaPosizione();
                 btn_posizione.Text = Preferences.Get("indirizzoCorrente", "");
             }
             else if(Preferences.Get("isUsingCurrentPos", null) == "no")
@@ -79,7 +85,7 @@ namespace Tutorip.Views
             }
             else
             {
-                filtri.posizione = decidiPosizione();
+                filtri.posizione = await decidiPosizione();
                 /*pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
                 pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
                 pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
@@ -109,11 +115,12 @@ namespace Tutorip.Views
             }
         }
 
-        private Posizione decidiPosizione()
+        private async Task<Posizione> decidiPosizione()
         {
             Posizione pos = new Posizione();
             if(Preferences.Get("isUsingCurrentPos", null) == "si")
             {
+                await calcolaPosizione();
                 pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
                 pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
                 pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
