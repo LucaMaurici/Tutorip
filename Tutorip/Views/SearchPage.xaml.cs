@@ -17,7 +17,7 @@ namespace Tutorip.Views
     {
         List<Materia> materie = new List<Materia>();
         List<String> suggestions = new List<String>(); //deve essere di materia per fare la list view più carina
-        Filtri filtri;
+        public Filtri filtri;
         PositionAdapter positionAdapter;
         public SearchPage()
         {
@@ -32,7 +32,7 @@ namespace Tutorip.Views
 
         public async void setPositionButtonTextValue()
         {
-            this.btn_posizione.Text = "Calcolando la posizione..";
+            /*this.btn_posizione.Text = "Calcolando la posizione..";
             Posizione pos = (Posizione) await positionAdapter.calcolaPosizione();
             if (pos != null)
             {
@@ -44,7 +44,26 @@ namespace Tutorip.Views
             else
             {
                 btn_posizione.Text = "Impossibile accedere alla posizione del dispositivo, tocca per aggiornare";
+            }*/
+
+            Posizione pos = (Posizione)await positionAdapter.calcolaPosizione();
+            if (pos != null)
+            {
+                Preferences.Set("latitudineCorrente", pos.latitudine.ToString());
+                Preferences.Set("longitudineCorrente", pos.longitudine.ToString());
+                Preferences.Set("indirizzoCorrente", pos.indirizzo);
             }
+
+            if (Preferences.Get("isUsingCurrentPos", null) == "si")
+            {
+                btn_posizione.Text = Preferences.Get("indirizzoCorrente", "");
+            }
+            else if(Preferences.Get("isUsingCurrentPos", null) == "no")
+            {
+                btn_posizione.Text = Preferences.Get("indirizzoDefault", "");
+            }
+            else
+                btn_posizione.Text = "La mia posizione";
         }
 
         private async void search_btn_Clicked(object sender, EventArgs e)
@@ -53,16 +72,18 @@ namespace Tutorip.Views
             //filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
             //filtri.posizione = await positionAdapter.Indirizzo2Posizione(Preferences.Get("indirizzoCorrente", null));
             Posizione pos = new Posizione();
-            if(Preferences.Get("latitudineCorrente", null) == null && Preferences.Get("longitudineCorrente", null) == null)
+            //if(Preferences.Get("latitudineCorrente", null) == null && Preferences.Get("longitudineCorrente", null) == null)
+            if(Preferences.Get("isUsingCurrentPos", null) == null)
             {
                 await DisplayAlert("Per eseguire la ricerca è necessaria la tua posizione", "Accendi la posizione del dispositivo o inserisci un indirizzo", "Ok");
             }
             else
             {
-                pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
+                filtri.posizione = decidiPosizione();
+                /*pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
                 pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
                 pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
-                filtri.posizione = pos;
+                filtri.posizione = pos;*/
                 RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
                 if (insegnanti != null)
                 {
@@ -86,6 +107,24 @@ namespace Tutorip.Views
                     Console.WriteLine("Nessun insegnante");
                 }
             }
+        }
+
+        private Posizione decidiPosizione()
+        {
+            Posizione pos = new Posizione();
+            if(Preferences.Get("isUsingCurrentPos", null) == "si")
+            {
+                pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
+                pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
+                pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
+            }
+            else
+            {
+                pos.latitudine = double.Parse(Preferences.Get("latitudineDefault", null));
+                pos.longitudine = double.Parse(Preferences.Get("longitudineDefault", null));
+                pos.indirizzo = Preferences.Get("indirizzoDefault", null);
+            }
+            return pos;
         }
 
         private async void insegnanti_list_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -156,14 +195,21 @@ namespace Tutorip.Views
             en_materia.Text = m;
         }
 
-        private void btn_posizione_Clicked(object sender, EventArgs e)
+        private async void btn_posizione_Clicked(object sender, EventArgs e)
         {
-            this.setPositionButtonTextValue();
+            var page = new SetPositionPage(this.filtri, this);
+            Opacity = 0.2;
+            await PopupNavigation.Instance.PushAsync(page);
         }
 
         private async Task listInitializer()
         {
             materie = await MaterieService.getMaterie();
+        }
+
+        public Button GetPositionButton()
+        {
+            return this.btn_posizione;
         }
     }
 }

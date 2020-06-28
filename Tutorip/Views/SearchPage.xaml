@@ -34,17 +34,7 @@
                                     <Setter Property="Scale" Value="0.8" />
                                 </VisualState.Setters>
                             </VisualState>
-                        </VisualStateGroup>
-                    </VisualStateManager.VisualStateGroups>
-                </ImageButton>
-
-                <!--<Label
-                x:Name="lb_posizione"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="CenterAndExpand"
-                Margin="15,0,0,0">
-            </Label>-->
-
+                    </VisualStateGroup></VisualStateManager.VisualStateGroups></ImageButton>
                 <Button
                     x:Name="btn_posizione"
                     HorizontalOptions="FillAndExpand"
@@ -92,21 +82,22 @@
                     FontSize="Body"
                     TextChanged="en_materia_TextChanged">
                 </Entry>
-                <ImageButton x:Name="search_btn" Source="search" BackgroundColor="Transparent" Clicked="search_btn_Clicked" HeightRequest="30" WidthRequest="30"></ImageButton>
-                <VisualStateManager.VisualStateGroups>
-                    <VisualStateGroup x:Name="CommonStates">
-                        <VisualState x:Name="Normal">
-                            <VisualState.Setters>
-                                <Setter Property="Scale" Value="1" />
-                            </VisualState.Setters>
-                        </VisualState>
-                        <VisualState x:Name="Pressed">
-                            <VisualState.Setters>
-                                <Setter Property="Scale" Value="0.8" />
-                            </VisualState.Setters>
-                        </VisualState>
-                    </VisualStateGroup>
-                </VisualStateManager.VisualStateGroups>
+                <ImageButton x:Name="search_btn" Source="search" BackgroundColor="Transparent" Clicked="search_btn_Clicked" HeightRequest="30" WidthRequest="30">
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale" Value="1" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale" Value="0.8" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                </ImageButton>
             </StackLayout>
         </Frame>
 
