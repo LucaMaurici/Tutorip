@@ -54,5 +54,11 @@ namespace Tutorip.Views
             Navigation.InsertPageBefore(new MenuPage(), this);
             Navigation.PopAsync();
         }
+
+        private void bt_indietro_Clicked(object sender, EventArgs e)
+        {
+            Navigation.InsertPageBefore(new MenuPage(), this);
+            Navigation.PopAsync();
+        }
     }
 }

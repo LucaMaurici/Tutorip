@@ -7,10 +7,28 @@
              x:Class="Tutorip.Views.WelcomePage"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Login Completato"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout Orientation="Horizontal" Padding="15" VerticalOptions="Start">
+                <ImageButton x:Name="bt_indietro" Source="restart" Margin="0,0,0,0" BackgroundColor="Transparent" Clicked="bt_indietro_Clicked" HeightRequest="35" WidthRequest="35">
+                </ImageButton>
+                <Label Text="Login completato" FontSize="28" Margin="10,0,0,0">
+                </Label>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" VerticalOptions="Center" Padding="20,20,20,0">
+                <Label Text="Ora che sei un utente di Tutorip puoi: " FontSize="Large"/>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
+                    <Label Text="pubblicare il tuo profilo come insegnante" FontSize="Medium"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
+                    <Label Text="salvare i professori che fanno più al caso tuo" FontSize="Medium"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
+                    <Label Text="lasciare una recensione ai professori" FontSize="Medium"></Label>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
