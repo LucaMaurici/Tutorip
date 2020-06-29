@@ -223,14 +223,26 @@ namespace Tutorip.Views
             r.titolo = entryTitolo.Text;
             Editor entryCorpo = (Editor)stl_recensione.Children[1];
             r.corpo = entryCorpo.Text;
+
             Entry entryValMed = (Entry)stl_recensione.Children[2];
-            r.valutazioneGenerale = int.Parse(entryValMed.Text);
+            if (entryValMed.Text != null)
+                r.valutazioneGenerale = int.Parse(entryValMed.Text);
+            else r.valutazioneGenerale = 0;
+
             Entry entryEmp = (Entry)stl_recensione.Children[3];
-            r.empatia = int.Parse(entryEmp.Text);
+            if (entryEmp.Text != null)
+                r.empatia = int.Parse(entryEmp.Text);
+            else r.empatia = 0;
+
             Entry entrySpieg = (Entry)stl_recensione.Children[4];
-            r.spiegazione = int.Parse(entrySpieg.Text);
+            if (entrySpieg.Text != null)
+                r.spiegazione = int.Parse(entrySpieg.Text);
+            else r.spiegazione = 0;
+
             Entry entryOrg = (Entry)stl_recensione.Children[5];
-            r.organizzazione = int.Parse(entryOrg.Text);
+            if (entryOrg.Text != null)
+                r.organizzazione = int.Parse(entryOrg.Text);
+            else r.organizzazione = 0;
 
             RecensioniService.Save(r);
         }
