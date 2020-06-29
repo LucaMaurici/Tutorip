@@ -102,6 +102,7 @@
                                     Text="{Binding testo}"
                                     FontSize="20"
                                     HorizontalOptions="CenterAndExpand"
+                                    HorizontalTextAlignment="Center"
                                     VerticalOptions="CenterAndExpand">
                                 </Label>
                             </StackLayout>

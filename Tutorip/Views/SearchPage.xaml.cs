@@ -30,6 +30,9 @@ namespace Tutorip.Views
             filtri.setDefault();
             setPositionButtonTextValue();
             calcolaPosizione();
+
+            if (Preferences.Get("isUsingCurrentPos", null) == null)
+                this.eUnaPosizione.Text = "e una posizione di ricerca";
         }
 
         private async Task calcolaPosizione()
@@ -45,7 +48,7 @@ namespace Tutorip.Views
                 await DisplayAlert("Impossibile accedere alla posizione", "Prova ad accendere il GPS", "OK");
         }
 
-        public async void setPositionButtonTextValue()
+        public async void setPositionButtonTextValue() // e anche altro (il suggerimento all'inizio)
         {
             /*this.btn_posizione.Text = "Calcolando la posizione..";
             Posizione pos = (Posizione) await positionAdapter.calcolaPosizione();
@@ -66,10 +69,12 @@ namespace Tutorip.Views
                 btn_posizione.Text = "Calcolando la posizione...";
                 await calcolaPosizione();
                 btn_posizione.Text = Preferences.Get("indirizzoCorrente", "");
+                this.eUnaPosizione.Text = "";
             }
             else if(Preferences.Get("isUsingCurrentPos", null) == "no")
             {
                 btn_posizione.Text = Preferences.Get("indirizzoDefault", "");
+                this.eUnaPosizione.Text = "";
             }
             else
                 btn_posizione.Text = "Seleziona una posizione di ricerca";
@@ -79,7 +84,6 @@ namespace Tutorip.Views
         {
             this.progressBar.IsVisible = true;
             this.progressBar.ProgressTo(0.85, 1500, Easing.CubicOut);
-            
 
             filtri.nomeMateria = en_materia.Text;
             //filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
@@ -171,9 +175,14 @@ namespace Tutorip.Views
             if(keyword.Length == 0)
             {
                 ListaDiMaterie.IsVisible = false;
+                this.istruzioni.IsVisible = true;
             }
             else
+            {
                 ListaDiMaterie.IsVisible = true;
+                this.istruzioni.IsVisible = false;
+            }
+                
             suggestions.Clear();
             
             //var suggestions = materie.Where(m => m.nome.ToLower().Contains(keyword.ToLower()));
