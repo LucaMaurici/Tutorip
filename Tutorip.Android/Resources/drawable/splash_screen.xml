@@ -5,7 +5,7 @@
 	</item>
 	<item>
 		<bitmap
-			android:src="@drawable/IconaLogo5"
+			android:src="@drawable/teacher256"
 			android:tileMode="disabled"
 			android:gravity="center"/>
 	</item>

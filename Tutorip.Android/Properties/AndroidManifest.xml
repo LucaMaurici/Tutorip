@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.mvm.tutorip" android:installLocation="preferExternal">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
-	<application android:label="Tutorip.Android">
-		<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
-		<activity android:name="com.facebook.FacebookActivity" android:configChanges= "keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:label="@string/app_name" />
+	<application android:label="Tutorip" android:icon="@drawable/teacher">
+		<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
+		<activity android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:label="@string/app_name" />
 		<activity android:name="com.facebook.CustomTabActivity" android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.VIEW" />
@@ -12,8 +12,7 @@
 				<data android:scheme="@string/fb_login_protocol_scheme" />
 			</intent-filter>
 		</activity>
-
 	</application>
-	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>

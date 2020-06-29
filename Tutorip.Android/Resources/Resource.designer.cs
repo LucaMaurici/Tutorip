@@ -20022,25 +20022,31 @@ namespace Tutorip.Droid
 			public const int success = 2131165560;
 			
 			// aapt resource value: 0x7F070179
-			public const int television1 = 2131165561;
+			public const int teacher = 2131165561;
 			
 			// aapt resource value: 0x7F07017A
-			public const int tooltip_frame_dark = 2131165562;
+			public const int teacher256 = 2131165562;
 			
 			// aapt resource value: 0x7F07017B
-			public const int tooltip_frame_light = 2131165563;
+			public const int television1 = 2131165563;
 			
 			// aapt resource value: 0x7F07017C
-			public const int user6 = 2131165564;
+			public const int tooltip_frame_dark = 2131165564;
 			
 			// aapt resource value: 0x7F07017D
-			public const int users = 2131165565;
+			public const int tooltip_frame_light = 2131165565;
 			
 			// aapt resource value: 0x7F07017E
-			public const int users1 = 2131165566;
+			public const int user6 = 2131165566;
 			
 			// aapt resource value: 0x7F07017F
-			public const int view = 2131165567;
+			public const int users = 2131165567;
+			
+			// aapt resource value: 0x7F070180
+			public const int users1 = 2131165568;
+			
+			// aapt resource value: 0x7F070181
+			public const int view = 2131165569;
 			
 			static Drawable()
 			{
