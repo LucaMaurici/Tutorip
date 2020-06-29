@@ -34,21 +34,22 @@ namespace Tutorip.Views
 
         private void gestisciVisibilita()
         {
-            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id)
+            if (int.Parse(Preferences.Get("id", (0).ToString())) == insegnante.id) //me stesso
             {
                 this.stl_preferiti.IsVisible = false;
                 this.fr_lasciaRecensione.IsVisible = false;
+                this.img_distanza.IsVisible = false;
             }
-            else if(Preferences.Get("id",null) != null)
+            else if(Preferences.Get("id",null) != null) //utente loggato
             {
                 this.stl_preferiti.IsVisible = true;
                 this.fr_lasciaRecensione.IsVisible = true;
                 this.stl_visibilità.IsVisible = false;
                 this.stl_modifica.IsVisible = false;
             }
-            else
+            else //utente non loggato
             {
-                this.stl_preferiti.IsVisible = false;
+                this.stl_preferiti.IsVisible = false; 
                 this.fr_lasciaRecensione.IsVisible = false;
                 this.stl_visibilità.IsVisible = false;
                 this.stl_modifica.IsVisible = false;
@@ -61,7 +62,7 @@ namespace Tutorip.Views
             {
                 foreach (Recensione recensione in this.insegnante.recensioni)
                 {
-                    var frame = new Frame { Padding = new Thickness(30,10,30,20) };
+                    var frame = new Frame { Padding = new Thickness(35,10,35,15) };
                     this.stl_recensioni.Children.Add(frame);
                     var stack = new StackLayout();
                     frame.Content = stack;
@@ -72,7 +73,7 @@ namespace Tutorip.Views
                     stackHor.Children.Add(stackVal);
                     stackVal.Children.Add(new Image { Source = "star1", WidthRequest = 28, HeightRequest = 28, TranslationY = 1 });
                     stackVal.Children.Add(new Label { Text = recensione.valutazioneGenerale.ToString(), FontSize = 30, FontAttributes = FontAttributes.Bold }); //chiamata a formattatore di stringa valutazione
-                    stack.Children.Add(new Label { Text = recensione.corpo, Margin = 5 });
+                    stack.Children.Add(new Label { Text = recensione.corpo, FontSize = 17 });
                     if (recensione.anonimo == 0)
                         stack.Children.Add(new Label
                         {
@@ -92,13 +93,12 @@ namespace Tutorip.Views
             {
                 foreach (SezioneProfilo s in this.insegnante.descrizione)
                 {
-                    var frame = new Frame { Padding = 10 };
+                    var frame = new Frame { Padding = new Thickness(35, 10, 35, 15) };
                     this.stl_descrizione.Children.Add(frame);
                     var stack = new StackLayout();
                     frame.Content = stack;
-                    var stackVer = new StackLayout { Orientation = StackOrientation.Vertical };
-                    stackVer.Children.Add(new Label { Text = s.titolo, FontSize = 25, HorizontalOptions = LayoutOptions.StartAndExpand });
-                    stackVer.Children.Add(new Label { Text = s.corpo, HorizontalOptions = LayoutOptions.StartAndExpand });
+                    stack.Children.Add(new Label { Text = s.titolo, FontSize = 30, FontAttributes=FontAttributes.Bold, HorizontalOptions = LayoutOptions.StartAndExpand });
+                    stack.Children.Add(new Label { Text = s.corpo, FontSize = 17 });
                 }
             }
         }
@@ -135,7 +135,7 @@ namespace Tutorip.Views
                 this.flx_materie.Children.Add(new Button { 
                     Text = materia.nome, HorizontalOptions=LayoutOptions.Start, 
                     BackgroundColor=Color.Transparent, FontSize=13, TextColor=Color.FromHex("#0E5D90"), BorderColor=Color.FromHex("#0E5D90"),
-                    BorderWidth=1, CornerRadius=20, Padding=10, Margin=3
+                    BorderWidth=1, CornerRadius=20, Padding= new Thickness(10, 1, 10, 1), Margin=3, HeightRequest=30
                 });
             }
         }
@@ -186,13 +186,15 @@ namespace Tutorip.Views
 
         private void btn_recensione_Clicked(object sender, EventArgs e)
         {
-
-            var entryTitolo = new Entry { Placeholder = "Titolo", Keyboard = Keyboard.Text };
-            var entryCorpo =  new Entry { Placeholder = "Testo della recensione", Keyboard = Keyboard.Text };
-            var entryValMed =  new Entry { Placeholder = "ValutazioneMedia", Keyboard = Keyboard.Numeric };
-            var entryEmpatia =  new Entry { Placeholder = "Empatia", Keyboard = Keyboard.Numeric };
+            //TODO carine
+            var entryValMed = new Entry { Placeholder = "ValutazioneMedia", Keyboard = Keyboard.Numeric };
+            var entryEmpatia = new Entry { Placeholder = "Empatia", Keyboard = Keyboard.Numeric };
             var entrySpieg = new Entry { Placeholder = "Spiegazione", Keyboard = Keyboard.Numeric };
             var entryOrg = new Entry { Placeholder = "Organizzazione", Keyboard = Keyboard.Numeric };
+
+            var entryTitolo = new Entry { Placeholder = "Titolo", Keyboard = Keyboard.Text, TextColor = Color.FromHex("#666"), FontAttributes = FontAttributes.Bold, FontSize = 25, HorizontalOptions = LayoutOptions.FillAndExpand };
+            var entryCorpo = new Editor { Placeholder = "Corpo", Keyboard = Keyboard.Text, TextColor = Color.FromHex("#666"), HeightRequest = 160, HorizontalOptions = LayoutOptions.FillAndExpand };
+            
             
             this.stl_recensione.Children.Add(entryTitolo);
             this.stl_recensione.Children.Add(entryCorpo);

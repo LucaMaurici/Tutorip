@@ -57,14 +57,14 @@
                     <StackLayout x:Name="stl_preferiti">
                         <ImageButton
                         x:Name="bt_addFav"
-                        Source="star1"
+                        Source="bookmark"
                         Margin="0,0,0,-5"
                         BackgroundColor="Transparent"
                         Clicked="bt_addFav_Clicked"
                         HeightRequest="25"
                         WidthRequest="25">
                         </ImageButton>
-                        <Label Text="Preferiti" FontSize="13"></Label>
+                        <Label Text="Salva" FontSize="13"></Label>
                     </StackLayout>
                 </StackLayout>
             </Frame>
@@ -76,7 +76,7 @@
                         <Image Source="user6" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center"></Image>
                         <!--DISTANZA-->
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                            <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
+                            <Image x:Name="img_distanza" Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
                             <Label x:Name="distanza_lbl" Text="{Binding insegnante.Distanza}" TextColor="#888" FontAttributes="None" FontSize="18"/>
                         </StackLayout>
                     </StackLayout>
@@ -158,10 +158,15 @@
             </Frame>
             -->
 
+            <!--LISTA SEZIONI PROFILO DELLA DESCRIZIONE-->
+            <StackLayout x:Name="stl_descrizione">
+
+            </StackLayout>
+
             <!-- VALUTAZIONI -->
             <Frame Padding="20,8,20,20">
                 <StackLayout>
-                    <Label Text="Recensioni" FontSize="35" FontAttributes="Bold" Margin="0,0,0,10"></Label>
+                    <Label Text="Recensioni" FontSize="35" FontAttributes="Bold" Margin="15,0,0,10"></Label>
                     <StackLayout Orientation="Horizontal" Margin="0,-15,0,0">
                         <StackLayout HorizontalOptions="CenterAndExpand">
                             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
@@ -189,25 +194,26 @@
             </Frame>
 
             <!-- LASCIA RECENSIONI -->
-            <Frame Padding="10" x:Name="fr_lasciaRecensione">
+            <Frame Padding="30,15,30,15" x:Name="fr_lasciaRecensione">
                 <StackLayout Orientation="Vertical">
                     <StackLayout Orientation="Horizontal">
-                        <CheckBox x:Name="cb_isAnonimo" IsVisible="True"></CheckBox>
-                        <Label Text="Anonimo" IsVisible="True"></Label>
-                        <Button x:Name="btn_recensione" Text="Lascia una recensione" Clicked="btn_recensione_Clicked"></Button>
-                        <!-- Magari sarà un image button non so che scriverci-->
+                        <Button x:Name="btn_recensione" Text="Lascia una recensione" BorderColor="#FFBF00" BorderWidth="1"
+                                CornerRadius="30" BackgroundColor="#FFFEF9" Padding="10,1,10,1" HeightRequest="40"
+                                HorizontalOptions="StartAndExpand" Clicked="btn_recensione_Clicked"></Button>
+                        <StackLayout x:Name="sl_anonimo" Orientation="Horizontal" HorizontalOptions="End">
+                            <Label Text="Anonimo" FontSize="16" VerticalOptions="Center" FontAttributes="Italic"></Label>
+                            <CheckBox x:Name="cb_isAnonimo" Color="#888"></CheckBox>
+                        </StackLayout>
                     </StackLayout>
                     <StackLayout Orientation="Vertical" x:Name="stl_recensione"></StackLayout>
-                    <Button x:Name="btn_salvaRecensione" Clicked="btn_salvaRecensione_Clicked" HorizontalOptions="FillAndExpand"></Button>
+                    <Button x:Name="btn_salvaRecensione" Text="Invia" BorderColor="#39AE7C" BorderWidth="2"
+                            CornerRadius="30" BackgroundColor="#F7FFFC" Padding="10,1,10,1" HeightRequest="40"
+                            HorizontalOptions="StartAndExpand" Clicked="btn_salvaRecensione_Clicked"></Button>
                 </StackLayout>
             </Frame>
             <!--LISTA RECENSIONI-->
             <StackLayout x:Name="stl_recensioni">
 
-            </StackLayout>
-
-            <StackLayout x:Name="stl_descrizione">
-                
             </StackLayout>
         </StackLayout>
     </ScrollView>
