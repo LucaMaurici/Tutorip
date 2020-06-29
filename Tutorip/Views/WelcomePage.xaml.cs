@@ -15,6 +15,8 @@ namespace Tutorip.Views
         public WelcomePage()
         {
             InitializeComponent();
+            this.Content.Opacity = 0;
+            this.Content.FadeTo(1, 3500, Easing.CubicIn);
         }
 
         protected override bool OnBackButtonPressed()
