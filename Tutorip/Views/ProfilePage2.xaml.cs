@@ -122,6 +122,7 @@ namespace Tutorip.Views
 
             this.lb_email.Text = insegnante.contatti.emailContatto;
             this.lb_cellulare.Text = insegnante.contatti.cellulare;
+            this.lb_facebook.Text = insegnante.contatti.facebook;
             this.sp_eval.Text = insegnante.valutazioneMedia;
             this.name_lbl.Text = insegnante.nomeDaVisualizzare;
             this.tariffa_spn.Text = insegnante.tariffa.ToString();

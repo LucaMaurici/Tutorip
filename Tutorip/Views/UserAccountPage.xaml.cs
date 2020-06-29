@@ -41,5 +41,18 @@ namespace Tutorip.Views
             Navigation.PopAsync();
             return true;
         }
+
+        private void btn_logout_Clicked(object sender, EventArgs e)
+        {
+            Preferences.Remove("id");
+            Preferences.Remove("nome");
+            Preferences.Remove("cognome");
+            Preferences.Remove("email");
+            Preferences.Remove("accessToken");
+            Preferences.Remove("tokenType");
+            Preferences.Remove("isInsegnante");
+            Navigation.InsertPageBefore(new MenuPage(), this);
+            Navigation.PopAsync();
+        }
     }
 }

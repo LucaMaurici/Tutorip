@@ -36,6 +36,31 @@ namespace Tutorip.Views
                 this.cb_gruppo.IsChecked = true;
             else
                 this.cb_gruppo.IsChecked = false;
+
+            if (insegnante.modalita == 0)
+                this.pck_modalità.SelectedIndex = 0;
+            else if (insegnante.modalita == 1)
+                this.pck_modalità.SelectedIndex = 1;
+            else if(insegnante.modalita == 2)
+                this.pck_modalità.SelectedIndex = 2;
+
+            foreach (Materia materia in this.insegnante.materie)
+            {
+                this.flx_materie.Children.Add(new Button
+                {
+                    Text = materia.nome,
+                    HorizontalOptions = LayoutOptions.Start,
+                    BackgroundColor = Color.Transparent,
+                    FontSize = 13,
+                    TextColor = Color.FromHex("#0E5D90"),
+                    BorderColor = Color.FromHex("#0E5D90"),
+                    BorderWidth = 1,
+                    CornerRadius = 20,
+                    Padding = new Thickness(10, 1, 10, 1),
+                    Margin = 3,
+                    HeightRequest = 30
+                });
+            }
         }
 
         private async void bt_SalvaProfilo_Clicked(object sender, EventArgs e)
@@ -75,12 +100,14 @@ namespace Tutorip.Views
                 foreach (var element in this.StL_materie.Children)
                 {
                     Entry entry = (Entry)element;
-                    insegnante.materie.Add(new Materia(entry.Text));
+                    if(entry.Text != null)
+                        insegnante.materie.Add(new Materia(entry.Text));
                 }
             }
-            
+
             //descrizione
-            insegnante.descrizione = new List<SezioneProfilo>();
+            if (!Preferences.Get("isInsegnante", false))
+                insegnante.descrizione = new List<SezioneProfilo>();
             int indice = 1;
             foreach(var element in this.stl_descrizione.Children)
             {

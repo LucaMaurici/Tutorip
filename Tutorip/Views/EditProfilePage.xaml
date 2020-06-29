@@ -123,7 +123,12 @@
                     </StackLayout>
                 </StackLayout>
             </Frame>
-            
+
+            <Frame x:Name="fr_materieVecchie" Padding="8">
+                <StackLayout x:Name="stl_materie" Orientation="Vertical">
+                    <FlexLayout x:Name="flx_materie" Direction="Row" Wrap="Wrap" AlignItems="Start" JustifyContent="SpaceEvenly"></FlexLayout>
+                </StackLayout>
+            </Frame>
             <!--MATERIE-->
             <Frame x:Name="fr_materie" Padding="30,15,35,20">
                 <StackLayout>
