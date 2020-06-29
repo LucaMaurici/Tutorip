@@ -9,7 +9,7 @@
              BackgroundColor="White">
     <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
         <StackLayout x:Name="btn_stack" Orientation="Vertical" VerticalOptions="Center">
-            <Frame BorderColor="Black">
+            <Frame>
                 <StackLayout Orientation="Horizontal">
                     <Image Source="bookmark" HeightRequest="25" WidthRequest="25"></Image>
                     <!--da cambiare-->
@@ -21,7 +21,7 @@
                         BorderColor="Black"></Button>
                 </StackLayout>
             </Frame>
-            <Frame BorderColor="Black">
+            <Frame Padding="0, 20,0,0">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="bookmark" HeightRequest="25" WidthRequest="25"></Image>
                     <!--da cambiare-->

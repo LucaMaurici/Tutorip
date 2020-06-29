@@ -24,5 +24,11 @@ namespace Tutorip.Views
             //return base.OnBackButtonPressed();
             return true;
         }
+
+        private void bt_indietro_Clicked(object sender, EventArgs e)
+        {
+            Navigation.InsertPageBefore(new MenuPage(), this);
+            Navigation.PopAsync();
+        }
     }
 }

@@ -6,26 +6,52 @@
              mc:Ignorable="d"
              x:Class="Tutorip.Views.UserAccountPage"
              NavigationPage.HasNavigationBar="False">
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Frame x:Name="name_frame" VerticalOptions="Center">
-            <StackLayout>
-                <Label HorizontalOptions="Center" FontSize="Medium">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Ciao " FontSize="Large"></Span>
-                            <Span x:Name="nameSpan" FontAttributes="Bold" FontSize="Large"></Span>
-                            <Span Text="!" FontSize="Large"></Span>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-            </StackLayout>
-        </Frame>
-        <Frame x:Name="pos_frame" VerticalOptions="Center" Padding="10">
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
-                <Entry x:Name="pos_entry" Placeholder="Inserisci il tuo indirizzo" ></Entry>
-                <Button Text="Invia" Clicked="PosBtn_clicked" BackgroundColor="Transparent"></Button>
-            </StackLayout>
-        </Frame>
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+        <StackLayout
+            Orientation="Horizontal"
+            Padding="15"
+            VerticalOptions="Start">
+            <ImageButton
+                x:Name="bt_indietro"
+                Source="restart"
+                Margin="0,0,0,0"
+                BackgroundColor="Transparent"
+                Clicked="bt_indietro_Clicked"
+                HeightRequest="35"
+                WidthRequest="35">
+            </ImageButton>
+            <Label
+                Text="Account"
+                FontSize="28"
+                Margin="10,0,0,0">
+            </Label>
+        </StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="0,30,0,0">
+            <Frame x:Name="name_frame">
+                <StackLayout>
+                    <Label HorizontalOptions="Center" FontSize="Medium">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Ciao " FontSize="Large"></Span>
+                                <Span x:Name="nameSpan" FontAttributes="Bold" FontSize="Large"></Span>
+                                <Span Text="!" FontSize="Large"></Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </StackLayout>
+            </Frame>
+            <Frame x:Name="pos_frame" VerticalOptions="Center" Padding="0,10, 0, 0">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
+                    <Entry x:Name="pos_entry" Placeholder="Inserisci il tuo indirizzo" ></Entry>
+                    <Button Text="Invia" Clicked="PosBtn_clicked" BackgroundColor="Transparent"></Button>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        <StackLayout VerticalOptions="EndAndExpand" Padding="0,0,0,15">
+            <Button x:Name="btn_logout" Text="Logout" BorderColor="#358" BorderWidth="2"
+                        CornerRadius="30" BackgroundColor="#FCFDFF" Padding="10,1,10,1" HeightRequest="40"
+                        WidthRequest="120" HorizontalOptions="CenterAndExpand" Clicked="btn_logout_Clicked"></Button>
+        </StackLayout>
     </StackLayout>
 </ContentPage>
