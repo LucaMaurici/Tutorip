@@ -75,7 +75,7 @@ namespace Tutorip.Views
         private async void search_btn_Clicked(object sender, EventArgs e)
         {
             this.progressBar.IsVisible = true;
-            this.progressBar.ProgressTo(0.7, 1500, Easing.CubicOut);
+            this.progressBar.ProgressTo(0.85, 1500, Easing.CubicOut);
             
 
             filtri.nomeMateria = en_materia.Text;
@@ -119,7 +119,7 @@ namespace Tutorip.Views
             }
             await this.progressBar.ProgressTo(1, 100, Easing.CubicIn);
             this.progressBar.IsVisible = false;
-            await this.progressBar.ProgressTo(0, 0, Easing.Linear);
+            this.progressBar.ProgressTo(0, 0, Easing.Linear);
         }
 
         private async Task<Posizione> decidiPosizione()
