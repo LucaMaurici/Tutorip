@@ -31,7 +31,7 @@ namespace Tutorip.Views
             this.en_indirizzo.Text = insegnante.posizione.indirizzo;
             this.en_cellulare.Text = insegnante.contatti.cellulare;
             this.en_email.Text = insegnante.contatti.emailContatto;
-            //this.en_facebook.Text = insegnante.contatti.facebook;
+            this.en_facebook.Text = insegnante.contatti.facebook;
             if (insegnante.gruppo == 1)
                 this.cb_gruppo.IsChecked = true;
             else
@@ -91,7 +91,7 @@ namespace Tutorip.Views
                 s.indice = indice;//int.Parse(entryIndice.Text);
                 Entry entryTitolo = (Entry)stack.Children[0];
                 s.titolo = entryTitolo.Text;
-                Entry entryCorpo = (Entry)stack.Children[1];
+                Editor entryCorpo = (Editor)stack.Children[1];
                 s.corpo = entryCorpo.Text;
                 s.idInsegnante = insegnante.id;
                 this.insegnante.descrizione.Add(s);

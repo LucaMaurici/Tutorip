@@ -10,6 +10,7 @@ using Android.Preferences;
 using Xamarin.Essentials;
 using System.Threading.Tasks;
 using Android.Views.TextService;
+using Android.Views;
 
 namespace Tutorip.Views
 {
@@ -40,6 +41,8 @@ namespace Tutorip.Views
                 Preferences.Set("longitudineCorrente", pos.longitudine.ToString());
                 Preferences.Set("indirizzoCorrente", pos.indirizzo);
             }
+            else
+                await DisplayAlert("Impossibile accedere alla posizione", "Prova ad accendere il GPS", "OK");
         }
 
         public async void setPositionButtonTextValue()
@@ -69,7 +72,7 @@ namespace Tutorip.Views
                 btn_posizione.Text = Preferences.Get("indirizzoDefault", "");
             }
             else
-                btn_posizione.Text = "La mia posizione";
+                btn_posizione.Text = "Seleziona una posizione di ricerca";
         }
 
         private async void search_btn_Clicked(object sender, EventArgs e)
@@ -89,7 +92,7 @@ namespace Tutorip.Views
             }
             else
             {
-                filtri.posizione = await decidiPosizione();
+                filtri.posizione = await positionAdapter.decidiPosizione();
                 /*pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
                 pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
                 pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
@@ -122,23 +125,9 @@ namespace Tutorip.Views
             this.progressBar.ProgressTo(0, 0, Easing.Linear);
         }
 
-        private async Task<Posizione> decidiPosizione()
+        internal void makeSubjectsInvisible()
         {
-            Posizione pos = new Posizione();
-            if(Preferences.Get("isUsingCurrentPos", null) == "si")
-            {
-                await calcolaPosizione();
-                pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
-                pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
-                pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
-            }
-            else
-            {
-                pos.latitudine = double.Parse(Preferences.Get("latitudineDefault", null));
-                pos.longitudine = double.Parse(Preferences.Get("longitudineDefault", null));
-                pos.indirizzo = Preferences.Get("indirizzoDefault", null);
-            }
-            return pos;
+            this.ListaDiMaterie.IsVisible = false;
         }
 
         private async void insegnanti_list_ItemTapped(object sender, ItemTappedEventArgs e)

@@ -131,6 +131,14 @@
                         <Image Source="paperplane1" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
                         <Label x:Name="lb_email" Text="{Binding insegnante.contatti.emailContatto}" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
                     </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                        <Image Source="smartphone10" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
+                        <Label x:Name="lb_cellulare" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                        <Image Source="paperplane" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
+                        <Label x:Name="lb_facebook" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
+                    </StackLayout>
                 </StackLayout>
             </Frame>
 

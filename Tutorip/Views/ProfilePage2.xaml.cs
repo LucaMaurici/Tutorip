@@ -121,6 +121,7 @@ namespace Tutorip.Views
                 this.distanza_lbl.Text = insegnante.Distanza;
 
             this.lb_email.Text = insegnante.contatti.emailContatto;
+            this.lb_cellulare.Text = insegnante.contatti.cellulare;
             this.sp_eval.Text = insegnante.valutazioneMedia;
             this.name_lbl.Text = insegnante.nomeDaVisualizzare;
             this.tariffa_spn.Text = insegnante.tariffa.ToString();
@@ -220,7 +221,7 @@ namespace Tutorip.Views
 
             Entry entryTitolo = (Entry) stl_recensione.Children[0];
             r.titolo = entryTitolo.Text;
-            Entry entryCorpo = (Entry)stl_recensione.Children[1];
+            Editor entryCorpo = (Editor)stl_recensione.Children[1];
             r.corpo = entryCorpo.Text;
             Entry entryValMed = (Entry)stl_recensione.Children[2];
             r.valutazioneGenerale = int.Parse(entryValMed.Text);

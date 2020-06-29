@@ -7,20 +7,20 @@
              x:Class="Tutorip.Views.UserAccountPage"
              NavigationPage.HasNavigationBar="False">
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Frame x:Name="name_frame" VerticalOptions="Center" CornerRadius="30">
+        <Frame x:Name="name_frame" VerticalOptions="Center">
             <StackLayout>
                 <Label HorizontalOptions="Center" FontSize="Medium">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Ciao "></Span>
-                            <Span x:Name="nameSpan" FontAttributes="Bold"></Span>
-                            <Span Text="!"></Span>
+                            <Span Text="Ciao " FontSize="Large"></Span>
+                            <Span x:Name="nameSpan" FontAttributes="Bold" FontSize="Large"></Span>
+                            <Span Text="!" FontSize="Large"></Span>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
             </StackLayout>
         </Frame>
-        <Frame x:Name="pos_frame" VerticalOptions="Center">
+        <Frame x:Name="pos_frame" VerticalOptions="Center" Padding="10">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <Image Source="placeholders" WidthRequest="22" HeightRequest="22"></Image>
                 <Entry x:Name="pos_entry" Placeholder="Inserisci il tuo indirizzo" ></Entry>

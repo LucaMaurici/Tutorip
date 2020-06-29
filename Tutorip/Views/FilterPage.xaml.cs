@@ -15,7 +15,7 @@ namespace Tutorip.Views
     {
         private Filtri filtri;
         private ListView insegnanti_list;
-        private Page parent;
+        private SearchPage parent;
         private PositionAdapter positionAdapter;
 
         public FilterPage(Filtri f, ListView insegnanti_list, Page parent)
@@ -23,7 +23,7 @@ namespace Tutorip.Views
             InitializeComponent();
             this.filtri = f;
             this.insegnanti_list = insegnanti_list;
-            this.parent = parent;
+            this.parent = (SearchPage)parent;
             this.positionAdapter = new PositionAdapter();
             sl_tariffa.Value = f.tariffaMassima;
             en_tariffa.Text = f.tariffaMassima.ToString();
@@ -64,19 +64,28 @@ namespace Tutorip.Views
             {
                 filtri.posizione = await positionAdapter.Indirizzo2Posizione(Preferences.Get("indirizzoCorrente", null));
             }*/
-
-            RisultatoRicercaInsegnanti[] elenco = await InsegnantiService.GetInsegnanti(filtri);
-            if (elenco!=null)
+            if (Preferences.Get("isUsingCurrentPos", null) == null)
             {
-                foreach (RisultatoRicercaInsegnanti r in elenco)
-                    r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
-                insegnanti_list.IsVisible = true;
-                insegnanti_list.ItemsSource = elenco;
+                await DisplayAlert("Per eseguire la ricerca è necessaria la tua posizione", "Accendi la posizione del dispositivo o inserisci un indirizzo", "Ok");
             }
             else
             {
-                insegnanti_list.IsVisible = false;
-                Console.WriteLine("Nessun insegnante");
+                filtri.posizione = await positionAdapter.decidiPosizione();
+                RisultatoRicercaInsegnanti[] elenco = await InsegnantiService.GetInsegnanti(filtri);
+                if (elenco != null)
+                {
+                    foreach (RisultatoRicercaInsegnanti r in elenco)
+                        r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
+                    parent.makeSubjectsInvisible();
+                    insegnanti_list.IsVisible = true;
+                    insegnanti_list.ItemsSource = elenco;
+
+                }
+                else
+                {
+                    insegnanti_list.IsVisible = false;
+                    Console.WriteLine("Nessun insegnante");
+                }
             }
             parent.Opacity = 1;
             await Rg.Plugins.Popup.Services.PopupNavigation.Instance.PopAsync(true);

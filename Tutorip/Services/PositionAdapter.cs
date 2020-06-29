@@ -98,5 +98,25 @@ namespace Tutorip.Services
             return distanza;
         }
 
+        public async Task<Posizione> decidiPosizione()
+        {
+            Posizione pos = new Posizione();
+            if (Preferences.Get("isUsingCurrentPos", null) == "no")
+            {
+                pos.latitudine = double.Parse(Preferences.Get("latitudineDefault", null));
+                pos.longitudine = double.Parse(Preferences.Get("longitudineDefault", null));
+                pos.indirizzo = Preferences.Get("indirizzoDefault", null);
+
+            }
+            else
+            {
+                await calcolaPosizione();
+                pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
+                pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
+                pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
+            }
+            return pos;
+        }
+
     }
 }

@@ -6,24 +6,44 @@
              mc:Ignorable="d"
              x:Class="Tutorip.Views.AccountPage"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="#FFFDF7">
+             BackgroundColor="White">
     <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
-        <StackLayout x:Name="btn_stack" Orientation="Horizontal" VerticalOptions="Center">
-            <Button x:Name="LogGoogBtn"
+        <StackLayout x:Name="btn_stack" Orientation="Vertical" VerticalOptions="Center">
+            <Frame BorderColor="Black">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="bookmark"></Image>
+                    <!--da cambiare-->
+                    <Button x:Name="LogGoogBtn"
                         Text="Login with Google"
                         Clicked="LogGoogBtn_clicked"
                         VerticalOptions="CenterAndExpand"
                         BackgroundColor="White"
-                        CornerRadius="30"></Button>
-            <Button x:Name="LogFbBtn"
+                        BorderColor="Black"></Button>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="Black">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="bookmark"></Image>
+                    <!--da cambiare-->
+                    <Button x:Name="LogFbBtn"
                         Text="Login with Facebook"
                         Clicked="LogFbBtn_clicked"
                         VerticalOptions="CenterAndExpand"
                         BackgroundColor="White"
                         CornerRadius="30"></Button>
+                </StackLayout>
+            </Frame>
         </StackLayout>
-        
-        <!--<Frame x:Name="name_frame" VerticalOptions="Center" CornerRadius="30">
+    </StackLayout>
+</ContentPage>
+   
+    
+    
+    
+    
+    
+    
+    <!--<Frame x:Name="name_frame" VerticalOptions="Center" CornerRadius="30">
             <StackLayout>
                 <Label HorizontalOptions="Center" FontSize="Medium">
                     <Label.FormattedText>
@@ -43,5 +63,3 @@
                 <Button Text="Invia" Clicked="PosBtn_clicked" BackgroundColor="Transparent"></Button>
             </StackLayout>
         </Frame>-->
-    </StackLayout>
-</ContentPage>
