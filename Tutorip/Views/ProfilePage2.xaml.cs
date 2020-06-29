@@ -126,13 +126,68 @@ namespace Tutorip.Views
             this.sp_eval.Text = insegnante.valutazioneMedia;
             this.name_lbl.Text = insegnante.nomeDaVisualizzare;
             this.tariffa_spn.Text = insegnante.tariffa.ToString();
-            
+
+            int media = 0;
+            int lunghezza = 0;
+            foreach(Recensione r in insegnante.recensioni)
+            {
+                if(r.empatia != 0)
+                {
+                    lunghezza++;
+                }
+            }
+            foreach(Recensione r in insegnante.recensioni)
+            {
+                if(r.empatia != 0)
+                {
+                    media = (media + (int)r.empatia) / lunghezza;
+                }
+            }
+            this.num_emp_lbl.Text = media.ToString();
+
+            media = 0;
+            lunghezza = 0;
+            foreach (Recensione r in insegnante.recensioni)
+            {
+                if (r.spiegazione != 0)
+                {
+                    lunghezza++;
+                }
+            }
+            foreach (Recensione r in insegnante.recensioni)
+            {
+                if (r.spiegazione != 0)
+                {
+                    media = (media + (int)r.spiegazione) / lunghezza;
+                }
+            }
+            this.num_spg_lbl.Text = media.ToString();
+
+            media = 0;
+            lunghezza = 0;
+            foreach (Recensione r in insegnante.recensioni)
+            {
+                if (r.organizzazione != 0)
+                {
+                    lunghezza++;
+                }
+            }
+            foreach (Recensione r in insegnante.recensioni)
+            {
+                if (r.organizzazione != 0)
+                {
+                    media = (media + (int)r.organizzazione) / lunghezza;
+                }
+            }
+
+            this.num_org_lbl.Text = media.ToString();
+
             //List<string> materie = new List<Materia>();
             //foreach (Materia m in insegnante.materie)
             //    materie.Add(m);
             //this.subject_list.ItemsSource = insegnante.materie;
 
-            foreach(Materia materia in this.insegnante.materie)
+            foreach (Materia materia in this.insegnante.materie)
             {
                 this.flx_materie.Children.Add(new Button { 
                     Text = materia.nome, HorizontalOptions=LayoutOptions.Start, 
