@@ -27,10 +27,11 @@
             Padding="20" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent">
             <Label 
                 Text="Personalizza la ricerca"
-                FontSize="Large"
+                FontSize="28"
+                FontAttributes="Bold"
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand"
-                Margin="0,0,0,0" />
+                Margin="0,0,0,30" />
             <StackLayout 
                 Orientation="Horizontal"
                 Padding="5">
@@ -48,12 +49,16 @@
                         WidthRequest="150"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand"
-                        ValueChanged="sl_tariffa_ValueChanged">
+                        ValueChanged="sl_tariffa_ValueChanged"
+                        ThumbColor="#358"
+                        MaximumTrackColor="#358"
+                        MinimumTrackColor="#358">
                     </Slider>
                     <Entry
                         x:Name="en_tariffa"
                         Keyboard="Numeric"
-                        WidthRequest="40"
+                        WidthRequest="55"
+                        HorizontalTextAlignment="Center"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand"
                         TextChanged="en_tariffa_TextChanged"
@@ -80,13 +85,17 @@
                         WidthRequest="150"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand"
-                        ValueChanged="sl_valutazione_ValueChanged">
+                        ValueChanged="sl_valutazione_ValueChanged"
+                        ThumbColor="#358"
+                        MaximumTrackColor="#358"
+                        MinimumTrackColor="#358">
                     </Slider>
                     <Entry
                         x:Name="en_valutazione"
                         Keyboard="Numeric"
-                        WidthRequest="40"
-                        Text="8"
+                        WidthRequest="45"
+                        Text="0"
+                        HorizontalTextAlignment="Center"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand"
                         TextChanged="en_valutazione_TextChanged">
@@ -112,12 +121,16 @@
                         WidthRequest="150"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand"
-                        ValueChanged="sl_distanzaMax_ValueChanged">
+                        ValueChanged="sl_distanzaMax_ValueChanged"
+                        ThumbColor="#358"
+                        MaximumTrackColor="#358"
+                        MinimumTrackColor="#358">
                     </Slider>
                     <Entry
                         x:Name="en_distanzaMax"
                         Keyboard="Numeric"
-                        WidthRequest="40"
+                        WidthRequest="54"
+                        HorizontalTextAlignment="Center"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand"
                         TextChanged="en_distanzaMax_TextChanged">
@@ -126,29 +139,41 @@
 
             </StackLayout>
 
+            <!--
             <StackLayout Orientation="Horizontal" Padding="5">
-                <CheckBox x:Name="cb_posizione"></CheckBox>
+                <CheckBox x:Name="cb_posizione" Color="#358"></CheckBox>
                 <Label Text="Usa posizione default" Padding="5"></Label>
             </StackLayout>
-
-            <StackLayout Orientation="Horizontal">
+            -->
+            <StackLayout Orientation="Horizontal" Margin="0,30,0,0">
+                <!--
+                <Button x:Name="bt_annulla" Text="Annulla" BorderColor="#FF3030" BorderWidth="1"
+                                CornerRadius="30" BackgroundColor="Transparent" Padding="10,1,10,1" HeightRequest="40"
+                                WidthRequest="120" HorizontalOptions="CenterAndExpand" Clicked="torna_indietro"></Button>
+            -->
+                <!--
                 <Button
                     x:Name="bt_annulla"
                     Text="Annulla"
                     WidthRequest="120"
                     HorizontalOptions="CenterAndExpand"
                     Clicked="torna_indietro">
-
+                
                 </Button>
+                -->
+                <Button x:Name="bt_applica" Text="Cerca" BorderColor="#358" BorderWidth="2"
+                                CornerRadius="30" BackgroundColor="#FCFDFF" Padding="10,1,10,1" HeightRequest="40"
+                                WidthRequest="120" HorizontalOptions="CenterAndExpand" Clicked="bt_applica_Clicked"></Button>
+                <!--
                 <Button
                     x:Name="bt_applica"
-                    Text="Applica"
+                    Text="Cerca"
                     WidthRequest="120"
                     HorizontalOptions="CenterAndExpand"
                     Clicked="bt_applica_Clicked">
                 </Button>
+                -->
             </StackLayout>
-
         </StackLayout>
     </ContentPage.Content>
 </pages:PopupPage>

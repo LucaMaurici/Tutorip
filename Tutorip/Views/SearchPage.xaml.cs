@@ -154,7 +154,7 @@ namespace Tutorip.Views
             this.IsEnabled = false;
             filtri.nomeMateria = en_materia.Text;
             var page = new FilterPage(this.filtri, this.insegnanti_list, this);
-            Opacity = 0.2;
+            Opacity = 0.15;
             await PopupNavigation.Instance.PushAsync(page);
             this.IsEnabled = true;
         }

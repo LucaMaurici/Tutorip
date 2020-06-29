@@ -51,6 +51,7 @@ namespace Tutorip.Views
             filtri.valutazioneMinima = float.Parse(en_valutazione.Text);
             filtri.distanzaMassima = float.Parse(en_distanzaMax.Text);
             //filtri.posizione = (Posizione)await positionAdapter.calcolaPosizione();
+            /*
             if (Preferences.Get("latitudineDefault", null) != null && cb_posizione.IsChecked)
             {
                 Posizione pos = new Posizione();
@@ -62,7 +63,7 @@ namespace Tutorip.Views
             else
             {
                 filtri.posizione = await positionAdapter.Indirizzo2Posizione(Preferences.Get("indirizzoCorrente", null));
-            }
+            }*/
 
             RisultatoRicercaInsegnanti[] elenco = await InsegnantiService.GetInsegnanti(filtri);
             if (elenco!=null)
