@@ -28,7 +28,7 @@ namespace Tutorip.Views
                 this.MenuItems.Add(new ElementoMenu("user6", "Profilo insegnante"));
             else
                 this.MenuItems.Add(new ElementoMenu("user6", "Diventa insegnante"));
-            this.MenuItems.Add(new ElementoMenu("star1", "Insegnanti preferiti"));
+            this.MenuItems.Add(new ElementoMenu("bookmark", "Insegnanti salvati"));
             if (Preferences.Get("id", null) == null)
                 this.MenuItems.Add(new ElementoMenu("users1", "Accedi o crea il tuo Account"));
             else

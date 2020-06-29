@@ -94,7 +94,9 @@
                                 Orientation="Horizontal">
                                 <Image
                                     Source="{Binding pathImmagine}"
-                                    Margin="15,0,0,0">
+                                    Margin="15,0,0,0"
+                                    WidthRequest="55"
+                                    HeightRequest="55">
                                 </Image>
                                 <Label
                                     Text="{Binding testo}"
