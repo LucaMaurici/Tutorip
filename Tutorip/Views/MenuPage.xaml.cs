@@ -111,7 +111,7 @@ namespace Tutorip.Views
                 }
             }
 
-            else if (em.testo == "Insegnanti preferiti")
+            else if (em.testo == "Insegnanti salvati")
             {
                 this.IsEnabled = false;
                 //await Navigation.PushAsync(new ProfilePage(new Insegnante()));
