@@ -20,6 +20,7 @@ namespace Tutorip.Views
         List<String> suggestions = new List<String>(); //deve essere di materia per fare la list view più carina
         public Filtri filtri;
         PositionAdapter positionAdapter;
+        
         public SearchPage()
         {
             InitializeComponent();
@@ -30,9 +31,15 @@ namespace Tutorip.Views
             filtri.setDefault();
             setPositionButtonTextValue();
             calcolaPosizione();
+            setNomeUtente();
 
-            if (Preferences.Get("isUsingCurrentPos", null) == null)
-                this.eUnaPosizione.Text = "e una posizione di ricerca";
+            /* if (Preferences.Get("isUsingCurrentPos", null) == null)
+                this.eUnaPosizione.Text = "e una posizione di ricerca";*/
+        }
+
+        private void setNomeUtente()
+        {
+            NomeUtente.Text = Preferences.Get("nome", "");
         }
 
         private async Task calcolaPosizione()
@@ -69,12 +76,10 @@ namespace Tutorip.Views
                 btn_posizione.Text = "Calcolando la posizione...";
                 await calcolaPosizione();
                 btn_posizione.Text = Preferences.Get("indirizzoCorrente", "");
-                this.eUnaPosizione.Text = "";
             }
             else if(Preferences.Get("isUsingCurrentPos", null) == "no")
             {
                 btn_posizione.Text = Preferences.Get("indirizzoDefault", "");
-                this.eUnaPosizione.Text = "";
             }
             else
                 btn_posizione.Text = "Seleziona una posizione di ricerca";
@@ -169,6 +174,7 @@ namespace Tutorip.Views
         private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
         {
             //da aggiungere qualcosa per conciliare la ricerca sulla entry con i risultati della precedente ricerca => probabilmente un isVIsible
+            WelcomeLabel.IsVisible = false;
             insegnanti_list.IsVisible = false;
             ListaDiMaterie.ItemsSource = null;
             var keyword = en_materia.Text;
@@ -196,6 +202,7 @@ namespace Tutorip.Views
                 }
             }
             ListaDiMaterie.ItemsSource = suggestions;
+
         }
 
         private void ListaDiMaterie_ItemTapped(object sender, ItemTappedEventArgs e)
