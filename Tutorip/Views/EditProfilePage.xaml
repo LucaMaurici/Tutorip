@@ -124,13 +124,15 @@
                 </StackLayout>
             </Frame>
             
-            <!--Frame materie-->
-            <Frame x:Name="fr_materie" Padding="20,10,20,20">
+            <!--MATERIE-->
+            <Frame x:Name="fr_materie" Padding="30,15,35,20">
                 <StackLayout>
-                    <Label Text="Inserisci le tue materie"></Label>
-                    <Button x:Name="btn_addMateria" Text="Aggiungi una materia" Clicked="btn_addMateria_Clicked" HorizontalOptions="End"></Button>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Che materie insegni?" FontSize="20" HorizontalOptions="FillAndExpand" Margin="0,5,0,0"></Label>
+                        <ImageButton x:Name="btn_addMateria" Source="add1" WidthRequest="35" HeightRequest="35" Padding="8"  BorderWidth="2" BorderColor="#06A73C" CornerRadius="50" BackgroundColor="Transparent" Clicked="btn_addMateria_Clicked" HorizontalOptions="End"></ImageButton>
+                    </StackLayout>
                     <StackLayout Orientation="Vertical" x:Name="StL_materie">
-                        <Entry x:Name="en1_materie" HorizontalOptions="FillAndExpand" Placeholder="Materia 1">
+                        <Entry x:Name="en1_materie" HorizontalOptions="FillAndExpand" Placeholder="Materia 1" TextColor="#666">
                             <Entry.Keyboard>
                                 <Keyboard x:FactoryMethod="Create">
                                     <x:Arguments>
@@ -143,18 +145,15 @@
                 </StackLayout>
             </Frame>
 
-            <!--Frame descrizione-->
-            <Frame>
-                <StackLayout x:Name="stl_iniziaDescrizione" Orientation="Horizontal" HeightRequest="22">
-                    <Label Text="Aggiungi una descrizione"></Label>
-                    <ImageButton x:Name="btn_addSezione" Source="edit1" Clicked="btn_addSezione_Clicked"></ImageButton>
-                    <!-- da cambiare-->
+            <!--DESCRIZIONE-->
+            <Frame Padding="30,0,35,0">
+                <StackLayout x:Name="stl_iniziaDescrizione" Orientation="Horizontal">
+                    <Label Text="Aggiungi una descrizione" FontSize="20" Margin="0,20,0,20" HorizontalOptions="FillAndExpand"></Label>
+                    <ImageButton x:Name="btn_addSezione" Source="add1" Margin="0,15,0,0" WidthRequest="35" HeightRequest="35" Padding="8"  BorderWidth="2" BorderColor="#06A73C" CornerRadius="50" VerticalOptions="StartAndExpand" TranslationY="0" BackgroundColor="Transparent" Clicked="btn_addSezione_Clicked"></ImageButton>
                 </StackLayout>
             </Frame>
-            <Frame>
-                <StackLayout x:Name="stl_descrizione" Orientation="Vertical"> 
-                </StackLayout>
-            </Frame>
+            <StackLayout x:Name="stl_descrizione" Orientation="Vertical">
+            </StackLayout>
         </StackLayout>
     </ScrollView>
 </ContentPage>

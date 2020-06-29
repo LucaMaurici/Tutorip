@@ -81,19 +81,21 @@ namespace Tutorip.Views
             
             //descrizione
             insegnante.descrizione = new List<SezioneProfilo>();
+            int indice = 1;
             foreach(var element in this.stl_descrizione.Children)
             {
                 Frame frame = (Frame)element;
                 StackLayout stack = (StackLayout) frame.Content;
                 SezioneProfilo s = new SezioneProfilo();
-                Entry entryIndice = (Entry)stack.Children[0];
-                s.indice = int.Parse(entryIndice.Text);
-                Entry entryTitolo = (Entry)stack.Children[1];
+                //Entry entryIndice = (Entry)stack.Children[0];
+                s.indice = indice;//int.Parse(entryIndice.Text);
+                Entry entryTitolo = (Entry)stack.Children[0];
                 s.titolo = entryTitolo.Text;
-                Entry entryCorpo = (Entry)stack.Children[2];
+                Entry entryCorpo = (Entry)stack.Children[1];
                 s.corpo = entryCorpo.Text;
                 s.idInsegnante = insegnante.id;
                 this.insegnante.descrizione.Add(s);
+                indice++;
             }
 
             //modalità
@@ -156,29 +158,29 @@ namespace Tutorip.Views
 
         private void btn_addMateria_Clicked(object sender, EventArgs e)
         {
-            var entry = new Entry { Placeholder= "Materia " + indiceCampoMateria};
+            var entry = new Entry { Placeholder= "Materia " + indiceCampoMateria, TextColor = Color.FromHex("#666"), Margin =5 };
             //AutomationProperties.SetIsInAccessibleTree(entry, true);
             //AutomationProperties.SetName(entry, "entry" + indice.ToString());
             entry.Keyboard = Keyboard.Create(KeyboardFlags.Suggestions);
             indiceCampoMateria++;
             this.StL_materie.Children.Add(entry);
-            this.scrollView.FadeTo(1, 150, Easing.CubicIn);
-            this.scrollView.ScrollToAsync(0, entry.Y, true);
+            this.scrollView.FadeTo(1, 1500, Easing.CubicIn);
+            this.scrollView.ScrollToAsync(0, entry.Y+100, true);
         }
-
+        //<Entry x:Name="en_nome" Placeholder="Nome C." WidthRequest="200" Keyboard="Text" HorizontalTextAlignment="Center" TextColor="#666" FontAttributes="Bold" FontSize="25" Margin="5,0,5,0" TranslationX="-3" HorizontalOptions="CenterAndExpand"></Entry>
         private void btn_addSezione_Clicked(object sender, EventArgs e)
         {
-            var frame = new Frame { Padding = 10 };
-            var Stack = new StackLayout { Orientation = StackOrientation.Vertical};
-            var entryIndice = new Entry { Placeholder = "Indice", Keyboard = Keyboard.Numeric, HorizontalOptions = LayoutOptions.End};
-            var entryTitolo = new Entry { Placeholder = "Titolo", Keyboard = Keyboard.Text, HorizontalOptions = LayoutOptions.StartAndExpand };
-            var entryCorpo = new Entry { Placeholder = "Testo", Keyboard = Keyboard.Text, HorizontalOptions = LayoutOptions.StartAndExpand };
-            Stack.Children.Add(entryIndice);
+            var frame = new Frame { Padding = new Thickness(30,20,30,20) };
+            var Stack = new StackLayout { Orientation = StackOrientation.Vertical };
+            //var entryIndice = new Entry { Placeholder = "Indice", Keyboard = Keyboard.Numeric, HorizontalOptions = LayoutOptions.End};
+            var entryTitolo = new Entry { Placeholder="Titolo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), FontAttributes=FontAttributes.Bold, FontSize=25, HorizontalOptions=LayoutOptions.FillAndExpand };
+            var entryCorpo = new Editor { Placeholder="Corpo", Keyboard=Keyboard.Text, TextColor = Color.FromHex("#666"), HeightRequest=200, HorizontalOptions=LayoutOptions.FillAndExpand };
+            //Stack.Children.Add(entryIndice);
             Stack.Children.Add(entryTitolo);
             Stack.Children.Add(entryCorpo);
             frame.Content = Stack;
             this.stl_descrizione.Children.Add(frame);
-            //this.scrollView.ScrollToAsync(0, entryCorpo.Y, true); Non funziona
+            this.scrollView.ScrollToAsync(0, frame.Y+2000, true);
         }
     }
 }
