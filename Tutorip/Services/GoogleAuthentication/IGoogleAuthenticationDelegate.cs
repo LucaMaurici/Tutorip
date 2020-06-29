@@ -4,7 +4,7 @@ namespace Tutorip.GoogleAuthentication.Services
 {
     public interface IGoogleAuthenticationDelegate
     {
-        void OnAuthenticationCompleted(GoogleOAuthToken token);
+        void OnAuthenticationCompleted(OAuthToken token);
         void OnAuthenticationFailed(string message, Exception exception);
         void OnAuthenticationCanceled();
     }

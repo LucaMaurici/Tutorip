@@ -6,6 +6,7 @@ using Android.Util;
 using Android.Widget;
 using Java.Lang;
 using Java.Security;
+using Xamarin.Essentials;
 using System;
 using System.Collections.Generic;
 using System.Json;
@@ -15,6 +16,9 @@ using Xamarin.Auth;
 using Xamarin.Facebook;
 using Xamarin.Facebook.Login;
 using Xamarin.Facebook.Login.Widget;
+using Tutorip.Models;
+using Tutorip.GoogleAuthentication.Services;
+using Tutorip.Services;
 
 namespace Tutorip.Droid
 {
@@ -49,7 +53,6 @@ namespace Tutorip.Droid
         public void OnCancel() {
             //Questo metodo viene richiamato solo se l'utente chiude la finestra di login senza concludere la procedura. Un toast è più che sufficiente per informare l'utente che 
             //L'operazione è stata cancellata
-            Console.WriteLine("llalalala");
             Toast.MakeText(this, "Cancellato", ToastLength.Long).Show();
         }
 
@@ -58,10 +61,19 @@ namespace Tutorip.Droid
             //Qui si deve implementare la logica in caso di errori durante il login
         }
 
-        public void OnSuccess(Java.Lang.Object result) {
+        public async void OnSuccess(Java.Lang.Object result) {
             //Qui si deve implementare la logica per prendere i dati dal profilo dell'utente e poterli utilizzare nell'applicazione.
-            Console.WriteLine("sususususus");
-            Console.WriteLine(result);
+            LoginResult lr = result as LoginResult;
+            string token = lr.AccessToken.Token;
+            Console.WriteLine(token);
+            FacebookService facebookService = new FacebookService();
+            var facebookProfile = await facebookService.GetEmailAsync(token);
+            Preferences.Set("accessToken", token);
+            Preferences.Set("email", facebookProfile.email);
+            Preferences.Set("nome", facebookProfile.first_name);
+            Preferences.Set("cognome", facebookProfile.last_name);
+            var credenziali = new Credenziali(facebookProfile.email, new OAuthToken("Bearer", token));
+            UtenteCredenzialiService.Salva(credenziali, new Utente(facebookProfile.first_name, facebookProfile.last_name));
             Toast.MakeText(this, "Success", ToastLength.Long).Show();
         }
     }

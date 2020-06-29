@@ -1,10 +1,10 @@
 ﻿namespace Tutorip.GoogleAuthentication.Services
 {
-    public class GoogleOAuthToken
+    public class OAuthToken
     {
         public string TokenType { get; set; }
         public string AccessToken { get; set; }
-        public GoogleOAuthToken(string TokenType, string AccessToken)
+        public OAuthToken(string TokenType, string AccessToken)
         {
             this.TokenType = TokenType;
             this.AccessToken = AccessToken;

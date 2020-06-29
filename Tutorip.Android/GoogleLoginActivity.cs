@@ -39,7 +39,7 @@ namespace Tutorip.Droid
             StartActivity(intent);
         }
 
-        public async void OnAuthenticationCompleted(GoogleOAuthToken token)
+        public async void OnAuthenticationCompleted(OAuthToken token)
         {
             var googleService = new GoogleService();
             var profile = await googleService.GetProfileAsync(token.TokenType, token.AccessToken);

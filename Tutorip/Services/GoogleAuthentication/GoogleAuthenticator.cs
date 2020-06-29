@@ -38,7 +38,7 @@ namespace Tutorip.GoogleAuthentication.Services
         {
             if (e.IsAuthenticated)
             {
-                var token = new GoogleOAuthToken(e.Account.Properties["token_type"], e.Account.Properties["access_token"]);
+                var token = new OAuthToken(e.Account.Properties["token_type"], e.Account.Properties["access_token"]);
                 /*
                 {
                     TokenType = e.Account.Properties["token_type"],

@@ -11,7 +11,7 @@
         <StackLayout x:Name="btn_stack" Orientation="Vertical" VerticalOptions="Center">
             <Frame BorderColor="Black">
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="bookmark"></Image>
+                    <Image Source="bookmark" HeightRequest="25" WidthRequest="25"></Image>
                     <!--da cambiare-->
                     <Button x:Name="LogGoogBtn"
                         Text="Login with Google"
@@ -23,7 +23,7 @@
             </Frame>
             <Frame BorderColor="Black">
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="bookmark"></Image>
+                    <Image Source="bookmark" HeightRequest="25" WidthRequest="25"></Image>
                     <!--da cambiare-->
                     <Button x:Name="LogFbBtn"
                         Text="Login with Facebook"
