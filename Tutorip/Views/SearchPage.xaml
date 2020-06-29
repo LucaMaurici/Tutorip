@@ -34,7 +34,9 @@
                                     <Setter Property="Scale" Value="0.8" />
                                 </VisualState.Setters>
                             </VisualState>
-                    </VisualStateGroup></VisualStateManager.VisualStateGroups></ImageButton>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                </ImageButton>
                 <Button
                     x:Name="btn_posizione"
                     HorizontalOptions="FillAndExpand"
@@ -100,6 +102,9 @@
                 </ImageButton>
             </StackLayout>
         </Frame>
+
+        <!--<ProgressBar x:Name="progressBar" ProgressColor="#358" IsVisible="false"/>-->
+        <ProgressBar x:Name="progressBar" ProgressColor="#999" IsVisible="false" Margin="0,5,0,0" HeightRequest="3"/>
 
         <ListView x:Name="insegnanti_list" IsVisible="False" ItemTapped="insegnanti_list_ItemTapped" RowHeight="190" Margin="15,0,15,0">
             <ListView.ItemTemplate>
