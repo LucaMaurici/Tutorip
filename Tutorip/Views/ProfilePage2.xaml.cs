@@ -269,48 +269,10 @@ namespace Tutorip.Views
             this.lbl_fav.Text = "Salvato";
             InsegnantiService.aggiungiPreferito(int.Parse(Preferences.Get("id", null)), insegnante.id);
         }
-        /*
-        <Frame Padding="20,8,20,20">
-                <StackLayout>
-                    <Label Text="Recensioni" FontSize="35" FontAttributes="Bold" Margin="15,0,0,10"></Label>
-                    <StackLayout Orientation="Horizontal" Margin="0,-15,0,0">
-                        <StackLayout HorizontalOptions="CenterAndExpand">
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                                <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                                <Label x:Name="num_spg_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
-                            </StackLayout>
-                            <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="None" FontSize="16"/>
-                        </StackLayout>
-                        <StackLayout HorizontalOptions="CenterAndExpand">
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                                <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                                <Label x:Name="num_emp_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
-                            </StackLayout>
-                            <Label x:Name="eval_emp_lbl" Text="Empatia" FontAttributes="None" FontSize="16" TranslationX="5"/>
-                        </StackLayout>
-                        <StackLayout HorizontalOptions="CenterAndExpand">
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                                <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                                <Label x:Name="num_org_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
-                            </StackLayout>
-                            <Label x:Name="eval_org_lbl" Text="Organizzazione" TranslationX="6" FontAttributes="None" FontSize="16"/>
-                        </StackLayout>
-                    </StackLayout>
-                </StackLayout>
-            </Frame>
-
-            <StackLayout HorizontalOptions = "CenterAndExpand" >
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
-                    <Image Source = "star1" WidthRequest="15" HeightRequest="15"></Image>
-                    <Label x:Name="num_spg_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
-                </StackLayout>
-                <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="None" FontSize="16"/>
-            </StackLayout>
-        */
+        
         private void btn_recensione_Clicked(object sender, EventArgs e)
         {
             btn_recensione.IsVisible = false;
-            //TODO carine
 
             var stackTitVal = new StackLayout { Orientation=StackOrientation.Horizontal };
             var entryTitolo = new Entry { Placeholder="Titolo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), FontAttributes=FontAttributes.Bold, FontSize=25, HorizontalOptions=LayoutOptions.FillAndExpand };
@@ -318,11 +280,6 @@ namespace Tutorip.Views
             var entryValGen = new Entry { Placeholder="Voto/10", WidthRequest=80, Keyboard=Keyboard.Numeric, HorizontalOptions=LayoutOptions.End, FontAttributes=FontAttributes.Bold, HorizontalTextAlignment=TextAlignment.Center };
 
             var entryCorpo = new Editor { Placeholder="Corpo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), HeightRequest=160, HorizontalOptions=LayoutOptions.FillAndExpand };
-            /*
-            var entryEmpatia = new Entry { Placeholder = "Empatia", Keyboard = Keyboard.Numeric };
-            var entrySpieg = new Entry { Placeholder = "Spiegazione", Keyboard = Keyboard.Numeric };
-            var entryOrg = new Entry { Placeholder = "Organizzazione", Keyboard = Keyboard.Numeric };
-            */
 
             var stackHor = new StackLayout { Orientation = StackOrientation.Horizontal };
 
@@ -380,9 +337,6 @@ namespace Tutorip.Views
             stackHorOrg.Children.Add(stellaOrg);
             stackHorOrg.Children.Add(entryOrganizzazione);
             stackValOrg.Children.Add(labelOrganizzazione);
-
-            //this.stl_recensione.Children.Add(entrySpieg);
-            //this.stl_recensione.Children.Add(entryOrg);
 
             this.btn_salvaRecensione.IsVisible = true;
             this.sl_anonimo.IsVisible = true;
