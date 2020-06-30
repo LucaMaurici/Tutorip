@@ -7,8 +7,7 @@
              x:Class="Tutorip.Views.ProfilePage2"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="#FFFDF7"
-             xmlns:f9p="clr-namespace:Forms9Patch;assembly=Forms9Patch"
-             BackgroundColor="#F8F8F7">
+             xmlns:f9p="clr-namespace:Forms9Patch;assembly=Forms9Patch">
     
     <ScrollView x:Name="scrollView">
         <StackLayout>

@@ -63,10 +63,10 @@
                 </StackLayout>
             </Frame>
         </StackLayout>
-        <StackLayout VerticalOptions="EndAndExpand" Padding="0,0,0,15">
+        <StackLayout VerticalOptions="End" Margin="0,0,0,170">
             <Button x:Name="btn_logout" Text="Logout" BorderColor="#358" BorderWidth="2"
-                        CornerRadius="30" BackgroundColor="#FCFDFF" Padding="10,1,10,1" HeightRequest="40"
-                        WidthRequest="120" HorizontalOptions="CenterAndExpand" Clicked="btn_logout_Clicked"></Button>
+                        CornerRadius="30" BackgroundColor="#FCFDFF" Padding="10,1,10,1" HeightRequest="50"
+                        WidthRequest="140" HorizontalOptions="CenterAndExpand" Clicked="btn_logout_Clicked"></Button>
         </StackLayout>
     </StackLayout>
 </ContentPage>
