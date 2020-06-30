@@ -351,6 +351,7 @@ namespace Tutorip.Views
 
             this.btn_salvaRecensione.IsVisible = true;
             this.sl_anonimo.IsVisible = true;
+            this.scrollView.ScrollToAsync(0, btn_salvaRecensione.Y + 1000, true);
         }
 
         private void btn_salvaRecensione_Clicked(object sender, EventArgs e)
