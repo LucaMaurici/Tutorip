@@ -41,16 +41,19 @@ namespace Tutorip.Services
         internal static async Task<Insegnante> getInsegnante(int id)
         {
             Insegnante i = await InsegnantiRepository.findInsegnanteById(id, Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
-            
-            if (i.valutazioneMedia == "0")
+            if (i != null)
             {
-                i.valutazioneMedia = "-";
+                if (i.valutazioneMedia == "0")
+                {
+                    i.valutazioneMedia = "-";
+                }
+                else
+                {
+                    i.valutazioneMedia = ArrotondaStringa(i.valutazioneMedia);
+                }
+                return i;
             }
-            else
-            {
-                i.valutazioneMedia = ArrotondaStringa(i.valutazioneMedia);
-            }
-            return i;
+            return null;
         }
 
         public static void aggiungiPreferito(int cod_utente, int cod_insegnante)
