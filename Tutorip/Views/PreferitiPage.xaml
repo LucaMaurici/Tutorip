@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:f9p="clr-namespace:Forms9Patch;assembly=Forms9Patch"
              mc:Ignorable="d"
              x:Class="Tutorip.Views.PreferitiPage"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#F8F8F7">
 
     <StackLayout>
         <StackLayout

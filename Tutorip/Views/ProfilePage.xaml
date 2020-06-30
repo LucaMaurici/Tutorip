@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="Tutorip.Views.ProfilePage"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="White">
+             BackgroundColor="#F8F8F7">
 
     <StackLayout BackgroundColor="White" VerticalOptions="Center">
         <Grid RowSpacing="0">

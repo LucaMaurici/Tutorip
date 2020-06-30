@@ -7,7 +7,8 @@
              x:Class="Tutorip.Views.SearchPage"
              Title="{Binding Title}"
              NavigationPage.HasNavigationBar="False"
-             Padding="5">
+             Padding="5"
+             BackgroundColor="#F8F8F7">
     <!--BackgroundImageSource="sfondoConLineeObliqueS2"-->
 
     <StackLayout>

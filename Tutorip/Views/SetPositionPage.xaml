@@ -8,7 +8,8 @@
              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
              CloseWhenBackgroundIsClicked="True"
              BackgroundClicked="torna_indietro"
-             BackgroundColor="Transparent">
+             BackgroundColor="#F8F8F7">
+    
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="Center">
             <Label Text="Seleziona l'indirizzo di ricerca" HeightRequest="30" FontSize="Large" FontAttributes="Bold"/>

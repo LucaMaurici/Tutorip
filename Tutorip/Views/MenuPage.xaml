@@ -4,7 +4,9 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Tutorip.Views.MenuPage">
+             x:Class="Tutorip.Views.MenuPage"
+             BackgroundColor="#F8F8F7">
+    
     <StackLayout
         Orientation="Vertical">
         <StackLayout
@@ -127,22 +129,8 @@
         </ListView>
 
         <Button x:Name="btn_crediti" Text="Crediti" HorizontalOptions="Center" Margin="0,0,0,20" 
-                BackgroundColor="Transparent" BorderWidth="1" BorderColor="DarkBlue" CornerRadius="50"
+                BorderWidth="1.2" BackgroundColor="#FCFDFF" HeightRequest="40" BorderColor="DarkBlue" CornerRadius="50"
                 Clicked="btn_crediti_Clicked">
-            <VisualStateManager.VisualStateGroups>
-                <VisualStateGroup x:Name="CommonStates">
-                    <VisualState x:Name="Normal">
-                        <VisualState.Setters>
-                            <Setter Property="Scale" Value="1" />
-                        </VisualState.Setters>
-                    </VisualState>
-                    <VisualState x:Name="Pressed">
-                        <VisualState.Setters>
-                            <Setter Property="Scale" Value="0.8" />
-                        </VisualState.Setters>
-                    </VisualState>
-                </VisualStateGroup>
-            </VisualStateManager.VisualStateGroups>
         </Button>
         
     </StackLayout>

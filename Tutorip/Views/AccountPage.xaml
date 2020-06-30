@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="Tutorip.Views.AccountPage"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="White">
+             BackgroundColor="#F8F8F7">
+    
     <StackLayout Orientation="Vertical" VerticalOptions="Fill">
         <StackLayout
             Orientation="Horizontal"

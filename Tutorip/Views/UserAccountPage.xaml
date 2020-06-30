@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Tutorip.Views.UserAccountPage"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#F8F8F7">
     <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
         <StackLayout
             Orientation="Horizontal"

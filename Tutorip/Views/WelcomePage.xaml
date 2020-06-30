@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Tutorip.Views.WelcomePage"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#F8F8F7">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
             <StackLayout Orientation="Horizontal" Padding="15" VerticalOptions="Start">
@@ -29,18 +30,19 @@
                 </Label>
             </StackLayout>
             <StackLayout Orientation="Vertical" VerticalOptions="Center" Padding="20,20,20,0">
-                <Label Text="Ora che sei un utente di Tutorip puoi" FontSize="19" Margin="0,0,0,40"/>
+                <Image Source="teacher" WidthRequest="70" HeightRequest="70" HorizontalOptions="Center"></Image>
+                <Label Text="Ora che sei un utente di Tutorip puoi" FontSize="25" HorizontalTextAlignment="Center" Margin="0,10,0,40"/>
                 <StackLayout Orientation="Horizontal" Margin="0,0,0,15" Padding="0,0,10,0">
-                    <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
+                    <Image Source="success" WidthRequest="22" HeightRequest="22" Margin="0,0,10,0"></Image>
                     <Label Text="Creare il tuo profilo da insegnante" FontSize="Medium"></Label>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Margin="0,0,0,15" Padding="0,0,10,0">
-                    <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
+                    <Image Source="success" WidthRequest="22" HeightRequest="22" Margin="0,0,10,0"></Image>
                     <Label Text="Salvare i professori che fanno più al tuo caso per rivedere il loro profilo quando vuoi" FontSize="Medium"></Label>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Margin="0,0,0,15" Padding="0,0,10,0">
-                    <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
-                    <Label Text="Lasciare una recensione ai professori" FontSize="Medium"></Label>
+                    <Image Source="success" WidthRequest="22" HeightRequest="22" Margin="0,0,10,0"></Image>
+                    <Label Text="Lasciare una recensione agli insegnanti" FontSize="Medium"></Label>
                 </StackLayout>
             </StackLayout>
         </StackLayout>
