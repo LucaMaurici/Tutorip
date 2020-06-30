@@ -1,5 +1,6 @@
 ﻿using Java.Lang;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Tutorip.Models;
 using Tutorip.Services;
@@ -12,45 +13,24 @@ namespace Tutorip.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AccountPage : ContentPage
     {
-        PositionAdapter positionAdapter;
+        List<ElementoMenu> MenuItems;
         public AccountPage()
         {
             InitializeComponent();
-            //pageLayout();
-            positionAdapter = new PositionAdapter();
+            this.MenuItems = new List<ElementoMenu>();
             creaListaMenuItem();
         }
 
         private void creaListaMenuItem()
         {
-            //this.MenuItems.Clear();
-            //if (Preferences.Get("isInsegnante", false))
+            this.MenuItems.Clear();
             this.MenuItems = new List<ElementoMenu>();
             this.MenuItems.Add(new ElementoMenu("google", "Accedi con Google"));
             this.MenuItems.Add(new ElementoMenu("facebook", "Accedi con Facebook"));
-            Menu.ItemsSource = this.MenuItems;
+            PossibleLog.ItemsSource = this.MenuItems;
         }
 
-        /*private void pageLayout()
-        {
-            if(Preferences.Get("id", null) != null)
-            {
-                setNameSpan();
-                btn_stack.IsVisible = false;
-            }
-            else
-            {
-                name_frame.IsVisible = false;
-                pos_frame.IsVisible = false;
-            }
-        }*/
-
-        /*private void setNameSpan()
-        {
-            nameSpan.Text = Preferences.Get("nome", null) + " " + Preferences.Get("cognome", null);
-        }*/
-
-        private async void LogGoogBtn_clicked(object sender, EventArgs e)
+        /*private async void LogGoogBtn_clicked(object sender, EventArgs e)
         {
             await Task.Run(() => { DependencyService.Get<INativePages>().StartPage(); });
             Navigation.InsertPageBefore(new WelcomePage(), this);
@@ -60,7 +40,9 @@ namespace Tutorip.Views
         private void LogFbBtn_clicked(object sender, EventArgs e)
         {
             DependencyService.Get<INativePages>().FacebookStartPage();
-        }
+        }*/
+
+
 
         protected override bool OnBackButtonPressed()
         {
@@ -70,12 +52,30 @@ namespace Tutorip.Views
             return true;
         }
 
-        /*private async void PosBtn_clicked(object sender, EventArgs e)
+        private void bt_indietro_Clicked(object sender, EventArgs e)
         {
-            Posizione p = await positionAdapter.Indirizzo2Posizione(pos_entry.Text);
-            Preferences.Set("latitudine", p.latitudine.ToString());
-            Preferences.Set("longitudine", p.longitudine.ToString());
-            Preferences.Set("indirizzo", p.indirizzo.ToString());
-        }*/
+            Navigation.InsertPageBefore(new MenuPage(), this);
+            Navigation.PopAsync();
+        }
+
+        private async void PossibleLog_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            if (sender is ListView lv)
+                lv.SelectedItem = null;
+            ElementoMenu em = (ElementoMenu)e.Item;
+            if (em.testo == "Accedi con Google")
+            {
+                await Task.Run(() => { DependencyService.Get<INativePages>().StartPage(); });
+                Navigation.InsertPageBefore(new WelcomePage(), this);
+                await Navigation.PopAsync();
+            }
+            else if (em.testo == "Accedi con Facebook")
+            {
+                await Task.Run(() => { DependencyService.Get<INativePages>().FacebookStartPage(); });
+                Navigation.InsertPageBefore(new WelcomePage(), this);
+                await Navigation.PopAsync();
+            }
+                
+        }
     }
 }

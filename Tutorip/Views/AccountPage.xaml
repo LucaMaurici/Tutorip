@@ -7,10 +7,11 @@
              x:Class="Tutorip.Views.AccountPage"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
-    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+    <StackLayout Orientation="Vertical" VerticalOptions="Fill">
         <StackLayout
             Orientation="Horizontal"
-            Padding="15">
+            Padding="15"
+            VerticalOptions="Start">
             <ImageButton
                 x:Name="bt_indietro"
                 Source="restart"
@@ -21,17 +22,16 @@
                 WidthRequest="35">
             </ImageButton>
             <Label
-                Text="Menu"
-                FontSize="28"
+                Text="Accedi o crea un account"
+                FontSize="23"
                 Margin="10,0,0,0">
             </Label>
         </StackLayout>
-        <Label Text="Accedi o crea un account" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+        <!--<Label Text="Accedi o crea un account" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center"></Label>
         <StackLayout x:Name="btn_stack" Orientation="Vertical" VerticalOptions="Center">
             <Frame>
                 <StackLayout Orientation="Horizontal">
                     <Image Source="bookmark" HeightRequest="25" WidthRequest="25"></Image>
-                    <!--da cambiare-->
                     <Button x:Name="LogGoogBtn"
                         Text="Login with Google"
                         Clicked="LogGoogBtn_clicked"
@@ -43,7 +43,6 @@
             <Frame Padding="0, 20,0,0">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="bookmark" HeightRequest="25" WidthRequest="25"></Image>
-                    <!--da cambiare-->
                     <Button x:Name="LogFbBtn"
                         Text="Login with Facebook"
                         Clicked="LogFbBtn_clicked"
@@ -52,8 +51,9 @@
                         CornerRadius="30"></Button>
                 </StackLayout>
             </Frame>
-        </StackLayout>
-        <ListView x:Name="Menu" SeparatorVisibility="None" ItemTapped="Menu_ItemTapped" RowHeight="120" Margin="15,0,15,0">
+        </StackLayout>-->
+        <ListView x:Name="PossibleLog" SeparatorVisibility="None" ItemTapped="PossibleLog_ItemTapped" RowHeight="120" Margin="15,100,15,0" VerticalOptions="FillAndExpand"
+                  VerticalScrollBarVisibility="Never">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
