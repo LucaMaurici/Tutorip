@@ -135,72 +135,92 @@ namespace Tutorip.Views
             this.lb_email.Text = insegnante.contatti.emailContatto;
             this.lb_cellulare.Text = insegnante.contatti.cellulare;
             this.lb_facebook.Text = insegnante.contatti.facebook;
-            this.sp_eval.Text = insegnante.valutazioneMedia;
+            this.sp_eval.Text = insegnante.valutazioneMedia.ToString();
             this.name_lbl.Text = insegnante.nomeDaVisualizzare;
             this.tariffa_spn.Text = insegnante.tariffa.ToString();
 
-            int media = 0;
+            float media = 0;
             int lunghezza = 0;
-            foreach(Recensione r in insegnante.recensioni)
+            if (this.insegnante.recensioni != null)
             {
-                if(r.empatia != 0)
+                foreach (Recensione r in insegnante.recensioni)
                 {
-                    lunghezza++;
+                    if (r.empatia != 0)
+                    {
+                        lunghezza++;
+                    }
                 }
-            }
-            foreach(Recensione r in insegnante.recensioni)
-            {
-                if(r.empatia != 0)
+                foreach (Recensione r in insegnante.recensioni)
                 {
-                    media = (media + (int)r.empatia) / lunghezza;
+                    if (r.empatia != 0)
+                    {
+                        media = (media + (int)r.empatia) / lunghezza;
+                    }
                 }
-            }
-            this.num_emp_lbl.Text = media.ToString();
+                this.num_emp_lbl.Text = Math.Round(media, 1).ToString();
 
-            media = 0;
-            lunghezza = 0;
-            foreach (Recensione r in insegnante.recensioni)
-            {
-                if (r.spiegazione != 0)
+                media = 0;
+                lunghezza = 0;
+                foreach (Recensione r in insegnante.recensioni)
                 {
-                    lunghezza++;
+                    if (r.spiegazione != 0)
+                    {
+                        lunghezza++;
+                    }
                 }
-            }
-            foreach (Recensione r in insegnante.recensioni)
-            {
-                if (r.spiegazione != 0)
+                foreach (Recensione r in insegnante.recensioni)
                 {
-                    media = (media + (int)r.spiegazione) / lunghezza;
+                    if (r.spiegazione != 0)
+                    {
+                        media = (media + (int)r.spiegazione) / lunghezza;
+                    }
                 }
-            }
-            this.num_spg_lbl.Text = media.ToString();
+                this.num_spg_lbl.Text = Math.Round(media, 1).ToString();
 
-            media = 0;
-            lunghezza = 0;
-            foreach (Recensione r in insegnante.recensioni)
-            {
-                if (r.organizzazione != 0)
+                media = 0;
+                lunghezza = 0;
+                foreach (Recensione r in insegnante.recensioni)
                 {
-                    lunghezza++;
+                    if (r.organizzazione != 0)
+                    {
+                        lunghezza++;
+                    }
                 }
-            }
-            foreach (Recensione r in insegnante.recensioni)
-            {
-                if (r.organizzazione != 0)
+                foreach (Recensione r in insegnante.recensioni)
                 {
-                    media = (media + (int)r.organizzazione) / lunghezza;
+                    if (r.organizzazione != 0)
+                    {
+                        media = (media + (int)r.organizzazione) / lunghezza;
+                    }
                 }
+
+                this.num_org_lbl.Text = Math.Round(media, 1).ToString();
             }
+            
 
-            this.num_org_lbl.Text = media.ToString();
-
-            foreach (Materia materia in this.insegnante.materie)
+            //List<string> materie = new List<Materia>();
+            //foreach (Materia m in insegnante.materie)
+            //    materie.Add(m);
+            //this.subject_list.ItemsSource = insegnante.materie;
+            if(this.insegnante.materie != null)
             {
-                this.flx_materie.Children.Add(new Button { 
-                    Text = materia.nome, HorizontalOptions=LayoutOptions.Start, 
-                    BackgroundColor=Color.Transparent, FontSize=13, TextColor=Color.FromHex("#0E5D90"), BorderColor=Color.FromHex("#0E5D90"),
-                    BorderWidth=1, CornerRadius=20, Padding= new Thickness(10, 1, 10, 1), Margin=3, HeightRequest=30
-                });
+                foreach (Materia materia in this.insegnante.materie)
+                {
+                    this.flx_materie.Children.Add(new Button
+                    {
+                        Text = materia.nome,
+                        HorizontalOptions = LayoutOptions.Start,
+                        BackgroundColor = Color.Transparent,
+                        FontSize = 13,
+                        TextColor = Color.FromHex("#0E5D90"),
+                        BorderColor = Color.FromHex("#0E5D90"),
+                        BorderWidth = 1,
+                        CornerRadius = 20,
+                        Padding = new Thickness(10, 1, 10, 1),
+                        Margin = 3,
+                        HeightRequest = 30
+                    });
+                }
             }
         }
 
@@ -250,6 +270,7 @@ namespace Tutorip.Views
 
         private void btn_recensione_Clicked(object sender, EventArgs e)
         {
+            btn_recensione.IsVisible = false;
             //TODO carine
             var entryValMed = new Entry { Placeholder = "ValutazioneMedia", Keyboard = Keyboard.Numeric };
             var entryEmpatia = new Entry { Placeholder = "Empatia", Keyboard = Keyboard.Numeric };
@@ -268,6 +289,7 @@ namespace Tutorip.Views
             this.stl_recensione.Children.Add(entryOrg);
 
             this.btn_salvaRecensione.IsVisible = true;
+            this.sl_anonimo.IsVisible = true;
         }
 
         private void btn_salvaRecensione_Clicked(object sender, EventArgs e)
@@ -308,6 +330,8 @@ namespace Tutorip.Views
             else r.organizzazione = 0;
 
             RecensioniService.Save(r);
+
+            this.fr_lasciaRecensione.IsVisible = false;
         }
     }
 }

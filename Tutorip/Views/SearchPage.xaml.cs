@@ -37,6 +37,7 @@ namespace Tutorip.Views
                 this.eUnaPosizione.Text = "e una posizione di ricerca";*/
         }
 
+
         private void setNomeUtente()
         {
             //NomeUtente.Text = Preferences.Get("nome", "");
@@ -87,7 +88,7 @@ namespace Tutorip.Views
 
         private async void search_btn_Clicked(object sender, EventArgs e)
         {
-            this.progressBar.IsVisible = true;
+            this.progressBar.Opacity = 1;
             this.progressBar.ProgressTo(0.85, 1500, Easing.CubicOut);
 
             filtri.nomeMateria = en_materia.Text;
@@ -107,16 +108,18 @@ namespace Tutorip.Views
                 pos.indirizzo = Preferences.Get("indirizzoCorrente", null);
                 filtri.posizione = pos;*/
                 RisultatoRicercaInsegnanti[] insegnanti = await InsegnantiService.GetInsegnanti(filtri);
+                
                 if (insegnanti != null)
                 {
                     foreach (RisultatoRicercaInsegnanti r in insegnanti)
                     {
                         r.distanza = this.positionAdapter.approssimaDistanza(r.distanza);
+                        /*
                         if (r.valutazioneMedia == null || r.valutazioneMedia == "")
                         {
                             //qualcosa per togliere la valutazione
                             r.valutazioneMedia = "-";
-                        }
+                        }*/
                     }
 
                     insegnanti_list.IsVisible = true;
@@ -125,12 +128,13 @@ namespace Tutorip.Views
                 }
                 else
                 {
+                    this.lb_errore.IsVisible = true;
                     insegnanti_list.IsVisible = false;
                     Console.WriteLine("Nessun insegnante");
                 }
             }
             await this.progressBar.ProgressTo(1, 100, Easing.CubicIn);
-            this.progressBar.IsVisible = false;
+            this.progressBar.Opacity = 0;
             this.progressBar.ProgressTo(0, 0, Easing.Linear);
         }
 

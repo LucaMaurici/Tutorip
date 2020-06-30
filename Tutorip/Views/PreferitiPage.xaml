@@ -21,11 +21,13 @@
                 WidthRequest="35">
             </ImageButton>
             <Label
-                Text="I tuoi preferiti"
+                Text="Insegnanti salvati"
                 FontSize="28"
                 Margin="10,0,0,0">
             </Label>
         </StackLayout>
+
+        <Label x:Name="lb_errore" Text="Nessun insegnante salvato" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Large" Margin="0,150,0,0" IsVisible="False"></Label>
 
         <ListView x:Name="preferiti_list" ItemTapped="preferiti_list_ItemTapped" RowHeight="190" Margin="15,0,15,0">
             <ListView.ItemTemplate>
@@ -54,9 +56,9 @@
                                         <Label x:Name="tariffa_lbl" TextColor="#2D8E80" FontAttributes="Bold" Margin="0,0,20,0">
                                             <Label.FormattedText>
                                                 <FormattedString>
-                                                    <Span FontSize="40" FontAttributes="Bold" Text="{Binding tariffa}"></Span>
+                                                    <Span FontSize="35" FontAttributes="Bold" Text="{Binding tariffa}"></Span>
                                                     <Span FontSize="25" FontAttributes="None"></Span>
-                                                    <Span FontSize="30" FontAttributes="None">€</Span>
+                                                    <Span FontSize="27" FontAttributes="None">€</Span>
                                                 </FormattedString>
                                             </Label.FormattedText>
                                         </Label>
@@ -65,7 +67,7 @@
                                         <Label x:Name="eval_lbl" FontAttributes="Bold" HorizontalOptions="StartAndExpand">
                                             <Label.FormattedText>
                                                 <FormattedString>
-                                                    <Span FontSize="40" FontAttributes="Bold" Text="{Binding valutazioneMedia}"></Span>
+                                                    <Span FontSize="35" FontAttributes="Bold" Text="{Binding valutazioneMedia}"></Span>
                                                     <Span FontSize="30" FontAttributes="Bold"></Span>
                                                 </FormattedString>
                                             </Label.FormattedText>

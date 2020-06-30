@@ -22,7 +22,7 @@ namespace Tutorip.Models
         public float? tariffa { get; set; }
 
         [JsonProperty("valutazioneMedia")]
-        public String valutazioneMedia { get; set; }
+        public string valutazioneMedia { get; set; }
 
         [JsonProperty("numeroValutazioni")]
         public int? numeroValutazioni { get; set; }
