@@ -346,8 +346,8 @@ namespace Tutorip.Views
             stackHorEmp.Children.Add(entryEmpatia);
             stackValEmp.Children.Add(labelEmpatia);
 
-            this.stl_recensione.Children.Add(entrySpieg);
-            this.stl_recensione.Children.Add(entryOrg);
+            //this.stl_recensione.Children.Add(entrySpieg);
+            //this.stl_recensione.Children.Add(entryOrg);
 
             this.btn_salvaRecensione.IsVisible = true;
             this.sl_anonimo.IsVisible = true;
