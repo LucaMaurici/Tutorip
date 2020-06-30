@@ -111,11 +111,23 @@ namespace Tutorip.Views
                 this.lb_gruppo.Text = "Lezione in singolo";
 
             if (insegnante.modalita == 0)
+            {
                 this.lb_mod.Text = "In presenza";
+                this.img_dist.IsVisible = false;
+                this.img_pres.IsVisible = true;
+            }
             if (insegnante.modalita == 1)
+            {
                 this.lb_mod.Text = "A distanza";
+                this.img_dist.IsVisible = true;
+                this.img_pres.IsVisible = false;
+            }
             if (insegnante.modalita == 2)
+            {
                 this.lb_mod.Text = "In presenza e a distanza";
+                this.img_dist.IsVisible = true;
+                this.img_pres.IsVisible = true;
+            }
 
             if (int.Parse(Preferences.Get("id", (0).ToString())) != insegnante.id)
                 this.distanza_lbl.Text = insegnante.Distanza;
@@ -181,11 +193,6 @@ namespace Tutorip.Views
             }
 
             this.num_org_lbl.Text = media.ToString();
-
-            //List<string> materie = new List<Materia>();
-            //foreach (Materia m in insegnante.materie)
-            //    materie.Add(m);
-            //this.subject_list.ItemsSource = insegnante.materie;
 
             foreach (Materia materia in this.insegnante.materie)
             {

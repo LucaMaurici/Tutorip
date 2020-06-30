@@ -4,9 +4,28 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Tutorip.Views.Page1">
+             x:Class="Tutorip.Views.Crediti"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Orientation="Vertical">
+            <StackLayout
+                Orientation="Horizontal"
+                Padding="15">
+                <ImageButton
+                    x:Name="bt_indietro"
+                    Source="restart"
+                    Margin="0,0,0,0"
+                    BackgroundColor="Transparent"
+                    Clicked="bt_indietro_Clicked"
+                    HeightRequest="35"
+                    WidthRequest="35">
+                </ImageButton>
+                <Label
+                    Text="Crediti"
+                    FontSize="28"
+                    Margin="10,0,0,0">
+                </Label>
+            </StackLayout>
             <!--
             <Label 
                 </Label>Text="<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons"> Smashicons
@@ -15,6 +34,17 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             -->
+            <StackLayout Orientation="Vertical" Padding="0,0,0,0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Label Text="Realizzata da" Padding="0,5,0,0" FontAttributes="Bold" FontSize="35" HorizontalTextAlignment="Center"></Label>
+                <Label Text="Lorenzo Mattia" Padding="0,5,0,0" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                <Label Text="Luca Maurici" Padding="0,5,0,0" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                <Label Text="Alessandro Vitale" Padding="0,5,0,0" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+
+            <Label VerticalOptions="EndAndExpand" HorizontalOptions="Center" Text="Icons made by Smashicons from Flaticon" FontSize="Small" FontAttributes="Bold"
+                   Margin="0,0,0,15"></Label>
+            <Label VerticalOptions="End" HorizontalOptions="Center" Text="Logo made by Iconixar from Flaticon" FontSize="Small" FontAttributes="Bold"
+                   Margin="0,0,0,15"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

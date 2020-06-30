@@ -205,6 +205,8 @@ namespace Tutorip.Views
             String m = (String) e.Item; ////deve essere castato a materia per fare più carina la cosa del binding
             //var materia = e.Item as string;
             en_materia.Text = m;
+            search_btn_Clicked(sender, e);
+
         }
 
         private async void btn_posizione_Clicked(object sender, EventArgs e)

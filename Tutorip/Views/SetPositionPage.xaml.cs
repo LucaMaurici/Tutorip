@@ -28,20 +28,7 @@ namespace Tutorip.Views
 
         private async void btn_posAct_Clicked(object sender, EventArgs e)
         {
-            //Posizione pos = (Posizione)await positionAdapter.calcolaPosizione();
-            /*if (pos != null)
-            {*/
             Preferences.Set("isUsingCurrentPos", "si");
-            /*Posizione pos = new Posizione();
-            pos.latitudine = double.Parse(Preferences.Get("latitudineCorrente", null));
-            pos.longitudine = double.Parse(Preferences.Get("longitudineCorrente", null));
-            pos.indirizzo = Preferences.Get("indirizzoCorrente", null);*/
-            //parent.GetPositionButton().Text = Preferences.Get("indirizzoCorrente", "");
-            //parent.filtri.posizione = pos;
-            /*Preferences.Set("latitudineCorrente", pos.latitudine.ToString());
-            Preferences.Set("longitudineCorrente", pos.longitudine.ToString());
-            Preferences.Set("indirizzoCorrente", pos.indirizzo);*/
-            //}
             parent.setPositionButtonTextValue();
             parent.Opacity = 1;
             await Rg.Plugins.Popup.Services.PopupNavigation.Instance.PopAsync(true);
@@ -55,10 +42,10 @@ namespace Tutorip.Views
                 //parent.GetPositionButton().Text = pos.indirizzo;
                 //parent.filtri.posizione = pos;
                 Preferences.Set("isUsingCurrentPos", "no");
-                parent.setPositionButtonTextValue();
                 Preferences.Set("latitudineDefault", pos.latitudine.ToString());
                 Preferences.Set("longitudineDefault", pos.longitudine.ToString());
                 Preferences.Set("indirizzoDefault", pos.indirizzo);
+                parent.setPositionButtonTextValue();
             }
             parent.Opacity = 1;
             await Rg.Plugins.Popup.Services.PopupNavigation.Instance.PopAsync(true);
