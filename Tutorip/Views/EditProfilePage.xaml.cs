@@ -44,23 +44,28 @@ namespace Tutorip.Views
             else if(insegnante.modalita == 2)
                 this.pck_modalità.SelectedIndex = 2;
 
-            foreach (Materia materia in this.insegnante.materie)
+            if (this.insegnante.materie != null)
             {
-                this.flx_materie.Children.Add(new Button
+                foreach (Materia materia in this.insegnante.materie)
                 {
-                    Text = materia.nome,
-                    HorizontalOptions = LayoutOptions.Start,
-                    BackgroundColor = Color.Transparent,
-                    FontSize = 13,
-                    TextColor = Color.FromHex("#0E5D90"),
-                    BorderColor = Color.FromHex("#0E5D90"),
-                    BorderWidth = 1,
-                    CornerRadius = 20,
-                    Padding = new Thickness(10, 1, 10, 1),
-                    Margin = 3,
-                    HeightRequest = 30
-                });
+                    this.flx_materie.Children.Add(new Button
+                    {
+                        Text = materia.nome,
+                        HorizontalOptions = LayoutOptions.Start,
+                        BackgroundColor = Color.Transparent,
+                        FontSize = 13,
+                        TextColor = Color.FromHex("#0E5D90"),
+                        BorderColor = Color.FromHex("#0E5D90"),
+                        BorderWidth = 1,
+                        CornerRadius = 20,
+                        Padding = new Thickness(10, 1, 10, 1),
+                        Margin = 3,
+                        HeightRequest = 30
+                    });
+                }
             }
+            else
+                this.fr_materieVecchie.IsVisible = false;
         }
 
         private async void bt_SalvaProfilo_Clicked(object sender, EventArgs e)

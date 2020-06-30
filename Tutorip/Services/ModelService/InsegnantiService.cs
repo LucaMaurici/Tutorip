@@ -81,6 +81,8 @@ namespace Tutorip.Services
 
         private static string ArrotondaStringa(string num)
         {
+            if (num == null)
+                return "";
             if (num.Length <= 3)
                 return num;
             if (num != "0")

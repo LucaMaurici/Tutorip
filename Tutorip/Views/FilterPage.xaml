@@ -25,7 +25,7 @@
                 HasBackgroundAnimation="True"/>
         </pages:PopupPage.Animation>   -->
         <StackLayout
-            Padding="20" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent">
+            Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" BackgroundColor="Transparent">
             <Label 
                 Text="Personalizza la ricerca"
                 FontSize="28"
@@ -58,6 +58,7 @@
                     <Entry
                         x:Name="en_tariffa"
                         Keyboard="Numeric"
+                        TextColor="#555"
                         WidthRequest="55"
                         HorizontalTextAlignment="Center"
                         VerticalOptions="CenterAndExpand" 
@@ -96,6 +97,7 @@
                         Keyboard="Numeric"
                         WidthRequest="45"
                         Text="0"
+                        TextColor="#555"
                         HorizontalTextAlignment="Center"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand"
@@ -131,6 +133,7 @@
                         x:Name="en_distanzaMax"
                         Keyboard="Numeric"
                         WidthRequest="54"
+                        TextColor="#555"
                         HorizontalTextAlignment="Center"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand"
@@ -175,6 +178,7 @@
                 </Button>
                 -->
             </StackLayout>
+            <ProgressBar x:Name="progressBar" ProgressColor="#999" Opacity="0" Margin="0,15,0,0" HeightRequest="3" VerticalOptions="EndAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </pages:PopupPage>

@@ -89,7 +89,7 @@ namespace Tutorip.Views
         private async void search_btn_Clicked(object sender, EventArgs e)
         {
             this.progressBar.Opacity = 1;
-            this.progressBar.ProgressTo(0.85, 1500, Easing.CubicOut);
+            this.progressBar.ProgressTo(0.80, 1500, Easing.CubicInOut);
 
             filtri.nomeMateria = en_materia.Text;
             //filtri.posizione = (Posizione) await positionAdapter.calcolaPosizione();
@@ -125,18 +125,28 @@ namespace Tutorip.Views
                     insegnanti_list.IsVisible = true;
                     ListaDiMaterie.IsVisible = false;
                     insegnanti_list.ItemsSource = insegnanti;
+                    ListaDiMaterie.IsVisible = false;
                 }
                 else
                 {
+                    this.ListaDiMaterie.IsVisible = false;
                     this.lb_errore.IsVisible = true;
                     insegnanti_list.IsVisible = false;
                     Console.WriteLine("Nessun insegnante");
                 }
             }
-            await this.progressBar.ProgressTo(1, 100, Easing.CubicIn);
+            this.WelcomeLabel.IsVisible = false;
+            await this.progressBar.ProgressTo(1, 200, Easing.CubicInOut);
             this.progressBar.Opacity = 0;
-            this.progressBar.ProgressTo(0, 0, Easing.Linear);
+            this.progressBar.ProgressTo(0, 0, Easing.Linear);      
         }
+
+        /*
+        public setVisibilityAfterSearch()
+        {
+            this.WelcomeLabel.IsVisible = false;
+            ListaDiMaterie.IsVisible = false;
+        }*/
 
         internal void makeSubjectsInvisible()
         {
@@ -162,7 +172,7 @@ namespace Tutorip.Views
         {
             this.IsEnabled = false;
             filtri.nomeMateria = en_materia.Text;
-            var page = new FilterPage(this.filtri, this.insegnanti_list, this);
+            var page = new FilterPage(this.filtri, this.insegnanti_list, this, this.WelcomeLabel, this.ListaDiMaterie, this.lb_errore);
             Opacity = 0.15;
             await PopupNavigation.Instance.PushAsync(page);
             this.IsEnabled = true;
@@ -178,19 +188,20 @@ namespace Tutorip.Views
         private void en_materia_TextChanged(object sender, TextChangedEventArgs e)
         {
             //da aggiungere qualcosa per conciliare la ricerca sulla entry con i risultati della precedente ricerca => probabilmente un isVIsible
-            WelcomeLabel.IsVisible = false;
+            this.WelcomeLabel.IsVisible = false;
+            this.lb_errore.IsVisible = false;
             insegnanti_list.IsVisible = false;
             ListaDiMaterie.ItemsSource = null;
             var keyword = en_materia.Text;
             if(keyword.Length == 0)
             {
                 ListaDiMaterie.IsVisible = false;
-                this.istruzioni.IsVisible = true;
+                this.WelcomeLabel.IsVisible = true;
             }
             else
             {
                 ListaDiMaterie.IsVisible = true;
-                this.istruzioni.IsVisible = false;
+                this.WelcomeLabel.IsVisible = false;
             }
                 
             suggestions.Clear();
@@ -217,7 +228,7 @@ namespace Tutorip.Views
             //var materia = e.Item as string;
             en_materia.Text = m;
             search_btn_Clicked(sender, e);
-
+            ListaDiMaterie.IsVisible = false;
         }
 
         private async void btn_posizione_Clicked(object sender, EventArgs e)

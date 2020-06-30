@@ -17,8 +17,11 @@ namespace Tutorip.Views
         private ListView insegnanti_list;
         private SearchPage parent;
         private PositionAdapter positionAdapter;
+        private StackLayout welcomeLabel;
+        private ListView listaDiMaterie;
+        private Label lb_errore;
 
-        public FilterPage(Filtri f, ListView insegnanti_list, Page parent)
+        public FilterPage(Filtri f, ListView insegnanti_list, Page parent, StackLayout welcomeLabel, ListView listaDiMaterie, Label lb_errore)
         {
             InitializeComponent();
             this.filtri = f;
@@ -31,6 +34,9 @@ namespace Tutorip.Views
             en_valutazione.Text = f.valutazioneMinima.ToString();
             sl_distanzaMax.Value = f.distanzaMassima;
             en_distanzaMax.Text = f.distanzaMassima.ToString();
+            this.welcomeLabel = welcomeLabel;
+            this.listaDiMaterie = listaDiMaterie;
+            this.lb_errore = lb_errore;
         }
 
         private void torna_indietro(object sender, EventArgs e)
@@ -47,6 +53,10 @@ namespace Tutorip.Views
         }
         private async void bt_applica_Clicked(object sender, EventArgs e)
         {
+            //PROGRESS BAR
+            this.progressBar.Opacity = 1;
+            this.progressBar.ProgressTo(0.80, 1500, Easing.CubicInOut);
+
             filtri.tariffaMassima = float.Parse(en_tariffa.Text);
             filtri.valutazioneMinima = float.Parse(en_valutazione.Text);
             filtri.distanzaMassima = float.Parse(en_distanzaMax.Text);
@@ -84,11 +94,21 @@ namespace Tutorip.Views
                 else
                 {
                     insegnanti_list.IsVisible = false;
+                    this.lb_errore.IsVisible = true;
                     Console.WriteLine("Nessun insegnante");
                 }
             }
+            this.welcomeLabel.IsVisible = false;
+            //PROGRESS BAR
+            await this.progressBar.ProgressTo(1, 200, Easing.CubicInOut);
+            this.progressBar.Opacity = 0;
+            this.progressBar.ProgressTo(0, 0, Easing.Linear);
+
+            
+            this.listaDiMaterie.IsVisible = false;
             parent.Opacity = 1;
             await Rg.Plugins.Popup.Services.PopupNavigation.Instance.PopAsync(true);
+            SearchPage searchPage = (SearchPage) this.parent;
         }
 
         private void sl_tariffa_ValueChanged(object sender, ValueChangedEventArgs e)
