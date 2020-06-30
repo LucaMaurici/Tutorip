@@ -18,6 +18,17 @@ namespace Tutorip.Views
             InitializeComponent();
             //pageLayout();
             positionAdapter = new PositionAdapter();
+            creaListaMenuItem();
+        }
+
+        private void creaListaMenuItem()
+        {
+            //this.MenuItems.Clear();
+            //if (Preferences.Get("isInsegnante", false))
+            this.MenuItems = new List<ElementoMenu>();
+            this.MenuItems.Add(new ElementoMenu("google", "Accedi con Google"));
+            this.MenuItems.Add(new ElementoMenu("facebook", "Accedi con Facebook"));
+            Menu.ItemsSource = this.MenuItems;
         }
 
         /*private void pageLayout()
