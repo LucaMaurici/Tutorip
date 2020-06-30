@@ -44,14 +44,14 @@ namespace Tutorip.Views
             {
                 this.stl_preferiti.IsVisible = true;
                 this.fr_lasciaRecensione.IsVisible = true;
-                this.stl_visibilità.IsVisible = false;
+                //this.stl_visibilità.IsVisible = false;
                 this.stl_modifica.IsVisible = false;
             }
             else //utente non loggato
             {
                 this.stl_preferiti.IsVisible = false; 
                 this.fr_lasciaRecensione.IsVisible = false;
-                this.stl_visibilità.IsVisible = false;
+                //this.stl_visibilità.IsVisible = false;
                 this.stl_modifica.IsVisible = false;
             }
         }
