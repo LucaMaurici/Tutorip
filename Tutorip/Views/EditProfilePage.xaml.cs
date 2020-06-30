@@ -106,9 +106,11 @@ namespace Tutorip.Views
             }
 
             //descrizione
-            if (!Preferences.Get("isInsegnante", false))
+            if (insegnante.descrizione == null)
                 insegnante.descrizione = new List<SezioneProfilo>();
             int indice = 1;
+            if (insegnante.descrizione !=  null)
+                indice = insegnante.descrizione.Count + 1;
             foreach(var element in this.stl_descrizione.Children)
             {
                 Frame frame = (Frame)element;

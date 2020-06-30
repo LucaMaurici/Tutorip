@@ -45,6 +45,10 @@
                    Margin="0,0,0,15"></Label>
             <Label VerticalOptions="End" HorizontalOptions="Center" Text="Logo made by Iconixar from Flaticon" FontSize="Small" FontAttributes="Bold"
                    Margin="0,0,0,15"></Label>
+            <Label VerticalOptions="End" HorizontalOptions="Center" Text="Logo made by Freepik from Flaticon" FontSize="Small" FontAttributes="Bold"
+                   Margin="0,0,0,15"></Label>
+            <Label VerticalOptions="End" HorizontalOptions="Center" Text="Logo made by Pixelperfect from Flaticon" FontSize="Small" FontAttributes="Bold"
+                   Margin="0,0,0,15"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
