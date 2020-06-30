@@ -207,21 +207,21 @@
                         <StackLayout HorizontalOptions="CenterAndExpand">
                             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
                                 <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                                <Label x:Name="num_spg_lbl" FontSize="28" Text="7.7" FontAttributes="None"></Label>
+                                <Label x:Name="num_spg_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
                             </StackLayout>
                             <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="None" FontSize="16"/>
                         </StackLayout>
                         <StackLayout HorizontalOptions="CenterAndExpand">
                             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
                                 <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                                <Label x:Name="num_emp_lbl" FontSize="28" Text="9" FontAttributes="None"></Label>
+                                <Label x:Name="num_emp_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
                             </StackLayout>
                             <Label x:Name="eval_emp_lbl" Text="Empatia" FontAttributes="None" FontSize="16" TranslationX="5"/>
                         </StackLayout>
                         <StackLayout HorizontalOptions="CenterAndExpand">
                             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
                                 <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
-                                <Label x:Name="num_org_lbl" FontSize="28" Text="7" FontAttributes="None"></Label>
+                                <Label x:Name="num_org_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
                             </StackLayout>
                             <Label x:Name="eval_org_lbl" Text="Organizzazione" TranslationX="6" FontAttributes="None" FontSize="16"/>
                         </StackLayout>
@@ -236,15 +236,16 @@
                         <Button x:Name="btn_recensione" Text="Lascia una recensione" BorderColor="#FFBF00" BorderWidth="1"
                                 CornerRadius="30" BackgroundColor="#FFFEF9" Padding="10,1,10,1" HeightRequest="40"
                                 HorizontalOptions="StartAndExpand" Clicked="btn_recensione_Clicked"></Button>
-                        <StackLayout x:Name="sl_anonimo" Orientation="Horizontal" HorizontalOptions="End">
-                            <Label Text="Anonimo" FontSize="16" VerticalOptions="Center" FontAttributes="Italic"></Label>
-                            <CheckBox x:Name="cb_isAnonimo" Color="#888"></CheckBox>
-                        </StackLayout>
+                        
                     </StackLayout>
                     <StackLayout Orientation="Vertical" x:Name="stl_recensione"></StackLayout>
+                    <StackLayout x:Name="sl_anonimo" Orientation="Horizontal" HorizontalOptions="End" IsVisible="False">
+                        <Label Text="Anonimo" FontSize="16" VerticalOptions="Center" FontAttributes="Italic"></Label>
+                        <CheckBox x:Name="cb_isAnonimo" Color="#888"></CheckBox>
+                    </StackLayout>
                     <Button x:Name="btn_salvaRecensione" Text="Invia" BorderColor="#39AE7C" BorderWidth="2"
                             CornerRadius="30" BackgroundColor="#F7FFFC" Padding="10,1,10,1" HeightRequest="40"
-                            HorizontalOptions="StartAndExpand" Clicked="btn_salvaRecensione_Clicked"></Button>
+                            HorizontalOptions="Center" Clicked="btn_salvaRecensione_Clicked"></Button>
                 </StackLayout>
             </Frame>
             <!--LISTA RECENSIONI-->
