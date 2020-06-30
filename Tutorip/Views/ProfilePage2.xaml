@@ -8,7 +8,7 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="#FFFDF7"
              xmlns:f9p="clr-namespace:Forms9Patch;assembly=Forms9Patch">
-    <ScrollView>
+    <ScrollView x:Name="scrollView">
         <StackLayout>
             <Frame Padding="17,12,17,12">
                 <StackLayout Orientation="Horizontal">
@@ -21,6 +21,20 @@
                         Clicked="bt_indietro_Clicked"
                         HeightRequest="35"
                         WidthRequest="35">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <VisualState.Setters>
+                                            <Setter Property="Scale" Value="1" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <VisualState.Setters>
+                                            <Setter Property="Scale" Value="0.8" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
                         </ImageButton>
                         <Label
                         x:Name="lbl_profilo"
@@ -164,7 +178,7 @@
                         <Label x:Name="lb_cellulare" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                        <Image Source="paperplane" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
+                        <Image Source="facebook" WidthRequest="22" HeightRequest="22" VerticalOptions="End"></Image>
                         <Label x:Name="lb_facebook" FontSize="18" TextColor="#358" FontAttributes="None" Margin="2,0,0,0"></Label>
                     </StackLayout>
                 </StackLayout>
@@ -241,13 +255,15 @@
                     </StackLayout>
                     
                     <StackLayout Orientation="Vertical" x:Name="stl_recensione"></StackLayout>
-                    <StackLayout x:Name="sl_anonimo" Orientation="Horizontal" HorizontalOptions="End" IsVisible="False" Margin="0,10,0,0">
-                        <Label Text="Anonimo" FontSize="16" VerticalOptions="Center" FontAttributes="Italic"></Label>
-                        <CheckBox x:Name="cb_isAnonimo" Color="#888"></CheckBox>
+                    <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+                        <StackLayout x:Name="sl_anonimo" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" IsVisible="False">
+                            <Label Text="Anonimo" FontSize="16" VerticalOptions="Center" FontAttributes="Italic"></Label>
+                            <CheckBox x:Name="cb_isAnonimo" Color="#888"></CheckBox>
+                        </StackLayout>
+                        <Button x:Name="btn_salvaRecensione" Text="Invia" BorderColor="#39AE7C" BorderWidth="2"
+                                CornerRadius="30" BackgroundColor="#F7FFFC" Padding="10,1,10,1" HeightRequest="40"
+                                HorizontalOptions="CenterAndExpand" Clicked="btn_salvaRecensione_Clicked"></Button>
                     </StackLayout>
-                    <Button x:Name="btn_salvaRecensione" Text="Invia" BorderColor="#39AE7C" BorderWidth="2"
-                            CornerRadius="30" BackgroundColor="#F7FFFC" Padding="10,1,10,1" HeightRequest="40"
-                            HorizontalOptions="Center" Clicked="btn_salvaRecensione_Clicked"></Button>
                 </StackLayout>
             </Frame>
             <!--LISTA RECENSIONI-->

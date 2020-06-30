@@ -35,8 +35,6 @@ namespace Tutorip.Droid
             SetContentView(Resource.Layout.FacebookLogin);
 
             facebookLoginButton = (LoginButton)FindViewById(Resource.Id.loginButton);
-            userNameText = (TextView)FindViewById(Resource.Id.usernameText);
-            emailText = (TextView)FindViewById(Resource.Id.emailText);
             facebookLoginButton.SetReadPermissions(new List<string> { "public_profile", "email" });
             
             callbackManager = CallbackManagerFactory.Create();

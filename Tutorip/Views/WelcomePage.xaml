@@ -10,23 +10,37 @@
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
             <StackLayout Orientation="Horizontal" Padding="15" VerticalOptions="Start">
                 <ImageButton x:Name="bt_indietro" Source="restart" Margin="0,0,0,0" BackgroundColor="Transparent" Clicked="bt_indietro_Clicked" HeightRequest="35" WidthRequest="35">
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale" Value="1" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale" Value="0.8" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
                 </ImageButton>
                 <Label Text="Login completato" FontSize="28" Margin="10,0,0,0">
                 </Label>
             </StackLayout>
             <StackLayout Orientation="Vertical" VerticalOptions="Center" Padding="20,20,20,0">
-                <Label Text="Ora che sei un utente di Tutorip puoi: " FontSize="Large"/>
-                <StackLayout Orientation="Horizontal">
+                <Label Text="Ora che sei un utente di Tutorip puoi" FontSize="19" Margin="0,0,0,40"/>
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15" Padding="0,0,10,0">
                     <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
-                    <Label Text="pubblicare il tuo profilo come insegnante" FontSize="Medium"></Label>
+                    <Label Text="Creare il tuo profilo da insegnante" FontSize="Medium"></Label>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15" Padding="0,0,10,0">
                     <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
-                    <Label Text="salvare i professori che fanno più al caso tuo" FontSize="Medium"></Label>
+                    <Label Text="Salvare i professori che fanno più al tuo caso per rivedere il loro profilo quando vuoi" FontSize="Medium"></Label>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15" Padding="0,0,10,0">
                     <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
-                    <Label Text="lasciare una recensione ai professori" FontSize="Medium"></Label>
+                    <Label Text="Lasciare una recensione ai professori" FontSize="Medium"></Label>
                 </StackLayout>
             </StackLayout>
         </StackLayout>
