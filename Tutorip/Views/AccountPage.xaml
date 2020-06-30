@@ -8,6 +8,25 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
     <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+        <StackLayout
+            Orientation="Horizontal"
+            Padding="15">
+            <ImageButton
+                x:Name="bt_indietro"
+                Source="restart"
+                Margin="0,0,0,0"
+                BackgroundColor="Transparent"
+                Clicked="bt_indietro_Clicked"
+                HeightRequest="35"
+                WidthRequest="35">
+            </ImageButton>
+            <Label
+                Text="Menu"
+                FontSize="28"
+                Margin="10,0,0,0">
+            </Label>
+        </StackLayout>
+        <Label Text="Accedi o crea un account" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center"></Label>
         <StackLayout x:Name="btn_stack" Orientation="Vertical" VerticalOptions="Center">
             <Frame>
                 <StackLayout Orientation="Horizontal">
@@ -34,6 +53,36 @@
                 </StackLayout>
             </Frame>
         </StackLayout>
+        <ListView x:Name="Menu" SeparatorVisibility="None" ItemTapped="Menu_ItemTapped" RowHeight="120" Margin="15,0,15,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame
+                            CornerRadius="20"
+                            BackgroundColor="White"
+                            HasShadow="True"
+                            Margin="0,10,0,10">
+                            <StackLayout
+                                Orientation="Horizontal">
+                                <Image
+                                    Source="{Binding pathImmagine}"
+                                    Margin="15,0,0,0"
+                                    WidthRequest="55"
+                                    HeightRequest="55">
+                                </Image>
+                                <Label
+                                    Text="{Binding testo}"
+                                    FontSize="20"
+                                    HorizontalOptions="CenterAndExpand"
+                                    HorizontalTextAlignment="Center"
+                                    VerticalOptions="CenterAndExpand">
+                                </Label>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 </ContentPage>
    
