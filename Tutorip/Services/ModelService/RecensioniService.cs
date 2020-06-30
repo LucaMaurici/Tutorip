@@ -19,7 +19,6 @@ namespace Tutorip.Services.ModelService
         {
             return await RecensioniRepository.GetRecensioniInsegnante(idInsegnante, Constants.TutoripEndPoint + "/recensione/findRecensioniByIdInsegnante.php/");
         }
-            
 
     }
 }

@@ -15,7 +15,22 @@ namespace Tutorip.Services
     {
         public static async Task<RisultatoRicercaInsegnanti[]> GetInsegnanti(Filtri filtri)
         {
-            return await InsegnantiRepository.GetInsegnanti(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
+            RisultatoRicercaInsegnanti[] risultati = await InsegnantiRepository.GetInsegnanti(filtri, Constants.TutoripEndPoint + "/ricerca/ricerca.php/");
+            if (risultati != null)
+            {
+                foreach (RisultatoRicercaInsegnanti r in risultati)
+                {
+                    if (r.valutazioneMedia == "0")
+                    {
+                        r.valutazioneMedia = "-";
+                    }
+                    else
+                    {
+                        r.valutazioneMedia = ArrotondaStringa(r.valutazioneMedia);
+                    }
+                }
+            }
+            return risultati;
         }
 
         public static void Save(Insegnante i)
@@ -23,46 +38,17 @@ namespace Tutorip.Services
             InsegnantiRepository.SaveAsync(i, Constants.TutoripEndPoint + "/insegnante/create.php/");
         }
 
-        /*internal static async Task<Insegnante> getInsegnante(int id)
-        {
-            return await InsegnantiRepository.findInsegnanteById(id, Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
-        }*/
-
         internal static async Task<Insegnante> getInsegnante(int id)
         {
-            //Materia[] materie = await MaterieService.getMaterieInsegnante(id);
-            //Recensione[] recensioni = await RecensioniService.GetRecensioniInsegnante(id);
-            //SezioneProfilo[] descrizione = await DescrizioneService.getDescrizione(id);
             Insegnante i = await InsegnantiRepository.findInsegnanteById(id, Constants.TutoripEndPoint + "/insegnante/findInsegnanteById.php/");
-            //i.materie = new List<Materia>();
-            //i.recensioni = new List<Recensione>();
-            //i.descrizione = new List<SezioneProfilo>();
-            /*
-            if (materie != null)
+            
+            if (i.valutazioneMedia == "0")
             {
-                foreach (Materia m in materie)
-                {
-                    i.materie.Add(m);
-                }
-            }
-            if (recensioni != null)
-            {
-                foreach (Recensione r in recensioni)
-                {
-                    i.recensioni.Add(r);
-                }
-            }
-            if (descrizione != null)
-            {
-                foreach (SezioneProfilo sezione in descrizione)
-                {
-                    i.descrizione.Add(sezione);
-                }
-            }*/
-            if (i.valutazioneMedia == null || i.valutazioneMedia == "")
-            {
-                //qualcosa per togliere la valutazione
                 i.valutazioneMedia = "-";
+            }
+            else
+            {
+                i.valutazioneMedia = ArrotondaStringa(i.valutazioneMedia);
             }
             return i;
         }
@@ -74,7 +60,43 @@ namespace Tutorip.Services
 
         internal static async Task<RisultatoRicercaInsegnanti[]> getPreferiti(int idUtente) 
         {
-            return await InsegnantiRepository.getPreferiti(idUtente, Constants.TutoripEndPoint + "/preferiti/findPreferitiById.php/");
+            RisultatoRicercaInsegnanti[] risultati = await InsegnantiRepository.getPreferiti(idUtente, Constants.TutoripEndPoint + "/preferiti/findPreferitiById.php/");
+            if (risultati != null)
+            {
+                foreach (RisultatoRicercaInsegnanti r in risultati)
+                {
+                    if (r.valutazioneMedia == "0")
+                    {
+                        r.valutazioneMedia = "-";
+                    }
+                    else
+                    {
+                        r.valutazioneMedia = ArrotondaStringa(r.valutazioneMedia);
+                    }
+                }
+            }
+            
+            return risultati;
         }
+
+        private static string ArrotondaStringa(string num)
+        {
+            if (num.Length <= 3)
+                return num;
+            if (num != "0")
+            {
+                var index = num.IndexOf(".");
+                var n = float.Parse(num.Substring(index + 1, 1));
+                if (n >= 5)
+                {
+                    num = num.Substring(0, index + 1) 
+                        + (float.Parse(num.Substring(index+1, 1)) + 1).ToString();
+                }
+                else
+                    num.Substring(0, index + 2);
+            }
+            return num;
+        }
+
     }
 }
