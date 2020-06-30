@@ -39,7 +39,7 @@ namespace Tutorip.Views
 
         private void setNomeUtente()
         {
-            NomeUtente.Text = Preferences.Get("nome", "");
+            //NomeUtente.Text = Preferences.Get("nome", "");
         }
 
         private async Task calcolaPosizione()

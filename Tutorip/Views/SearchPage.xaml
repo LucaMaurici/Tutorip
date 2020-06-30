@@ -132,17 +132,17 @@
         <ProgressBar x:Name="progressBar" ProgressColor="#999" IsVisible="false" Margin="0,5,0,0" HeightRequest="3"/>
 
         <StackLayout x:Name="WelcomeLabel" VerticalOptions="CenterAndExpand">
-            <Label x:Name="istruzioni" FontSize="30" HorizontalTextAlignment="Center" Margin="30,70,30,50" FontAttributes="None" Opacity="0.6">
+            <Label x:Name="istruzioni" FontSize="30" HorizontalTextAlignment="Center" Margin="30,45,30,45" FontAttributes="None" Opacity="0.6">
                 <Label.FormattedText>
                     <FormattedString>
-                        <Span Text="Ehi, ciao "></Span>
-                        <Span x:Name="NomeUtente"></Span>
+                        <Span Text="Ehi, ciao"></Span>
+                        <!--<Span x:Name="NomeUtente"></Span>-->
                         <Span Text="!"></Span>
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            
-            <Image Source="worldwide1" HeightRequest="100" WidthRequest="100" Margin="10,0,0,0" Opacity="0.4"></Image>
+
+            <Image Source="worldwide1" HeightRequest="100" WidthRequest="100" Margin="0,0,0,0" Opacity="0.5"></Image>
             
             <Label Text="Come va lo studio? 
                    Se hai bisogno di aiuto cerca un insegnante" 
