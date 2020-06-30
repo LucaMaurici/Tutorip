@@ -132,61 +132,32 @@
 
         <Label x:Name="lb_errore" Text="Nessun insegnante trovato" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="20" Margin="0,150,0,0" IsVisible="False"></Label>
 
-        <Label x:Name="istruzioni" FontSize="30" HorizontalTextAlignment="Center" Margin="30,100,30,0" FontAttributes="None" Opacity="0.7">
-            <Label.FormattedText>
-                <FormattedString>
-                    <Span Text="Inserisci una materia "></Span>
-                    <Span x:Name="eUnaPosizione"></Span>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+        <StackLayout x:Name="WelcomeLabel" VerticalOptions="CenterAndExpand">
+            <Label x:Name="istruzioni" FontSize="30" HorizontalTextAlignment="Center" Margin="30,70,30,50" FontAttributes="None" Opacity="0.6">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Ehi, ciao "></Span>
+                        <Span x:Name="NomeUtente"></Span>
+                        <Span Text="!"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Image Source="worldwide1" HeightRequest="100" WidthRequest="100" Margin="10,0,0,0" Opacity="0.4"></Image>
+            
+            <Label Text="Come va lo studio? 
+                   Se hai bisogno di aiuto cerca un insegnante" 
+                   HorizontalTextAlignment="Center" 
+                   FontSize="25"
+                   Margin="10,10,10,0" 
+                   Opacity="0.6"></Label>
+        </StackLayout>
         
-
         <ListView x:Name="insegnanti_list" IsVisible="False" ItemTapped="insegnanti_list_ItemTapped" RowHeight="190">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <!--<Frame CornerRadius="20"
-                            BackgroundColor="White"
-                            HasShadow="True"
-                            Margin="0,10,0,10">
-                            <StackLayout Orientation="Horizontal">
-                                <StackLayout Orientation="Vertical" VerticalOptions="Center">
-                                    <Image Source="user6" WidthRequest="70" HeightRequest="70"></Image>
-                                </StackLayout>
-                                <StackLayout Orientation="Vertical">
-                                    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
-                                        <Image Source="users1" HeightRequest="20" WidthRequest="20"></Image>
-                                        <Label Text="Lorenzo M." FontSize="Medium" FontAttributes="Bold"></Label>
-                                    </StackLayout>
-                                    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
-                                        <Image Source="star1" HeightRequest="20" WidthRequest="20"></Image>
-                                        <Label Text="{Binding valutazioneMedia}" FontSize="Medium"></Label>
-                                    </StackLayout>
-                                    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
-                                        <Label>
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="{Binding tariffa}" TextColor="#2D8E80" FontSize="Medium"></Span>
-                                                    <Span Text="€" TextColor="#2D8E80" FontSize="Medium"></Span>
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                    </StackLayout>
-                                    <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
-                                        <Image Source="placeholders" HeightRequest="20" WidthRequest="20"></Image>
-                                        <Label>
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="{Binding distanza}" FontSize="Medium"></Span>
-                                                    <Span Text=" Km" FontSize="Medium"></Span>
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                    </StackLayout>
-                                </StackLayout>
-                            </StackLayout>
-                        </Frame>-->
+ 
                         <Frame CornerRadius="20"
                             BackgroundColor="White"
                             HasShadow="True"
@@ -237,7 +208,8 @@
 
         <ListView x:Name="ListaDiMaterie"
                   ItemTapped="ListaDiMaterie_ItemTapped"
-                  IsVisible="true"></ListView>
+                  IsVisible="true"
+                  Margin="12,0,0,0"></ListView>
         <!--<ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

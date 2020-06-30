@@ -143,5 +143,10 @@ namespace Tutorip.Views
             //Navigation.InsertPageBefore(page, this);
             //await Navigation.PopAsync();
         }
+
+        private async void btn_crediti_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Crediti());
+        }
     }
 }
