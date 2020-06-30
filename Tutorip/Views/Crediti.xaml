@@ -56,13 +56,13 @@
             </StackLayout>
 
             <Label VerticalOptions="EndAndExpand" HorizontalOptions="Center" Text="Icons made by Smashicons from Flaticon" FontSize="Small" FontAttributes="Bold"
-                   Margin="0,0,0,15"></Label>
+                   Margin="0,0,0,15" Opacity="0.7"></Label>
             <Label VerticalOptions="End" HorizontalOptions="Center" Text="Logo made by Iconixar from Flaticon" FontSize="Small" FontAttributes="Bold"
-                   Margin="0,0,0,15"></Label>
+                   Margin="0,0,0,15" Opacity="0.7"></Label>
             <Label VerticalOptions="End" HorizontalOptions="Center" Text="Icons made by Freepik from Flaticon" FontSize="Small" FontAttributes="Bold"
-                   Margin="0,0,0,15"></Label>
+                   Margin="0,0,0,15" Opacity="0.7"></Label>
             <Label VerticalOptions="End" HorizontalOptions="Center" Text="Icons made by Pixelperfect from Flaticon" FontSize="Small" FontAttributes="Bold"
-                   Margin="0,0,0,15"></Label>
+                   Margin="0,0,0,50" Opacity="0.7"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
