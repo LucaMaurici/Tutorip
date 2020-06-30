@@ -37,6 +37,7 @@ namespace Tutorip.Views
                 this.eUnaPosizione.Text = "e una posizione di ricerca";*/
         }
 
+
         private void setNomeUtente()
         {
             NomeUtente.Text = Preferences.Get("nome", "");

@@ -12,10 +12,11 @@
 
     <StackLayout>
         <StackLayout Orientation="Horizontal" Padding="15,8,15,5">
+            <Image Source="teacher" WidthRequest="35" HeightRequest="35"></Image>
             <Label
                 Text="Tutorip"
                 FontSize="28"
-                Margin="10,0,0,0"
+                Margin="0,0,0,0"
                 HorizontalOptions="FillAndExpand">
             </Label>
             <Button
