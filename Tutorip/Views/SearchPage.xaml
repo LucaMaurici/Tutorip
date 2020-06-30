@@ -128,8 +128,9 @@
             </StackLayout>
         </Frame>
 
-        <!--<ProgressBar x:Name="progressBar" ProgressColor="#358" IsVisible="false"/>-->
-        <ProgressBar x:Name="progressBar" ProgressColor="#999" IsVisible="false" Margin="0,5,0,0" HeightRequest="3"/>
+        <ProgressBar x:Name="progressBar" ProgressColor="#999" Opacity="0" Margin="0,5,0,0" HeightRequest="3"/>
+
+        <Label x:Name="lb_errore" Text="Nessun insegnante trovato" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="20" Margin="0,150,0,0" IsVisible="False"></Label>
 
         <Label x:Name="istruzioni" FontSize="30" HorizontalTextAlignment="Center" Margin="30,100,30,0" FontAttributes="None" Opacity="0.7">
             <Label.FormattedText>
@@ -209,9 +210,9 @@
                                         <Label x:Name="tariffa_lbl" TextColor="#2D8E80" FontAttributes="Bold" Margin="0,0,20,0">
                                             <Label.FormattedText>
                                                 <FormattedString>
-                                                    <Span FontSize="40" FontAttributes="Bold" Text="{Binding tariffa}"></Span>
+                                                    <Span FontSize="35" FontAttributes="Bold" Text="{Binding tariffa}"></Span>
                                                     <Span FontSize="25" FontAttributes="None"></Span>
-                                                    <Span FontSize="30" FontAttributes="None">€</Span>
+                                                    <Span FontSize="27" FontAttributes="None">€</Span>
                                                 </FormattedString>
                                             </Label.FormattedText>
                                         </Label>
@@ -220,7 +221,7 @@
                                         <Label x:Name="eval_lbl" FontAttributes="Bold" HorizontalOptions="StartAndExpand">
                                             <Label.FormattedText>
                                                 <FormattedString>
-                                                    <Span FontSize="40" FontAttributes="Bold" Text="{Binding valutazioneMedia}"></Span>
+                                                    <Span FontSize="35" FontAttributes="Bold" Text="{Binding valutazioneMedia}"></Span>
                                                     <Span FontSize="30" FontAttributes="Bold"></Span>
                                                 </FormattedString>
                                             </Label.FormattedText>

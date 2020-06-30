@@ -17,7 +17,8 @@ namespace Tutorip.Views
         {
             InitializeComponent();
             this.preferiti_list.ItemsSource = preferiti;
-
+            if (preferiti==null)
+                this.lb_errore.IsVisible = true;
         }
 
         private async void preferiti_list_ItemTapped(object sender, ItemTappedEventArgs e)
