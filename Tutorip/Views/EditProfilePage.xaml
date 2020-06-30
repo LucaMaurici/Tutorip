@@ -151,7 +151,7 @@
                         <ImageButton x:Name="btn_addMateria" Source="add1" WidthRequest="35" HeightRequest="35" Padding="8"  BorderWidth="2" BorderColor="#06A73C" CornerRadius="50" BackgroundColor="Transparent" Clicked="btn_addMateria_Clicked" HorizontalOptions="End"></ImageButton>
                     </StackLayout>
                     <StackLayout Orientation="Vertical" x:Name="StL_materie">
-                        <Entry x:Name="en1_materie" HorizontalOptions="FillAndExpand" Placeholder="Materia 1" TextColor="#666">
+                        <Entry x:Name="en1_materie" HorizontalOptions="FillAndExpand" Margin="5,0,0,0" Placeholder="Materia 1" TextColor="#666">
                             <Entry.Keyboard>
                                 <Keyboard x:FactoryMethod="Create">
                                     <x:Arguments>

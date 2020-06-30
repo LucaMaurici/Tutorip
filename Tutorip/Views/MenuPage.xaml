@@ -127,8 +127,8 @@
         </ListView>
 
         <Button x:Name="btn_crediti" Text="Crediti" HorizontalOptions="Center" Margin="0,0,0,20" 
-                BackgroundColor="Transparent" BorderWidth="1" BorderColor="DarkBlue" CornerRadius="50"
-                Clicked="btn_crediti_Clicked"></Button>
+                BackgroundColor="#FCFDFF" BorderWidth="1.2" BorderColor="DarkBlue" CornerRadius="50"
+                Clicked="btn_crediti_Clicked" Padding="20,0,20,0" HeightRequest="40"></Button>
         
     </StackLayout>
 </ContentPage>
