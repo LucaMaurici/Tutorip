@@ -265,6 +265,8 @@ namespace Tutorip.Views
 
         private void bt_addFav_Clicked(object sender, EventArgs e) // bottone per aggiungere ai preferiti da mostrare solo se si è utenti che vedono il profilo
         {
+            this.bt_addFav.Source = "bookmark1";
+            this.lbl_fav.Text = "Salvato";
             InsegnantiService.aggiungiPreferito(int.Parse(Preferences.Get("id", null)), insegnante.id);
         }
 

@@ -92,7 +92,7 @@
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
                         </ImageButton>
-                        <Label Text="Salva" FontSize="13"></Label>
+                        <Label x:Name="lbl_fav" Text="Salva" FontSize="13"></Label>
                     </StackLayout>
                 </StackLayout>
             </Frame>
