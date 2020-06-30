@@ -73,6 +73,9 @@ namespace Tutorip.Droid
             var credenziali = new Credenziali(facebookProfile.email, new OAuthToken("Bearer", token));
             UtenteCredenzialiService.Salva(credenziali, new Utente(facebookProfile.first_name, facebookProfile.last_name));
             Toast.MakeText(this, "Success", ToastLength.Long).Show();
+            var intent = new Intent(this, typeof(MainActivity)); 
+            intent.SetFlags(ActivityFlags.ClearTop | ActivityFlags.SingleTop);
+            StartActivity(intent);
         }
     }
 }
