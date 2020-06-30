@@ -30,7 +30,7 @@
                         VerticalOptions="Center">
                         </Label>
                     </StackLayout>
-                    <StackLayout Margin="0,0,10,0" x:Name="stl_visibilità">
+                    <!--<StackLayout Margin="0,0,10,0" x:Name="stl_visibilità">
                         <ImageButton
                         x:Name="bt_ModificaVisibilità"
                         Source="hide"
@@ -41,7 +41,7 @@
                         WidthRequest="25">
                         </ImageButton>
                         <Label Text="Nascosto" FontSize="13"></Label>
-                    </StackLayout>
+                    </StackLayout>-->
                     <StackLayout x:Name="stl_modifica">
                         <ImageButton
                         x:Name="bt_ModificaProfilo"
