@@ -29,18 +29,18 @@
                 </Label>
             </StackLayout>
             <StackLayout Orientation="Vertical" VerticalOptions="Center" Padding="20,20,20,0">
-                <Label Text="Ora che sei un utente di Tutorip puoi: " FontSize="Large"/>
-                <StackLayout Orientation="Horizontal">
+                <Label Text="Ora che sei un utente di Tutorip puoi" FontSize="19" Margin="0,0,0,40"/>
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15" Padding="0,0,10,0">
                     <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
-                    <Label Text="pubblicare il tuo profilo come insegnante" FontSize="Medium"></Label>
+                    <Label Text="Creare il tuo profilo da insegnante" FontSize="Medium"></Label>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15" Padding="0,0,10,0">
                     <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
-                    <Label Text="salvare i professori che fanno più al caso tuo" FontSize="Medium"></Label>
+                    <Label Text="Salvare i professori che fanno più al tuo caso per rivedere il loro profilo quando vuoi" FontSize="Medium"></Label>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15" Padding="0,0,10,0">
                     <Image Source="success" WidthRequest="22" HeightRequest="22"></Image>
-                    <Label Text="lasciare una recensione ai professori" FontSize="Medium"></Label>
+                    <Label Text="Lasciare una recensione ai professori" FontSize="Medium"></Label>
                 </StackLayout>
             </StackLayout>
         </StackLayout>
