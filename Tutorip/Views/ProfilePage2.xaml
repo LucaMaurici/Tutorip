@@ -233,11 +233,13 @@
             <Frame Padding="30,15,30,15" x:Name="fr_lasciaRecensione">
                 <StackLayout Orientation="Vertical">
                     <StackLayout Orientation="Horizontal">
+                        <!--inutile-->
                         <Button x:Name="btn_recensione" Text="Lascia una recensione" BorderColor="#FFBF00" BorderWidth="1"
                                 CornerRadius="30" BackgroundColor="#FFFEF9" Padding="10,1,10,1" HeightRequest="40"
                                 HorizontalOptions="StartAndExpand" Clicked="btn_recensione_Clicked"></Button>
-                        
+                        <!--inutile lo stack-->
                     </StackLayout>
+                    
                     <StackLayout Orientation="Vertical" x:Name="stl_recensione"></StackLayout>
                     <StackLayout x:Name="sl_anonimo" Orientation="Horizontal" HorizontalOptions="End" IsVisible="False">
                         <Label Text="Anonimo" FontSize="16" VerticalOptions="Center" FontAttributes="Italic"></Label>

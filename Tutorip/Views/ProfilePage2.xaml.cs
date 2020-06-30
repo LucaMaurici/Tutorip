@@ -269,24 +269,83 @@ namespace Tutorip.Views
             this.lbl_fav.Text = "Salvato";
             InsegnantiService.aggiungiPreferito(int.Parse(Preferences.Get("id", null)), insegnante.id);
         }
+        /*
+        <Frame Padding="20,8,20,20">
+                <StackLayout>
+                    <Label Text="Recensioni" FontSize="35" FontAttributes="Bold" Margin="15,0,0,10"></Label>
+                    <StackLayout Orientation="Horizontal" Margin="0,-15,0,0">
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                                <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                                <Label x:Name="num_spg_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
+                            </StackLayout>
+                            <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="None" FontSize="16"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                                <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                                <Label x:Name="num_emp_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
+                            </StackLayout>
+                            <Label x:Name="eval_emp_lbl" Text="Empatia" FontAttributes="None" FontSize="16" TranslationX="5"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                                <Image Source="star1" WidthRequest="15" HeightRequest="15"></Image>
+                                <Label x:Name="num_org_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
+                            </StackLayout>
+                            <Label x:Name="eval_org_lbl" Text="Organizzazione" TranslationX="6" FontAttributes="None" FontSize="16"/>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
 
+            <StackLayout HorizontalOptions = "CenterAndExpand" >
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="10">
+                    <Image Source = "star1" WidthRequest="15" HeightRequest="15"></Image>
+                    <Label x:Name="num_spg_lbl" FontSize="28" Text="-" FontAttributes="None"></Label>
+                </StackLayout>
+                <Label x:Name="eval_spg_lbl" Text="Spiegazione" FontAttributes="None" FontSize="16"/>
+            </StackLayout>
+        */
         private void btn_recensione_Clicked(object sender, EventArgs e)
         {
             btn_recensione.IsVisible = false;
             //TODO carine
-            var entryValMed = new Entry { Placeholder = "ValutazioneMedia", Keyboard = Keyboard.Numeric };
+
+            var stackTitVal = new StackLayout { Orientation=StackOrientation.Horizontal };
+            var entryTitolo = new Entry { Placeholder = "Titolo", Keyboard = Keyboard.Text, TextColor = Color.FromHex("#666"), FontAttributes = FontAttributes.Bold, FontSize = 25, HorizontalOptions = LayoutOptions.FillAndExpand };
+            var stellaValGen = new Image { Source = "star1", WidthRequest = 28, HeightRequest = 28, HorizontalOptions = LayoutOptions.End };
+            var entryValGen = new Entry { Placeholder = "ValutazioneMedia", Keyboard = Keyboard.Numeric, HorizontalOptions = LayoutOptions.End };
+
+            var entryCorpo = new Editor { Placeholder = "Corpo", Keyboard = Keyboard.Text, TextColor = Color.FromHex("#666"), HeightRequest = 160, HorizontalOptions = LayoutOptions.FillAndExpand };
+            /*
             var entryEmpatia = new Entry { Placeholder = "Empatia", Keyboard = Keyboard.Numeric };
             var entrySpieg = new Entry { Placeholder = "Spiegazione", Keyboard = Keyboard.Numeric };
             var entryOrg = new Entry { Placeholder = "Organizzazione", Keyboard = Keyboard.Numeric };
+            */
 
-            var entryTitolo = new Entry { Placeholder = "Titolo", Keyboard = Keyboard.Text, TextColor = Color.FromHex("#666"), FontAttributes = FontAttributes.Bold, FontSize = 25, HorizontalOptions = LayoutOptions.FillAndExpand };
-            var entryCorpo = new Editor { Placeholder = "Corpo", Keyboard = Keyboard.Text, TextColor = Color.FromHex("#666"), HeightRequest = 160, HorizontalOptions = LayoutOptions.FillAndExpand };
-            
-            
-            this.stl_recensione.Children.Add(entryTitolo);
+            var stackHor = new StackLayout { Orientation = StackOrientation.Horizontal };
+
+            var stackValEmp = new StackLayout { HorizontalOptions=LayoutOptions.CenterAndExpand };
+            var stackHorEmp = new StackLayout { Orientation = StackOrientation.Horizontal, HorizontalOptions=LayoutOptions.Center, TranslationY=10 };
+            var stellaEmp = new Image { Source="star1", WidthRequest = 15, HeightRequest = 15, HorizontalOptions=LayoutOptions.End };
+            var entryEmpatia = new Entry { Placeholder="/10", FontSize=28, Keyboard=Keyboard.Numeric };
+
+            var labelEmpatia = new Label { Text="Empatia", FontSize=16 };
+
+            this.stl_recensione.Children.Add(stackTitVal);
+            stackTitVal.Children.Add(entryTitolo);
+            stackTitVal.Children.Add(stellaValGen);
+            stackTitVal.Children.Add(entryValGen);
             this.stl_recensione.Children.Add(entryCorpo);
-            this.stl_recensione.Children.Add(entryValMed);
-            this.stl_recensione.Children.Add(entryEmpatia);
+
+            this.stl_recensione.Children.Add(stackHor);
+            stackHor.Children.Add(stackValEmp);
+            stackValEmp.Children.Add(stackHorEmp);
+            stackHorEmp.Children.Add(stellaEmp);
+            stackHorEmp.Children.Add(entryEmpatia);
+            stackValEmp.Children.Add(labelEmpatia);
+
             this.stl_recensione.Children.Add(entrySpieg);
             this.stl_recensione.Children.Add(entryOrg);
 
