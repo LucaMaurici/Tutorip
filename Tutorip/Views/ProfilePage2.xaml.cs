@@ -313,11 +313,11 @@ namespace Tutorip.Views
             //TODO carine
 
             var stackTitVal = new StackLayout { Orientation=StackOrientation.Horizontal };
-            var entryTitolo = new Entry { Placeholder = "Titolo", Keyboard = Keyboard.Text, TextColor = Color.FromHex("#666"), FontAttributes = FontAttributes.Bold, FontSize = 25, HorizontalOptions = LayoutOptions.FillAndExpand };
-            var stellaValGen = new Image { Source = "star1", WidthRequest = 28, HeightRequest = 28, HorizontalOptions = LayoutOptions.End };
-            var entryValGen = new Entry { Placeholder = "ValutazioneMedia", Keyboard = Keyboard.Numeric, HorizontalOptions = LayoutOptions.End };
+            var entryTitolo = new Entry { Placeholder="Titolo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), FontAttributes=FontAttributes.Bold, FontSize=25, HorizontalOptions=LayoutOptions.FillAndExpand };
+            var stellaValGen = new Image { Source="star1", WidthRequest=28, HeightRequest=28, HorizontalOptions=LayoutOptions.End };
+            var entryValGen = new Entry { Placeholder="Voto/10", WidthRequest=80, Keyboard=Keyboard.Numeric, HorizontalOptions=LayoutOptions.End, FontAttributes=FontAttributes.Bold, HorizontalTextAlignment=TextAlignment.Center };
 
-            var entryCorpo = new Editor { Placeholder = "Corpo", Keyboard = Keyboard.Text, TextColor = Color.FromHex("#666"), HeightRequest = 160, HorizontalOptions = LayoutOptions.FillAndExpand };
+            var entryCorpo = new Editor { Placeholder="Corpo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), HeightRequest=160, HorizontalOptions=LayoutOptions.FillAndExpand };
             /*
             var entryEmpatia = new Entry { Placeholder = "Empatia", Keyboard = Keyboard.Numeric };
             var entrySpieg = new Entry { Placeholder = "Spiegazione", Keyboard = Keyboard.Numeric };
@@ -326,19 +326,46 @@ namespace Tutorip.Views
 
             var stackHor = new StackLayout { Orientation = StackOrientation.Horizontal };
 
+            //SPIEGAZIONE
+            var stackValSpieg = new StackLayout { HorizontalOptions = LayoutOptions.CenterAndExpand };
+            var stackHorSpieg = new StackLayout { Orientation = StackOrientation.Horizontal, HorizontalOptions = LayoutOptions.Center, TranslationY = 10 };
+            var stellaSpieg = new Image { Source = "star1", WidthRequest = 16, HeightRequest = 16, HorizontalOptions = LayoutOptions.End, Margin = new Thickness(0,0,-10,0) };
+            var entrySpiegazione = new Entry { Placeholder = "/10", FontSize = 28, TextColor = Color.FromHex("#666"), Keyboard = Keyboard.Numeric, HorizontalTextAlignment = TextAlignment.Center };
+
+            var labelSpiegazione = new Label { Text = "Spiegazione", FontSize = 16 };
+
+            //EMPATIA
             var stackValEmp = new StackLayout { HorizontalOptions=LayoutOptions.CenterAndExpand };
             var stackHorEmp = new StackLayout { Orientation = StackOrientation.Horizontal, HorizontalOptions=LayoutOptions.Center, TranslationY=10 };
-            var stellaEmp = new Image { Source="star1", WidthRequest = 15, HeightRequest = 15, HorizontalOptions=LayoutOptions.End };
-            var entryEmpatia = new Entry { Placeholder="/10", FontSize=28, Keyboard=Keyboard.Numeric };
+            var stellaEmp = new Image { Source="star1", WidthRequest = 16, HeightRequest = 16, HorizontalOptions=LayoutOptions.End, Margin = new Thickness(0,0,-10,0) };
+            var entryEmpatia = new Entry { Placeholder="/10", FontSize=28, TextColor=Color.FromHex("#666"), Keyboard=Keyboard.Numeric, HorizontalTextAlignment = TextAlignment.Center };
 
-            var labelEmpatia = new Label { Text="Empatia", FontSize=16 };
+            var labelEmpatia = new Label { Text="Empatia", FontSize=16, TranslationX=15};
 
+            //ORGANIZZAZIONE
+            var stackValOrg = new StackLayout { HorizontalOptions = LayoutOptions.CenterAndExpand };
+            var stackHorOrg = new StackLayout { Orientation = StackOrientation.Horizontal, HorizontalOptions = LayoutOptions.Center, TranslationY = 10 };
+            var stellaOrg = new Image { Source = "star1", WidthRequest = 16, HeightRequest = 16, HorizontalOptions = LayoutOptions.End, Margin = new Thickness(0,0,-10,0) };
+            var entryOrganizzazione = new Entry { Placeholder = "/10", FontSize = 28, TextColor = Color.FromHex("#666"), Keyboard = Keyboard.Numeric, HorizontalTextAlignment = TextAlignment.Center };
+
+            var labelOrganizzazione = new Label { Text = "Organizzazione", FontSize = 16, TranslationX=3 };
+
+            //PARTE SOPRA
             this.stl_recensione.Children.Add(stackTitVal);
             stackTitVal.Children.Add(entryTitolo);
             stackTitVal.Children.Add(stellaValGen);
             stackTitVal.Children.Add(entryValGen);
             this.stl_recensione.Children.Add(entryCorpo);
 
+            //SPIEGAZIONE
+            this.stl_recensione.Children.Add(stackHor);
+            stackHor.Children.Add(stackValSpieg);
+            stackValSpieg.Children.Add(stackHorSpieg);
+            stackHorSpieg.Children.Add(stellaSpieg);
+            stackHorSpieg.Children.Add(entrySpiegazione);
+            stackValSpieg.Children.Add(labelSpiegazione);
+
+            //EMPATIA
             this.stl_recensione.Children.Add(stackHor);
             stackHor.Children.Add(stackValEmp);
             stackValEmp.Children.Add(stackHorEmp);
@@ -346,8 +373,16 @@ namespace Tutorip.Views
             stackHorEmp.Children.Add(entryEmpatia);
             stackValEmp.Children.Add(labelEmpatia);
 
-            this.stl_recensione.Children.Add(entrySpieg);
-            this.stl_recensione.Children.Add(entryOrg);
+            //ORGANIZZAZIONE
+            this.stl_recensione.Children.Add(stackHor);
+            stackHor.Children.Add(stackValOrg);
+            stackValOrg.Children.Add(stackHorOrg);
+            stackHorOrg.Children.Add(stellaOrg);
+            stackHorOrg.Children.Add(entryOrganizzazione);
+            stackValOrg.Children.Add(labelOrganizzazione);
+
+            //this.stl_recensione.Children.Add(entrySpieg);
+            //this.stl_recensione.Children.Add(entryOrg);
 
             this.btn_salvaRecensione.IsVisible = true;
             this.sl_anonimo.IsVisible = true;
