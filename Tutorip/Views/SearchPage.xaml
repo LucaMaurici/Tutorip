@@ -147,11 +147,15 @@
 
             <Image Source="worldwide1" HeightRequest="100" WidthRequest="100" Margin="0,0,0,0" Opacity="0.5"></Image>
             
-            <Label Text="Come va lo studio? 
-                   Se hai bisogno di aiuto cerca un insegnante" 
+            <Label Text="Come va lo studio?" 
                    HorizontalTextAlignment="Center" 
                    FontSize="25"
                    Margin="10,10,10,0" 
+                   Opacity="0.6"></Label>
+            <Label Text="Se hai bisogno di aiuto cerca un insegnante"
+                   HorizontalTextAlignment="Center" 
+                   FontSize="25"
+                   Margin="10,0,10,0" 
                    Opacity="0.6"></Label>
         </StackLayout>
         
