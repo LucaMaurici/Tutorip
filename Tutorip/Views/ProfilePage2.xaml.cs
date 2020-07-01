@@ -75,7 +75,7 @@ namespace Tutorip.Views
                     var stackHor = new StackLayout { Orientation = StackOrientation.Horizontal };
                     stack.Children.Add(stackHor);
                     stackHor.Children.Add(new Label { Text = recensione.titolo, FontSize = 25, FontAttributes=FontAttributes.Bold, HorizontalOptions = LayoutOptions.StartAndExpand });
-                    var stackVal = new StackLayout { Orientation = StackOrientation.Horizontal, Margin = new Thickness(0,0,40,0) };
+                    var stackVal = new StackLayout { Orientation = StackOrientation.Horizontal, Margin = new Thickness(0,0,20,0) };
                     stackHor.Children.Add(stackVal);
                     stackVal.Children.Add(new Image { Source = "star1", WidthRequest = 28, HeightRequest = 28, TranslationY = 1 });
                     stackVal.Children.Add(new Label { Text = recensione.valutazioneGenerale.ToString(), FontSize = 30, FontAttributes = FontAttributes.Bold }); //chiamata a formattatore di stringa valutazione
@@ -290,8 +290,8 @@ namespace Tutorip.Views
 
             var stackTitVal = new StackLayout { Orientation=StackOrientation.Horizontal };
             this.entryTitolo = new Entry { Placeholder="Titolo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), FontAttributes=FontAttributes.Bold, FontSize=25, HorizontalOptions=LayoutOptions.FillAndExpand };
-            var stellaValGen = new Image { Source="star1", WidthRequest=28, HeightRequest=28, HorizontalOptions=LayoutOptions.End };
-            this.entryValGen = new Entry { Placeholder="Voto/10", WidthRequest=80, Keyboard=Keyboard.Numeric, HorizontalOptions=LayoutOptions.End, FontAttributes=FontAttributes.Bold, HorizontalTextAlignment=TextAlignment.Center };
+            var stellaValGen = new Image { Source="star1", WidthRequest=28, HeightRequest=28, HorizontalOptions=LayoutOptions.End, TranslationX=10 };
+            this.entryValGen = new Entry { Placeholder="Voto", WidthRequest=70, TextColor=Color.FromHex("#666"), FontSize=25, Keyboard=Keyboard.Numeric, HorizontalOptions=LayoutOptions.End, FontAttributes=FontAttributes.Bold, HorizontalTextAlignment=TextAlignment.Center };
 
             this.entryCorpo = new Editor { Placeholder="Corpo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), HeightRequest=160, HorizontalOptions=LayoutOptions.FillAndExpand };
 
