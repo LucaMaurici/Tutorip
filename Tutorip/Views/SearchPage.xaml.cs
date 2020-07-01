@@ -125,7 +125,7 @@ namespace Tutorip.Views
                     insegnanti_list.IsVisible = true;
                     ListaDiMaterie.IsVisible = false;
                     insegnanti_list.ItemsSource = insegnanti;
-                    ListaDiMaterie.IsVisible = false;
+                    this.lb_errore.IsVisible = false;
                 }
                 else
                 {

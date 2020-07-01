@@ -245,7 +245,7 @@
             </Frame>
 
             <!-- LASCIA RECENSIONI -->
-            <Frame Padding="30,15,30,15" x:Name="fr_lasciaRecensione">
+            <Frame Padding="30,15,30,0" x:Name="fr_lasciaRecensione">
                 <StackLayout Orientation="Vertical">
                     <StackLayout Orientation="Horizontal">
                         <!--inutile-->

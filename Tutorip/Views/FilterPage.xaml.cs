@@ -89,7 +89,7 @@ namespace Tutorip.Views
                     parent.makeSubjectsInvisible();
                     insegnanti_list.IsVisible = true;
                     insegnanti_list.ItemsSource = elenco;
-
+                    this.lb_errore.IsVisible = false;
                 }
                 else
                 {
