@@ -145,7 +145,7 @@ namespace Tutorip.Views
             this.name_lbl.Text = insegnante.nomeDaVisualizzare;
             this.tariffa_spn.Text = insegnante.tariffa.ToString();
 
-            float media = 0;
+            float somma = 0;
             int lunghezza = 0;
             if (this.insegnante.recensioni != null)
             {
@@ -154,17 +154,23 @@ namespace Tutorip.Views
                     if (r.empatia != 0)
                     {
                         lunghezza++;
+                        //Console.WriteLine(lunghezza);
                     }
                 }
                 foreach (Recensione r in insegnante.recensioni)
                 {
                     if (r.empatia != 0)
                     {
-                        media = (media + (int)r.empatia) / lunghezza;
+                        //Console.WriteLine(media);
+                        //Console.WriteLine(r.empatia);
+                        somma = (somma + (int)r.empatia);
+                        //Console.WriteLine(media);
                     }
                 }
+                float media = somma / lunghezza;
                 this.num_emp_lbl.Text = Math.Round(media, 1).ToString();
 
+                somma = 0;
                 media = 0;
                 lunghezza = 0;
                 foreach (Recensione r in insegnante.recensioni)
@@ -178,11 +184,13 @@ namespace Tutorip.Views
                 {
                     if (r.spiegazione != 0)
                     {
-                        media = (media + (int)r.spiegazione) / lunghezza;
+                        somma = (somma + (int)r.spiegazione);
                     }
                 }
+                media = somma / lunghezza;
                 this.num_spg_lbl.Text = Math.Round(media, 1).ToString();
 
+                somma = 0;
                 media = 0;
                 lunghezza = 0;
                 foreach (Recensione r in insegnante.recensioni)
@@ -196,10 +204,10 @@ namespace Tutorip.Views
                 {
                     if (r.organizzazione != 0)
                     {
-                        media = (media + (int)r.organizzazione) / lunghezza;
+                        somma = (somma + (int)r.organizzazione);
                     }
                 }
-
+                media = somma / lunghezza;
                 this.num_org_lbl.Text = Math.Round(media, 1).ToString();
             }
             
