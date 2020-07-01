@@ -16,6 +16,12 @@ namespace Tutorip.Views
 
         Insegnante insegnante;
         String origine;
+        private Entry entryTitolo;
+        private Editor entryCorpo;
+        private Entry entryValGen;
+        private Entry entrySpiegazione;
+        private Entry entryEmpatia;
+        private Entry entryOrganizzazione;
 
         public ProfilePage2(Insegnante insegnante, String origine)
         {
@@ -275,11 +281,11 @@ namespace Tutorip.Views
             btn_recensione.IsVisible = false;
 
             var stackTitVal = new StackLayout { Orientation=StackOrientation.Horizontal };
-            var entryTitolo = new Entry { Placeholder="Titolo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), FontAttributes=FontAttributes.Bold, FontSize=25, HorizontalOptions=LayoutOptions.FillAndExpand };
+            this.entryTitolo = new Entry { Placeholder="Titolo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), FontAttributes=FontAttributes.Bold, FontSize=25, HorizontalOptions=LayoutOptions.FillAndExpand };
             var stellaValGen = new Image { Source="star1", WidthRequest=28, HeightRequest=28, HorizontalOptions=LayoutOptions.End };
-            var entryValGen = new Entry { Placeholder="Voto/10", WidthRequest=80, Keyboard=Keyboard.Numeric, HorizontalOptions=LayoutOptions.End, FontAttributes=FontAttributes.Bold, HorizontalTextAlignment=TextAlignment.Center };
+            this.entryValGen = new Entry { Placeholder="Voto/10", WidthRequest=80, Keyboard=Keyboard.Numeric, HorizontalOptions=LayoutOptions.End, FontAttributes=FontAttributes.Bold, HorizontalTextAlignment=TextAlignment.Center };
 
-            var entryCorpo = new Editor { Placeholder="Corpo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), HeightRequest=160, HorizontalOptions=LayoutOptions.FillAndExpand };
+            this.entryCorpo = new Editor { Placeholder="Corpo", Keyboard=Keyboard.Text, TextColor=Color.FromHex("#666"), HeightRequest=160, HorizontalOptions=LayoutOptions.FillAndExpand };
 
             var stackHor = new StackLayout { Orientation = StackOrientation.Horizontal };
 
@@ -287,7 +293,7 @@ namespace Tutorip.Views
             var stackValSpieg = new StackLayout { HorizontalOptions = LayoutOptions.CenterAndExpand };
             var stackHorSpieg = new StackLayout { Orientation = StackOrientation.Horizontal, HorizontalOptions = LayoutOptions.Center, TranslationY = 10 };
             var stellaSpieg = new Image { Source = "star1", WidthRequest = 16, HeightRequest = 16, HorizontalOptions = LayoutOptions.End, Margin = new Thickness(0,0,-10,0) };
-            var entrySpiegazione = new Entry { Placeholder = "/10", FontSize = 28, TextColor = Color.FromHex("#666"), Keyboard = Keyboard.Numeric, HorizontalTextAlignment = TextAlignment.Center };
+            this.entrySpiegazione = new Entry { Placeholder = "/10", FontSize = 28, TextColor = Color.FromHex("#666"), Keyboard = Keyboard.Numeric, HorizontalTextAlignment = TextAlignment.Center };
 
             var labelSpiegazione = new Label { Text = "Spiegazione", FontSize = 16 };
 
@@ -295,7 +301,7 @@ namespace Tutorip.Views
             var stackValEmp = new StackLayout { HorizontalOptions=LayoutOptions.CenterAndExpand };
             var stackHorEmp = new StackLayout { Orientation = StackOrientation.Horizontal, HorizontalOptions=LayoutOptions.Center, TranslationY=10 };
             var stellaEmp = new Image { Source="star1", WidthRequest = 16, HeightRequest = 16, HorizontalOptions=LayoutOptions.End, Margin = new Thickness(0,0,-10,0) };
-            var entryEmpatia = new Entry { Placeholder="/10", FontSize=28, TextColor=Color.FromHex("#666"), Keyboard=Keyboard.Numeric, HorizontalTextAlignment = TextAlignment.Center };
+            this.entryEmpatia = new Entry { Placeholder="/10", FontSize=28, TextColor=Color.FromHex("#666"), Keyboard=Keyboard.Numeric, HorizontalTextAlignment = TextAlignment.Center };
 
             var labelEmpatia = new Label { Text="Empatia", FontSize=16, TranslationX=15};
 
@@ -303,7 +309,7 @@ namespace Tutorip.Views
             var stackValOrg = new StackLayout { HorizontalOptions = LayoutOptions.CenterAndExpand };
             var stackHorOrg = new StackLayout { Orientation = StackOrientation.Horizontal, HorizontalOptions = LayoutOptions.Center, TranslationY = 10 };
             var stellaOrg = new Image { Source = "star1", WidthRequest = 16, HeightRequest = 16, HorizontalOptions = LayoutOptions.End, Margin = new Thickness(0,0,-10,0) };
-            var entryOrganizzazione = new Entry { Placeholder = "/10", FontSize = 28, TextColor = Color.FromHex("#666"), Keyboard = Keyboard.Numeric, HorizontalTextAlignment = TextAlignment.Center };
+            this.entryOrganizzazione = new Entry { Placeholder = "/10", FontSize = 28, TextColor = Color.FromHex("#666"), Keyboard = Keyboard.Numeric, HorizontalTextAlignment = TextAlignment.Center };
 
             var labelOrganizzazione = new Label { Text = "Organizzazione", FontSize = 16, TranslationX=3 };
 
@@ -355,27 +361,31 @@ namespace Tutorip.Views
             else
                 r.anonimo = 0;
 
-            Entry entryTitolo = (Entry) stl_recensione.Children[0];
-            r.titolo = entryTitolo.Text;
-            Editor entryCorpo = (Editor)stl_recensione.Children[1];
-            r.corpo = entryCorpo.Text;
+            //Entry entryTitolo = (Entry) this.entryTitolo.Text;
+            r.titolo = this.entryTitolo.Text;
+            //Editor entryCorpo = (Editor)stl_recensione.Children[1];
+            r.corpo = this.entryCorpo.Text;
 
-            Entry entryValMed = (Entry)stl_recensione.Children[2];
+            //Entry entryValMed = (Entry)stl_recensione.Children[2];
+            Entry entryValMed = this.entryValGen;
             if (entryValMed.Text != null)
                 r.valutazioneGenerale = int.Parse(entryValMed.Text);
             else r.valutazioneGenerale = 0;
 
-            Entry entryEmp = (Entry)stl_recensione.Children[3];
+            //Entry entryEmp = (Entry)stl_recensione.Children[3];
+            Entry entryEmp = this.entryEmpatia;
             if (entryEmp.Text != null)
                 r.empatia = int.Parse(entryEmp.Text);
             else r.empatia = 0;
 
-            Entry entrySpieg = (Entry)stl_recensione.Children[4];
+            //Entry entrySpieg = (Entry)stl_recensione.Children[4];
+            Entry entrySpieg = this.entrySpiegazione;
             if (entrySpieg.Text != null)
                 r.spiegazione = int.Parse(entrySpieg.Text);
             else r.spiegazione = 0;
 
-            Entry entryOrg = (Entry)stl_recensione.Children[5];
+            //Entry entryOrg = (Entry)stl_recensione.Children[5];
+            Entry entryOrg = this.entryOrganizzazione;
             if (entryOrg.Text != null)
                 r.organizzazione = int.Parse(entryOrg.Text);
             else r.organizzazione = 0;
