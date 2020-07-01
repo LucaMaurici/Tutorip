@@ -75,8 +75,10 @@ namespace Tutorip.Views
             if (Preferences.Get("isUsingCurrentPos", null) == "si")
             {
                 btn_posizione.Text = "Calcolando la posizione...";
+                this.search_btn.IsEnabled = false;
                 await calcolaPosizione();
                 btn_posizione.Text = Preferences.Get("indirizzoCorrente", "");
+                this.search_btn.IsEnabled = true;
             }
             else if(Preferences.Get("isUsingCurrentPos", null) == "no")
             {
