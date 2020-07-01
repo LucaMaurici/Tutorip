@@ -98,7 +98,7 @@ namespace Tutorip.Services
                         + (float.Parse(num.Substring(index+1, 1)) + 1).ToString();
                 }
                 else
-                    num.Substring(0, index + 2);
+                    num = num.Substring(0, index + 2);
             }
             return num;
         }
