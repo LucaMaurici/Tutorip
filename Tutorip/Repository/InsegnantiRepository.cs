@@ -43,13 +43,14 @@ namespace Tutorip.Repository
 
         internal static async Task<Insegnante> findInsegnanteById(int id, string uri)
         {
-            Insegnante i = new Insegnante();
+            Insegnante i = null;
             var json = "{\"id\":" + JsonConvert.SerializeObject(id) +"}";
             var sendContent = new StringContent(json, Encoding.UTF8, "application/json");
             Console.WriteLine("JSON: "+ json);
             try
             {
                 HttpResponseMessage response = await _client.PostAsync(uri, sendContent);
+                Console.WriteLine(response.StatusCode);
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();

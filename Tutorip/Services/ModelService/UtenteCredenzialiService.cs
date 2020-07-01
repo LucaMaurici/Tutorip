@@ -30,7 +30,8 @@ namespace Tutorip.Services
             {
                 int id = await CredenzialiRepository.getId(Preferences.Get("email", null), Constants.TutoripEndPoint + "/credenziali/getId.php/");
                 Preferences.Set("id", id.ToString());
-                if(InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", (-1).ToString()))) != null)
+                //Console.WriteLine("Risultato: " + InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", (-1).ToString()))).ToString());
+                if(await InsegnantiService.getInsegnante(int.Parse(Preferences.Get("id", (-1).ToString()))) != null)
                 {
                     Preferences.Set("isInsegnante", true);
                 }

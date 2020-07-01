@@ -111,10 +111,10 @@ namespace Tutorip.Views
             }
 
             //descrizione
+            int indice = 1;
             if (insegnante.descrizione == null)
                 insegnante.descrizione = new List<SezioneProfilo>();
-            int indice = 1;
-            if (insegnante.descrizione !=  null)
+            else
                 indice = insegnante.descrizione.Count + 1;
             foreach(var element in this.stl_descrizione.Children)
             {
@@ -139,6 +139,8 @@ namespace Tutorip.Views
             insegnante.profiloPubblico = 0;
             //id
             insegnante.id = int.Parse(Preferences.Get("id", (-1).ToString()));
+
+            insegnante.recensioni = new List<Recensione>();
             
             if (insegnante.id != -1)
             {
